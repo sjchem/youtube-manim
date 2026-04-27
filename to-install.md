@@ -13,6 +13,8 @@ sudo apt update && sudo apt install -y \
 
 then
 pip install --upgrade pip
+
+
 pip install manim
 
 for render of the project
