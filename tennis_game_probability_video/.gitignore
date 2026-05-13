@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.venv/
+media/
+output/**/*.png
+output/**/*.mp4
