@@ -1,0 +1,9 @@
+manim
+numpy
+scipy
+matplotlib
+tqdm
+rich
+
+# Optional: install manually if you want physics extras later.
+# manim-physics

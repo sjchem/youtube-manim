@@ -1,0 +1,9 @@
+media/Tex/
+media/videos/
+media/images/
+media/texts/
+media/partial_movie_files/
+output/
+__pycache__/
+*.pyc
+.DS_Store
