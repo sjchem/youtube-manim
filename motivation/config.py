@@ -1,0 +1,37 @@
+"""Project-wide visual and simulation constants."""
+
+from manim import config
+
+BACKGROUND_COLOR = "#070B14"
+PRIMARY_GLOW = "#7DF9FF"
+SECONDARY_GLOW = "#B388FF"
+WARNING_COLOR = "#FF6B6B"
+SUCCESS_COLOR = "#9DFFB0"
+TEXT_COLOR = "#EAEAEA"
+DIM_TEXT_COLOR = "#8A90A2"
+
+ACCENT_YELLOW = "#FFD166"
+SURFACE_COLOR = "#2A3042"
+GRID_COLOR = "#1B2436"
+
+FRAME_WIDTH = 16
+FRAME_HEIGHT = 9
+
+config.background_color = BACKGROUND_COLOR
+config.frame_width = FRAME_WIDTH
+config.frame_height = FRAME_HEIGHT
+config.pixel_width = 1920
+config.pixel_height = 1080
+config.frame_rate = 30
+
+TITLE_FONT_SIZE = 54
+SUBTITLE_FONT_SIZE = 36
+LABEL_FONT_SIZE = 28
+SMALL_FONT_SIZE = 22
+
+BALL_RADIUS = 0.22
+DEFAULT_STROKE_WIDTH = 3
+DEFAULT_GLOW_STROKE_WIDTH = 11
+
+SCENE_PADDING = 0.65
+EQUATION_SCALE = 0.9
