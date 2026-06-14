@@ -2,29 +2,12 @@ from __future__ import annotations
 
 import manim as m
 
-from themes import apply_dracula_theme, apply_molokai_theme, apply_oceanic_next_theme
-
-
-def oceanic_bubbles() -> m.VGroup:
-    bubble_specs = [
-        ((-5.7, 2.7, 0), 0.42, 0.035),
-        ((-3.9, -2.2, 0), 0.28, 0.028),
-        ((-1.2, 2.9, 0), 0.18, 0.025),
-        ((2.5, -2.7, 0), 0.34, 0.028),
-        ((4.8, 1.9, 0), 0.52, 0.032),
-        ((5.9, -0.8, 0), 0.22, 0.024),
-    ]
-    bubbles = m.VGroup()
-    for point, radius, opacity in bubble_specs:
-        bubble = m.Circle(
-            radius=radius,
-            color=m.LIGHT_GREY,
-            stroke_width=0,
-            stroke_opacity=0,
-            fill_opacity=opacity,
-        ).move_to(point)
-        bubbles.add(bubble)
-    return bubbles
+from themes import (
+    apply_dracula_theme,
+    apply_molokai_theme,
+    apply_oceanic_next_theme,
+    oceanic_bubbles,
+)
 
 
 class ThemeDemoScene(m.Scene):

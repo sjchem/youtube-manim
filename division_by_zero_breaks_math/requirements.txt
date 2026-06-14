@@ -1,0 +1,5 @@
+manim>=0.18,<0.20
+numpy>=1.24
+
+# Optional. The project has safe fallbacks if this is not installed.
+manim-physics>=0.4
