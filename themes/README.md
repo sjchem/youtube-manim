@@ -29,6 +29,8 @@ are cached in `themes/iTerm2Themes/`.
 Import and apply one of the wrapper functions in your scene's `setup` method:
 
 ```python
+from manim import *
+
 from themes import apply_molokai_theme
 
 class MyScene(Scene):
@@ -40,9 +42,45 @@ class MyScene(Scene):
         self.play(FadeIn(text))
 ```
 
+For the Oceanic Next look you use most often, import from the dedicated module:
+
+```python
+from manim import *
+
+from themes.oceanic_next import apply_oceanic_next_theme, oceanic_bubbles
+
+class MyScene(Scene):
+    def setup(self):
+        apply_oceanic_next_theme(self)
+
+    def construct(self):
+        self.add(oceanic_bubbles())
+        text = Text("Oceanic Next example")
+        self.play(FadeIn(text))
+```
+
+If you want the theme and bubble background every time, use the convenience
+helper in `setup`:
+
+```python
+from manim import *
+
+from themes.oceanic_next import apply_oceanic_next_scene
+
+class MyScene(Scene):
+    def setup(self):
+        apply_oceanic_next_scene(self)
+
+    def construct(self):
+        text = Text("Ready to animate")
+        self.play(FadeIn(text))
+```
+
 If you prefer a different theme name, use `apply_dark_theme` directly:
 
 ```python
+from manim import *
+
 from themes import apply_dark_theme
 
 class MyScene(Scene):

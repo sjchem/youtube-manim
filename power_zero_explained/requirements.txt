@@ -1,0 +1,2 @@
+manim>=0.20.1,<0.21
+manim-themes>=0.1.0
