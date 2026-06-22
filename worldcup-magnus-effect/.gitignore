@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+media/*
+!media/.gitkeep
+
+output/*
+!output/.gitkeep
+
