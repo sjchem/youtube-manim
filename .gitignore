@@ -1,0 +1,8 @@
+**/__pycache__/
+**/*.py[cod]
+**/media/*
+!**/media/.gitkeep
+**/output/*
+!**/output/.gitkeep
+**/.manim/
+*:Zone.Identifier
