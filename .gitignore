@@ -1,8 +1,36 @@
+# Python cache and build output
 **/__pycache__/
 **/*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Manim generated output
 **/media/*
 !**/media/.gitkeep
 **/output/*
 !**/output/.gitkeep
 **/.manim/
+**/partial_movie_files/
+**/Tex/
+**/texts/
+**/videos/
+
+# Local editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
 *:Zone.Identifier
+
+# Local logs and temporary files
+*.log
+*.tmp
+tmp/
