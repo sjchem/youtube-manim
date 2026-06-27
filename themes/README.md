@@ -102,6 +102,15 @@ python -m manim -pql themes/demo_themes.py OceanicNextThemeDemo
 python -m manim -pql themes/demo_themes.py DraculaThemeDemo
 ```
 
+If your terminal is already in this `themes/` directory, include the parent
+folder on `PYTHONPATH` and use the local file path:
+
+```bash
+PYTHONPATH=.. python -m manim -pql demo_themes.py MolokaiThemeDemo
+PYTHONPATH=.. python -m manim -pql demo_themes.py OceanicNextThemeDemo
+PYTHONPATH=.. python -m manim -pql demo_themes.py DraculaThemeDemo
+```
+
 To render without opening the preview player, drop `-p`:
 
 ```bash
