@@ -4,7 +4,7 @@ Machine learning is pattern recognition under uncertainty.
 We see a scatter of data, fit a line (a model), wrap it in a
 confidence band (the probability), and then predict.
 
-Narration cue: ~56 seconds
+Narration cue: ~78 seconds
 """
 
 from __future__ import annotations
@@ -81,6 +81,36 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.5)
 
+    prob_box = RoundedRectangle(
+        corner_radius=0.12, width=6.25, height=1.85,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.96,
+        stroke_color=cfg.GOLD, stroke_width=2.2,
+    )
+    prob_eq = eq(r"P(Y \mid X)", color=cfg.GOLD, font_size=cfg.FONT["small"])
+    pred_modes = VGroup(
+        Text("Regression: predict a number", font_size=22, color=cfg.CYAN),
+        Text("Classification: predict a probability", font_size=22, color=cfg.PURPLE),
+    ).arrange(DOWN, buff=0.08)
+    for mob in pred_modes:
+        mob.set_stroke(cfg.BG, width=3, background=True)
+    risk_chips = VGroup()
+    for txt, col in (("10% risk", cfg.GREEN), ("55% risk", cfg.GOLD), ("92% risk", cfg.RED)):
+        chip = RoundedRectangle(
+            corner_radius=0.10, width=1.55, height=0.38,
+            fill_color=cfg.COLORS["panel2"], fill_opacity=0.95,
+            stroke_color=col, stroke_width=1.6,
+        )
+        chip_text = Text(txt, font_size=17, color=col, weight=BOLD)
+        chip_text.set_stroke(cfg.BG, width=2, background=True)
+        chip_text.move_to(chip.get_center())
+        risk_chips.add(VGroup(chip, chip_text))
+    risk_chips.arrange(RIGHT, buff=0.20)
+    prob_content = VGroup(prob_eq, pred_modes, risk_chips).arrange(DOWN, buff=0.13)
+    prob_panel = VGroup(prob_box, prob_content).move_to(UP * 2.15)
+    prob_content.move_to(prob_box.get_center())
+    paced_play(scene, FadeIn(prob_panel, shift=DOWN * 0.12), run_time=0.9)
+    narration_wait(scene, 2.2)
+
     # ── Phase 3: Confidence band ─────────────────────────────────────────────
     xs_eval = np.linspace(x0, x1, 80)
     y_lo, y_hi = confidence_band(xs_eval, SLOPE, INTERCEPT, noise_std=0.50, n_obs=18)
@@ -103,6 +133,7 @@ def play_scene(scene: Scene) -> None:
     paced_play(
         scene,
         FadeIn(band), Create(lo_line), Create(hi_line), FadeIn(ci_lbl),
+        FadeOut(prob_panel),
         FadeOut(cap_line), FadeIn(cap_band, shift=UP * 0.1),
         run_time=1.1,
     )

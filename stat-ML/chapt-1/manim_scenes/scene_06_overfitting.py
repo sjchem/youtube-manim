@@ -5,7 +5,7 @@ It fits every point perfectly — and fails completely on new data.
 Statistics teaches us to distinguish models that generalise from
 models that merely memorise.
 
-Narration cue: ~58 seconds
+Narration cue: ~78 seconds
 """
 
 from __future__ import annotations
@@ -68,6 +68,31 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.6)
 
+    role_specs = [
+        ("Training", "learn patterns", cfg.CYAN),
+        ("Validation", "choose settings", cfg.GOLD),
+        ("Test", "honest check", cfg.PURPLE),
+    ]
+    role_cards = VGroup()
+    for title, sub, col in role_specs:
+        box = RoundedRectangle(
+            corner_radius=0.12, width=2.25, height=0.78,
+            fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
+            stroke_color=col, stroke_width=2.0,
+        )
+        txt = VGroup(
+            Text(title, font_size=20, color=col, weight=BOLD),
+            Text(sub, font_size=16, color=cfg.WHITE),
+        ).arrange(DOWN, buff=0.02)
+        for mob in txt:
+            mob.set_stroke(cfg.BG, width=2, background=True)
+        txt.move_to(box.get_center())
+        role_cards.add(VGroup(box, txt))
+    role_cards.arrange(RIGHT, buff=0.35).to_edge(UP, buff=0.36).shift(RIGHT * 0.85)
+    paced_play(scene, LaggedStart(*[FadeIn(c, shift=DOWN * 0.08) for c in role_cards],
+                                  lag_ratio=0.18), run_time=0.9)
+    narration_wait(scene, 1.0)
+
     # ── Phase 2: Good linear fit (generalises) ───────────────────────────────
     x0, x1 = -3.9, 3.9
     ls  = axes.c2p(x0, SLOPE * x0 + INTERCEPT)
@@ -86,6 +111,7 @@ def play_scene(scene: Scene) -> None:
         scene,
         FadeIn(good_glow), Create(good_line),
         FadeIn(good_lbl),
+        FadeOut(role_cards),
         FadeOut(cap_train), FadeIn(cap_good, shift=UP * 0.1),
         run_time=1.2,
     )
@@ -176,11 +202,35 @@ def play_scene(scene: Scene) -> None:
     paced_play(scene, FadeIn(test_error, shift=DOWN * 0.08), run_time=0.55)
     narration_wait(scene, 0.5)
 
+    leak_box = RoundedRectangle(
+        corner_radius=0.12, width=6.25, height=1.18,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.90,
+        stroke_color=cfg.RED, stroke_width=2.2,
+    )
+    leak_text = VGroup(
+        Text("Data leakage", font_size=cfg.FONT["tiny"], color=cfg.RED, weight=BOLD),
+        Text("future or test information slips into training", font_size=20, color=cfg.WHITE),
+        Text("example: account closed date", font_size=18, color=cfg.GOLD),
+    ).arrange(DOWN, buff=0.03)
+    for mob in leak_text:
+        mob.set_stroke(cfg.BG, width=2, background=True)
+        if mob.width > 5.7:
+            mob.scale_to_fit_width(5.7)
+    leak_panel = VGroup(leak_box, leak_text).move_to(DOWN * 1.65)
+    leak_text.move_to(leak_box.get_center())
+    paced_play(
+        scene,
+        FadeOut(cap_test),
+        FadeIn(leak_panel, shift=UP * 0.10),
+        run_time=0.75,
+    )
+    narration_wait(scene, 2.0)
+
     # Final caption
     cap_final = bottom_caption("Fitting the training data ≠ generalising to new data.", color=cfg.GOLD)
     paced_play(
         scene,
-        FadeOut(cap_test), FadeIn(cap_final, shift=UP * 0.1),
+        FadeOut(leak_panel), FadeIn(cap_final, shift=UP * 0.1),
         run_time=0.6,
     )
     narration_wait(scene, 1.3)

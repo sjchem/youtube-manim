@@ -31,13 +31,13 @@ statistics is the thinking layer that makes ML trustworthy.
 🕐 Chapters
 00:00 – Course opening & roadmap
 00:55 – The uncertain world: data is never clean
-01:42 – Signal vs. Noise: Data = Signal + Noise
-02:32 – Population vs. Sample: inference under uncertainty
-03:21 – Patterns, Probability & Prediction
-04:17 – Why models fail: Overfitting explained
-05:15 – Bias-Variance Tradeoff: the dartboard metaphor
-06:10 – Statistics as the thinking layer of ML
-07:03 – Subscribe & what's next
+02:00 – Signal vs. Noise: Data = Signal + Noise
+03:08 – Population vs. Sample: inference under uncertainty
+04:15 – Patterns, Probability & Prediction
+05:33 – Why models fail: Overfitting explained
+06:51 – Bias-Variance Tradeoff: the dartboard metaphor
+08:08 – Statistics as the thinking layer of ML
+09:25 – Subscribe & what's next
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 📖 References

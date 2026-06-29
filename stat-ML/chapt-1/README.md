@@ -149,15 +149,15 @@ chapt-1/
 | Scene | Topic | Duration |
 |-------|-------|----------|
 | 01 | Series opening | ~55 s |
-| 02 | The uncertain world | ~47 s |
-| 03 | Signal vs Noise | ~50 s |
-| 04 | Population vs Sample | ~49 s |
-| 05 | Patterns & Prediction | ~56 s |
-| 06 | Overfitting | ~58 s |
-| 07 | Bias-Variance tradeoff | ~55 s |
-| 08 | Statistics as the thinking layer | ~53 s |
-| 09 | Subscribe card | ~12 s |
-| **Total** | | **~7 min 15 sec** |
+| 02 | The uncertain world | ~65 s |
+| 03 | Signal vs Noise | ~68 s |
+| 04 | Population vs Sample | ~67 s |
+| 05 | Patterns & Prediction | ~78 s |
+| 06 | Overfitting | ~78 s |
+| 07 | Bias-Variance tradeoff | ~77 s |
+| 08 | Statistics as the thinking layer | ~77 s |
+| 09 | Subscribe card | ~17 s |
+| **Total** | | **~9 min 42 sec** |
 
 ---
 

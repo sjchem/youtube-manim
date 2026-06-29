@@ -1,7 +1,7 @@
 """Scene 09 — Subscribe card.
 
 A separate closing card with channel call-to-action.
-Narration cue: ~12 seconds
+Narration cue: ~17 seconds
 """
 
 from __future__ import annotations
@@ -36,12 +36,17 @@ def play_scene(scene: Scene) -> None:
 
     rule = Line(LEFT * 3.2, RIGHT * 3.2, color=cfg.CYAN, stroke_width=6)
 
+    next_chapter = Text(
+        "NEXT: Types of Data & Distributions",
+        font_size=30, color=cfg.CYAN, weight=BOLD,
+    )
+
     tagline = VGroup(
         Text("Stay curious.", font_size=40, color=cfg.WHITE, weight=BOLD),
         Text("Follow the maths. Follow the data.", font_size=34, color=cfg.WHITE),
     ).arrange(DOWN, buff=0.10)
 
-    card = VGroup(thank_you, subscribe, rule, tagline).arrange(DOWN, buff=0.28)
+    card = VGroup(thank_you, subscribe, rule, next_chapter, tagline).arrange(DOWN, buff=0.23)
     card.move_to(ORIGIN)
 
     for mob in card:
@@ -50,6 +55,7 @@ def play_scene(scene: Scene) -> None:
 
     paced_play(scene, FadeIn(thank_you, shift=DOWN * 0.15), run_time=0.55)
     paced_play(scene, FadeIn(subscribe, scale=1.10), Create(rule), run_time=0.70)
+    paced_play(scene, FadeIn(next_chapter, shift=UP * 0.12), run_time=0.50)
     paced_play(scene, FadeIn(tagline, shift=UP * 0.15), run_time=0.55)
     narration_wait(scene, 0.9)
     paced_play(

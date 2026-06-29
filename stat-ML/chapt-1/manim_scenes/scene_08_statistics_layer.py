@@ -1,10 +1,11 @@
 """Scene 08 — Statistics: The Thinking Layer of Machine Learning.
 
 Synthesis scene.  The full ML pipeline is revealed step by step,
-with the Statistics layer expanding to show its five roles:
-uncertainty, signal extraction, estimation, evaluation, and inference.
+with the Statistics layer expanding to show its roles:
+uncertainty, signal extraction, estimation, generalization, evaluation,
+and inference.
 
-Narration cue: ~53 seconds
+Narration cue: ~77 seconds
 """
 
 from __future__ import annotations
@@ -87,6 +88,50 @@ def play_scene(scene: Scene) -> None:
     paced_play(scene, FadeIn(cap_pipeline, shift=UP * 0.1), run_time=0.5)
     narration_wait(scene, 0.6)
 
+    full_steps = [
+        ("World", cfg.GREEN),
+        ("Population", cfg.MUTED),
+        ("Sample", cfg.GOLD),
+        ("Data", cfg.ORANGE),
+        ("Model", cfg.BLUE),
+        ("Evaluate", cfg.PURPLE),
+        ("Predict", cfg.GREEN),
+        ("Monitor", cfg.CYAN),
+    ]
+    full_nodes = VGroup()
+    for text, col in full_steps:
+        node = RoundedRectangle(
+            corner_radius=0.10, width=1.35, height=0.55,
+            fill_color=cfg.COLORS["panel"], fill_opacity=0.86,
+            stroke_color=col, stroke_width=1.5,
+        )
+        node_text = Text(text, font_size=16, color=col, weight=BOLD)
+        node_text.set_stroke(cfg.BG, width=2, background=True)
+        if node_text.width > 1.12:
+            node_text.scale_to_fit_width(1.12)
+        node_text.move_to(node.get_center())
+        full_nodes.add(VGroup(node, node_text))
+    full_nodes.arrange(RIGHT, buff=0.20)
+    if full_nodes.width > cfg.SAFE_WIDTH - 0.6:
+        full_nodes.scale_to_fit_width(cfg.SAFE_WIDTH - 0.6)
+    full_nodes.to_edge(DOWN, buff=1.03)
+    full_arrows = VGroup()
+    for left, right in zip(full_nodes[:-1], full_nodes[1:]):
+        full_arrows.add(Arrow(
+            left.get_right(), right.get_left(), buff=0.06,
+            color=cfg.MUTED, stroke_width=2.0,
+            max_tip_length_to_length_ratio=0.35,
+        ))
+    full_pipeline = VGroup(full_nodes, full_arrows)
+    paced_play(
+        scene,
+        FadeOut(cap_pipeline),
+        LaggedStart(*[FadeIn(n, scale=0.94) for n in full_nodes], lag_ratio=0.08),
+        LaggedStart(*[GrowArrow(a) for a in full_arrows], lag_ratio=0.08),
+        run_time=1.25,
+    )
+    narration_wait(scene, 1.0)
+
     # ── Phase 2: Zoom on the Statistics box ─────────────────────────────────
     stat_box  = boxes[1]
     stat_text = s_texts[1]
@@ -97,7 +142,7 @@ def play_scene(scene: Scene) -> None:
         scene,
         stat_box.animate.set_stroke(color=cfg.CYAN, width=5),
         stat_box.animate.set_fill(color=cfg.COLORS["panel2"], opacity=0.95),
-        FadeOut(cap_pipeline),
+        FadeOut(full_pipeline),
         FadeIn(cap_stats, shift=UP * 0.1),
         run_time=0.8,
     )
@@ -177,6 +222,43 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.6)
 
+    check_box = RoundedRectangle(
+        corner_radius=0.14, width=10.8, height=2.55,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.90,
+        stroke_color=cfg.GOLD, stroke_width=2.2,
+    )
+    check_title = Text("Before trusting a model, ask:", font_size=cfg.FONT["small"],
+                       color=cfg.GOLD, weight=BOLD)
+    check_title.set_stroke(cfg.BG, width=3, background=True)
+    questions = [
+        "What population does this data represent?",
+        "Is the pattern signal or random noise?",
+        "How uncertain is the prediction?",
+        "Does it generalize to unseen data?",
+        "Has the real world changed since training?",
+    ]
+    q_mobs = VGroup()
+    for q in questions:
+        q_mob = Text("• " + q, font_size=20, color=cfg.WHITE)
+        q_mob.set_stroke(cfg.BG, width=2, background=True)
+        if q_mob.width > 9.8:
+            q_mob.scale_to_fit_width(9.8)
+        q_mobs.add(q_mob)
+    q_mobs.arrange(DOWN, aligned_edge=LEFT, buff=0.06)
+    check_content = VGroup(check_title, q_mobs).arrange(DOWN, buff=0.18)
+    checklist = VGroup(check_box, check_content).move_to(ORIGIN + DOWN * 0.10)
+    check_content.move_to(check_box.get_center())
+
+    current_pipeline = VGroup(boxes, s_texts, arrows, connectors, tool_mobs)
+    paced_play(
+        scene,
+        FadeOut(cap_tools),
+        current_pipeline.animate.set_opacity(0.10),
+        FadeIn(checklist, shift=UP * 0.12),
+        run_time=1.0,
+    )
+    narration_wait(scene, 1.6)
+
     # ── Phase 4: Final synthesis text ────────────────────────────────────────
     synthesis = Text(
         "Statistics is how machines learn to think.",
@@ -190,10 +272,19 @@ def play_scene(scene: Scene) -> None:
 
     paced_play(
         scene,
-        FadeOut(cap_tools),
+        FadeOut(checklist),
         Write(synthesis),
         run_time=1.2,
     )
+    next_line = Text(
+        "Next: data types · distributions · uncertainty · evaluation",
+        font_size=cfg.FONT["tiny"], color=cfg.CYAN,
+    )
+    next_line.set_stroke(cfg.BG, width=3, background=True)
+    if next_line.width > cfg.SAFE_WIDTH - 0.8:
+        next_line.scale_to_fit_width(cfg.SAFE_WIDTH - 0.8)
+    next_line.next_to(synthesis, DOWN, buff=0.28)
+    paced_play(scene, FadeIn(next_line, shift=UP * 0.08), run_time=0.7)
     narration_wait(scene, 1.5)
 
     end_scene(scene, scene_start, cfg.SCENE_DURATIONS["08"])

@@ -4,7 +4,7 @@ A noisy scatter conceals an underlying trend.  Statistical smoothing
 reveals the signal — and the residuals (noise) remain visible,
 underscoring that noise never fully disappears, only becomes understood.
 
-Narration cue: ~50 seconds
+Narration cue: ~68 seconds
 """
 
 from __future__ import annotations
@@ -144,6 +144,54 @@ def play_scene(scene: Scene) -> None:
         Write(data_eq),
         run_time=1.0,
     )
-    narration_wait(scene, 1.2)
+
+    model_eq = eq(r"y = f(x) + \varepsilon", color=cfg.CYAN,
+                  font_size=cfg.FONT["small"])
+    model_eq.set_stroke(cfg.BG, width=3, background=True)
+    model_eq.next_to(data_eq, DOWN, buff=0.18)
+    eps_note = Text("f(x) = signal     epsilon = uncertainty",
+                    font_size=cfg.FONT["tiny"], color=cfg.MUTED)
+    eps_note.set_stroke(cfg.BG, width=3, background=True)
+    eps_note.next_to(model_eq, DOWN, buff=0.12)
+
+    paced_play(scene, Write(model_eq), FadeIn(eps_note, shift=UP * 0.06), run_time=0.9)
+    narration_wait(scene, 0.8)
+
+    clue_box = RoundedRectangle(
+        corner_radius=0.12, width=6.0, height=1.75,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
+        stroke_color=cfg.GOLD, stroke_width=2.0, stroke_opacity=0.75,
+    )
+    clue_title = Text("Residuals are clues", font_size=cfg.FONT["small"],
+                      color=cfg.GOLD, weight=BOLD)
+    clue_title.set_stroke(cfg.BG, width=3, background=True)
+    clue_row_1 = VGroup(
+        label("nonlinearity", font_size=20, color=cfg.CYAN),
+        label("missing feature", font_size=20, color=cfg.PURPLE),
+    ).arrange(RIGHT, buff=0.45)
+    clue_row_2 = VGroup(
+        label("group difference", font_size=20, color=cfg.ORANGE),
+        label("drift", font_size=20, color=cfg.RED),
+    ).arrange(RIGHT, buff=0.45)
+    clue_tags = VGroup(clue_row_1, clue_row_2).arrange(DOWN, buff=0.10)
+    clue_content = VGroup(clue_title, clue_tags).arrange(DOWN, buff=0.18)
+    clue_content.scale_to_fit_width(5.25)
+    clue_panel = VGroup(clue_box, clue_content)
+    clue_panel.move_to(DOWN * 2.15)
+    clue_content.move_to(clue_box.get_center())
+
+    paced_play(
+        scene,
+        FadeOut(signal_tag),
+        FadeOut(noise_tag),
+        FadeOut(model_eq),
+        FadeOut(eps_note),
+        scatter_dots.animate.set_opacity(0.45),
+        smooth_path.animate.set_stroke(opacity=0.62),
+        residuals.animate.set_stroke(opacity=0.20),
+        FadeIn(clue_panel, shift=UP * 0.12),
+        run_time=1.0,
+    )
+    narration_wait(scene, 1.4)
 
     end_scene(scene, scene_start, cfg.SCENE_DURATIONS["03"])

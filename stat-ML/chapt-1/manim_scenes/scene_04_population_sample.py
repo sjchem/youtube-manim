@@ -4,7 +4,7 @@ We can never observe everything.  Statistics lets us draw trustworthy
 conclusions from a small slice (sample) of a much larger whole
 (population), and quantifies exactly how confident we should be.
 
-Narration cue: ~49 seconds
+Narration cue: ~67 seconds
 """
 
 from __future__ import annotations
@@ -102,6 +102,28 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.5)
 
+    rep_box = RoundedRectangle(
+        corner_radius=0.12, width=4.9, height=1.55,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.86,
+        stroke_color=cfg.ORANGE, stroke_width=2.0,
+    )
+    rep_title = Text("Representative sample", font_size=cfg.FONT["tiny"],
+                     color=cfg.ORANGE, weight=BOLD)
+    rep_title.set_stroke(cfg.BG, width=3, background=True)
+    rep_lines = VGroup(
+        Text("reflects the population", font_size=20, color=cfg.WHITE),
+        Text("large data can still be biased", font_size=20, color=cfg.RED),
+    ).arrange(DOWN, buff=0.05)
+    for mob in rep_lines:
+        mob.set_stroke(cfg.BG, width=2, background=True)
+        mob.scale_to_fit_width(4.3)
+    rep_content = VGroup(rep_title, rep_lines).arrange(DOWN, buff=0.14)
+    rep_panel = VGroup(rep_box, rep_content).to_corner(DR, buff=0.50).shift(UP * 1.08)
+    rep_content.move_to(rep_box.get_center())
+
+    paced_play(scene, FadeIn(rep_panel, shift=LEFT * 0.12), run_time=0.8)
+    narration_wait(scene, 0.9)
+
     # ── Phase 3: Population mean μ vs sample mean x̄ ────────────────────────
     true_mean_x = float(pts[:, 0].mean())
     samp_mean_x = float(pts[sample_idx, 0].mean())
@@ -130,12 +152,34 @@ def play_scene(scene: Scene) -> None:
         scene,
         Create(pop_mean_line), FadeIn(mu_label),
         FadeOut(cap_sample),
+        FadeOut(rep_panel),
         run_time=0.9,
     )
     paced_play(
         scene,
         Create(samp_mean_line), FadeIn(xbar_label),
         FadeIn(cap_mean, shift=UP * 0.1),
+        run_time=0.9,
+    )
+
+    repeat_means = []
+    for _ in range(3):
+        idx = rng.choice(len(pts), size=n_sample, replace=False)
+        repeat_means.append(float(pts[idx, 0].mean()))
+    repeat_lines = VGroup(*[
+        DashedLine(
+            [xm, -3.05, 0], [xm, 3.05, 0],
+            color=cfg.GOLD, stroke_width=2.0, stroke_opacity=0.32,
+            dash_length=0.12,
+        )
+        for xm in repeat_means
+    ])
+    repeat_lbl = label("other samples shift x-bar", font_size=cfg.FONT["tiny"], color=cfg.GOLD)
+    repeat_lbl.to_corner(DL, buff=0.55).shift(UP * 0.45)
+    paced_play(
+        scene,
+        LaggedStart(*[Create(line) for line in repeat_lines], lag_ratio=0.20),
+        FadeIn(repeat_lbl, shift=RIGHT * 0.08),
         run_time=0.9,
     )
     narration_wait(scene, 0.6)
@@ -160,6 +204,7 @@ def play_scene(scene: Scene) -> None:
     paced_play(
         scene,
         Create(ci_grp), FadeIn(ci_lbl),
+        FadeOut(repeat_lbl),
         run_time=0.85,
     )
 

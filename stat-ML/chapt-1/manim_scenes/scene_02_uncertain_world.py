@@ -4,7 +4,7 @@ The real world does not hand us clean data. Every measurement carries
 noise. Statistics is the discipline that lets us reason under that
 uncertainty rather than pretending it does not exist.
 
-Narration cue: ~47 seconds
+Narration cue: ~65 seconds
 """
 
 from __future__ import annotations
@@ -113,12 +113,65 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.5)
 
+    def process_box(text: str, color: str) -> VGroup:
+        box = RoundedRectangle(
+            corner_radius=0.12, width=2.35, height=0.75,
+            fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
+            stroke_color=color, stroke_width=2.2,
+        )
+        txt = Text(text, font_size=cfg.FONT["tiny"], color=color, weight=BOLD)
+        txt.set_stroke(cfg.BG, width=2, background=True)
+        if txt.width > 2.0:
+            txt.scale_to_fit_width(2.0)
+        txt.move_to(box.get_center())
+        return VGroup(box, txt)
+
+    world_box = process_box("Real world", cfg.GREEN)
+    measure_box = process_box("Measurement", cfg.GOLD)
+    dataset_box = process_box("Dataset", cfg.ORANGE)
+    dgp_boxes = VGroup(world_box, measure_box, dataset_box).arrange(RIGHT, buff=0.7)
+    dgp_arrows = VGroup(
+        Arrow(world_box.get_right(), measure_box.get_left(), buff=0.12,
+              color=cfg.MUTED, stroke_width=3, max_tip_length_to_length_ratio=0.25),
+        Arrow(measure_box.get_right(), dataset_box.get_left(), buff=0.12,
+              color=cfg.MUTED, stroke_width=3, max_tip_length_to_length_ratio=0.25),
+    )
+    dgp_title = Text("Data-generating process", font_size=cfg.FONT["small"],
+                     color=cfg.WHITE, weight=BOLD)
+    dgp_title.set_stroke(cfg.BG, width=4, background=True)
+    dgp_group = VGroup(dgp_boxes, dgp_arrows).move_to(UP * 2.25)
+    dgp_title.next_to(dgp_group, UP, buff=0.18)
+
+    random_card = process_box("Random variation", cfg.PURPLE).scale(0.88)
+    systematic_card = process_box("Systematic error", cfg.RED).scale(0.88)
+    error_types = VGroup(random_card, systematic_card).arrange(RIGHT, buff=0.5)
+    error_types.next_to(dgp_group, DOWN, buff=0.28)
+    dgp_visual = VGroup(dgp_title, dgp_group, error_types)
+
+    paced_play(
+        scene,
+        FadeOut(uncertainty_tags),
+        obs_dots.animate.set_fill(opacity=0.42),
+        true_curve.animate.set_stroke(opacity=0.42),
+        FadeIn(dgp_title, shift=DOWN * 0.08),
+        LaggedStart(*[FadeIn(m, scale=0.92) for m in dgp_boxes], lag_ratio=0.18),
+        LaggedStart(*[GrowArrow(a) for a in dgp_arrows], lag_ratio=0.20),
+        run_time=1.3,
+    )
+    paced_play(
+        scene,
+        LaggedStart(*[FadeIn(c, shift=UP * 0.08) for c in error_types], lag_ratio=0.22),
+        run_time=0.9,
+    )
+    narration_wait(scene, 1.3)
+
     # ── Phase 4: Question mark — can we find the true pattern? ──────────────
     paced_play(
         scene,
         true_curve.animate.set_stroke(opacity=0.20),
         glow_bg.animate.set_stroke(opacity=0.04),
-        FadeOut(uncertainty_tags),
+        obs_dots.animate.set_fill(opacity=0.82),
+        FadeOut(dgp_visual),
         run_time=0.75,
     )
 
