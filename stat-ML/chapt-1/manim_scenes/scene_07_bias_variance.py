@@ -5,7 +5,7 @@ The dartboard metaphor makes bias and variance intuitive:
 • High variance → predictions wildly scattered (overfitting)
 • The sweet spot → low bias AND low variance
 
-Narration cue: ~55 seconds
+Narration cue: ~77 seconds
 """
 
 from __future__ import annotations
@@ -182,6 +182,76 @@ def play_scene(scene: Scene) -> None:
         Write(eq_text),
         run_time=1.2,
     )
-    narration_wait(scene, 1.3)
+    narration_wait(scene, 0.8)
+
+    chart_axes = Axes(
+        x_range=[0, 10, 5], y_range=[0, 6, 3],
+        x_length=7.1, y_length=3.0,
+        axis_config={"color": cfg.MUTED, "stroke_width": 2.0, "include_tip": False},
+        tips=False,
+    ).move_to(DOWN * 0.70)
+    y_label = label("error", font_size=cfg.FONT["tiny"], color=cfg.MUTED)
+    y_label.rotate(PI / 2).next_to(chart_axes.y_axis, LEFT, buff=0.18)
+
+    xs_curve = np.linspace(0.7, 9.3, 80)
+    train_y = 4.7 * np.exp(-0.23 * xs_curve) + 0.55
+    test_y = 0.13 * (xs_curve - 5.2) ** 2 + 1.15
+    train_curve = VMobject().set_points_smoothly(
+        [chart_axes.c2p(x, y) for x, y in zip(xs_curve, train_y)]
+    ).set_stroke(cfg.CYAN, width=4.0, opacity=0.92)
+    test_curve = VMobject().set_points_smoothly(
+        [chart_axes.c2p(x, y) for x, y in zip(xs_curve, test_y)]
+    ).set_stroke(cfg.GOLD, width=4.0, opacity=0.92)
+    train_lbl = label("training error", font_size=20, color=cfg.CYAN)
+    train_lbl.next_to(train_curve, RIGHT, buff=0.15)
+    test_lbl = label("test error", font_size=20, color=cfg.GOLD)
+    test_lbl.next_to(test_curve, RIGHT, buff=0.15)
+    simple_lbl = label("too simple", font_size=20, color=cfg.ORANGE)
+    simple_lbl.next_to(chart_axes.c2p(1.2, 0), DOWN, buff=0.36)
+    balanced_lbl = label("balanced", font_size=20, color=cfg.GREEN)
+    balanced_lbl.next_to(chart_axes.c2p(5.2, 0), DOWN, buff=0.36)
+    complex_lbl = label("too complex", font_size=20, color=cfg.RED)
+    complex_lbl.next_to(chart_axes.c2p(8.7, 0), DOWN, buff=0.36)
+
+    solutions = VGroup()
+    for txt, col in (("more data", cfg.GREEN), ("regularisation", cfg.GOLD), ("better features", cfg.CYAN)):
+        chip = RoundedRectangle(
+            corner_radius=0.10, width=1.85, height=0.42,
+            fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
+            stroke_color=col, stroke_width=1.5,
+        )
+        chip_text = Text(txt, font_size=17, color=col, weight=BOLD)
+        chip_text.set_stroke(cfg.BG, width=2, background=True)
+        if chip_text.width > 1.62:
+            chip_text.scale_to_fit_width(1.62)
+        chip_text.move_to(chip.get_center())
+        solutions.add(VGroup(chip, chip_text))
+    solutions.arrange(RIGHT, buff=0.24).to_edge(DOWN, buff=0.36)
+
+    board_scene = VGroup(
+        *boards.values(),
+        *board_labels.values(),
+        *dot_groups.values(),
+        ideal_halo,
+    )
+    paced_play(
+        scene,
+        FadeOut(board_scene),
+        Create(chart_axes), FadeIn(y_label),
+        run_time=1.0,
+    )
+    paced_play(
+        scene,
+        Create(train_curve), Create(test_curve),
+        FadeIn(train_lbl), FadeIn(test_lbl),
+        run_time=1.15,
+    )
+    paced_play(
+        scene,
+        LaggedStart(FadeIn(simple_lbl), FadeIn(balanced_lbl), FadeIn(complex_lbl), lag_ratio=0.15),
+        LaggedStart(*[FadeIn(s, shift=UP * 0.08) for s in solutions], lag_ratio=0.14),
+        run_time=1.1,
+    )
+    narration_wait(scene, 1.5)
 
     end_scene(scene, scene_start, cfg.SCENE_DURATIONS["07"])

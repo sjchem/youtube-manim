@@ -83,14 +83,14 @@ TIMING: dict[str, float] = {
 # ── Scene target durations (seconds) — animation + narration ─────────────────
 SCENE_DURATIONS: dict[str, float] = {
     "01": 55.0,   # Series opening
-    "02": 47.0,   # The uncertain world
-    "03": 50.0,   # Signal vs noise
-    "04": 49.0,   # Population vs sample
-    "05": 56.0,   # Patterns & prediction
-    "06": 58.0,   # Why models fail – overfitting
-    "07": 55.0,   # Bias-variance tradeoff
-    "08": 53.0,   # Statistics as the thinking layer
-    "09": 12.0,   # Subscribe card
+    "02": 65.0,   # The uncertain world
+    "03": 68.0,   # Signal vs noise
+    "04": 67.0,   # Population vs sample
+    "05": 78.0,   # Patterns & prediction
+    "06": 78.0,   # Why models fail – overfitting
+    "07": 77.0,   # Bias-variance tradeoff
+    "08": 77.0,   # Statistics as the thinking layer
+    "09": 17.0,   # Subscribe card
 }
 
 # ── Visual parameters ────────────────────────────────────────────────────────
