@@ -10,27 +10,27 @@ OCEANIC_DEEP_BACKGROUND = "#041A2F"
 OCEANIC_BUBBLE_COLOR = "#8ED4FF"
 OCEANIC_BUBBLE_HIGHLIGHT = "#E8FAFF"
 OCEANIC_BUBBLE_SEED = 42
-OCEANIC_RANDOM_BUBBLE_COUNT = 34
+OCEANIC_RANDOM_BUBBLE_COUNT = 12
 OCEANIC_FEATURE_BUBBLE_SPECS = [
-    ((-5.7, 2.7, 0), 0.42, 0.026),
-    ((-3.9, -2.2, 0), 0.28, 0.022),
-    ((-1.2, 2.9, 0), 0.18, 0.02),
-    ((2.5, -2.7, 0), 0.34, 0.022),
-    ((4.8, 1.9, 0), 0.52, 0.024),
-    ((5.9, -0.8, 0), 0.22, 0.019),
+    ((-5.7, 2.7, 0), 0.42, 0.021),
+    ((-3.9, -2.2, 0), 0.28, 0.018),
+    ((-1.2, 2.9, 0), 0.18, 0.016),
+    ((2.5, -2.7, 0), 0.34, 0.018),
+    ((4.8, 1.9, 0), 0.52, 0.019),
+    ((5.9, -0.8, 0), 0.22, 0.015),
 ]
 
 
 def _random_bubble_specs() -> list[tuple[tuple[float, float, float], float, float]]:
-    """Create stable random bubbles for a richer Oceanic background."""
+    """Create stable random bubbles for a calm Oceanic background."""
 
     rng = random.Random(OCEANIC_BUBBLE_SEED)
     specs = []
     for _ in range(OCEANIC_RANDOM_BUBBLE_COUNT):
-        radius = rng.uniform(0.045, 0.17)
+        radius = rng.uniform(0.035, 0.13)
         x = rng.uniform(-6.7, 6.7)
         y = rng.uniform(-3.5, 3.5)
-        opacity = rng.uniform(0.014, 0.038)
+        opacity = rng.uniform(0.01, 0.026)
         specs.append(((x, y, 0), radius, opacity))
     return specs
 
