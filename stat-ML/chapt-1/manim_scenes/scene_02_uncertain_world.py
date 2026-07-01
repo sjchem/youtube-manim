@@ -15,7 +15,7 @@ from manim import *
 import config as cfg
 from manim_scenes.common import (
     begin_scene, bottom_caption, cinematic_background, end_scene,
-    eq, glow_dot, narration_wait, paced_play, label,
+    narration_wait, paced_play, label,
 )
 from utils.math_utils import noisy_sine_data
 
@@ -29,8 +29,8 @@ def play_scene(scene: Scene) -> None:
     scene_start = begin_scene(scene)
     scene.add(cinematic_background(show_bubbles=True))
 
-    # ── Phase 1: A hidden "truth" — the true sine signal ────────────────────
-    caption_truth = bottom_caption("The world has a true pattern…", color=cfg.CYAN)
+    # ── Phase 1: A hidden "truth" — the true relationship ───────────────────
+    caption_truth = bottom_caption("Somewhere out there is the truth.", color=cfg.CYAN)
 
     true_curve = ParametricFunction(
         lambda t: np.array([t, 1.6 * np.sin(0.6 * t), 0]),
@@ -51,6 +51,32 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.8)
 
+    example_cards = VGroup()
+    for title, subtitle, pos, col in (
+        ("blood pressure", "age -> risk", LEFT * 3.0 + UP * 1.35, cfg.GREEN),
+        ("chip temperature", "heat -> failure", RIGHT * 3.0 + UP * 1.35, cfg.GOLD),
+    ):
+        box = RoundedRectangle(
+            corner_radius=0.12, width=2.85, height=0.82,
+            fill_color=cfg.COLORS["panel"], fill_opacity=0.86,
+            stroke_color=col, stroke_width=2.0,
+        )
+        text = VGroup(
+            Text(title, font_size=21, color=col, weight=BOLD),
+            Text(subtitle, font_size=17, color=cfg.WHITE),
+        ).arrange(DOWN, buff=0.02)
+        for mob in text:
+            mob.set_stroke(cfg.BG, width=2, background=True)
+        text.move_to(box.get_center())
+        example_cards.add(VGroup(box, text).move_to(pos))
+
+    paced_play(
+        scene,
+        LaggedStart(*[FadeIn(card, shift=DOWN * 0.10) for card in example_cards], lag_ratio=0.18),
+        run_time=0.9,
+    )
+    narration_wait(scene, 0.5)
+
     # ── Phase 2: Real-world observations — noisy and incomplete ─────────────
     xs, ys_noisy, ys_true = noisy_sine_data(n=55, noise_std=0.55, seed=13)
 
@@ -59,10 +85,11 @@ def play_scene(scene: Scene) -> None:
         for x, y in zip(xs, ys_noisy)
     ])
 
-    caption_noise = bottom_caption("…but data is noisy and incomplete.", color=cfg.ORANGE)
+    caption_noise = bottom_caption("We do not observe truth directly. We observe measurements.", color=cfg.ORANGE)
 
     paced_play(
         scene,
+        FadeOut(example_cards),
         LaggedStart(*[FadeIn(d, scale=0.4) for d in obs_dots], lag_ratio=0.04),
         run_time=2.0,
     )
@@ -100,14 +127,21 @@ def play_scene(scene: Scene) -> None:
         run_time=1.5,
     )
 
+    missing_marks = VGroup()
+    for idx in sorted(rng.choice(len(xs), size=5, replace=False)):
+        mark = Cross(obs_dots[idx], stroke_color=cfg.PURPLE, stroke_width=4)
+        mark.scale(0.8)
+        missing_marks.add(mark)
+
     uncertainty_tags = VGroup(
+        label("imprecise sensors", font_size=cfg.FONT["tiny"], color=cfg.GOLD),
         label("missing values", font_size=cfg.FONT["tiny"], color=cfg.PURPLE),
-        label("sensor drift", font_size=cfg.FONT["tiny"], color=cfg.GOLD),
-        label("noisy labels", font_size=cfg.FONT["tiny"], color=cfg.ORANGE),
+        label("wrong labels", font_size=cfg.FONT["tiny"], color=cfg.ORANGE),
     ).arrange(RIGHT, buff=0.42)
     uncertainty_tags.to_edge(UP, buff=0.48)
     paced_play(
         scene,
+        LaggedStart(*[Create(m) for m in missing_marks], lag_ratio=0.10),
         LaggedStart(*[FadeIn(t, shift=DOWN * 0.08) for t in uncertainty_tags], lag_ratio=0.18),
         run_time=0.9,
     )
@@ -152,6 +186,7 @@ def play_scene(scene: Scene) -> None:
         scene,
         FadeOut(uncertainty_tags),
         obs_dots.animate.set_fill(opacity=0.42),
+        missing_marks.animate.set_stroke(opacity=0.25),
         true_curve.animate.set_stroke(opacity=0.42),
         FadeIn(dgp_title, shift=DOWN * 0.08),
         LaggedStart(*[FadeIn(m, scale=0.92) for m in dgp_boxes], lag_ratio=0.18),
@@ -165,6 +200,42 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 1.3)
 
+    random_noise = VGroup(*[
+        Line(
+            [xs[i], ys_true[i], 0], [xs[i], ys_noisy[i], 0],
+            color=cfg.PURPLE, stroke_width=2.2, stroke_opacity=0.45,
+        )
+        for i in rng.choice(len(xs), size=12, replace=False)
+    ])
+    biased_sensor = VGroup(*[
+        Dot(point=[x, y + 0.42, 0], radius=0.052, color=cfg.RED, fill_opacity=0.78)
+        for x, y in zip(xs[::4], ys_noisy[::4])
+    ])
+    bias_arrow = Arrow(
+        LEFT * 4.8 + DOWN * 2.75, LEFT * 4.8 + DOWN * 2.15,
+        color=cfg.RED, stroke_width=4,
+        max_tip_length_to_length_ratio=0.30,
+    )
+    bias_label = label("biased sensor shifts everything", font_size=cfg.FONT["tiny"], color=cfg.RED)
+    bias_label.next_to(bias_arrow, RIGHT, buff=0.18)
+
+    paced_play(
+        scene,
+        random_card.animate.scale(1.08),
+        LaggedStart(*[Create(line) for line in random_noise], lag_ratio=0.04),
+        run_time=0.9,
+    )
+    paced_play(
+        scene,
+        random_card.animate.scale(1 / 1.08),
+        systematic_card.animate.scale(1.08),
+        LaggedStart(*[FadeIn(d, scale=0.45) for d in biased_sensor], lag_ratio=0.05),
+        GrowArrow(bias_arrow),
+        FadeIn(bias_label, shift=LEFT * 0.08),
+        run_time=1.0,
+    )
+    narration_wait(scene, 0.7)
+
     # ── Phase 4: Question mark — can we find the true pattern? ──────────────
     paced_play(
         scene,
@@ -172,6 +243,11 @@ def play_scene(scene: Scene) -> None:
         glow_bg.animate.set_stroke(opacity=0.04),
         obs_dots.animate.set_fill(opacity=0.82),
         FadeOut(dgp_visual),
+        FadeOut(random_noise),
+        FadeOut(biased_sensor),
+        FadeOut(bias_arrow),
+        FadeOut(bias_label),
+        FadeOut(missing_marks),
         run_time=0.75,
     )
 
@@ -180,7 +256,7 @@ def play_scene(scene: Scene) -> None:
     question_mark.set_fill(opacity=0.0)
     scene.add(question_mark)
 
-    caption_q = bottom_caption("Can we recover the truth from the noise?", color=cfg.PURPLE)
+    caption_q = bottom_caption("Can we recover the true signal from all this noise?", color=cfg.PURPLE)
 
     paced_play(
         scene,
@@ -192,7 +268,7 @@ def play_scene(scene: Scene) -> None:
     narration_wait(scene, 0.5)
 
     # ── Phase 5: Statistics label ────────────────────────────────────────────
-    stat_label = Text("Statistics gives us the tools.", font_size=cfg.FONT["body"],
+    stat_label = Text("Statistics is built for this.", font_size=cfg.FONT["body"],
                       color=cfg.CYAN, weight=BOLD)
     stat_label.set_stroke(cfg.BG, width=5, background=True)
     stat_label.to_edge(UP, buff=0.42)

@@ -65,15 +65,14 @@ This series is about giving you the mental tools to find it.
 We're building from the ground up — four parts, twenty-eight chapters in total. I'll drop a new video every two days, so you'll always have something to come back to.
 
 Part One: the foundations — Chapters 1 through 7.
-Part Two: inference and learning — Chapters 8 through 15.
-Part Three: evaluating and improving models — Chapters 16 through 20.
-Part Four: advanced statistical machine learning — Chapters 21 through 28.
+Part Two: inference and learning — Chapters 8 through 14.
+Part Three: evaluating and improving models — Chapters 15 through 21.
+Part Four: advanced statistical machine learning — Chapters 22 through 28.
 
 And we start right here. Chapter One.
 
 Why do machine learning engineers — people who use powerful algorithms and deep learning models — still need statistics?
 
-*[Cue: "There is something hidden…" → sine curve appears ~8s | "We're building…" → roadmap appears ~22s]*
 
 ---
 
@@ -98,9 +97,7 @@ So can we ever recover the true signal from all of this noise?
 
 Yes. And that's exactly what statistics is for.
 
-If every dataset is a mixture of reality and imperfection, the next question is: how do we separate the useful pattern from the random mess?
 
-*[Cue: "But when we go and measure…" → noisy dots scatter ~18s]*
 
 ---
 
@@ -129,9 +126,8 @@ f of x is the signal. Epsilon is randomness, measurement error, missing factors,
 
 Statistics gives us principled methods to separate one from the other.
 
-But even if we find a pattern in this dataset, one question remains: does this data represent the whole world, or only a small part of it?
 
-*[Cue: "And these — the distances…" → residual lines appear ~22s]*
+
 
 ---
 
@@ -158,9 +154,7 @@ A confidence interval gives a plausible range for the unknown population value, 
 
 Every time you evaluate a machine learning model on test data, you are doing statistical inference. You're asking: does this sample performance reflect the true performance on future real-world cases?
 
-So if every estimate comes from a limited sample, prediction should not be just a single number. It should include uncertainty.
 
-*[Cue: "So we take a sample…" → cyan dots highlight ~16s | "This bracket…" → CI bracket appears ~30s]*
 
 ---
 
@@ -193,9 +187,9 @@ And for classification, the model should ideally say more than yes or no. It mig
 
 That's the power of statistical prediction.
 
-But a model can produce beautiful predictions on data it has already seen. The real test is whether it works on data it has never seen before.
 
-*[Cue: "But we don't just draw a line…" → confidence band appears ~25s | "Now a new data point…" → purple dot appears ~35s]*
+
+
 
 ---
 
@@ -228,11 +222,7 @@ It wasn't learning the signal. It was memorising the noise.
 
 Statistics is what prevents this. Train-test splits, cross-validation, regularisation — these are all statistical tools that enforce generalisation.
 
-Generalization means performing well not just on old data, but on future data from the same real-world process.
 
-So why does one model generalize while another memorizes? The answer is often the balance between bias and variance.
-
-*[Cue: "It fits the training data perfectly…" → red wiggly curve appears ~28s | "But on a new unseen point…" → test point + arrows ~38s]*
 
 ---
 
@@ -267,7 +257,7 @@ Statistics gives us a framework to reason about these sources of error and choos
 
 Now we can see why statistics is not a separate topic sitting beside machine learning. It is present at every stage of the workflow.
 
-*[Cue: "Expected test error equals…" → equation appears ~38s]*
+
 
 ---
 
@@ -284,13 +274,10 @@ Statistics provides uncertainty quantification. It extracts signal from noise. I
 
 Machine learning without statistics is pattern-matching in the dark. With statistics, you understand not just what your model predicts, but why, how reliably, and when to trust it.
 
-Before trusting a model, ask: what population does this data represent? Is the pattern signal or random noise? How uncertain is the prediction? Does it generalize to unseen data? Has the real world changed since training?
 
 Statistics is how machines learn to think.
 
-In the next chapters, we will build the tools behind this thinking layer: data types, descriptive statistics, probability, distributions, uncertainty, and model evaluation.
-
-*[Cue: "Statistics provides uncertainty…" → six bubbles expand ~34s | "Before trusting…" → checklist appears ~54s]*
+In the next chapters, we will build the tools behind this thinking layer: data types, descriptive statistics, probability, distributions, uncertainty.
 
 ---
 

@@ -114,6 +114,38 @@ def play_scene(scene: Scene) -> None:
     paced_play(scene, Write(residual_eq), run_time=0.8)
     narration_wait(scene, 0.6)
 
+    clue_box = RoundedRectangle(
+        corner_radius=0.12, width=6.0, height=1.75,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
+        stroke_color=cfg.GOLD, stroke_width=2.0, stroke_opacity=0.75,
+    )
+    clue_title = Text("Residual patterns are clues", font_size=cfg.FONT["small"],
+                      color=cfg.GOLD, weight=BOLD)
+    clue_title.set_stroke(cfg.BG, width=3, background=True)
+    clue_row_1 = VGroup(
+        label("nonlinearity", font_size=20, color=cfg.CYAN),
+        label("missing feature", font_size=20, color=cfg.PURPLE),
+    ).arrange(RIGHT, buff=0.45)
+    clue_row_2 = VGroup(
+        label("changing condition", font_size=20, color=cfg.ORANGE),
+        label("drift", font_size=20, color=cfg.RED),
+    ).arrange(RIGHT, buff=0.45)
+    clue_tags = VGroup(clue_row_1, clue_row_2).arrange(DOWN, buff=0.10)
+    clue_content = VGroup(clue_title, clue_tags).arrange(DOWN, buff=0.18)
+    clue_content.scale_to_fit_width(5.25)
+    clue_panel = VGroup(clue_box, clue_content)
+    clue_panel.move_to(DOWN * 2.15)
+    clue_content.move_to(clue_box.get_center())
+
+    patterned_residuals = VGroup(*list(residuals)[::4])
+    paced_play(
+        scene,
+        Indicate(patterned_residuals, color=cfg.GOLD, scale_factor=1.04),
+        FadeIn(clue_panel, shift=UP * 0.12),
+        run_time=1.0,
+    )
+    narration_wait(scene, 1.0)
+
     # ── Phase 4: Label the two components ───────────────────────────────────
     signal_tag = Text("SIGNAL", font_size=cfg.FONT["label"], color=cfg.CYAN, weight=BOLD)
     signal_tag.set_stroke(cfg.BG, width=4, background=True)
@@ -125,6 +157,7 @@ def play_scene(scene: Scene) -> None:
 
     paced_play(
         scene,
+        FadeOut(clue_panel),
         FadeIn(signal_tag, shift=DOWN * 0.12),
         FadeIn(noise_tag, shift=UP * 0.12),
         run_time=0.8,
@@ -155,30 +188,7 @@ def play_scene(scene: Scene) -> None:
     eps_note.next_to(model_eq, DOWN, buff=0.12)
 
     paced_play(scene, Write(model_eq), FadeIn(eps_note, shift=UP * 0.06), run_time=0.9)
-    narration_wait(scene, 0.8)
-
-    clue_box = RoundedRectangle(
-        corner_radius=0.12, width=6.0, height=1.75,
-        fill_color=cfg.COLORS["panel"], fill_opacity=0.88,
-        stroke_color=cfg.GOLD, stroke_width=2.0, stroke_opacity=0.75,
-    )
-    clue_title = Text("Residuals are clues", font_size=cfg.FONT["small"],
-                      color=cfg.GOLD, weight=BOLD)
-    clue_title.set_stroke(cfg.BG, width=3, background=True)
-    clue_row_1 = VGroup(
-        label("nonlinearity", font_size=20, color=cfg.CYAN),
-        label("missing feature", font_size=20, color=cfg.PURPLE),
-    ).arrange(RIGHT, buff=0.45)
-    clue_row_2 = VGroup(
-        label("group difference", font_size=20, color=cfg.ORANGE),
-        label("drift", font_size=20, color=cfg.RED),
-    ).arrange(RIGHT, buff=0.45)
-    clue_tags = VGroup(clue_row_1, clue_row_2).arrange(DOWN, buff=0.10)
-    clue_content = VGroup(clue_title, clue_tags).arrange(DOWN, buff=0.18)
-    clue_content.scale_to_fit_width(5.25)
-    clue_panel = VGroup(clue_box, clue_content)
-    clue_panel.move_to(DOWN * 2.15)
-    clue_content.move_to(clue_box.get_center())
+    narration_wait(scene, 0.9)
 
     paced_play(
         scene,
@@ -189,9 +199,10 @@ def play_scene(scene: Scene) -> None:
         scatter_dots.animate.set_opacity(0.45),
         smooth_path.animate.set_stroke(opacity=0.62),
         residuals.animate.set_stroke(opacity=0.20),
-        FadeIn(clue_panel, shift=UP * 0.12),
         run_time=1.0,
     )
-    narration_wait(scene, 1.4)
+    final_cap = bottom_caption("Statistics gives principled methods to separate them.", color=cfg.CYAN)
+    paced_play(scene, FadeIn(final_cap, shift=UP * 0.1), run_time=0.6)
+    narration_wait(scene, 1.2)
 
     end_scene(scene, scene_start, cfg.SCENE_DURATIONS["03"])

@@ -222,39 +222,42 @@ def play_scene(scene: Scene) -> None:
     )
     narration_wait(scene, 0.6)
 
-    check_box = RoundedRectangle(
-        corner_radius=0.14, width=10.8, height=2.55,
-        fill_color=cfg.COLORS["panel"], fill_opacity=0.90,
-        stroke_color=cfg.GOLD, stroke_width=2.2,
+    without_box = RoundedRectangle(
+        corner_radius=0.14, width=4.8, height=2.15,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.92,
+        stroke_color=cfg.RED, stroke_width=2.2,
     )
-    check_title = Text("Before trusting a model, ask:", font_size=cfg.FONT["small"],
-                       color=cfg.GOLD, weight=BOLD)
-    check_title.set_stroke(cfg.BG, width=3, background=True)
-    questions = [
-        "What population does this data represent?",
-        "Is the pattern signal or random noise?",
-        "How uncertain is the prediction?",
-        "Does it generalize to unseen data?",
-        "Has the real world changed since training?",
-    ]
-    q_mobs = VGroup()
-    for q in questions:
-        q_mob = Text("• " + q, font_size=20, color=cfg.WHITE)
-        q_mob.set_stroke(cfg.BG, width=2, background=True)
-        if q_mob.width > 9.8:
-            q_mob.scale_to_fit_width(9.8)
-        q_mobs.add(q_mob)
-    q_mobs.arrange(DOWN, aligned_edge=LEFT, buff=0.06)
-    check_content = VGroup(check_title, q_mobs).arrange(DOWN, buff=0.18)
-    checklist = VGroup(check_box, check_content).move_to(ORIGIN + DOWN * 0.10)
-    check_content.move_to(check_box.get_center())
+    without_text = VGroup(
+        Text("Without statistics", font_size=cfg.FONT["tiny"], color=cfg.RED, weight=BOLD),
+        Text("pattern-matching", font_size=24, color=cfg.WHITE),
+        Text("in the dark", font_size=24, color=cfg.MUTED),
+    ).arrange(DOWN, buff=0.08)
+    with_box = RoundedRectangle(
+        corner_radius=0.14, width=4.8, height=2.15,
+        fill_color=cfg.COLORS["panel2"], fill_opacity=0.94,
+        stroke_color=cfg.CYAN, stroke_width=2.4,
+    )
+    with_text = VGroup(
+        Text("With statistics", font_size=cfg.FONT["tiny"], color=cfg.CYAN, weight=BOLD),
+        Text("why it predicts", font_size=22, color=cfg.WHITE),
+        Text("how reliable", font_size=22, color=cfg.GOLD),
+        Text("when to trust", font_size=22, color=cfg.GREEN),
+    ).arrange(DOWN, buff=0.04)
+    for mob in (*without_text, *with_text):
+        mob.set_stroke(cfg.BG, width=2, background=True)
+    without_text.move_to(without_box.get_center())
+    with_text.move_to(with_box.get_center())
+    trust_panels = VGroup(
+        VGroup(without_box, without_text),
+        VGroup(with_box, with_text),
+    ).arrange(RIGHT, buff=0.85).move_to(ORIGIN + DOWN * 0.10)
 
     current_pipeline = VGroup(boxes, s_texts, arrows, connectors, tool_mobs)
     paced_play(
         scene,
         FadeOut(cap_tools),
         current_pipeline.animate.set_opacity(0.10),
-        FadeIn(checklist, shift=UP * 0.12),
+        LaggedStart(*[FadeIn(panel, shift=UP * 0.12) for panel in trust_panels], lag_ratio=0.20),
         run_time=1.0,
     )
     narration_wait(scene, 1.6)
@@ -272,7 +275,7 @@ def play_scene(scene: Scene) -> None:
 
     paced_play(
         scene,
-        FadeOut(checklist),
+        FadeOut(trust_panels),
         Write(synthesis),
         run_time=1.2,
     )

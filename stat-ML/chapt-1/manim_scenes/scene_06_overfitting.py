@@ -57,7 +57,7 @@ def play_scene(scene: Scene) -> None:
     train_lbl.set_stroke(cfg.BG, width=3, background=True)
     train_lbl.to_corner(UL, buff=0.55).shift(DOWN * 0.6)
 
-    cap_train = bottom_caption("We train on a small set of examples.", color=cfg.CYAN)
+    cap_train = bottom_caption("Ten training points. A clear, gentle trend.", color=cfg.CYAN)
 
     paced_play(scene, Create(axes), FadeIn(*ax_labels), run_time=0.9)
     paced_play(
@@ -91,7 +91,34 @@ def play_scene(scene: Scene) -> None:
     role_cards.arrange(RIGHT, buff=0.35).to_edge(UP, buff=0.36).shift(RIGHT * 0.85)
     paced_play(scene, LaggedStart(*[FadeIn(c, shift=DOWN * 0.08) for c in role_cards],
                                   lag_ratio=0.18), run_time=0.9)
-    narration_wait(scene, 1.0)
+    split_bar = VGroup()
+    bar_specs = [
+        ("train", 3.1, cfg.CYAN),
+        ("validate", 1.65, cfg.GOLD),
+        ("test", 1.65, cfg.PURPLE),
+    ]
+    x_cursor = -3.2
+    for title, width, col in bar_specs:
+        rect = Rectangle(
+            width=width, height=0.34,
+            fill_color=col, fill_opacity=0.26,
+            stroke_color=col, stroke_width=1.8,
+        )
+        rect.move_to([x_cursor + width / 2, -2.55, 0])
+        txt = Text(title, font_size=17, color=col, weight=BOLD)
+        txt.set_stroke(cfg.BG, width=2, background=True)
+        txt.move_to(rect.get_center())
+        split_bar.add(VGroup(rect, txt))
+        x_cursor += width
+    split_lbl = label("one dataset, three jobs", font_size=cfg.FONT["tiny"], color=cfg.WHITE)
+    split_lbl.next_to(split_bar, UP, buff=0.12)
+    paced_play(
+        scene,
+        FadeIn(split_lbl, shift=DOWN * 0.08),
+        LaggedStart(*[FadeIn(seg, scale=0.96) for seg in split_bar], lag_ratio=0.12),
+        run_time=0.9,
+    )
+    narration_wait(scene, 0.8)
 
     # ── Phase 2: Good linear fit (generalises) ───────────────────────────────
     x0, x1 = -3.9, 3.9
@@ -112,6 +139,8 @@ def play_scene(scene: Scene) -> None:
         FadeIn(good_glow), Create(good_line),
         FadeIn(good_lbl),
         FadeOut(role_cards),
+        FadeOut(split_bar),
+        FadeOut(split_lbl),
         FadeOut(cap_train), FadeIn(cap_good, shift=UP * 0.1),
         run_time=1.2,
     )
@@ -135,7 +164,7 @@ def play_scene(scene: Scene) -> None:
     if over_lbl.get_right()[0] > cfg.SAFE_WIDTH / 2:
         over_lbl.shift(LEFT * (over_lbl.get_right()[0] - cfg.SAFE_WIDTH / 2 + 0.1))
 
-    train_error = label("Training error: ~0", font_size=cfg.FONT["tiny"], color=cfg.RED)
+    train_error = label("Training error: 0", font_size=cfg.FONT["tiny"], color=cfg.RED)
     train_error.next_to(train_lbl, DOWN, buff=0.14).align_to(train_lbl, LEFT)
 
     cap_over = bottom_caption("An overfit model memorises the training data.", color=cfg.RED)
@@ -197,30 +226,46 @@ def play_scene(scene: Scene) -> None:
     paced_play(scene, GrowArrow(arr_good), FadeIn(check), run_time=0.8)
     paced_play(scene, GrowArrow(arr_bad),  FadeIn(cross), run_time=0.8)
 
-    test_error = label("Test error reveals it", font_size=cfg.FONT["tiny"], color=cfg.GOLD)
+    test_error = label("Test error reveals the truth", font_size=cfg.FONT["tiny"], color=cfg.GOLD)
     test_error.next_to(test_dot, DOWN, buff=0.22).shift(RIGHT * 0.55)
     paced_play(scene, FadeIn(test_error, shift=DOWN * 0.08), run_time=0.55)
     narration_wait(scene, 0.5)
 
     leak_box = RoundedRectangle(
-        corner_radius=0.12, width=6.25, height=1.18,
+        corner_radius=0.12, width=7.0, height=1.55,
         fill_color=cfg.COLORS["panel"], fill_opacity=0.90,
         stroke_color=cfg.RED, stroke_width=2.2,
     )
     leak_text = VGroup(
         Text("Data leakage", font_size=cfg.FONT["tiny"], color=cfg.RED, weight=BOLD),
-        Text("future or test information slips into training", font_size=20, color=cfg.WHITE),
-        Text("example: account closed date", font_size=18, color=cfg.GOLD),
+        Text("future or test information slips into training", font_size=19, color=cfg.WHITE),
+        Text("churn model accidentally uses account_closed_date", font_size=18, color=cfg.GOLD),
     ).arrange(DOWN, buff=0.03)
     for mob in leak_text:
         mob.set_stroke(cfg.BG, width=2, background=True)
-        if mob.width > 5.7:
-            mob.scale_to_fit_width(5.7)
-    leak_panel = VGroup(leak_box, leak_text).move_to(DOWN * 1.65)
+        if mob.width > 6.4:
+            mob.scale_to_fit_width(6.4)
+    leak_panel = VGroup(leak_box, leak_text).move_to(DOWN * 1.55)
     leak_text.move_to(leak_box.get_center())
+    leak_feature = RoundedRectangle(
+        corner_radius=0.10, width=2.65, height=0.42,
+        fill_color=cfg.RED, fill_opacity=0.18,
+        stroke_color=cfg.RED, stroke_width=1.8,
+    )
+    leak_feature_text = Text("account_closed_date", font_size=17, color=cfg.RED, weight=BOLD)
+    leak_feature_text.set_stroke(cfg.BG, width=2, background=True)
+    leak_feature_text.move_to(leak_feature.get_center())
+    leak_chip = VGroup(leak_feature, leak_feature_text).to_corner(UR, buff=0.58).shift(DOWN * 1.25)
+    leak_arrow = Arrow(
+        leak_chip.get_left(), leak_panel.get_right() + LEFT * 0.2,
+        buff=0.08, color=cfg.RED, stroke_width=4,
+        max_tip_length_to_length_ratio=0.22,
+    )
     paced_play(
         scene,
         FadeOut(cap_test),
+        FadeIn(leak_chip, shift=LEFT * 0.10),
+        GrowArrow(leak_arrow),
         FadeIn(leak_panel, shift=UP * 0.10),
         run_time=0.75,
     )
@@ -230,7 +275,8 @@ def play_scene(scene: Scene) -> None:
     cap_final = bottom_caption("Fitting the training data ≠ generalising to new data.", color=cfg.GOLD)
     paced_play(
         scene,
-        FadeOut(leak_panel), FadeIn(cap_final, shift=UP * 0.1),
+        FadeOut(leak_panel), FadeOut(leak_chip), FadeOut(leak_arrow),
+        FadeIn(cap_final, shift=UP * 0.1),
         run_time=0.6,
     )
     narration_wait(scene, 1.3)

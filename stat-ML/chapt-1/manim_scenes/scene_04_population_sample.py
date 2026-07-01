@@ -122,7 +122,42 @@ def play_scene(scene: Scene) -> None:
     rep_content.move_to(rep_box.get_center())
 
     paced_play(scene, FadeIn(rep_panel, shift=LEFT * 0.12), run_time=0.8)
-    narration_wait(scene, 0.9)
+    narration_wait(scene, 0.5)
+
+    # Show that a sample can be large but still represent the wrong world.
+    biased_idx = np.argsort(pts[:, 0])[-42:]
+    biased_dots = VGroup(*[
+        Dot(point=[pts[i, 0], pts[i, 1], 0],
+            radius=0.074, color=cfg.RED, fill_opacity=0.88)
+        for i in biased_idx
+    ])
+    bias_panel_box = RoundedRectangle(
+        corner_radius=0.12, width=5.25, height=1.25,
+        fill_color=cfg.COLORS["panel"], fill_opacity=0.90,
+        stroke_color=cfg.RED, stroke_width=2.2,
+    )
+    bias_panel_text = VGroup(
+        Text("Sampling bias", font_size=cfg.FONT["tiny"], color=cfg.RED, weight=BOLD),
+        Text("real data, wrong world", font_size=20, color=cfg.WHITE),
+        Text("one age group · sunny weather only", font_size=18, color=cfg.GOLD),
+    ).arrange(DOWN, buff=0.02)
+    for mob in bias_panel_text:
+        mob.set_stroke(cfg.BG, width=2, background=True)
+        if mob.width > 4.8:
+            mob.scale_to_fit_width(4.8)
+    bias_panel = VGroup(bias_panel_box, bias_panel_text).to_corner(DR, buff=0.50).shift(UP * 1.05)
+    bias_panel_text.move_to(bias_panel_box.get_center())
+
+    paced_play(
+        scene,
+        sample_dots.animate.set_fill(opacity=0.20),
+        pop_dots.animate.set_fill(opacity=0.10),
+        FadeOut(rep_panel),
+        LaggedStart(*[FadeIn(d, scale=0.45) for d in biased_dots], lag_ratio=0.025),
+        FadeIn(bias_panel, shift=LEFT * 0.12),
+        run_time=1.2,
+    )
+    narration_wait(scene, 1.0)
 
     # ── Phase 3: Population mean μ vs sample mean x̄ ────────────────────────
     true_mean_x = float(pts[:, 0].mean())
@@ -150,9 +185,12 @@ def play_scene(scene: Scene) -> None:
 
     paced_play(
         scene,
+        FadeOut(biased_dots),
+        FadeOut(bias_panel),
+        sample_dots.animate.set_fill(opacity=0.92),
+        pop_dots.animate.set_fill(opacity=0.18),
         Create(pop_mean_line), FadeIn(mu_label),
         FadeOut(cap_sample),
-        FadeOut(rep_panel),
         run_time=0.9,
     )
     paced_play(

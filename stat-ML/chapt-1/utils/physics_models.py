@@ -56,7 +56,7 @@ def course_parts() -> list[dict]:
     """Series structure for the opening roadmap."""
     return [
         {"part": "Part 1", "title": "Foundations",          "chapters": "Ch 1–7",   "color": "#5FB3B3"},
-        {"part": "Part 2", "title": "Inference & Learning", "chapters": "Ch 8–15",  "color": "#99C794"},
-        {"part": "Part 3", "title": "Evaluation",           "chapters": "Ch 16–20", "color": "#C594C5"},
-        {"part": "Part 4", "title": "Advanced ML",          "chapters": "Ch 21–28", "color": "#FAC863"},
+        {"part": "Part 2", "title": "Inference & Learning", "chapters": "Ch 8–14",  "color": "#99C794"},
+        {"part": "Part 3", "title": "Evaluation",           "chapters": "Ch 15–21", "color": "#C594C5"},
+        {"part": "Part 4", "title": "Advanced ML",          "chapters": "Ch 22–28", "color": "#FAC863"},
     ]
