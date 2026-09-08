@@ -1,0 +1,13 @@
+This machine doubles whatever enters. Nothing is hidden. Its entire job is to multiply the input by two.
+
+One goes in. Two comes out. Three goes in. Six comes out. Before the next number arrives, make a prediction. What should happen to five? Ten. Each answer follows from the same rule.
+
+Keep a record of those inputs and outputs, and we get a table. The table records examples. The rule covers every allowed input.
+
+Now let's give the rule a name. Call it f. Mathematicians write, f of x equals two x. This is the machine written in symbols.
+
+The letter f names the rule. The letter x stands for the input. And f of x names the output for that input. For our doubling machine, that output equals two times x.
+
+The parentheses tell us which input we are using. F of x does not mean f times x. It means the output of f when the input is x. The multiplication belongs to the rule on the other side of the equals sign.
+
+So f of three asks what this machine gives back when three goes in. Replace x with three. Two times three is six. The box, the table, and the notation all agree. But there is one promise every function must keep.

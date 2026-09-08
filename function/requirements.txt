@@ -1,0 +1,10 @@
+# Core rendering stack for "What Does a Function Actually Do?"
+manim>=0.19.0,<0.22
+numpy>=1.26
+
+# Local Oceanic Next theme (themes/ at the repository root) is loaded through
+# manim-themes; it reads the iTerm2 colour scheme shipped in themes/iTerm2Themes.
+manim-themes>=0.1.0
+
+# Optional, only if you add a narration track with manim-voiceover:
+#   pip install "manim-voiceover[azure,gtts]>=0.3.7"

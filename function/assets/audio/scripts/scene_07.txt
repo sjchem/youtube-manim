@@ -1,0 +1,15 @@
+Return to the squaring rule and leave a grey copy of its graph behind. That copy gives us a reference for every change.
+
+First, add two to every output. An answer of zero becomes two. An answer of one becomes three. The input stays where it was, while every output moves two units up. So the whole parabola rises. Reset it before the next experiment.
+
+Now subtract two inside the function. We write f of x minus two. This changes what enters the original machine. It is tempting to expect a move to the left. Watch the lowest point instead.
+
+The original machine gives its smallest output when it receives zero. The modified machine receives x minus two. To make that zero, x must equal two. So the new lowest point sits two units to the right.
+
+Try another landmark. The old input one produced one. The new external input three sends one into the squaring machine, so it also produces one. Every old output now occurs two input units farther right. That explains the direction of the shift.
+
+Reset again, and double every output. Follow the point whose input is one. Its output used to be one. Now it is two. The input stays fixed while the point moves vertically. Every output doubles, creating a vertical stretch. Multiplying the outputs by one half would compress the graph instead.
+
+Finally, change the sign of every output. Positive heights become negative heights. The point at zero stays put. The graph reflects across the horizontal axis.
+
+Upward shift. Rightward shift. Stretch. Reflection. Each movement follows from an operation on the inputs or outputs. We can even build these operations as separate machines. What happens when we connect them?

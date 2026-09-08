@@ -1,0 +1,15 @@
+The mathematics of calculus, the equations of physics, and the neural networks behind AI all build on one idea. The function.
+
+Symbols aside, watch what happens. Something goes in. A rule acts on it. Something comes out. For each specified input, one determined output.
+
+Calculus, physics, statistics, machine learning, and AI all build on this idea.
+
+A coin and a selection enter a working vending machine. Out comes your drink.
+
+Ten degrees Celsius enters a converter. Fifty degrees Fahrenheit comes out.
+
+An image enters a fixed neural network. In this example, it returns a ninety-eight percent cat score.
+
+Different inputs. Different rules. The same structure. We will turn it into numbers, a table, and a graph. Later, we will connect machines, and even ask when we can run them backwards.
+
+So, what does a function actually do?

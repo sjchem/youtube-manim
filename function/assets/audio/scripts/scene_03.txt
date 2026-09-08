@@ -1,0 +1,11 @@
+Watch the doubling rule one input at a time. One goes to two. Two goes to four. Three goes to six. Each row records one input and its answer. Every allowed input determines exactly one output. That is the promise a function keeps.
+
+Focus on two. Four is its answer. Now add seven as another answer. Which output should we use?
+
+That is not a function of the input we specified. One input has two outputs. Each allowed input must determine exactly one output. A real device may seem inconsistent because we left out an input, such as its settings or state.
+
+Now consider a different rule: square the input. Negative two, multiplied by negative two, gives four. Positive two, multiplied by positive two, also gives four.
+
+Is that a problem? No. Follow either input separately: each has exactly one answer. Different inputs may share an output. An individual input cannot split.
+
+That shared answer will matter when we try to run the machine backwards. For now, keep the promise in mind: each allowed input determines exactly one output. But which inputs are we allowed to use?

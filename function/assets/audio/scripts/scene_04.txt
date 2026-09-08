@@ -1,0 +1,11 @@
+Consider the area of a circle. Give the rule a radius, and it gives you an area. The area is pi times the radius squared. One radius determines one area.
+
+Watch the circle grow. The gold dot tracks the radius. The green dot tracks the area on a separate scale. Doubling the radius makes the area four times as large. The output can change differently from the input.
+
+Now try a radius of negative three metres. The algebra could square negative three, but a negative length does not describe a physical radius. For this model, it is not an allowed input.
+
+The allowed inputs form the domain. Here we allow zero and every positive radius, with zero representing the limiting case of zero area.
+
+The outputs actually reached form the range. Every area we produce is nonnegative. And every nonnegative area can be reached by choosing a suitable radius. So the range is zero and everything above it too.
+
+The domain belongs to the function, along with the rule. Change the allowed inputs, and the outputs you can reach may change as well. That will help us later with inverses. For now, let's keep a record of the machine's answers and turn that record into a picture.

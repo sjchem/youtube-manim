@@ -1,0 +1,13 @@
+Start with a curve again. Now tilt the camera. There is another direction available, stretching across the floor. The curve we were looking at is one slice of a larger surface.
+
+Let an input contain two numbers, x and y. Together they form one ordered pair. The rule takes that pair and returns one number, z. We write z equals f of x and y.
+
+Every location on the floor specifies an input pair. The height of the surface there records its output. Hold y fixed, and you see a curve. Allow y to vary as well, and all those slices form a landscape.
+
+Pick one location. Follow the vertical marker to the surface. One input pair determines one height. The definition of a function has stayed the same.
+
+This also gives us a picture of model training. Imagine the two coordinates are adjustable model settings, and height represents a loss: a score we want to reduce. This is an illustrative surface, not measurements from a real model.
+
+The walker changes the settings by taking steps downhill. This method is called gradient descent. On this example, the steps approach a valley. Real training can involve millions of settings, and it is not guaranteed to find the lowest possible valley.
+
+More coordinates make the picture harder to draw, but the relationship remains: an input, a rule, and an output. Let's return to the applications we promised at the beginning.

@@ -1,0 +1,13 @@
+Bring back the squaring machine. This time, allow every real number as an input. We will start with just five examples.
+
+Negative two gives four. Negative one gives one. Zero gives zero. One gives one. Two gives four. Each journey becomes a row in our table.
+
+Now look closely at one row. It contains two pieces of information: what went in, and what came out. We can write those as an ordered pair. Input first. Output second. So two going to four becomes the pair, two comma four.
+
+Give those pairs a place on a coordinate plane. The horizontal direction records the input. The vertical direction records the output. Negative two and four means two units left and four units up. Negative one and one means one left and one up. Zero and zero sits at the origin. The positive inputs land to the right.
+
+Now test inputs between our original five. More dots appear. The squaring rule also works for fractions and decimals, so the pattern keeps filling in.
+
+Five dots alone would not tell us the whole rule. We can draw this smooth curve because we know the rule for every input between them. And the graph continues beyond our viewing window.
+
+A graph is a picture of all the allowed input and output pairs. Every point says: this input gives this output. The machine, the table, and the curve describe the same relationship. That means the one-output promise should be visible in the graph itself.

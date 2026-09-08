@@ -1,0 +1,15 @@
+Here are two machines. The first adds two. Call it f. The second squares its input. Call it g. We will connect them so the first output becomes the second input.
+
+Start with x. After the first machine, we have x plus two. That entire result enters the squaring machine. So the final output is x plus two, all squared.
+
+We write this as g of f of x. Read the expression from the inside out. F acts first, then g acts on what f produced. This is composition.
+
+Try a number. Three enters the first machine and becomes five. Five enters the second and becomes twenty-five. One journey, with an intermediate answer in the middle.
+
+Now swap the machines. The squaring machine acts first. X becomes x squared. Then the other machine adds two, giving x squared plus two.
+
+Test three again. Three becomes nine. Nine becomes eleven. Twenty-five in the first arrangement. Eleven in the second. The parts and starting input stayed the same, but the order changed the result.
+
+The graphs connect this to our previous experiment. Adding two before squaring shifts this parabola left. Adding two afterwards shifts it up. Some pairs of functions do give the same result in either order, but we cannot assume that.
+
+The small circle between g and f is another way to write composition: f first, then g. A connected machine also needs the first output to be an allowed input for the next. Now imagine choosing that next machine for a special purpose: undoing the first.

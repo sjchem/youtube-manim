@@ -1,0 +1,9 @@
+A vertical line holds the horizontal coordinate fixed. Wherever it meets our graph, it finds an output for that input.
+
+Slide the line across the parabola. One crossing. One answer. At every input we inspect, the machine keeps its promise.
+
+Now replace the parabola with this circle. Run the same scanner across it. In the middle, the line crosses twice. At x equals zero, the circle has a point at y equals two, and another at y equals negative two.
+
+One input. Two different outputs. So the whole circle cannot be the graph of y as a function of x. Its upper and lower halves can each be graphed as separate functions.
+
+This is the vertical line test: scan the graph and count intersections. Every vertical line may meet it at most once. No crossing means the input lies outside the domain. Two crossings mean one input has two outputs. Now that we can read a graph, let's see how editing the rule changes its shape.

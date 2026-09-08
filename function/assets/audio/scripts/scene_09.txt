@@ -1,0 +1,17 @@
+Our doubling machine takes five and returns ten. What operation would take that ten back to five?
+
+Divide by two. Send ten through the new machine, and five comes back. We have recovered the original input.
+
+This new rule is the inverse of f. We write f with a small minus one above it, and read that as f inverse. Here, f of x is two x, and f inverse of x is x divided by two.
+
+That notation means undo the function. It does not mean take the reciprocal of its output. For this example, halving x and taking one divided by two x are different operations.
+
+Run f and then its inverse. Whatever input you started with comes back unchanged. The two machines cancel each other's action.
+
+Now put the original rule on a square coordinate grid. Draw the diagonal line, y equals x, as a reference. Watch one point on the doubling graph: one comma two. It records one going in and two coming out.
+
+The inverse reverses that journey. Two goes in and one comes out. Its graph therefore contains two comma one. The coordinates have swapped places.
+
+The same reasoning works for every point. If the original sends a to b, the inverse sends b to a. Input and output exchange roles. On a grid with equal scales, swapping coordinates reflects a point across y equals x.
+
+Reflect the whole line, and the graph of the inverse appears. The geometry follows directly from reversing the relationship. But we recovered five from ten because there was only one possible starting value. What if two different inputs had produced the same output?

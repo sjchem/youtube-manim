@@ -1,0 +1,9 @@
+We began with input, rule, output. Then we named the rule f, the input x, and the output f of x.
+
+A table recorded examples. A graph pictured the pairs. Composition connected rules. An inverse, when it existed, recovered the input from the output.
+
+F of x is just a compact way of describing how one quantity determines another. The symbols let us carry that relationship into more complicated questions.
+
+Whenever the notation feels unfamiliar, return to three questions. What is the input? What rule connects it to the output? And does each allowed input determine exactly one output?
+
+Input. Rule. Output. That is a function.

@@ -1,0 +1,11 @@
+Remember the squaring machine. Positive two and negative two both give four. Going forward, each input still gives one output.
+
+Now reverse the question. If four came out, what went in? Positive two? Negative two? The output does not preserve that distinction. We cannot define an inverse function that recovers every original real input.
+
+The graph shows why. The horizontal line at four meets the parabola twice. It has found two different inputs for the same output. This is the horizontal line test for a one-to-one function: different inputs give different outputs.
+
+We can change the situation by restricting the domain. Allow only zero and positive inputs. Fade away the negative half of the parabola. Now four can only have come from two.
+
+Reflect the remaining half across y equals x. The inverse is the square-root function. It takes a nonnegative number and returns its nonnegative square root. The square root of four is two. Solving the equation x squared equals four still gives both positive and negative two.
+
+An inverse works on the outputs the original function actually reaches. Restricting the inputs has made that return journey unambiguous. So far our graphs have used one numerical input at a time. What would change if one input contained two numbers?

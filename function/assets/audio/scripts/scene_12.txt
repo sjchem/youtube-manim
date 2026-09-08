@@ -1,0 +1,11 @@
+Keep the same diagram and change its labels. In a model of motion, time is the input and position is the output. Specify the motion and its starting conditions, and each time determines a position.
+
+Calculus asks how that position changes. Differentiation takes a suitable position function and produces a velocity function. A derivative describes local change. Integration lets us accumulate quantities over an interval. Both begin with a relationship between quantities.
+
+In statistics, a probability model can take observed information and return the probability of an event. The outcome itself may be uncertain, while the model assigns one probability to the specified input.
+
+In machine learning, an input can be a list of features. A trained model transforms those features into a prediction. A function can still make inaccurate predictions.
+
+Now look at this feedforward neural network. Each layer applies a function and passes its output to the next. It is the composition diagram we built earlier, extended into a chain. With the model and inference settings fixed, that chain determines the prediction.
+
+Calculus, physics, statistics, machine learning, and AI ask different questions. How does the output change? What can we predict? How should a model's settings change? Functions give us a common language for expressing those relationships. That is why this simple idea opens so many doors.
