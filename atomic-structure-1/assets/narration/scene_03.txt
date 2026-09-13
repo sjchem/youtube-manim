@@ -1,0 +1,11 @@
+Imagine dividing a piece of an element into smaller and smaller pieces. How far could you go before it stopped being that element?
+
+Dalton treated matter as a collection of tiny atoms. In his model, an atom was an indivisible unit, often pictured as a solid sphere. There was no internal structure to explain.
+
+That was a useful starting point for chemistry. Think of building with a fixed recipe. A water molecule contains two hydrogen atoms for every oxygen atom. Make more water, and the recipe stays the same.
+
+Atoms offered a way to understand why substances combine in definite proportions. The picture explained patterns that chemists could measure, even though they could not see the individual pieces.
+
+But explaining a chemical recipe is not the same as proving that an atom has nothing inside it. Electrical experiments were about to reveal something smaller.
+
+The next clue appeared inside an almost empty glass tube.

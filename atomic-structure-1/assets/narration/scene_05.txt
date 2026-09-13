@@ -1,0 +1,19 @@
+If an atom contains negative electrons, why is an ordinary spoon usually electrically neutral? There must be positive charge balancing the negative charge.
+
+Thomson imagined that positive charge spread throughout the atom, with electrons embedded inside it. Picture raisins in a small bun. The raisins stand for electrons, and the bun stands for the spread-out positive charge.
+
+The comparison is only about arrangement. An atom does not contain bread, and this positive region is not a collection of tiny nuclei.
+
+Rotate the picture and look inside. Negative particles, surrounded by positive charge. Equal amounts cancel, and the atom is neutral. The model explains the observation we started with.
+
+Now comes the useful question. What would this model predict in a new experiment?
+
+Meet the alpha particle. It is positively charged, much heavier than an electron, and, in this experiment, moving fast. Imagine sending one through Thomson's atom.
+
+Like charges repel. The positive charge in the atom pushes on the positive alpha particle. But that charge is spread across the whole atomic volume. For these fast particles, the expected individual deflections are small.
+
+The electrons are too light to turn a heavy alpha particle around in a single encounter. There is no tiny, concentrated positive core to deliver a strong push.
+
+So a thin sheet of these atoms should let most alpha particles continue roughly forwards, with small deviations. Large backward deflections should be extraordinarily unlikely.
+
+Keep that prediction in mind. Mostly forwards. Small bends. Now we can put the picture on trial.

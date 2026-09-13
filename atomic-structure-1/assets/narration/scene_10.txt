@@ -1,0 +1,15 @@
+Imagine holding a ball at different positions on a ramp. You can choose any height along the slope. There is a continuous range of possibilities.
+
+Now replace the ramp with a staircase. A ball supported on a tread can rest at one step height or another. The supported resting heights come in steps.
+
+Bohr proposed something similar for the energy of a bound electron. Only certain stationary energies are allowed.
+
+The steps are an analogy for energy, not physical shelves inside the atom. An electron is not a little person climbing a building.
+
+Here are hydrogen's allowed energies. The lowest level is the ground state. The next is a long way above it. Higher levels crowd closer together, approaching the energy needed to free the electron from the atom.
+
+Bohr also made a bold assumption. An electron in one of his allowed stationary states does not continuously radiate energy. This gives the model a stable ground state, although it does not yet explain why nature follows that rule.
+
+The electron can gain energy and reach a higher allowed level. When it changes to a lower one, the energy difference has to go somewhere.
+
+That is where the light comes in.

@@ -1,0 +1,13 @@
+The scattering experiment has given us a tiny positive nucleus, with electrons outside it. It is tempting to picture a miniature solar system.
+
+But the forces are different. A planet's orbit is mainly governed by gravity. An electron is electrically charged, and that brings a problem.
+
+Watch its direction as it moves around the circle. Even if its speed stays constant, its direction keeps changing. In physics, that is acceleration.
+
+Classical electromagnetism says an accelerating charge radiates energy. So the circling electron should lose energy, move into a smaller orbit, and radiate again.
+
+The process feeds on itself. The orbit shrinks. The electron spirals inward. At atomic scales, the predicted collapse is incredibly fast.
+
+Now you recognise our opening mystery. The nucleus explains the scattering, but this classical orbit cannot explain a stable atom.
+
+It is not enough to put a new label on the picture. Something in the rules has to change. To find the next clue, we need to look at the light atoms emit.

@@ -1,0 +1,21 @@
+Working with Rutherford, Geiger and Marsden sent alpha particles towards a very thin metal foil. Gold could be beaten into an exceptionally thin sheet, making it useful for this experiment.
+
+A radioactive source produces the particles. A narrow opening selects a beam. The beam meets the foil, and a fluorescent screen detects particles through tiny flashes.
+
+The detector could be moved to observe different directions. Our surrounding ring brings those possible detector positions into one picture.
+
+At first, the result looks reassuring. Most particles pass almost straight through. Flash after flash appears near the forward direction.
+
+Some particles emerge at larger angles. That is already interesting. But the real surprise is much rarer.
+
+Watch this one.
+
+It approaches the foil... turns sharply... and comes back towards the side it came from.
+
+A heavy, fast particle has been redirected through a huge angle by something inside an atom. The diffuse positive charge in Thomson's picture cannot account for the observed rate of these large deflections.
+
+A familiar textbook summary gives roughly one backward event in twenty thousand particles under the conditions described. That number is not a universal probability for every foil and beam. Our animation also shows the rare events more often so we can examine them.
+
+Most particles going through did not save the model. The rare exceptions told us something its picture was missing.
+
+There had to be a much more concentrated source of repulsion. Something small enough for almost every particle to miss, and strong enough to turn a close encounter into a dramatic bend.

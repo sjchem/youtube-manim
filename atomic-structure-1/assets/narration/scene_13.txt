@@ -1,0 +1,13 @@
+Are electrons really tiny balls following circular tracks around the nucleus?
+
+No. Bohr's orbits are part of a historical model. They are not the modern description of an electron in an atom.
+
+The model succeeds for the main features of hydrogen and other one-electron systems. But atoms with several electrons are more complicated. The simple theory cannot explain their spectra reliably.
+
+Look more closely at spectral lines, and finer details appear. Apply external fields, and lines can split. Chemical bonding raises further questions that circular tracks alone cannot answer.
+
+These limits do not erase what the model achieved. The nucleus survives. Quantized energies survive. What changes is the description of the electron.
+
+Experiments would reveal wave-like behaviour as well as particle-like detection. The electron does not simply stop being a particle and turn into an ordinary wave. Neither everyday picture is enough by itself.
+
+Watch the fixed track begin to dissolve. We need a new way to describe what an electron can do, and where we might detect it.

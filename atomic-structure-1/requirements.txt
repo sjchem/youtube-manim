@@ -1,0 +1,14 @@
+# Manim Community Edition. Developed against 0.19.2 and verified against
+# 0.21.0, which is what this repository's pyenv environment ships.
+manim>=0.19,<0.22
+numpy>=1.26
+
+# Required by this repository's own themes/ package: themes/base.py does
+# `from manim_themes.manim_theme import apply_theme`, so the Oceanic Next
+# theme does not load without it.
+manim-themes>=0.1.3
+
+# Not a dependency of this film, but of ManimGL, which shares the same
+# environment: manimgl 1.7.2 still imports pkg_resources, and setuptools 81
+# removed it. Without this pin `import manimlib` fails.
+setuptools<81

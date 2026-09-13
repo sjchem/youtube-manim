@@ -1,0 +1,15 @@
+Watch an electron change from an upper energy level to a lower one. The atom loses energy, and in this radiative transition the difference leaves as a photon: a packet of light.
+
+The arrow shows a change in energy. It is not a filmed path of an electron falling through space.
+
+The key relationship is simple. The photon's energy equals the energy gap. It also equals Planck's constant multiplied by the light's frequency.
+
+A larger energy gap produces a higher-frequency photon with a shorter wavelength. A smaller gap produces a lower-frequency photon with a longer wavelength. All of them travel at the same speed in a vacuum.
+
+Now consider four transitions ending on hydrogen's second level. From level three, from level four, from level five, and from level six.
+
+Four gaps. Four photon energies. Four spectral lines. As each photon reaches our spectrum, it marks the wavelength set by its energy.
+
+Take just one numerical example. Level five down to level two gives a wavelength of about four hundred and thirty-four nanometres. That matches the violet line we saw earlier.
+
+The barcode now has a physical explanation. Its lines record particular changes in an atom's energy.

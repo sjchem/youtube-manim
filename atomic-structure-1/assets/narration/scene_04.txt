@@ -1,0 +1,19 @@
+Here is the tube. Most of the gas has been pumped out, so particles can travel farther before colliding with gas molecules.
+
+At one end is a negative electrode, called the cathode. Farther along is a positive electrode, the anode, with an opening in it. Beyond that sits a screen that glows when something strikes it.
+
+Apply a high voltage, and a bright spot appears. Something travels from the cathode, through the opening, and reaches the screen. The glowing spot reveals a beam that we cannot directly see in flight.
+
+Put an obstacle in its path. A shadow appears. Without an applied field, the beam travels in straight lines.
+
+Now place charged plates above and below it. Switch them on, and the spot moves. The beam bends towards the positive plate. Reverse the field, and the bend reverses too.
+
+Opposite charges attract. So the particles in this beam carry negative charge.
+
+By comparing electric and magnetic deflections, Thomson measured their charge relative to their mass. We now know an electron has about one eighteen-hundredth of the mass of a hydrogen atom. The charge-to-mass measurement was a crucial step towards that conclusion.
+
+But here is the result that changes our picture of matter. Change the electrode material. Change the gas in the tube. The particles have the same characteristic charge-to-mass ratio.
+
+They were not fragments unique to one substance. They were a common ingredient of atoms: electrons.
+
+Dalton's indivisible sphere now had something inside it. What else would the atom need?

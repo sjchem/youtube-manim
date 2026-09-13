@@ -1,0 +1,261 @@
+# Narration — How We Discovered What an Atom Looks Like, Part 1
+
+Spoken text only below each scene heading. Timings are planning windows, not measured voice lengths. The plain-text exports in `assets/narration/` are ready to paste into ElevenLabs; headings and production notes are excluded.
+
+## Scene 01 — The Impossible Atom — 0:00–1:05
+
+You've probably seen an atom drawn like this. A tiny nucleus in the middle, with an electron travelling around it.
+
+But there's a problem. According to classical physics, that moving electron should lose energy. Its orbit should shrink. It should spiral inward... and crash into the nucleus.
+
+That should happen in a tiny fraction of a second. Yet the atoms in your hand are still here. So why doesn't this happen?
+
+We're not going to memorize the models of the atom. We're going to discover why each one had to exist.
+
+And here's the bigger mystery. Scientists worked out the structure of atoms long before they could make images of individual ones. How do you discover what's inside something you cannot see?
+
+Our story begins with a simple idea. Watch what it does to something you can measure.
+
+## Scene 02 — Seeing the Invisible — 1:05–2:15
+
+Imagine an object hidden in a completely dark room. You cannot see its outline, but you can roll balls towards it and record where they go.
+
+One misses the object and reaches the far wall. Another comes back towards you. A third bounces off to the side. Each path rules out some possibilities and supports others.
+
+Keep changing where you aim. Gradually, the bounces begin to suggest an outline. You have learned something about the object without looking at it directly.
+
+Atomic experiments use the same kind of reasoning. Build a possible picture. Ask what that picture predicts. Then compare the prediction with a measurement.
+
+The analogy has a limit. Particles near an atom can turn because of electric forces, without touching a hard surface. But the detective work is the same. The paths carry information.
+
+Before those experiments, though, the atom had a much simpler picture.
+
+## Scene 03 — Dalton's Starting Point — 2:15–3:30
+
+Imagine dividing a piece of an element into smaller and smaller pieces. How far could you go before it stopped being that element?
+
+Dalton treated matter as a collection of tiny atoms. In his model, an atom was an indivisible unit, often pictured as a solid sphere. There was no internal structure to explain.
+
+That was a useful starting point for chemistry. Think of building with a fixed recipe. A water molecule contains two hydrogen atoms for every oxygen atom. Make more water, and the recipe stays the same.
+
+Atoms offered a way to understand why substances combine in definite proportions. The picture explained patterns that chemists could measure, even though they could not see the individual pieces.
+
+But explaining a chemical recipe is not the same as proving that an atom has nothing inside it. Electrical experiments were about to reveal something smaller.
+
+The next clue appeared inside an almost empty glass tube.
+
+## Scene 04 — Something Smaller Than an Atom — 3:30–5:30
+
+Here is the tube. Most of the gas has been pumped out, so particles can travel farther before colliding with gas molecules.
+
+At one end is a negative electrode, called the cathode. Farther along is a positive electrode, the anode, with an opening in it. Beyond that sits a screen that glows when something strikes it.
+
+Apply a high voltage, and a bright spot appears. Something travels from the cathode, through the opening, and reaches the screen. The glowing spot reveals a beam that we cannot directly see in flight.
+
+Put an obstacle in its path. A shadow appears. Without an applied field, the beam travels in straight lines.
+
+Now place charged plates above and below it. Switch them on, and the spot moves. The beam bends towards the positive plate. Reverse the field, and the bend reverses too.
+
+Opposite charges attract. So the particles in this beam carry negative charge.
+
+By comparing electric and magnetic deflections, Thomson measured their charge relative to their mass. We now know an electron has about one eighteen-hundredth of the mass of a hydrogen atom. The charge-to-mass measurement was a crucial step towards that conclusion.
+
+But here is the result that changes our picture of matter. Change the electrode material. Change the gas in the tube. The particles have the same characteristic charge-to-mass ratio.
+
+They were not fragments unique to one substance. They were a common ingredient of atoms: electrons.
+
+Dalton's indivisible sphere now had something inside it. What else would the atom need?
+
+## Scene 05 — Thomson's Model and Its Prediction — 5:30–7:30
+
+If an atom contains negative electrons, why is an ordinary spoon usually electrically neutral? There must be positive charge balancing the negative charge.
+
+Thomson imagined that positive charge spread throughout the atom, with electrons embedded inside it. Picture raisins in a small bun. The raisins stand for electrons, and the bun stands for the spread-out positive charge.
+
+The comparison is only about arrangement. An atom does not contain bread, and this positive region is not a collection of tiny nuclei.
+
+Rotate the picture and look inside. Negative particles, surrounded by positive charge. Equal amounts cancel, and the atom is neutral. The model explains the observation we started with.
+
+Now comes the useful question. What would this model predict in a new experiment?
+
+Meet the alpha particle. It is positively charged, much heavier than an electron, and, in this experiment, moving fast. Imagine sending one through Thomson's atom.
+
+Like charges repel. The positive charge in the atom pushes on the positive alpha particle. But that charge is spread across the whole atomic volume. For these fast particles, the expected individual deflections are small.
+
+The electrons are too light to turn a heavy alpha particle around in a single encounter. There is no tiny, concentrated positive core to deliver a strong push.
+
+So a thin sheet of these atoms should let most alpha particles continue roughly forwards, with small deviations. Large backward deflections should be extraordinarily unlikely.
+
+Keep that prediction in mind. Mostly forwards. Small bends. Now we can put the picture on trial.
+
+## Scene 06 — The One That Came Back — 7:30–9:35
+
+Working with Rutherford, Geiger and Marsden sent alpha particles towards a very thin metal foil. Gold could be beaten into an exceptionally thin sheet, making it useful for this experiment.
+
+A radioactive source produces the particles. A narrow opening selects a beam. The beam meets the foil, and a fluorescent screen detects particles through tiny flashes.
+
+The detector could be moved to observe different directions. Our surrounding ring brings those possible detector positions into one picture.
+
+At first, the result looks reassuring. Most particles pass almost straight through. Flash after flash appears near the forward direction.
+
+Some particles emerge at larger angles. That is already interesting. But the real surprise is much rarer.
+
+Watch this one.
+
+It approaches the foil... turns sharply... and comes back towards the side it came from.
+
+A heavy, fast particle has been redirected through a huge angle by something inside an atom. The diffuse positive charge in Thomson's picture cannot account for the observed rate of these large deflections.
+
+A familiar textbook summary gives roughly one backward event in twenty thousand particles under the conditions described. That number is not a universal probability for every foil and beam. Our animation also shows the rare events more often so we can examine them.
+
+Most particles going through did not save the model. The rare exceptions told us something its picture was missing.
+
+There had to be a much more concentrated source of repulsion. Something small enough for almost every particle to miss, and strong enough to turn a close encounter into a dramatic bend.
+
+## Scene 07 — A Cricket Ball and Five Kilometres — 9:35–11:30
+
+Read the evidence back, one observation at a time.
+
+Most alpha particles pass through with little deflection. The atom cannot be a solid obstacle filling all of its volume.
+
+Some positive particles turn through large angles. A compact concentration of positive charge explains the strong repulsion. And because close encounters are rare, that region must be tiny compared with the atom.
+
+This is the nucleus. It contains the positive charge and nearly all the atom's mass. The electrons occupy the surrounding region.
+
+How tiny is tiny? Typical atomic and nuclear radii differ by many thousands of times. For a rough classroom comparison, use a difference of about a hundred thousand times.
+
+Now imagine enlarging the nucleus to something you can hold: a cricket ball. On that kind of scale, the atom would extend for kilometres. The familiar textbook comparison puts its radius at about five kilometres.
+
+That is from the ball at the centre out to the atom's characteristic boundary. Across the whole atom would be about ten kilometres. Imagine walking away from that ball, street after street, and still being within the atomic region.
+
+The boundary in our drawing is a size guide, not a solid wall. The exact comparison depends on which atom and which radius we choose.
+
+We often call this mostly empty space. But it is not literally nothing. Electrons and electric fields occupy this region. Electrical interactions and quantum rules help explain why a table still resists your hand.
+
+## Scene 08 — The Beautiful Problem — 11:30–12:50
+
+The scattering experiment has given us a tiny positive nucleus, with electrons outside it. It is tempting to picture a miniature solar system.
+
+But the forces are different. A planet's orbit is mainly governed by gravity. An electron is electrically charged, and that brings a problem.
+
+Watch its direction as it moves around the circle. Even if its speed stays constant, its direction keeps changing. In physics, that is acceleration.
+
+Classical electromagnetism says an accelerating charge radiates energy. So the circling electron should lose energy, move into a smaller orbit, and radiate again.
+
+The process feeds on itself. The orbit shrinks. The electron spirals inward. At atomic scales, the predicted collapse is incredibly fast.
+
+Now you recognise our opening mystery. The nucleus explains the scattering, but this classical orbit cannot explain a stable atom.
+
+It is not enough to put a new label on the picture. Something in the rules has to change. To find the next clue, we need to look at the light atoms emit.
+
+## Scene 09 — The Barcode in the Light — 12:50–14:55
+
+Pass an electric current through a low-pressure hydrogen tube, and it glows. The electrical discharge transfers energy to the gas. Some of that energy comes back out as light.
+
+We have changed the question. Instead of measuring where incoming particles go, we measure which light comes out.
+
+Light can be described as a wave. The distance between neighbouring crests is its wavelength. Within visible light, longer wavelengths are towards red, and shorter wavelengths towards violet.
+
+A prism separates wavelengths. Send a broad source of white light through it, and you can see a continuous rainbow, with neighbouring colours blending together.
+
+Now use the same prism to examine hydrogen's light.
+
+The continuous rainbow disappears. In its place are separate bright lines. Here are four prominent visible lines: red, blue-green, and two towards violet. Hydrogen also has other lines, including many outside the visible range. We are concentrating on these four.
+
+Why does it choose these particular wavelengths?
+
+The white-light band is our comparison, not a prediction that every possible atom must emit every colour. The important observation is that hydrogen repeatedly emits at specific wavelengths.
+
+Each element has its own characteristic pattern, like a barcode. Compare hydrogen with helium. Their patterns differ, so light can help us identify the atoms that produced it, even in distant stars.
+
+Motion can shift a star's whole pattern, and conditions affect the brightness of the lines. But the pattern still carries clues to the element.
+
+To explain hydrogen, our next model must explain why its light comes in these particular energy amounts. Bohr's answer begins with a staircase.
+
+## Scene 10 — Energy Has Floors — 14:55–16:30
+
+Imagine holding a ball at different positions on a ramp. You can choose any height along the slope. There is a continuous range of possibilities.
+
+Now replace the ramp with a staircase. A ball supported on a tread can rest at one step height or another. The supported resting heights come in steps.
+
+Bohr proposed something similar for the energy of a bound electron. Only certain stationary energies are allowed.
+
+The steps are an analogy for energy, not physical shelves inside the atom. An electron is not a little person climbing a building.
+
+Here are hydrogen's allowed energies. The lowest level is the ground state. The next is a long way above it. Higher levels crowd closer together, approaching the energy needed to free the electron from the atom.
+
+Bohr also made a bold assumption. An electron in one of his allowed stationary states does not continuously radiate energy. This gives the model a stable ground state, although it does not yet explain why nature follows that rule.
+
+The electron can gain energy and reach a higher allowed level. When it changes to a lower one, the energy difference has to go somewhere.
+
+That is where the light comes in.
+
+## Scene 11 — A Jump Becomes a Colour — 16:30–18:05
+
+Watch an electron change from an upper energy level to a lower one. The atom loses energy, and in this radiative transition the difference leaves as a photon: a packet of light.
+
+The arrow shows a change in energy. It is not a filmed path of an electron falling through space.
+
+The key relationship is simple. The photon's energy equals the energy gap. It also equals Planck's constant multiplied by the light's frequency.
+
+A larger energy gap produces a higher-frequency photon with a shorter wavelength. A smaller gap produces a lower-frequency photon with a longer wavelength. All of them travel at the same speed in a vacuum.
+
+Now consider four transitions ending on hydrogen's second level. From level three, from level four, from level five, and from level six.
+
+Four gaps. Four photon energies. Four spectral lines. As each photon reaches our spectrum, it marks the wavelength set by its energy.
+
+Take just one numerical example. Level five down to level two gives a wavelength of about four hundred and thirty-four nanometres. That matches the violet line we saw earlier.
+
+The barcode now has a physical explanation. Its lines record particular changes in an atom's energy.
+
+## Scene 12 — What Bohr Got Right — 18:05–19:30
+
+Compare the two pictures using the same questions.
+
+Does the atom have a tiny nucleus? Rutherford's nuclear model says yes. Is most of the atomic volume outside that nucleus? Yes again. Both ideas survive into the next model.
+
+Can a classical orbiting electron stay stable? That is where the planetary picture fails. And it gives no successful explanation for hydrogen's sharp spectrum.
+
+Bohr keeps the nucleus, but introduces allowed stationary energies. Within his model, an electron on an allowed level does not continuously radiate. A transition between levels can produce a photon with a specific energy.
+
+For hydrogen, the calculated wavelengths agree remarkably well with the main spectral lines. The model also works for ions that have just one electron.
+
+The energy formula on screen explains why the levels crowd together. As the level number increases, the bound energies approach zero from below.
+
+But the idea to remember is simpler than the formula. Atomic energies come in steps. A successful model explains several observations with the same rule.
+
+Does that mean its circular orbits are the final picture?
+
+## Scene 13 — Why an Orbit Is Not Enough — 19:30–20:50
+
+Are electrons really tiny balls following circular tracks around the nucleus?
+
+No. Bohr's orbits are part of a historical model. They are not the modern description of an electron in an atom.
+
+The model succeeds for the main features of hydrogen and other one-electron systems. But atoms with several electrons are more complicated. The simple theory cannot explain their spectra reliably.
+
+Look more closely at spectral lines, and finer details appear. Apply external fields, and lines can split. Chemical bonding raises further questions that circular tracks alone cannot answer.
+
+These limits do not erase what the model achieved. The nucleus survives. Quantized energies survive. What changes is the description of the electron.
+
+Experiments would reveal wave-like behaviour as well as particle-like detection. The electron does not simply stop being a particle and turn into an ordinary wave. Neither everyday picture is enough by itself.
+
+Watch the fixed track begin to dissolve. We need a new way to describe what an electron can do, and where we might detect it.
+
+## Scene 14 — Beyond the Orbit — 20:50–21:50
+
+We began with a picture that should collapse. We found electrons, uncovered a nucleus, and used hydrogen's light to discover allowed energies.
+
+Each model earned its place by explaining evidence. Each limit showed us where to look next.
+
+But an electron in an atom is not described by a definite circular route. The emerging cloud represents probabilities for where one electron may be detected. It is not a swarm of tiny electrons.
+
+What determines that cloud? Why does it have a particular shape? And how does the quantum description finally explain a stable atom?
+
+That is our next mystery.
+
+In the next video, we go beyond the orbit, and discover why electrons don't orbit the nucleus.
+
+## Scene 15 — Subscribe: Stay Curious — 21:50–22:05
+
+Thanks for watching. Subscribe for more visual journeys through chemistry, physics, and mathematics. Stay curious, keep asking questions, and keep following physics, chemistry and mathematics.

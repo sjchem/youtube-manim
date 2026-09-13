@@ -1,0 +1,21 @@
+Pass an electric current through a low-pressure hydrogen tube, and it glows. The electrical discharge transfers energy to the gas. Some of that energy comes back out as light.
+
+We have changed the question. Instead of measuring where incoming particles go, we measure which light comes out.
+
+Light can be described as a wave. The distance between neighbouring crests is its wavelength. Within visible light, longer wavelengths are towards red, and shorter wavelengths towards violet.
+
+A prism separates wavelengths. Send a broad source of white light through it, and you can see a continuous rainbow, with neighbouring colours blending together.
+
+Now use the same prism to examine hydrogen's light.
+
+The continuous rainbow disappears. In its place are separate bright lines. Here are four prominent visible lines: red, blue-green, and two towards violet. Hydrogen also has other lines, including many outside the visible range. We are concentrating on these four.
+
+Why does it choose these particular wavelengths?
+
+The white-light band is our comparison, not a prediction that every possible atom must emit every colour. The important observation is that hydrogen repeatedly emits at specific wavelengths.
+
+Each element has its own characteristic pattern, like a barcode. Compare hydrogen with helium. Their patterns differ, so light can help us identify the atoms that produced it, even in distant stars.
+
+Motion can shift a star's whole pattern, and conditions affect the brightness of the lines. But the pattern still carries clues to the element.
+
+To explain hydrogen, our next model must explain why its light comes in these particular energy amounts. Bohr's answer begins with a staircase.

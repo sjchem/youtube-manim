@@ -1,0 +1,15 @@
+Compare the two pictures using the same questions.
+
+Does the atom have a tiny nucleus? Rutherford's nuclear model says yes. Is most of the atomic volume outside that nucleus? Yes again. Both ideas survive into the next model.
+
+Can a classical orbiting electron stay stable? That is where the planetary picture fails. And it gives no successful explanation for hydrogen's sharp spectrum.
+
+Bohr keeps the nucleus, but introduces allowed stationary energies. Within his model, an electron on an allowed level does not continuously radiate. A transition between levels can produce a photon with a specific energy.
+
+For hydrogen, the calculated wavelengths agree remarkably well with the main spectral lines. The model also works for ions that have just one electron.
+
+The energy formula on screen explains why the levels crowd together. As the level number increases, the bound energies approach zero from below.
+
+But the idea to remember is simpler than the formula. Atomic energies come in steps. A successful model explains several observations with the same rule.
+
+Does that mean its circular orbits are the final picture?

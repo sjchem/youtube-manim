@@ -1,0 +1,11 @@
+Imagine an object hidden in a completely dark room. You cannot see its outline, but you can roll balls towards it and record where they go.
+
+One misses the object and reaches the far wall. Another comes back towards you. A third bounces off to the side. Each path rules out some possibilities and supports others.
+
+Keep changing where you aim. Gradually, the bounces begin to suggest an outline. You have learned something about the object without looking at it directly.
+
+Atomic experiments use the same kind of reasoning. Build a possible picture. Ask what that picture predicts. Then compare the prediction with a measurement.
+
+The analogy has a limit. Particles near an atom can turn because of electric forces, without touching a hard surface. But the detective work is the same. The paths carry information.
+
+Before those experiments, though, the atom had a much simpler picture.
