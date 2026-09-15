@@ -1,0 +1,13 @@
+Jump to carbon. Its one s and two s subshells are filled, leaving two electrons for the three equal-energy p orbitals. Here is the first. Where should the second go: alongside it, or into another orbital?
+
+Both choices can respect Pauli exclusion. But for carbon's ground state, the lower-energy arrangement occupies separate p orbitals with parallel spins. We have met Hund's first rule through the choice it explains.
+
+This preference comes from electron interactions and quantum symmetry. The boxes count states; they are not little rooms inside the atom.
+
+Now watch what happens when the choice runs out. Oxygen has eight electrons. Four fill one s and two s. Three of the remaining four go singly into the three p orbitals, one each, exactly as Hund's rule prefers.
+
+The fourth has nowhere empty left to go. So it pairs, with opposite spin, in an orbital that already has an electron. Hund's rule is not a ban on pairing; it is a preference for spreading out while spreading out is still possible. And because all three p orbitals have the same energy here, it makes no difference which one takes the pair.
+
+Now complete the set in one step, arriving at neon. Each p orbital holds an opposite-spin pair. Three spatial orbitals, with two spin states each, give six electrons in a full p subshell. The capacity follows from the quantum labels and exclusion.
+
+These arrows record occupancy, not permanent identities for individual electrons. With the outer shell complete, what changes when we add one more electron?

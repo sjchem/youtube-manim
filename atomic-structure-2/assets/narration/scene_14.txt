@@ -1,0 +1,11 @@
+Start with hydrogen: one proton, one electron. Its lowest-energy state is one s. The superscript in one s, one simply counts the electron. Building from the lowest energy is the idea behind Aufbau.
+
+Now helium adds a second electron. Can both occupy one s?
+
+Write out their addresses. The first electron has n equals one, l equals zero, m sub l equals zero. So does the second — there is nowhere else in that subshell for it to be. Three labels, and all three are identical.
+
+But no two electrons in an atom may share every quantum label. Three already match, so the fourth is the only one left that can differ. It has to be the spin projection: one electron plus one half, the other minus one half. Watch the second arrow reverse.
+
+That is Pauli exclusion. One spatial orbital therefore holds two electrons with opposite spin projections. That restriction is an additional quantum principle for fermions; electrostatic repulsion alone does not explain it.
+
+Lithium adds a third electron. One s is full, so the next electron enters two s. A new outer state opens.

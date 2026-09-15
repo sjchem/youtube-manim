@@ -1,0 +1,7 @@
+In the previous video, experiments forced us to rebuild the atom. Scattering revealed a tiny nucleus. Hydrogen's bright lines revealed a small set of allowed energy changes.
+
+Bohr connected those clues. His model predicted hydrogen's main energy levels remarkably well. But a successful energy calculation did not prove that the electron followed his circular track.
+
+Watch what we keep. The nucleus remains. The allowed energies remain. The spectrum remains. The route around the nucleus becomes a question mark.
+
+We now need a description that earns those energies, instead of attaching them to a picture that cannot survive. The first clue comes from light.

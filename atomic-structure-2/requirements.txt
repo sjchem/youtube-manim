@@ -1,0 +1,14 @@
+# Manim Community Edition. Developed against 0.21.0, which is what this
+# repository's `youtube` pyenv ships; 0.19 also works.
+manim>=0.19,<0.22
+numpy>=1.26
+
+# SciPy supplies the generalized Laguerre polynomials and associated Legendre
+# functions behind the hydrogen radial and angular functions.
+scipy>=1.12
+
+# scikit-image supplies marching_cubes, which extracts the isodensity surfaces.
+scikit-image>=0.23,<0.26
+
+# Pillow assembles the storyboard contact sheets in utils/audit.py.
+Pillow>=10

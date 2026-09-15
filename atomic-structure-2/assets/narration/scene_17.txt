@@ -1,0 +1,13 @@
+Keep going past sodium and the shelves fill in order: one s, two s, two p, three s, three p. That is eighteen electrons, and the atom is argon.
+
+Now potassium, with nineteen. One electron is left. The third shell holds eighteen and we have put in only eight, so surely this one finishes it and enters three d?
+
+It does not. A simple arithmetic guide predicts the order, although explaining the energy requires the interactions we just discussed.
+
+Madelung's guide orders subshells by increasing n plus l, breaking ties with smaller n. Two p and three s both give three, so two p comes first. Three p gives four.
+
+Now the two candidates. Three d: three plus two is five. Four s: four plus zero is four. Four is less than five.
+
+So the nineteenth electron goes into four s. The fourth shell opens before the third is full.
+
+The ground configuration minimizes total energy. This guide often predicts it for neutral atoms, but four s and three d energies depend on occupancy and ionization. They are not fixed shelves. The periodic table and its exceptions are our next video's story.

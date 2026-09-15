@@ -1,0 +1,15 @@
+Which wave states can exist around a nucleus? Start with a string fixed at both ends. A fundamental pattern fits. Another fits with one interior node; another with two. The boundary conditions select the stationary patterns. Other motions can combine these modes.
+
+An atom has no string and no rigid outer wall. The analogy supplies a question, not an atomic model: what determines which wave patterns can exist?
+
+Erwin Schrödinger supplied an equation for the wave function. In its stationary form, H acting on psi equals E times psi. Expand H, and two contributions appear: kinetic energy, involving how the wave function curves through space, and potential energy, describing the interaction.
+
+For hydrogen, the potential is the electrical attraction between electron and proton. Its negative sign reflects attraction, with zero energy chosen for particles separated infinitely far apart. Acceptable bound solutions must also have a finite total probability that we can normalize.
+
+Now watch what solving the equation gives us. The one s state has a spherical probability distribution and an energy of about minus thirteen point six electronvolts. The hydrogen energies follow minus thirteen point six divided by n squared, in this nonrelativistic approximation.
+
+Choose the two p solution. The pattern has two lobes, and its energy is about minus three point four electronvolts. The spatial state and its energy arrive together. We recover Bohr's main hydrogen energies without assigning an electron a circular route.
+
+A stationary state's probability density stays fixed in time, although its wave function has a changing overall phase. The camera rotation lets us inspect the shape; it is not motion of the electron density.
+
+There is a connection to de Broglie here too. A definite wave number carries momentum, and kinetic energy involves momentum squared. In the wave equation, spatial derivatives represent that contribution. Uncertainty constrains the spreads; Schrödinger's equation determines the states. Next, what does psi predict when we detect an electron?

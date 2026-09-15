@@ -1,0 +1,11 @@
+Take the old circle for one last experiment with an idea. Wrap a wave around it. When the ends disagree, there is no single consistent wave at the join. Change the wavelength until the wave meets itself smoothly. Now a whole number of wavelengths fits: four, five, six, and nothing in between.
+
+Now take the smallest pattern of all — one wavelength, closing on itself — and put in the numbers we already have.
+
+The wavelength we calculated for the first-shell electron was three point three two four nine angstroms. The circumference of Bohr's first orbit is three point three two four nine angstroms. The same number.
+
+Write the condition out. Two pi r equals n lambda. Substitute lambda equals h over m v, and you get m v r equals n h over two pi.
+
+That recovers Bohr's quantisation rule within this ring model. It shows how a wave boundary condition can select discrete possibilities.
+
+A hydrogen orbital is a three-dimensional wave, not this ring. Its angular momentum will follow a different rule. First, what does a wave mean for position?

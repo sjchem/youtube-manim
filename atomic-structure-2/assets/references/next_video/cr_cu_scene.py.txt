@@ -1,0 +1,92 @@
+"""Chapter 15: two elements that keep the filling diagram honest.
+
+Chromium and copper are not presented as exceptions to be memorised. They are
+presented as the reminder that the diagonal ordering was always a guide, and
+that what actually decides a ground state is the lowest total energy.
+"""
+
+from __future__ import annotations
+
+import numpy as np
+from manim import *
+
+import config as cfg
+from manim_scenes.common import (
+    QuantumScene,
+    check_mark,
+    outlined_text,
+)
+
+D_SLOTS = 5
+SLOT_WIDTH = 1.16
+
+
+def _arrangement(d_electrons: int, s_electrons: int) -> VGroup:
+    """Five d boxes and one s box, filled the way the narration describes them."""
+    states: list[list[int]] = [[] for _ in range(D_SLOTS)]
+    for index in range(d_electrons):
+        states[index % D_SLOTS].append(1 if index < D_SLOTS else -1)
+    states.append([1, -1][:s_electrons])
+
+    group = VGroup()
+    group.slots = []
+    for column, spins in enumerate(states):
+        x = -3.5 + column * SLOT_WIDTH + (0.62 if column == D_SLOTS else 0.0)
+        slot = RoundedRectangle(width=1.0, height=0.86, corner_radius=0.09, color=cfg.MUTED,
+                                stroke_width=2, fill_color=cfg.PANEL, fill_opacity=0.55).move_to([x, 0, 0])
+        group.add(slot)
+        group.slots.append(slot)
+        for index, spin in enumerate(spins):
+            tip = x + (-0.20 if index == 0 else 0.20)
+            group.add(Arrow([tip, -0.27 * spin, 0], [tip, 0.27 * spin, 0], buff=0,
+                            color=cfg.CYAN if spin == 1 else cfg.PURPLE,
+                            stroke_width=4, max_tip_length_to_length_ratio=0.3))
+    group.add(
+        MathTex("3d", color=cfg.WHITE, font_size=38).move_to([-1.18, 1.05, 0]),
+        MathTex("4s", color=cfg.WHITE, font_size=38).move_to([2.94, 1.05, 0]),
+    )
+    return group.scale(1.22)
+
+
+class Scene15CrCu(QuantumScene):
+    def construct(self) -> None:
+        play_scene(self)
+
+
+def play_scene(scene: QuantumScene) -> None:
+    scene.prepare("15")
+
+    # -- Beat 1: what the simple ordering guide predicts ----------------------
+    scene.morph(_arrangement(4, 2), seconds=2.0)
+    predicted = scene.formula(r"\mathrm{Cr}:\ [\mathrm{Ar}]\,3d^4\,4s^2", position=UP * 2.75, size=50)
+    guide = scene.pin(outlined_text("what the filling guide suggests",
+                                    cfg.FONT["small"], cfg.MUTED).move_to([0, -2.45, 0]))
+    scene.playq(FadeIn(guide), seconds=0.6)
+    scene.at(10)
+    scene.drop(predicted, guide, seconds=0.6)
+
+    # -- Beat 2: what chromium actually does ----------------------------------
+    scene.morph(_arrangement(5, 1), seconds=2.0)
+    observed = scene.formula(r"\mathrm{Cr}:\ [\mathrm{Ar}]\,3d^5\,4s^1",
+                             position=UP * 2.75, size=50, color=cfg.GREEN)
+    tick = scene.show(check_mark(0.24, cfg.GREEN).next_to(observed, RIGHT, buff=0.45), seconds=0.5)
+    scene.at(22)
+    scene.drop(observed, tick, seconds=0.6)
+
+    # -- Beat 3: and copper ----------------------------------------------------
+    scene.morph(_arrangement(10, 1), seconds=2.0)
+    copper = scene.formula(r"\mathrm{Cu}:\ [\mathrm{Ar}]\,3d^{10}\,4s^1",
+                           position=UP * 2.75, size=50, color=cfg.GREEN)
+    scene.at(32)
+
+    rule = scene.pin(outlined_text("the lowest total energy wins",
+                                   cfg.FONT["label"], cfg.GOLD).move_to([0, -2.45, 0]))
+    scene.playq(FadeIn(rule), seconds=0.7)
+    scene.hold(2.4)
+    caveat = scene.pin(outlined_text("half-filled and filled subshells are landmarks, not a shortcut",
+                                     cfg.FONT["tiny"], cfg.MUTED).move_to([0, -3.35, 0]))
+    scene.playq(FadeIn(caveat), seconds=0.6)
+    scene.at(41)
+    scene.drop(copper, rule, caveat, seconds=0.6)
+
+    scene.finish()

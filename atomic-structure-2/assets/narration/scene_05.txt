@@ -1,0 +1,15 @@
+Here is the cleanest version of that experiment. A source, a barrier with two narrow openings, and a screen behind it.
+
+First try narrow streams of tiny classical balls. With this simple geometry, each opening produces a strip of arrivals. Open both and you add the two distributions. There is no interference term.
+
+Now fire electrons instead. Not a beam — one electron at a time, with a long pause between each.
+
+Every one of them arrives as a single point. One flash, at one place. Nothing about an individual arrival looks like a wave.
+
+But let them accumulate. After a few hundred, the screen is not showing two strips. It is showing a series of bands, separated by gaps where almost nothing lands.
+
+Those gaps are the surprising part. There are places on that screen which electrons reach when one slit is open and stop reaching when both are. Opening a second route removes arrivals. That is interference.
+
+The two routes contribute amplitudes, A one and A two. Add them before squaring, and they can reinforce or cancel. Now start a fresh run with a detector that records which slit. Distinguishable paths lose that interference term: their probabilities add, leaving a smooth diffraction envelope.
+
+The physical detector interaction matters, even if nobody reads its record.

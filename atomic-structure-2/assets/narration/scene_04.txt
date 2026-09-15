@@ -1,0 +1,17 @@
+Light spreads and interferes like a wave, yet a detector records individual arrivals: photons. Louis de Broglie asked whether the connection could work the other way. Could a particle of matter have a wavelength?
+
+His relation is lambda equals h divided by p. Here h is Planck's constant, and p is momentum. For a slow electron, compared with light, momentum is approximately its mass times its speed.
+
+Take an electron moving at one million metres per second. Its wavelength is about zero point seven three nanometres. Double the speed: momentum doubles, and the wavelength halves to about zero point three six nanometres. Watch the bracket shrink with the calculated number.
+
+The curve represents quantum amplitude. It does not show an electron travelling along a wavy road.
+
+Now apply the same relation to something you could hold. A cricket ball has a mass of about one hundred and sixty grams. Send it down the pitch at forty metres per second. Its momentum is enormous by atomic standards, so its wavelength comes out at about one times ten to the minus thirty-four metres.
+
+It is worth seeing how small that is. On this logarithmic scale an atom sits near ten to the minus ten metres, a nucleus near ten to the minus fifteen. The ball's wavelength is nineteen further powers of ten below the nucleus. Diffraction of an ordinary cricket ball is far beyond experimental resolution. Its wave nature is not absent; its wavelength is extraordinarily small.
+
+Now spend one of the numbers we banked. Bohr gave the first-shell electron a speed of two point one nine million metres per second. Put that into the same relation, and the wavelength is about three point three angstroms. That is not small. That is the size of the atom itself.
+
+So send an electron beam through a crystal, whose atoms are spaced at about that distance. Each atom contributes a scattering amplitude, A sub j. Add those amplitudes, then square the magnitude to predict intensity. Waves reinforce in some directions and cancel in others. Individual detections build the bright bands and gaps of a diffraction pattern.
+
+But a crystal is a crowd of scatterers. What happens if we send the electrons through one at a time?

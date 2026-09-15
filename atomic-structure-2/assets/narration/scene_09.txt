@@ -1,0 +1,17 @@
+This picture uses two colors for opposite signs of a real spatial wave function. Both colors describe the same kind of electron. They do not mean positive and negative electric charge. And the height of this wave is not itself a probability.
+
+A wave function can have sign, and more generally complex phase. Those features matter when amplitudes interfere. A negative amplitude is perfectly sensible. A negative probability is not. So how do we get from the wave function to predictions about detections?
+
+Take its absolute value squared. The result is the probability density, written as the modulus of psi squared. Both signs produce nonnegative density. Where the amplitude is large in magnitude, the density is large. Where the wave function vanishes, the density vanishes too.
+
+Density is not the probability of a dimensionless point. To predict a probability, collect the density over a small region of space. For a normalized state, collecting it over all space gives one. The electron must be detected somewhere if the ideal position measurement succeeds.
+
+Here is an analogy for collecting statistics. Photograph one cat at random times over a month. Many photographs find it near a warm doorway; fewer find it farther away. One photograph records a position. Many photographs estimate a distribution. The analogy stops there: a cat has an ordinary trajectory between photographs. An orbital does not supply a hidden classical route for an electron.
+
+Now prepare hydrogen in the same state again and again. Each run contributes one position measurement. One dot appears. Then another run, another dot. No individual detection traces out the cloud. The distribution only becomes visible as many independently prepared trials accumulate.
+
+The dots here are repeated outcomes for one electron, not hundreds of electrons simultaneously orbiting this nucleus. Fade the individual records into a smooth density map. It describes where further trials are more or less likely to produce detections.
+
+The cloud is therefore not a photograph of a fuzzy little object. It is a prediction map extracted from a quantum state. The same state can also predict a momentum distribution. Its position density alone does not contain every piece of information in psi.
+
+We can finally name the replacement for the old circular path. It is an orbital, and that small change of word marks a very large change of idea.

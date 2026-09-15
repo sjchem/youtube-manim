@@ -1,0 +1,25 @@
+Go back to the numbers we banked. Bohr placed the first-shell electron at a radius of zero point five three angstroms, travelling at two point one nine million metres per second. Multiply that speed by the electron's mass and you have its momentum, about one point nine nine times ten to the minus twenty-four kilogram metres per second.
+
+Radius and speed are only magnitudes. A classical trajectory also specifies the electron's exact position and momentum vectors at each instant. It is that complete path we must reconsider.
+
+Here is the argument most people meet first. To see an electron you must bounce something off it. A short-wavelength photon locates it sharply, but because photon momentum is h over lambda, short wavelengths carry large momentum, so it strikes hard and the momentum afterwards is not what it was. A long-wavelength photon kicks gently, but the position is blurred.
+
+That story blames the apparatus, but the uncertainty relation describes the state itself. Set the microscope aside and look at the wave, with no measurement taking place.
+
+De Broglie's relation can also be written p equals h-bar times k. Here h-bar is h divided by two pi, and k is two pi divided by wavelength. Shorter wavelengths therefore carry greater momentum.
+
+Look at this long, regular wave. It has a definite wavelength and momentum, but no small region stands out as its location. To concentrate the wave, add neighbouring wavelengths. They reinforce in one region and cancel elsewhere. A wave packet emerges.
+
+The more tightly we localize the packet, the wider the collection of wavelengths we need. Through de Broglie's relation, that becomes a wider spread of momenta. Watch the position and momentum distributions change together.
+
+Their widths are standard deviations across repeated preparations of the same state — statistical spreads, not the errors of a faulty ruler. Squeeze the position spread, and the momentum spread grows.
+
+Werner Heisenberg's uncertainty principle puts a precise bound on this trade: delta x times delta p is at least h-bar divided by two.
+
+Give an electron a position spread of one hundred picometres, an atomic distance. The minimum momentum spread is about five point two seven times ten to the minus twenty-five kilogram metres per second, and our Gaussian packet reaches it. Halve the position spread, and that minimum doubles.
+
+This limit belongs to the quantum state itself. Better equipment cannot prepare both quantities with arbitrarily narrow spreads.
+
+A classical orbit assigns exact position and momentum at each instant. A quantum state cannot have zero spread in both a position coordinate and its corresponding momentum component. Both can have finite spreads; uncertainty does not mean we can measure only one quantity. We need a wave state and predictions for measurements.
+
+But uncertainty does not tell us which atomic states are allowed. For that, we need an equation that includes the electron's energy and its attraction to the nucleus.

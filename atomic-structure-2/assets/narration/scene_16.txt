@@ -1,0 +1,9 @@
+Neon's outer shell is complete. Add one proton and one electron to reach sodium. The new electron enters three s, beyond a neon-like core.
+
+And this is the moment to settle something. You probably first met sodium as two, eight, one. We have spent this whole video building a different notation without saying that the two are the same statement.
+
+So take the shells one at a time. The first holds two: that is one s squared. The second holds eight: two s squared, two p to the sixth. The third holds one: three s to the one. Two, eight, one. The same atom, counted twice — once by shell, once by subshell.
+
+Now the chemistry. These density pictures are schematic, but the contrast is real. Neon is difficult to ionize and usually unreactive. Sodium gives up its outer electron much more readily, forming a positive ion in many reactions.
+
+The difference comes from energies and interactions. Our state labels have led to electron filling, and electron filling has begun to explain chemistry.

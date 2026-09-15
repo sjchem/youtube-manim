@@ -1,0 +1,15 @@
+Before we follow that light, look at what the model we are leaving actually promised. It is worth seeing while it is still convincing.
+
+Bohr's hydrogen electron travels on fixed circular orbits, labelled n equals one, two, three. School shell diagrams often add a capacity rule: two n squared, giving two, eight, eighteen, thirty-two. Keep that rule in mind, but separate its origin: it comes from quantum states and spin, not Bohr's single-electron orbit.
+
+The shells sit at fixed distances. In hydrogen, the first is about zero point five three angstroms from the nucleus. The second is about two point one two.
+
+Each shell carries a fixed energy: minus thirteen point six electronvolts for the first, minus three point four for the second, following minus thirteen point six over n squared. Those numbers matched hydrogen's measured spectrum, which is why the model was taken seriously.
+
+And the electron moves at a fixed speed. In the first shell of hydrogen, about two point one nine million metres per second.
+
+A fixed radius, energy and speed: a completely specified classical orbit. Beside it, a shell capacity rule still waiting for an explanation.
+
+Keep those numbers. We will discover which predictions survive, and which physical picture has to change.
+
+Because here is what this picture cannot do. Bring a second atom close to the first. Nothing in a table of fixed orbits says whether these two should join together, or why they would.

@@ -1,0 +1,19 @@
+The lowest-energy hydrogen orbital, one s, has a spherical probability density. Rotate the view. There is no preferred direction. Its outer haze gradually thins; there is no hard wall at the edge of the atom.
+
+The surface now drawn encloses approximately ninety percent of the probability in our numerical model. It is a display choice. Changing that percentage moves the surface without changing the quantum state. Some probability always remains outside a finite boundary for this bound state.
+
+Density and distance ask different questions. One s density is greatest at the nucleus. For probability in a thin spherical shell, multiply density by four pi r squared, then by its thickness.
+
+The radial curve peaks at one Bohr radius, about zero point five three angstroms. That is the most probable radius, not an orbit. The shaded area tells a different story: only thirty-two percent lies inside that radius. Expand the sphere to about two point six six Bohr radii and it encloses ninety percent. The boundary changes; the state does not.
+
+Move to two s. The state extends farther out, but size is not the only change. A spherical node appears. Across that radius the real wave function changes sign. At the node it is zero, so the probability density is zero too.
+
+We cut the display open to reveal that empty-probability surface. This is not a solid shell that blocks the electron. It is a feature of the wave function. The colors on either side mark opposite signs, while both sides still contribute positive detection density.
+
+Now change the angular pattern. Two p has two lobes separated by a nodal plane. Rotate that plane through the nucleus and the whole shape changes orientation. The familiar p x, p y, and p z drawings are three useful real orbital patterns, with the same energy in an isolated atom without an external field.
+
+Again, the lobes are not two electrons and they are not containers. They belong to one spatial state. A detection produces one result, somewhere sampled from that state's distribution.
+
+Now the d states, and there are five of them. Three have four lobes lying between a pair of axes: d x y, d x z and d y z. A fourth, d x squared minus y squared, has four lobes along the axes. And d z squared has two lobes with a ring around the middle. Five independent patterns, which is two l plus one when l is two. Only d z squared is a single magnetic state by itself; the other four are combinations.
+
+The equation also counts the nodes: n minus l minus one radial nodes, and l angular nodes, giving n minus one in total. Two s has one radial node; two p has one angular node. At every node, amplitude and density vanish. These are properties of solutions, not decorations. Now we need names for those solutions.

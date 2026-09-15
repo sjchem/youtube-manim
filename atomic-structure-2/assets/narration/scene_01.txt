@@ -1,0 +1,13 @@
+Here is a very simple question: where is this electron?
+Our little planetary model seems to give an obvious answer: right here.
+
+And how fast is it moving?
+Draw a velocity arrow, and the picture seems complete.
+
+But those two apparently harmless answers are about to break this entire picture of the atom.
+
+The problem is not that we drew the orbit at the wrong size.
+The problem is the orbit itself.
+
+If electrons do not travel around the nucleus like planets…
+then what does it actually mean for an electron to be somewhere inside an atom?

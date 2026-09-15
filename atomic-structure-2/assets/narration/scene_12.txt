@@ -1,0 +1,29 @@
+Choose one of the patterns we have just seen. How would you tell someone exactly which orbital to draw, without sending the entire picture? The equation supplies a set of labels. These are the quantum numbers. We will build the address from the picture.
+
+First choose the principal quantum number, n. One, two, three, and so on identify shells. For ideal hydrogen, n determines the main bound-state energy. Increasing n also increases the characteristic spatial scale, although no shell is a hard spherical container. In many-electron atoms, energy will depend on more than n alone.
+
+Within a chosen shell, select the angular pattern with l. The allowed values run from zero up to n minus one. Watch why that range matters. The first shell has only l equals zero. The second adds l equals one. The third also permits l equals two.
+
+We write s, p, d and f for l equals zero, one, two and three. These are angular families; radial structure still depends on n. And l measures something: orbital angular momentum squared is l times l plus one times h-bar squared. An s state has zero orbital angular momentum. Unlike Bohr's orbit, hydrogen one s does not circulate with angular momentum h-bar.
+
+To organize the labels, picture houses numbered n. Each has n floors, labelled l from zero to n minus one: s, p, d, and so on. House one has one floor; house two has two; house three has three. The building illustrates a restriction already obtained from the wave equation.
+
+And on each floor there are rooms. A room is one orbital.
+
+Count the rooms: s has one orbital, p has three, d has five. Each floor has two l plus one. The first three houses therefore contain one; one plus three; and one plus three plus five rooms. One, four, nine: n squared spatial orbitals.
+
+With two spin states per orbital and the Pauli restriction we will use shortly, a shell can hold two n squared electrons: two, eight, eighteen.
+
+The school capacity rule now has a reason: counting distinct quantum states.
+
+Remember, though, that this is an analogy. A shell is not a container and a floor is not a place. What survives is the counting.
+
+Next comes m sub l, the orbital angular momentum projection along a chosen axis. L z equals m sub l times h-bar. Values from minus l to plus l give two l plus one states. For p, the projections are minus h-bar, zero, and plus h-bar.
+
+For p, there are three. The familiar real x, y, and z drawings span the same three-state space. Be careful: the x and y pictures are combinations of the magnetic states, not separate literal assignments of minus one and plus one. We use the real drawings because their directional shapes are easier to see.
+
+The address two, one, zero selects two p z: angular momentum squared is two h-bar squared, while its z projection is zero. Three labels identify this spatial orbital. The electron also has spin: m sub s equals plus or minus one half, so S z equals plus or minus h-bar over two.
+
+The arrows represent these two spin states. They do not show a tiny charged ball physically spinning clockwise or anticlockwise. Spin is an intrinsic quantum property.
+
+Our address is complete. Shell, angular family, magnetic state, spin projection. The labels are compact names for distinctions that the physics already required. Now, what changes when another electron joins the atom?

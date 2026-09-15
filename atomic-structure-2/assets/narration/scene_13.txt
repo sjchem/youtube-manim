@@ -1,0 +1,15 @@
+With hydrogen, one electron feels the attraction of one nucleus. In the simplest model, states with the same principal quantum number share an energy. Two s and two p sit together.
+
+Add electrons, and they also repel one another. Each electron's distribution changes the environment experienced by the others. Inner density partly screens the nuclear attraction.
+
+But screening is only half of it. Compare hydrogen's three s, three p and three d radial curves to see a shape effect. Their innermost peaks sit near three quarters, three, and nine Bohr radii. Three d has much less probability near the nucleus, not none. These hydrogen curves illustrate penetration; actual many-electron orbitals contract and change shape.
+
+Greater probability inside the screening density means stronger attraction to the nucleus. This generally lowers s relative to p, and p relative to d within a shell. Penetration helps explain the splitting alongside electron repulsion.
+
+The energy picture therefore splits. In many-electron atoms, n alone no longer determines an orbital's energy. The angular family matters too. Our orbitals are now useful approximate building blocks of a joint many-electron state.
+
+These shelves show a common filling guide for neutral atoms: one s, two s, two p, three s, three p, four s, then three d. Their spacing here is schematic.
+
+And look what that ordering contains. Four s has come out below three d. If electrons fill the lowest available energy, a shell can begin before the one beneath it is finished. That is strange enough to be worth a proper answer, and we will come back to it with the atom where it first bites.
+
+The principle underneath is to find the allowed arrangement with the lowest total energy. With that goal, and with the spin states we have introduced, we can finally build atoms one electron at a time.

@@ -1,0 +1,9 @@
+An orbit is a path. At a given moment, the classical object occupies a point on that path and has a velocity along it.
+
+An atomic orbital is a one-electron spatial wave function. The cloud we use to picture it is a representation of its probability density. It does not tell us a route between successive detections.
+
+Watch the tracking marker disappear while the distribution remains. Asking where we might detect the electron still makes sense. Asking which little segment of this circular road it secretly occupies is no longer what the orbital describes.
+
+For a many-electron atom, orbitals will become part of an approximate description of a more complicated quantum state. That will still be enormously useful for chemistry.
+
+First, stay with one electron. If these patterns come from an equation, why should every solution look like a sphere? They do not. The next patterns will make the distinction impossible to miss.
