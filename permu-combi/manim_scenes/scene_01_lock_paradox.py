@@ -206,7 +206,7 @@ def play_scene(scene: ThreeDScene) -> None:
         run_time=1.0,
     )
     scene.play(FadeIn(swapped, shift=UP * 0.2), run_time=0.8)
-    order_label = outlined_text("ORDER MATTERS  →  PERMUTATION", cfg.FONT["body"], cfg.ORANGE)
+    order_label = outlined_text("ORDER MATTERS  →  PERMUTATION", cfg.FONT["label"], cfg.ORANGE)
     order_label.to_edge(DOWN, buff=0.45)
     scene.play(FadeIn(order_label, shift=UP * 0.2), run_time=0.8)
     cue(scene, started, 64.5)
@@ -232,7 +232,7 @@ def play_scene(scene: ThreeDScene) -> None:
     shuffle_inside_ring(scene, list(seated), seats, run_time=1.2)
     same = eq(r"\{A,B,C\} \;=\; \{B,A,C\}", cfg.UNORDERED, 68).move_to([0, -1.55, 0])
     scene.play(FadeIn(same, shift=UP * 0.2), run_time=0.9)
-    group_label = outlined_text("ORDER DOESN'T MATTER  →  COMBINATION", cfg.FONT["body"], cfg.UNORDERED)
+    group_label = outlined_text("ORDER DOESN'T MATTER  →  COMBINATION", cfg.FONT["label"], cfg.UNORDERED)
     group_label.to_edge(DOWN, buff=0.45)
     scene.play(FadeIn(group_label, shift=UP * 0.15), run_time=0.8)
     cue(scene, started, 77.5)

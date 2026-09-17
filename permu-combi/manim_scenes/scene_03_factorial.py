@@ -120,7 +120,7 @@ def play_scene(scene: Scene) -> None:
         run_time=1.5,
     )
     paced_play(scene, factorial_form.animate.move_to([0, 0.9, 0]).scale(1.15), run_time=1.1)
-    name_tag = outlined_text("“FOUR FACTORIAL”", cfg.FONT["body"], cfg.GOLD)
+    name_tag = outlined_text("“FOUR FACTORIAL”", cfg.FONT["label"], cfg.GOLD)
     name_tag.next_to(factorial_form, DOWN, buff=0.55)
     paced_play(scene, FadeIn(name_tag, shift=UP * 0.2), run_time=0.9)
     cue(scene, started, 92.0)

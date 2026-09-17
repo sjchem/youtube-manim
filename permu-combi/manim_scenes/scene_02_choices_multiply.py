@@ -76,11 +76,11 @@ def play_scene(scene: Scene) -> None:
     # --- 0-13s: the wardrobe ------------------------------------------------
     shirts = VGroup(*[shirt_icon(colour, 1.15) for colour in SHIRT_COLORS])
     shirts.arrange(RIGHT, buff=1.0).move_to([0, 1.25, 0])
-    shirt_tag = outlined_text("3 SHIRTS", cfg.FONT["body"], cfg.CYAN).next_to(shirts, UP, buff=0.35)
+    shirt_tag = outlined_text("3 SHIRTS", cfg.FONT["label"], cfg.CYAN).next_to(shirts, UP, buff=0.35)
 
     trousers = VGroup(*[trouser_icon(colour, 1.15) for colour in TROUSER_COLORS])
     trousers.arrange(RIGHT, buff=1.4).move_to([0, -1.6, 0])
-    trouser_tag = outlined_text("2 TROUSERS", cfg.FONT["body"], cfg.PURPLE).next_to(trousers, DOWN, buff=0.3)
+    trouser_tag = outlined_text("2 TROUSERS", cfg.FONT["label"], cfg.PURPLE).next_to(trousers, DOWN, buff=0.3)
 
     paced_play(scene, FadeIn(heading, shift=DOWN * 0.15), run_time=0.8)
     paced_play(scene, LaggedStart(*[FadeIn(s, scale=0.7) for s in shirts], lag_ratio=0.25), run_time=1.5)
@@ -285,7 +285,7 @@ def play_scene(scene: Scene) -> None:
 
     # --- 112-176s: the companion principle — alternatives add ---------------
     heading_or = top_caption("ALTERNATIVES  ADD", cfg.PURPLE)
-    question = outlined_text("Travel to school", cfg.FONT["section"], cfg.WHITE)
+    question = outlined_text("Travel to school", cfg.FONT["body"], cfg.WHITE)
     question.move_to([0, 2.55, 0])
     paced_play(scene, FadeIn(heading_or, shift=DOWN * 0.15), FadeIn(question), run_time=1.0)
 
@@ -317,14 +317,14 @@ def play_scene(scene: Scene) -> None:
     cue(scene, started, 145.0)
 
     plus = eq("3+2=5", cfg.GOLD, 108).move_to([0, -2.75, 0])
-    or_tag = outlined_text("BUS  OR  TRAIN", cfg.FONT["body"], cfg.GOLD).next_to(plus, UP, buff=0.28)
+    or_tag = outlined_text("BUS  OR  TRAIN", cfg.FONT["label"], cfg.GOLD).next_to(plus, UP, buff=0.28)
     paced_play(scene, FadeIn(or_tag), FadeIn(plus, scale=1.2), run_time=1.1)
     paced_play(scene, Indicate(plus, color=cfg.WHITE, scale_factor=1.08), run_time=1.0)
     cue(scene, started, 155.0)
 
     comparison = VGroup(
-        boxed_statement(r"\text{OR}\;\longrightarrow\;\text{ADD}", cfg.PURPLE, 62, tex=True),
-        boxed_statement(r"\text{AND}\;\longrightarrow\;\text{MULTIPLY}", cfg.CYAN, 62, tex=True),
+        boxed_statement(r"\text{OR}\;\longrightarrow\;\text{ADD}", cfg.PURPLE, cfg.FONT["section"], tex=True),
+        boxed_statement(r"\text{AND}\;\longrightarrow\;\text{MULTIPLY}", cfg.CYAN, cfg.FONT["section"], tex=True),
     ).arrange(DOWN, buff=0.55).move_to(ORIGIN)
     scene.play(FadeOut(question, origin, school, home_tag, school_tag, routes, train_routes,
                        bus_tag, train_tag, or_tag, plus),

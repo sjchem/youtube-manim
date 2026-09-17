@@ -285,8 +285,8 @@ def play_scene(scene: Scene) -> None:
 
     # --- 166-194s: the sentence worth remembering -------------------------------
     key = VGroup(
-        outlined_text("A combination is a permutation", cfg.FONT["body"], cfg.WHITE),
-        outlined_text("with the unnecessary order divided away.", cfg.FONT["body"], cfg.UNORDERED),
+        outlined_text("A combination is a permutation", cfg.FONT["label"], cfg.WHITE),
+        outlined_text("with the unnecessary order divided away.", cfg.FONT["label"], cfg.UNORDERED),
     ).arrange(DOWN, buff=0.22).move_to([0, -2.4, 0])
     paced_play(scene, FadeIn(key[0], shift=UP * 0.2), run_time=1.1)
     paced_play(scene, FadeIn(key[1], shift=UP * 0.2), run_time=1.1)

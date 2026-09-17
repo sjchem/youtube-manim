@@ -76,7 +76,7 @@ def play_scene(scene: Scene) -> None:
     cue(scene, started, 28.0)
 
     # --- 28-52s: compress it into the one decision -----------------------------
-    question = boxed_statement("DOES  ORDER  MATTER?", cfg.GOLD, cfg.FONT["section"])
+    question = boxed_statement("DOES  ORDER  MATTER?", cfg.GOLD, cfg.FONT["body"])
     question.move_to([0, 2.5, 0])
     scene.play(
         FadeOut(*columns, dividers, caption),
@@ -91,8 +91,8 @@ def play_scene(scene: Scene) -> None:
     ):
         arrow = Arrow([x * 0.32, 1.55, 0], [x, 0.35, 0], color=colour, stroke_width=8, buff=0.05,
                       max_tip_length_to_length_ratio=0.26)
-        tag = outlined_text(word, cfg.FONT["title"], colour).move_to([x, -0.35, 0])
-        answer_tag = outlined_text(answer, cfg.FONT["body"], colour).move_to([x, -1.55, 0])
+        tag = outlined_text(word, cfg.FONT["section"], colour).move_to([x, -0.35, 0])
+        answer_tag = outlined_text(answer, cfg.FONT["label"], colour).move_to([x, -1.55, 0])
         branches.add(VGroup(arrow, tag, answer_tag))
     paced_play(scene, FadeIn(branches[0], shift=DOWN * 0.2), run_time=1.1)
     paced_play(scene, FadeIn(branches[1], shift=DOWN * 0.2), run_time=1.1)
@@ -111,12 +111,12 @@ def play_scene(scene: Scene) -> None:
     lock = lock_icon(cfg.ORANGE, 0.8).move_to([-3.7, 1.1, 0])
     digits = VGroup(*[outlined_text(d, 64, cfg.GOLD) for d in "123"])
     digits.arrange(RIGHT, buff=0.55).move_to([-3.7, -0.6, 0])
-    lock_tag = outlined_text("NEW CODE", cfg.FONT["body"], cfg.ORANGE).move_to([-3.7, -2.0, 0])
+    lock_tag = outlined_text("NEW CODE", cfg.FONT["label"], cfg.ORANGE).move_to([-3.7, -2.0, 0])
     ring = team_ring(1.35, cfg.UNORDERED, [3.7, 0.8, 0])
     people = VGroup(*[chip(letter, cfg.UNORDERED, 0.38) for letter in "ABC"])
     for person, seat in zip(people, ring_points(ring, 3, 0.55)):
         person.move_to(seat)
-    team_tag = outlined_text("SAME TEAM", cfg.FONT["body"], cfg.UNORDERED).move_to([3.7, -2.0, 0])
+    team_tag = outlined_text("SAME TEAM", cfg.FONT["label"], cfg.UNORDERED).move_to([3.7, -2.0, 0])
     callback = VGroup(lock, digits, lock_tag, ring, people, team_tag)
     scene.play(FadeOut(question, branches, closing), FadeIn(callback), run_time=1.2)
     cue(scene, started, 49.0)
@@ -125,8 +125,8 @@ def play_scene(scene: Scene) -> None:
     cue(scene, started, 55.0)
 
     final = VGroup(
-        outlined_text("When I rearrange the same objects,", cfg.FONT["body"], cfg.WHITE),
-        outlined_text("have I created something new?", cfg.FONT["section"], cfg.CYAN),
+        outlined_text("When I rearrange the same objects,", cfg.FONT["label"], cfg.WHITE),
+        outlined_text("have I created something new?", cfg.FONT["body"], cfg.CYAN),
     ).arrange(DOWN, buff=0.3).move_to([0, 0.3, 0])
     scene.play(
         FadeOut(callback),
@@ -138,8 +138,8 @@ def play_scene(scene: Scene) -> None:
     rule = glow_line([-5.2, -1.5, 0], [5.2, -1.5, 0], cfg.CYAN, 3)
     paced_play(scene, Create(rule), run_time=1.0)
     verdicts = VGroup(
-        outlined_text("YES  →  PERMUTATION", cfg.FONT["body"], cfg.ORANGE),
-        outlined_text("NO  →  COMBINATION", cfg.FONT["body"], cfg.UNORDERED),
+        outlined_text("YES  →  PERMUTATION", cfg.FONT["label"], cfg.ORANGE),
+        outlined_text("NO  →  COMBINATION", cfg.FONT["label"], cfg.UNORDERED),
     ).arrange(DOWN, buff=0.35).move_to([0, -2.55, 0])
     paced_play(scene, FadeIn(verdicts[0], shift=RIGHT * 0.25), run_time=0.9)
     paced_play(scene, FadeIn(verdicts[1], shift=LEFT * 0.25), run_time=0.9)
