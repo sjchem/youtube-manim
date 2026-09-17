@@ -1,0 +1,11 @@
+# Permutations & Combinations Explained Visually
+# Python 3.10+ (developed and validated on 3.12 with Manim Community 0.19.2).
+#
+# System packages Manim needs, which pip cannot install:
+#   ffmpeg, a LaTeX distribution with dvisvgm (TeX Live or MiKTeX),
+#   pango/cairo development headers.
+# On Debian/Ubuntu/WSL:
+#   sudo apt install ffmpeg libcairo2-dev libpango1.0-dev texlive texlive-latex-extra dvisvgm
+
+manim>=0.19,<0.20
+numpy>=1.26
