@@ -1,0 +1,56 @@
+"""Animal habitats and nested lunchboxes explain subsets."""
+from manim_scenes.story_world import *
+
+class Scene03Subsets(ThreeDScene):
+    def construct(self): play_scene(self)
+
+def play_scene(scene):
+    t,head=start(scene,'03','A small animal park')
+    outer=habitat(11.6,5.1,[0,-.1,0],cfg.CYAN)
+    middle=habitat(7.6,3.7,[-1,-.15,0],cfg.BLUE)
+    inner=habitat(3.3,2.05,[-2.2,-.3,0],cfg.GOLD)
+    animals=VGroup(food('cat',.9,[-2.9,-.35,0]),food('tiger',.9,[-1.5,-.35,0]),food('dog',1.1,[1,.6,0]),food('whale',1.1,[1,-1,0]),food('chicken',1,[4,.5,0]),food('duck',1,[4,-1.1,0]))
+    scene.play(FadeIn(outer),FadeIn(animals),run_time=1.5)
+    cap=change(scene,None,'Animals',cfg.CYAN); cue(scene,t,12)
+    scene.play(FadeIn(middle),run_time=1)
+    cap=change(scene,cap,'Inside the park: mammals',cfg.BLUE); cue(scene,t,23)
+    scene.play(FadeIn(inner),run_time=1)
+    cap=change(scene,cap,'Inside mammals: the cat family',cfg.GOLD); cue(scene,t,35)
+    clear(scene,head)
+    replace_text(scene,head,heading('The same nesting, in three dimensions'),run_time=.5)
+    # Three open, genuinely nested lunchboxes. The floors share a base plane.
+    boxes=VGroup()
+    for width,depth,height,color in [(7.5,4.7,1.5,cfg.CYAN),(5.3,3.4,1.1,cfg.BLUE),(2.7,2,.7,cfg.GOLD)]:
+        floor=Rectangle(width=width,height=depth,fill_color=color,fill_opacity=.13,stroke_color=color,stroke_width=3).shift(IN*.7)
+        walls=VGroup()
+        for x in [-width/2,width/2]:
+            walls.add(Rectangle(width=depth,height=height,fill_color=color,fill_opacity=.14,stroke_color=color,stroke_width=2).rotate(PI/2,axis=RIGHT).rotate(PI/2,axis=OUT).move_to([x,0,-.7+height/2]))
+        for y in [-depth/2,depth/2]:
+            walls.add(Rectangle(width=width,height=height,fill_color=color,fill_opacity=.14,stroke_color=color,stroke_width=2).rotate(PI/2,axis=RIGHT).move_to([0,y,-.7+height/2]))
+        boxes.add(VGroup(floor,walls))
+    cat=food('cat',1.15,[0,0,2]).set_z_index(0)
+    scene.play(FadeIn(boxes),run_time=1)
+    move_camera(scene,phi=53*DEGREES,theta=-78*DEGREES,run_time=2)
+    scene.play(FadeIn(cat),run_time=.6)
+    scene.play(cat.animate.move_to([0,0,-.55]),run_time=1.5)
+    cap=change(scene,None,'Inside all three sets',cfg.GOLD)
+    cue(scene,t,54)
+    move_camera(scene,theta=-104*DEGREES,run_time=2)
+    cue(scene,t,63)
+    clear(scene,head)
+    scene.set_camera_orientation(phi=0,theta=-PI/2,zoom=1)
+    replace_text(scene,head,heading('Element or subset?'),run_time=.5)
+    cat=food('cat',1.6,[-3.3,.7,0])
+    family=row(('cat','tiger'),1.15,(3.3,.7,0),.5)
+    small=habitat(3.2,2.2,[3.3,.7,0],cfg.GOLD)
+    texts=VGroup(formula('cat ∈ mammals',44).move_to([-3.3,-1.3,0]),formula('cats ⊆ mammals',44).move_to([3.3,-1.3,0]))
+    scene.play(FadeIn(cat,family,small,texts),run_time=1)
+    cue(scene,t,81)
+    clear(scene,head)
+    replace_text(scene,head,heading('Is every mammal a cat?'),run_time=.5)
+    dog=food('dog',2,[0,.6,0]); scene.play(FadeIn(dog),run_time=.8)
+    cap=change(scene,None,'A dog is a mammal, but not a cat',cfg.ORANGE)
+    cue(scene,t,98.5)
+    math_beat(scene,head,'The subset rule',['C\\subseteq M\\subseteq U', 'x\\in C\\;\\Longrightarrow\\;x\\in M'],'Every member of C must also be in M')
+    cue(scene,t,115.5)
+    end_scene(scene,t,cfg.SCENE_DURATIONS['03']); finish(scene)

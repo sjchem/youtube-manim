@@ -1,0 +1,15 @@
+# Set Theory: From Sets to De Morgan's Laws
+# Python 3.10+ (reviewed with Manim Community 0.21.0).
+#
+# System packages Manim needs, which pip cannot install:
+#   ffmpeg, a LaTeX distribution with dvisvgm (TeX Live or MiKTeX),
+#   pango/cairo development headers.
+# On Debian/Ubuntu/WSL:
+#   sudo apt install ffmpeg libcairo2-dev libpango1.0-dev texlive texlive-latex-extra dvisvgm
+#
+# The region masks (union / intersection / complement) are real path booleans,
+# so Manim's optional `skia-pathops` backend is required, not optional, here.
+
+manim>=0.21,<0.22
+numpy>=1.26
+skia-pathops>=0.8

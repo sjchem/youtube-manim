@@ -1,0 +1,15 @@
+scene,words,scene_seconds,speech_estimate_at_135_wpm,remaining_for_pauses,status
+01,88,48.0,39.1,8.9,estimate; audio pending
+02,289,139.0,128.4,10.6,estimate; audio pending
+03,242,117.0,107.6,9.4,estimate; audio pending
+04,147,74.0,65.3,8.7,estimate; audio pending
+05,204,100.0,90.7,9.3,estimate; audio pending
+06,288,143.0,128.0,15.0,estimate; audio pending
+07,208,101.0,92.4,8.6,estimate; audio pending
+08,231,112.0,102.7,9.3,estimate; audio pending
+09,225,108.0,100.0,8.0,estimate; audio pending
+10,250,139.0,111.1,27.9,estimate; audio pending
+11,210,102.0,93.3,8.7,estimate; audio pending
+12,168,84.0,74.7,9.3,estimate; audio pending
+13,77,40.0,34.2,5.8,estimate; audio pending
+14,17,9.0,7.6,1.4,estimate; audio pending

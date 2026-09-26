@@ -1,0 +1,32 @@
+"""An empty lunchbox turns the empty set into a concrete example."""
+from manim_scenes.story_world import *
+class Scene04EmptySet(Scene):
+    def construct(self): play_scene(self)
+
+def play_scene(scene):
+    t,head=start(scene,'04','What if the lunchbox is empty?')
+    box=tray(4.3,3.1,cfg.GOLD,[0,.1,0]); snack=food('apple',1.4,[0,.1,0])
+    scene.play(FadeIn(box,snack),run_time=1)
+    cue(scene,t,8)
+    scene.play(snack.animate.shift(RIGHT*5),run_time=1.1)
+    scene.play(FadeOut(snack),run_time=.5)
+    cap=change(scene,None,'No members',cfg.GOLD)
+    cue(scene,t,18)
+    empty=formula('∅',65,cfg.PURPLE).move_to([0,.1,0]); scene.play(FadeIn(empty),run_time=.7)
+    cap=change(scene,cap,'The empty set',cfg.PURPLE)
+    cue(scene,t,28)
+    scene.play(FadeOut(empty),box.animate.move_to([-3.5,.1,0]),run_time=1)
+    fruit=tray(4.3,3.1,cfg.BLUE,[3.5,.1,0]); members=row(('apple','banana','grapes'),.9,(3.5,.1,0),.3)
+    scene.play(FadeIn(fruit,members),run_time=1)
+    replace_text(scene,head,heading('Can the empty set have a counterexample?'),run_time=.6)
+    beam=Line([-5.1,1.1,0],[-1.9,1.1,0],stroke_color=cfg.CYAN,stroke_width=4)
+    scene.play(Create(beam),run_time=.5)
+    scene.play(beam.animate.shift(DOWN*2),run_time=2)
+    scene.play(FadeOut(beam),run_time=.4)
+    cap=change(scene,cap,'No member can fail the test',cfg.GREEN)
+    cue(scene,t,46)
+    result=formula('∅ ⊆ A',60,cfg.GREEN).move_to([0,2.5,0]); scene.play(FadeIn(result),run_time=.8)
+    cue(scene,t,58.5)
+    math_beat(scene,head,'Why the empty set is a subset',['\\varnothing\\subseteq A', '\\nexists\\,x\\in\\varnothing'],'There is no member that can break the rule')
+    cue(scene,t,72.5)
+    end_scene(scene,t,cfg.SCENE_DURATIONS['04']); finish(scene)
