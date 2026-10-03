@@ -1,0 +1,1373 @@
+{
+  "planned_duration_seconds": 1363.0,
+  "scenes": [
+    {
+      "key": "01",
+      "title": "Why this shape?",
+      "film_start_seconds": 0.0,
+      "duration_seconds": 50.0,
+      "text_file": "scene_01.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.0,
+          "text": "This is one of the most recognizable pictures in science: the periodic table."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.0,
+          "end_seconds": 11.0,
+          "text": "But look at its outline. Why does it have this strange shape?"
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 15.0,
+          "text": "Two columns on the left."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 15.0,
+          "end_seconds": 18.5,
+          "text": "Ten in the middle."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 18.5,
+          "end_seconds": 22.0,
+          "text": "Six on the right."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 22.0,
+          "end_seconds": 27.0,
+          "text": "And two rows of fourteen positions tucked underneath. Why separate them?"
+        },
+        {
+          "beat": 7,
+          "start_seconds": 27.0,
+          "end_seconds": 35.0,
+          "text": "Why these widths? And why do elements directly above each other often share similar chemistry? There is a pattern hiding here."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 35.0,
+          "end_seconds": 42.5,
+          "text": "Two, six, ten, fourteen. Those numbers come from the states we met in Part Two: s, p, d and f."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 42.5,
+          "end_seconds": 49.45,
+          "text": "Follow where electrons can go, and we can rebuild the table. Its layout reveals the quantum structure of atoms."
+        }
+      ]
+    },
+    {
+      "key": "02",
+      "title": "Atomic number gives the order",
+      "film_start_seconds": 50.0,
+      "duration_seconds": 70.0,
+      "text_file": "scene_02.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "To rebuild it, start at the centre of an atom: the nucleus."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 9.0,
+          "text": "One proton identifies hydrogen. That is the first element."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 9.0,
+          "end_seconds": 15.0,
+          "text": "Two protons identify helium. Changing the proton count changes the element itself."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 15.0,
+          "end_seconds": 21.0,
+          "text": "Six protons identify carbon, whether it is in a diamond, a leaf or your body."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 21.0,
+          "end_seconds": 27.0,
+          "text": "And seventy-nine identify gold. Each element has its own proton count."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 27.0,
+          "end_seconds": 35.0,
+          "text": "That count is the atomic number, written Z. Neutrons can change the isotope; electrons can change the charge. Protons decide the element."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 43.0,
+          "text": "So place the elements in order of increasing Z. One, two, three, four. For now, we get a single line."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 51.0,
+          "text": "Hydrogen, helium, lithium, beryllium, and onward through the hundred and eighteen elements in the familiar table."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 51.0,
+          "end_seconds": 57.0,
+          "text": "We know the order. But why unequal rows, gaps, and columns of similar elements?"
+        },
+        {
+          "beat": 10,
+          "start_seconds": 57.0,
+          "end_seconds": 69.45,
+          "text": "Wrapping it every eighteen places gives the wrong outline. To discover the row lengths, we need to look outside the nucleus, at the electrons."
+        }
+      ]
+    },
+    {
+      "key": "03",
+      "title": "The real puzzle is the electrons",
+      "film_start_seconds": 120.0,
+      "duration_seconds": 75.0,
+      "text_file": "scene_03.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "We build neutral atoms in their ground states, with the same number of electrons as protons."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 15.0,
+          "text": "The next element has one more proton and one more electron. Its positive and negative charges still balance."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 15.0,
+          "end_seconds": 22.0,
+          "text": "Hydrogen has one electron, helium two, lithium three, and beryllium four. The count rises with atomic number."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.0,
+          "end_seconds": 29.0,
+          "text": "The new proton belongs in the nucleus. The new electron raises the question that will shape the entire table."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 34.0,
+          "text": "Where can it go? What states are still available?"
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.0,
+          "end_seconds": 44.0,
+          "text": "In Part Two, we replaced planetary orbits with orbitals: quantum states that describe electron probability. Related orbitals form a subshell."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 44.0,
+          "end_seconds": 50.0,
+          "text": "The ground configuration minimizes the energy of the whole atom, including interactions between electrons."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.0,
+          "end_seconds": 58.0,
+          "text": "The usual filling sequence is a useful first guide. These boxes count available orbitals; they are not physical compartments inside an atom."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 58.0,
+          "end_seconds": 66.0,
+          "text": "As we fill them, we also count elements. But the number of boxes differs between subshells. Why?"
+        },
+        {
+          "beat": 10,
+          "start_seconds": 66.0,
+          "end_seconds": 74.45,
+          "text": "That difference gives us the four capacities, and the four widths of the periodic table."
+        }
+      ]
+    },
+    {
+      "key": "04",
+      "title": "The four shapes that build the table",
+      "film_start_seconds": 195.0,
+      "duration_seconds": 135.0,
+      "text_file": "scene_04.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.0,
+          "text": "Our four orbital families are s, p, d and f. Their quantum labels tell us how many independent orbitals each subshell contains."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 9.0,
+          "end_seconds": 17.0,
+          "text": "The s family is spherically symmetric. An s subshell contains one orbital. This picture shows its angular shape, without radial detail."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 17.0,
+          "end_seconds": 23.0,
+          "text": "Pauli exclusion allows at most two electrons in one spatial orbital, with opposite spins."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 23.0,
+          "end_seconds": 29.0,
+          "text": "One orbital, two spin states. An s subshell holds two electrons."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 38.0,
+          "text": "A p subshell contains three orbitals. We can picture them as dumbbells pointing along three perpendicular directions."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 38.0,
+          "end_seconds": 44.0,
+          "text": "Three orbitals, two electrons each: a capacity of six."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 44.0,
+          "end_seconds": 51.0,
+          "text": "A d subshell contains five orbitals. Four have cloverlike shapes; the fifth has two lobes and a ring."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 51.0,
+          "end_seconds": 56.0,
+          "text": "Five orbitals, two electrons each: ten places altogether."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 56.0,
+          "end_seconds": 63.0,
+          "text": "The f family has more complicated angular shapes, and seven independent orbitals."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 63.0,
+          "end_seconds": 68.0,
+          "text": "Seven orbitals give fourteen electron places in an f subshell."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.0,
+          "end_seconds": 75.0,
+          "text": "So our four capacities are two, six, ten and fourteen."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 75.0,
+          "end_seconds": 84.0,
+          "text": "The general count is two l plus one orbitals. For s, p, d and f, l is zero, one, two and three."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 84.0,
+          "end_seconds": 91.0,
+          "text": "Now turn each electron place into a column of elements. A quantum count becomes a visible width."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 91.0,
+          "end_seconds": 95.0,
+          "text": "Two places make the two-column s block."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 95.0,
+          "end_seconds": 103.0,
+          "text": "Six make the p block. Ten make the d block. The middle of the table already has an explanation."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 103.0,
+          "end_seconds": 109.0,
+          "text": "Fourteen make the f strip: seven orbitals with two spin states each."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 109.0,
+          "end_seconds": 113.0,
+          "text": "Bring these four blocks together in the familiar layout."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 113.0,
+          "end_seconds": 121.0,
+          "text": "There it is: capacity sets the width. The block sizes follow from quantum states."
+        },
+        {
+          "beat": 19,
+          "start_seconds": 121.0,
+          "end_seconds": 134.45,
+          "text": "Chemists choose how to arrange the diagram on a page, but these capacities constrain its structure. Let us build the first rows and watch the pattern emerge."
+        }
+      ]
+    },
+    {
+      "key": "05",
+      "title": "Building period 1",
+      "film_start_seconds": 330.0,
+      "duration_seconds": 97.0,
+      "text_file": "scene_05.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "text": "Begin with one s, the lowest orbital in hydrogen. One box represents one spatial orbital, with room for two electrons."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 13.0,
+          "text": "Hydrogen has one electron. It occupies the one s orbital."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 19.0,
+          "text": "We write one s to the one. The superscript counts the electrons in that subshell."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 24.0,
+          "text": "Hydrogen takes the first position in our growing table."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 30.0,
+          "text": "Helium has two electrons. They occupy the same spatial orbital with opposite spins."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 35.0,
+          "text": "Its configuration is one s squared. Both available spin states are occupied."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 45.0,
+          "text": "A third electron cannot join this orbital. To build lithium, it must enter a different state: two s, beginning the second shell."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 45.0,
+          "end_seconds": 51.0,
+          "text": "That is why the first period contains exactly two elements: hydrogen and helium."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 51.0,
+          "end_seconds": 57.0,
+          "text": "The count comes from one s. No third place is available in that subshell."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 57.0,
+          "end_seconds": 64.0,
+          "text": "But where should helium sit? By configuration, it is an s element, with one s squared."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 64.0,
+          "end_seconds": 76.0,
+          "text": "By chemistry, it belongs with the noble gases. Its only shell is closed, and removing an electron costs a great deal of energy."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 76.0,
+          "end_seconds": 87.0,
+          "text": "So we place it on the far right. The capacities explain the widths; chemistry helps organize the columns. Helium reminds us that the drawing is a useful convention."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 87.0,
+          "end_seconds": 96.45,
+          "text": "Our first row is complete. Lithium begins the next one, with a fresh outer shell."
+        }
+      ]
+    },
+    {
+      "key": "06",
+      "title": "Building period 2",
+      "film_start_seconds": 427.0,
+      "duration_seconds": 134.0,
+      "text_file": "scene_06.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Lithium has three electrons. Two occupy one s, making a closed core like helium."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 12.0,
+          "text": "The remaining electron enters two s, outside that core."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 18.0,
+          "text": "Place lithium at the beginning of period two, below hydrogen."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 24.0,
+          "text": "Beryllium adds a second two s electron, with opposite spin. That subshell is full."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 30.0,
+          "text": "Now the two p subshell becomes available: three orbitals, six places."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 35.0,
+          "text": "Boron has one electron in two p. It begins the p block."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 46.0,
+          "text": "Carbon adds another. Among these equal-energy p orbitals, the ground state prefers separate orbitals with parallel spins before pairing. That is Hund's rule."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 46.0,
+          "end_seconds": 51.0,
+          "text": "Nitrogen gives us one electron in each of the three p orbitals."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 51.0,
+          "end_seconds": 57.0,
+          "text": "Oxygen adds a pair. Fluorine adds another. The empty orbitals have run out."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 57.0,
+          "end_seconds": 65.0,
+          "text": "Neon completes the final pair: two p to the sixth. Together with two s squared, shell two is full."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 65.0,
+          "end_seconds": 71.0,
+          "text": "Look back at the row. Filling two s gave two elements; filling two p gave six."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 71.0,
+          "end_seconds": 77.0,
+          "text": "Two plus six is eight. That is the length of period two."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 77.0,
+          "end_seconds": 87.0,
+          "text": "The s elements sit on the left and the p elements on the right. Their shared families give the row its two distinct regions."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 87.0,
+          "end_seconds": 94.0,
+          "text": "The gap between them reserves space for the d block. The short early rows have not reached it yet."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 94.0,
+          "end_seconds": 104.0,
+          "text": "Period three repeats the same count: sodium and magnesium fill three s, then aluminium through argon fill three p. Eight elements again."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 104.0,
+          "end_seconds": 108.0,
+          "text": "Compare lithium and sodium, looking beyond their closed cores."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 108.0,
+          "end_seconds": 113.0,
+          "text": "Lithium is a helium core plus two s to the one."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 113.0,
+          "end_seconds": 118.0,
+          "text": "Sodium is a neon core plus three s to the one."
+        },
+        {
+          "beat": 19,
+          "start_seconds": 118.0,
+          "end_seconds": 125.0,
+          "text": "The shell number changes. The outer pattern does not: one s electron in a new shell."
+        },
+        {
+          "beat": 20,
+          "start_seconds": 125.0,
+          "end_seconds": 133.45,
+          "text": "That repeating pattern places sodium below lithium. It also suggests why they share related chemistry. Now the vertical columns begin to make sense."
+        }
+      ]
+    },
+    {
+      "key": "07",
+      "title": "Why elements form columns",
+      "film_start_seconds": 561.0,
+      "duration_seconds": 99.0,
+      "text_file": "scene_07.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Extend that column: lithium, sodium, potassium, rubidium and caesium. Their total electron counts are very different."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 12.0,
+          "text": "Write just the outer configuration beside each atom, leaving its core aside."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 19.0,
+          "text": "Two s one, three s one, four s one, five s one, six s one."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 24.0,
+          "text": "The shared pattern is n s one. Here n labels the outer shell."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 30.0,
+          "text": "The next column repeats n s two: beryllium, magnesium, calcium, strontium and barium."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 39.0,
+          "text": "The halogens repeat n s two, n p five. Their outer s and p set is one electron short."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 39.0,
+          "end_seconds": 46.0,
+          "text": "Neon through xenon repeat n s two, n p six: closed outer s and p subshells."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 46.0,
+          "end_seconds": 51.0,
+          "text": "Let the element symbols fade for a moment. Keep only these recurring patterns."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 51.0,
+          "end_seconds": 59.0,
+          "text": "The s columns repeat s one and s two. The p columns progress from p one through p six."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 59.0,
+          "end_seconds": 65.0,
+          "text": "Different shell sizes, related outer electrons. This pattern is clearest in the main groups."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 65.0,
+          "end_seconds": 75.0,
+          "text": "A column gathers elements with recurring valence structure. The transition metals have more complicated patterns because d electrons also participate in their chemistry."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 75.0,
+          "end_seconds": 83.0,
+          "text": "And hydrogen is special: one s electron, but no closed inner core. Sharing a column does not make every member chemically identical."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 83.0,
+          "end_seconds": 91.0,
+          "text": "Bring the symbols back. The groups now organize a physical pattern, rather than just a set of names to memorize."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 91.0,
+          "end_seconds": 98.45,
+          "text": "The real test is chemical behaviour. What does that repeated outer pattern let an atom do?"
+        }
+      ]
+    },
+    {
+      "key": "08",
+      "title": "Why a column shares its chemistry",
+      "film_start_seconds": 660.0,
+      "duration_seconds": 75.0,
+      "text_file": "scene_08.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Lithium, sodium and potassium differ in size. Each has a closed core and one outer s electron."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 14.0,
+          "text": "That outer electron is the key. Compared with the core electrons, it is much easier to remove."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.0,
+          "end_seconds": 22.0,
+          "text": "Removing it still costs energy. During a reaction, other energy changes can make the complete process favourable."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.0,
+          "end_seconds": 28.0,
+          "text": "Each atom can therefore form a positive ion by giving up one electron."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 35.0,
+          "text": "We write M becoming M plus and an electron. Three different metals share this common change."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.0,
+          "end_seconds": 45.0,
+          "text": "For example, each reacts with water to release hydrogen gas. Under comparable conditions, the reaction becomes more vigorous from lithium to sodium to potassium."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 45.0,
+          "end_seconds": 50.0,
+          "text": "Now compare the noble gases on the other side of the table."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.0,
+          "end_seconds": 56.0,
+          "text": "Their closed outer set is n s two, n p six."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 56.0,
+          "end_seconds": 64.0,
+          "text": "Removing an electron is difficult, and adding one cannot simply fill a vacancy in that closed set."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 64.0,
+          "end_seconds": 68.0,
+          "text": "They are usually unreactive, although heavier noble gases can form compounds."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.0,
+          "end_seconds": 74.45,
+          "text": "Repeating valence patterns give related chemistry. The same counting idea also explains the long middle rows."
+        }
+      ]
+    },
+    {
+      "key": "09",
+      "title": "Why period 4 suddenly gets long",
+      "film_start_seconds": 735.0,
+      "duration_seconds": 117.0,
+      "text_file": "scene_09.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "text": "Argon ends period three at eighteen electrons. Its three s and three p subshells are full, but three d is still empty."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 12.0,
+          "text": "Potassium has nineteen electrons. One remains beyond the argon core."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 19.0,
+          "text": "The third shell has unused d states. Shell number alone might suggest filling those next."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 24.0,
+          "text": "Part Two ended here. Does electron nineteen enter three d?"
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 29.0,
+          "text": "For neutral potassium, the ground configuration instead ends in four s one."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 29.0,
+          "end_seconds": 34.0,
+          "text": "Calcium follows with four s squared. Now both s places are occupied."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 34.0,
+          "end_seconds": 39.0,
+          "text": "Is four p next? That would give us another short row."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 39.0,
+          "end_seconds": 47.0,
+          "text": "The usual sequence puts three d between four s and four p. This is a filling diagram, with schematic spacing."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 47.0,
+          "end_seconds": 51.0,
+          "text": "Energies change with nuclear charge and occupancy. This is a sequence."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 51.0,
+          "end_seconds": 56.0,
+          "text": "The sequence opens a new region here: the three d subshell."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 56.0,
+          "end_seconds": 61.0,
+          "text": "From scandium onward, the d states become occupied across this series."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 61.0,
+          "end_seconds": 72.0,
+          "text": "Scandium, titanium, vanadium, chromium, manganese, iron, cobalt, nickel, copper and zinc. Watch the occupations change; the pattern includes a few rearrangements."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 72.0,
+          "end_seconds": 76.0,
+          "text": "Ten elements in the d block. Why ten?"
+        },
+        {
+          "beat": 14,
+          "start_seconds": 76.0,
+          "end_seconds": 82.0,
+          "text": "Five d orbitals, with two spin states each. Five times two is ten."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 82.0,
+          "end_seconds": 97.0,
+          "text": "Chromium and copper differ from the simplest filling prediction. Their ground configurations have one four s electron, with five or ten in three d. The total energy favours these arrangements; the block still has ten columns."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 97.0,
+          "end_seconds": 104.0,
+          "text": "After zinc, gallium through krypton fill four p. Six more places bring period four to its end."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 104.0,
+          "end_seconds": 108.0,
+          "text": "Two s places, ten d places, six p places. Eighteen altogether."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 108.0,
+          "end_seconds": 116.45,
+          "text": "The d block gives this row its middle. Most are transition metals; zinc, with a filled d subshell, usually falls outside that definition."
+        }
+      ]
+    },
+    {
+      "key": "10",
+      "title": "The weird filling order",
+      "film_start_seconds": 852.0,
+      "duration_seconds": 88.0,
+      "text_file": "scene_10.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.0,
+          "text": "Follow the filling sequence. Each principal shell does not have to finish before another begins."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.0,
+          "end_seconds": 20.0,
+          "text": "One s, two s, two p, three s, three p. Then four s, three d and four p. Later, six s brings us towards four f."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 20.0,
+          "end_seconds": 26.0,
+          "text": "A useful shortcut predicts much of this sequence: n plus l, or Madelung's rule."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 26.0,
+          "end_seconds": 35.0,
+          "text": "n is the principal shell number. l labels the family: zero for s, one for p, two for d, three for f."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 35.0,
+          "end_seconds": 41.0,
+          "text": "Four s gives four plus zero: four. Three d gives three plus two: five."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 41.0,
+          "end_seconds": 47.0,
+          "text": "Take the lower score first. If scores tie, the smaller n comes first."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 47.0,
+          "end_seconds": 53.0,
+          "text": "In this grid, subshells with the same n plus l score lie along a diagonal."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 53.0,
+          "end_seconds": 59.0,
+          "text": "Follow each diagonal towards increasing n, then move to the next score. The familiar sequence appears."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 59.0,
+          "end_seconds": 67.0,
+          "text": "Treat this as a guide to neutral ground configurations. The real atom minimizes total energy, and some configurations differ."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 67.0,
+          "end_seconds": 74.0,
+          "text": "Four s and three d energies change with occupancy. Transition-metal ions usually lose four s electrons first."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 74.0,
+          "end_seconds": 81.0,
+          "text": "The same counting guide next brings four f into the picture, in period six."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 81.0,
+          "end_seconds": 87.45,
+          "text": "Four f holds fourteen electrons. The table needs fourteen more positions. Where can we put them?"
+        }
+      ]
+    },
+    {
+      "key": "11",
+      "title": "The giant gap at the bottom",
+      "film_start_seconds": 940.0,
+      "duration_seconds": 93.0,
+      "text_file": "scene_11.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Period six starts with caesium and barium: two positions associated with six s. Now the row needs to grow."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 12.0,
+          "text": "The four f family becomes important: seven orbitals, with fourteen electron places."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 19.0,
+          "text": "Our fourteen-position strip runs from lanthanum to ytterbium. Real configurations can mix four f and five d."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 25.0,
+          "text": "We use lutetium under yttrium. Other layouts draw the boundary differently, without changing the capacity."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 25.0,
+          "end_seconds": 30.0,
+          "text": "Continue in atomic-number order through the d region, then six p."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 37.0,
+          "text": "Two plus fourteen plus ten plus six gives thirty-two elements in period six."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 42.0,
+          "text": "Period seven repeats this length, with five f in its inner region."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 42.0,
+          "end_seconds": 48.0,
+          "text": "The expanded table has thirty-two columns. Both f strips sit inside their periods."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 48.0,
+          "end_seconds": 54.0,
+          "text": "This shows the sequence clearly. But printed on a page, the symbols become tiny."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 54.0,
+          "end_seconds": 59.0,
+          "text": "To make a compact version, first lift out the two fourteen-position strips."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 59.0,
+          "end_seconds": 64.0,
+          "text": "Then close the gap, bringing the remaining blocks together."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 64.0,
+          "end_seconds": 68.0,
+          "text": "Finally, place the extracted strips underneath the main table."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 68.0,
+          "end_seconds": 79.0,
+          "text": "The elements have not left their periods. The connectors show where they fit back into rows six and seven. Their detached appearance is a choice about space on the page."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 79.0,
+          "end_seconds": 86.0,
+          "text": "Quantum states set the width. Page layout puts the strips underneath. Both parts of the mystery are solved."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 86.0,
+          "end_seconds": 92.45,
+          "text": "All four widths now have an explanation. Let us bring the orbital families back together."
+        }
+      ]
+    },
+    {
+      "key": "12",
+      "title": "The four blocks appear",
+      "film_start_seconds": 1033.0,
+      "duration_seconds": 83.0,
+      "text_file": "scene_12.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Colour the whole table by its four structural blocks, keeping the colours of the orbital boxes."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 11.0,
+          "text": "Blue marks the s region: two columns."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 15.0,
+          "text": "Green marks the p region: six columns."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 15.0,
+          "end_seconds": 19.0,
+          "text": "Gold marks the d region: ten columns."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 19.0,
+          "end_seconds": 23.0,
+          "text": "Purple marks the f region: fourteen columns."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 23.0,
+          "end_seconds": 31.0,
+          "text": "Helium stays blue because its configuration is one s squared, even though its chemistry places it above the noble gases."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 31.0,
+          "end_seconds": 36.0,
+          "text": "Raise the blocks. Their heights now echo the same capacities as their widths."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 36.0,
+          "end_seconds": 40.0,
+          "text": "Above each block, bring back a representative orbital shape."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 40.0,
+          "end_seconds": 44.0,
+          "text": "A sphere for s: one orbital per subshell."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 44.0,
+          "end_seconds": 48.0,
+          "text": "A dumbbell for p: three independent orbitals."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 48.0,
+          "end_seconds": 52.0,
+          "text": "A cloverlike example for d: five orbitals."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 52.0,
+          "end_seconds": 57.0,
+          "text": "And a more complex f shape: seven orbitals."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 57.0,
+          "end_seconds": 65.0,
+          "text": "Two spin states turn one, three, five and seven orbitals into two, six, ten and fourteen places."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 65.0,
+          "end_seconds": 75.0,
+          "text": "The widths, the gaps in the early rows, and the strips underneath all fit the same story: capacities and the order of filling."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 75.0,
+          "end_seconds": 82.45,
+          "text": "But why does the story start again at each new row? That is where the word periodic comes from."
+        }
+      ]
+    },
+    {
+      "key": "13",
+      "title": "Why the rows repeat",
+      "film_start_seconds": 1116.0,
+      "duration_seconds": 85.0,
+      "text_file": "scene_13.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "From period two onward, each row starts a fresh outer shell."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 11.0,
+          "text": "Its first element has n s one: a single electron in that new shell."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 19.0,
+          "text": "The row ends with closed outer s and p subshells: n s two, n p six. Helium closes one s."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 22.0,
+          "text": "Follow lithium across to neon."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 22.0,
+          "end_seconds": 27.0,
+          "text": "Then sodium starts again, and argon closes the next row."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 27.0,
+          "end_seconds": 31.0,
+          "text": "Potassium begins another cycle, ending at krypton."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 31.0,
+          "end_seconds": 36.0,
+          "text": "Fill available states, close the outer s and p set, and start again."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 36.0,
+          "end_seconds": 47.0,
+          "text": "Because the valence patterns recur, broad chemical behaviour recurs too: a reactive metal, changing properties, then a usually unreactive noble gas."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 47.0,
+          "end_seconds": 53.0,
+          "text": "That is periodicity. Similar patterns return at intervals as atomic number increases."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 53.0,
+          "end_seconds": 60.0,
+          "text": "The row lengths are two, eight, eight, eighteen, eighteen, thirty-two and thirty-two. The intervals are unequal."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 60.0,
+          "end_seconds": 68.0,
+          "text": "Two s places and six p places give eight. That recipe repeats in periods two and three."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 68.0,
+          "end_seconds": 77.0,
+          "text": "Add ten d places and the count becomes eighteen. Those d states belong to the previous principal shell."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 77.0,
+          "end_seconds": 84.45,
+          "text": "Fourteen f places give thirty-two. A period can fill several shells; its length follows the subshell sequence."
+        }
+      ]
+    },
+    {
+      "key": "14",
+      "title": "Why properties change across the table",
+      "film_start_seconds": 1201.0,
+      "duration_seconds": 87.0,
+      "text_file": "scene_14.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "The same electron structure also helps explain broad trends in properties. Let us start with the size of atoms."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 11.0,
+          "text": "Compare lithium through fluorine across period two."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 18.0,
+          "text": "Each step adds a proton and an electron. The added electron enters the same principal outer shell."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 28.0,
+          "text": "The inner core remains similar, while electrons in that outer shell screen each other incompletely. The effective nuclear attraction generally increases."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 31.0,
+          "text": "The electron distribution contracts. The atoms become smaller."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 31.0,
+          "end_seconds": 36.0,
+          "text": "Using covalent radii, lithium is a little over twice the size of fluorine."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 36.0,
+          "end_seconds": 40.0,
+          "text": "Now compare the alkali metals down group one."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 40.0,
+          "end_seconds": 45.0,
+          "text": "A new outer shell opens. More inner electrons shield the nucleus."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 45.0,
+          "end_seconds": 51.0,
+          "text": "The atoms grow. On this covalent-radius scale, caesium is almost twice the size of lithium."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 51.0,
+          "end_seconds": 58.0,
+          "text": "This stronger or weaker attraction also influences how much energy it takes to remove an electron."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 58.0,
+          "end_seconds": 64.0,
+          "text": "First ionization energy generally rises across a period and falls down a group. There are exceptions."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 64.0,
+          "end_seconds": 72.0,
+          "text": "The tendency to give up electrons also helps explain why metallic character generally increases towards the lower left."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 72.0,
+          "end_seconds": 79.0,
+          "text": "These are broad trends. Atomic size depends on its definition, and ionization has exceptions. More on those next time."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 79.0,
+          "end_seconds": 86.45,
+          "text": "Electron structure helps explain both the table's shape and the properties of its elements. Structure connects to behaviour."
+        }
+      ]
+    },
+    {
+      "key": "15",
+      "title": "The final reconstruction",
+      "film_start_seconds": 1288.0,
+      "duration_seconds": 65.0,
+      "text_file": "scene_15.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Why does the periodic table have this strange shape? Now we can answer."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 8.0,
+          "text": "Trace the diagram back to its building blocks."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 8.0,
+          "end_seconds": 10.0,
+          "text": "Four blocks."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 10.0,
+          "end_seconds": 12.0,
+          "text": "Four orbital families."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 12.0,
+          "end_seconds": 17.0,
+          "text": "And four capacities: two, six, ten and fourteen."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 17.0,
+          "end_seconds": 27.0,
+          "text": "Run the story forward. Orbitals hold electrons. Their occupations form configurations. Valence patterns recur, and related elements line up in columns."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 27.0,
+          "end_seconds": 33.0,
+          "text": "What looked like an awkward outline now has a physical explanation."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 33.0,
+          "end_seconds": 39.0,
+          "text": "Begin with electron states, and the block widths and repeating rows follow."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 39.0,
+          "end_seconds": 48.0,
+          "text": "Atomic number sets the sequence. Recurring valence structure shapes the groups. Subshell capacities set the widths. Our compact drawing folds the long rows underneath."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 48.0,
+          "end_seconds": 64.45,
+          "text": "The periodic table is a map of the quantum structure of atoms. We choose how to draw the map; nature supplies the patterns. From orbitals to configurations, from configurations to the table, and from the table to chemistry."
+        }
+      ]
+    },
+    {
+      "key": "16",
+      "title": "Stay curious",
+      "film_start_seconds": 1353.0,
+      "duration_seconds": 10.0,
+      "text_file": "scene_16.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.45,
+          "text": "Thank you for watching. Subscribe for more visual science, and join me next time to explore periodic trends. Stay curious."
+        }
+      ]
+    }
+  ]
+}
