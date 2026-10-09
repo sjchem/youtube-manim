@@ -1,0 +1,15 @@
+# Why Does Pascal's Triangle Know Algebra? (Binomial Theorem Visualized)
+# Python 3.10+, built and validated with Manim Community 0.19.2 (also imports on 0.21).
+#
+# System packages Manim needs, which pip cannot install:
+#   ffmpeg (with ffprobe), a LaTeX distribution with dvisvgm (TeX Live or MiKTeX),
+#   pango/cairo development headers, and the Lato font.
+# On Debian/Ubuntu/WSL:
+#   sudo apt install ffmpeg libcairo2-dev libpango1.0-dev texlive texlive-latex-extra dvisvgm fonts-lato
+#
+# The shared Oceanic Next theme in ../themes needs manim-themes.
+# No other plugin is used: core Manim covers every diagram in this film.
+
+manim>=0.19,<0.22
+manim-themes>=0.1.3
+numpy>=1.26

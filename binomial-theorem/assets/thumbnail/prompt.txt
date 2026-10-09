@@ -1,0 +1,14 @@
+Use case: ads-marketing / scientific-educational
+Asset type: finished YouTube thumbnail for a visual mathematics video, landscape 16:9.
+Primary request: an arresting, clean thumbnail for "How Pascal's Triangle Explains the Binomial Theorem", matching a bright Manim mathematics animation.
+Scene/backdrop: deep midnight navy (#041A2F), restrained subtle blue glow, clean negative space.
+Composition: very large, bold, crisp sans-serif headline in the upper left, on three lines, exact text "WHY" / "THESE" / "NUMBERS?". "WHY THESE" is luminous white, "NUMBERS?" warm gold. Keep generous safe margins, no cropped text. Below the headline on the left show one elegant large mathematical expression "(a+b)⁵", with a cyan a and pink b, white parentheses and plus and a correctly superscripted 5. One simple bright curved arrow connects the expression toward the highlighted last row of the triangle on the right.
+Subject: a very large accurate Pascal's triangle occupying the right half, six centered horizontal rows of spaced, extremely legible numerals:
+row 0: 1
+row 1: 1 1
+row 2: 1 2 1
+row 3: 1 3 3 1
+row 4: 1 4 6 4 1
+row 5: 1 5 10 10 5 1
+Use EXACTLY these values and six rows; correct numerical accuracy is essential. Upper five rows bright cyan-white and slightly smaller; final row large warm gold, with a restrained gold glow and navy outlines to stay perfectly readable. A fine luminous triangular silhouette may frame the number arrangement, but do not draw complicated graphs or grids.
+Style: polished educational graphic design, bold high contrast, restrained dimensional glow, clear hierarchy, reads instantly at phone size. All numbers sharp and separated. Eye-catching but uncluttered. No prose besides the exact headline, formula, and triangle numbers. No full video title, no people, no logos, no watermark, no additional equations, no decorative random mathematics. Render wide 16:9.

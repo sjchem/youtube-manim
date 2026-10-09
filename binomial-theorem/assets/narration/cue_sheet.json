@@ -1,0 +1,1238 @@
+{
+  "planned_duration_seconds": 1283.0,
+  "scenes": [
+    {
+      "key": "01",
+      "title": "Binomial Theorem: the mystery",
+      "film_start_seconds": 0.0,
+      "duration_seconds": 64.0,
+      "text_file": "scene_01.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "The binomial theorem. Why does Pascal's triangle know algebra?"
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 10.5,
+          "text": "Expand a plus b to the fifth: six terms, six coefficients."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.5,
+          "end_seconds": 16.5,
+          "text": "Those numbers are the coefficients. Where do they come from?"
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.5,
+          "end_seconds": 22.0,
+          "text": "One way is to multiply it out. Five copies of a plus b, multiplied together."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 22.0,
+          "end_seconds": 30.0,
+          "text": "The products pile up: two, four, eight, sixteen, thirty-two, before anything simplifies."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 38.0,
+          "text": "Then like terms collapse together, and six coefficients survive. One, five, ten, ten, five, one."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 38.0,
+          "end_seconds": 46.0,
+          "text": "In Pascal's triangle, call the top row zero. Row five reads one, five, ten, ten, five, one."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 46.0,
+          "end_seconds": 49.0,
+          "text": "The same six numbers. Exactly."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 49.0,
+          "end_seconds": 55.0,
+          "text": "Why would a triangle built by simple addition know the answer to an algebra problem?"
+        },
+        {
+          "beat": 10,
+          "start_seconds": 55.0,
+          "end_seconds": 63.45,
+          "text": "That's our mystery. And the answer is a story about choices."
+        }
+      ]
+    },
+    {
+      "key": "02",
+      "title": "Start small: squares and rectangles",
+      "film_start_seconds": 64.0,
+      "duration_seconds": 96.0,
+      "text_file": "scene_02.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.5,
+          "text": "Let's not start with the fifth power. Start small, and watch what happens."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.5,
+          "end_seconds": 11.0,
+          "text": "a plus b to the power zero is just one. One term, coefficient one."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 17.0,
+          "text": "To the first power, it's a plus b itself. Two terms, each with coefficient one."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.0,
+          "end_seconds": 23.0,
+          "text": "Now square it. Let a and b be positive lengths making up this square's side."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 23.0,
+          "end_seconds": 29.0,
+          "text": "Split each side into a and b. The square breaks into four regions."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 29.0,
+          "end_seconds": 35.0,
+          "text": "A square of side a: that's a squared. A square of side b: b squared."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 44.0,
+          "text": "And two rectangles, each a by b. One stands up, one lies down, but their areas are equal: a times b."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 44.0,
+          "end_seconds": 48.0,
+          "text": "Slide them together. Two copies of a b."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 48.0,
+          "end_seconds": 56.0,
+          "text": "So a plus b, squared, is a squared, plus two a b, plus b squared. Coefficients one, two, one."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 56.0,
+          "end_seconds": 62.0,
+          "text": "The algebra agrees. Every term in the first bracket meets every term in the second."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 62.0,
+          "end_seconds": 68.0,
+          "text": "a times a. a times b. b times a. b times b. Four products."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 68.0,
+          "end_seconds": 74.0,
+          "text": "But a b and b a are the same product, just reordered. So they merge."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 74.0,
+          "end_seconds": 82.5,
+          "text": "That two isn't a rule to memorise. It counts something: two different ways to end up with one a and one b."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 82.5,
+          "end_seconds": 87.5,
+          "text": "Hold on to that idea. A coefficient counts the ways."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 87.5,
+          "end_seconds": 95.45,
+          "text": "For the cube, we need one more dimension."
+        }
+      ]
+    },
+    {
+      "key": "03",
+      "title": "The cube of a + b",
+      "film_start_seconds": 160.0,
+      "duration_seconds": 102.0,
+      "text_file": "scene_03.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "text": "Build a cube whose edge is a plus b."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 12.5,
+          "text": "Cut every edge into a piece a and a piece b, in all three directions. The cube splits into eight blocks."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.5,
+          "end_seconds": 16.5,
+          "text": "Pull them apart, so we can see them all."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.5,
+          "end_seconds": 21.0,
+          "text": "One big cube, a by a by a. That's a cubed."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 21.0,
+          "end_seconds": 26.0,
+          "text": "One small cube, b by b by b. That's b cubed."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 26.0,
+          "end_seconds": 35.0,
+          "text": "Then three flat slabs. Each is a by a by b: a squared b. Three of them."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 43.0,
+          "text": "And three long beams, a by b by b: a b squared. Again, three."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 49.0,
+          "text": "Sort the eight blocks by shape. One, three, three, one."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 49.0,
+          "end_seconds": 57.0,
+          "text": "So a plus b, cubed, is a cubed, plus three a squared b, plus three a b squared, plus b cubed."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 57.0,
+          "end_seconds": 66.0,
+          "text": "Why three slabs? A slab has one thin side, and that thin side can point along any of the three directions."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 66.0,
+          "end_seconds": 72.0,
+          "text": "Choose which direction gets the b. Three choices. Three slabs."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 72.0,
+          "end_seconds": 80.0,
+          "text": "A beam is the reverse. Two thin sides, so it chooses two of the three directions. Again, three ways."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 80.0,
+          "end_seconds": 88.0,
+          "text": "And eight blocks in all, because each direction makes its own choice, a or b. Two, times two, times two."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 88.0,
+          "end_seconds": 101.45,
+          "text": "Coefficients count choices again. But a fourth power would need a fourth dimension. So we need a better picture."
+        }
+      ]
+    },
+    {
+      "key": "04",
+      "title": "The triangle builds itself",
+      "film_start_seconds": 262.0,
+      "duration_seconds": 115.0,
+      "text_file": "scene_04.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "text": "Let's line up what we've found, one power at a time."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 7.5,
+          "text": "Power zero: one."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 7.5,
+          "end_seconds": 10.5,
+          "text": "Power one: one, one."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 10.5,
+          "end_seconds": 14.5,
+          "text": "Power two: one, two, one."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 14.5,
+          "end_seconds": 19.0,
+          "text": "Power three: one, three, three, one."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 19.0,
+          "end_seconds": 27.5,
+          "text": "Keep going. Power four gives one, four, six, four, one. And power five, one, five, ten, ten, five, one."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 27.5,
+          "end_seconds": 32.0,
+          "text": "Now strip away the algebra, and keep only the coefficients."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 32.0,
+          "end_seconds": 40.0,
+          "text": "We weren't building Pascal's triangle. We were expanding binomials. Yet somehow, the triangle built itself."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 40.0,
+          "end_seconds": 50.0,
+          "text": "The edges are always one. Inside, each number adds its two neighbours above: three plus three is six; four plus six is ten."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 50.0,
+          "end_seconds": 54.0,
+          "text": "But why should expansions obey that rule?"
+        },
+        {
+          "beat": 11,
+          "start_seconds": 54.0,
+          "end_seconds": 61.0,
+          "text": "Here's a clue. To reach the fifth power, multiply the fourth power by one more a plus b."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 61.0,
+          "end_seconds": 67.0,
+          "text": "Multiplying by a keeps every term, and adds one to each power of a."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 67.0,
+          "end_seconds": 75.0,
+          "text": "Multiplying by b does the same with b, and slides every term one place along."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 75.0,
+          "end_seconds": 81.0,
+          "text": "Now add the two copies. Terms with the same powers land on top of each other."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 81.0,
+          "end_seconds": 89.0,
+          "text": "One. Four plus one. Six plus four. Four plus six. One plus four. And one."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 89.0,
+          "end_seconds": 97.0,
+          "text": "One, five, ten, ten, five, one. Each new coefficient is the sum of two old ones: the rule of the triangle."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 97.0,
+          "end_seconds": 104.5,
+          "text": "So the algebra shows how the triangle grows. But not what its numbers mean. Why ten?"
+        },
+        {
+          "beat": 18,
+          "start_seconds": 104.5,
+          "end_seconds": 114.45,
+          "text": "To answer that, we have to stop multiplying, and start choosing."
+        }
+      ]
+    },
+    {
+      "key": "05",
+      "title": "Five choice machines",
+      "film_start_seconds": 377.0,
+      "duration_seconds": 128.0,
+      "text_file": "scene_05.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.0,
+          "text": "Write a plus b to the fifth as what it really is: five brackets, multiplied together."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.0,
+          "end_seconds": 13.0,
+          "text": "Think of each bracket as a little machine with two doors. One door says a. The other says b."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 18.0,
+          "text": "To make one term of the expansion, every machine opens exactly one door."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 25.0,
+          "text": "Say the first picks a. The second, a. The third, b. The fourth, a. The fifth, b."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 25.0,
+          "end_seconds": 33.0,
+          "text": "Multiply what came out: a, a, b, a, b. Three a's and two b's. a cubed b squared."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 38.0,
+          "text": "Every set of choices makes one product. How many products are there?"
+        },
+        {
+          "beat": 7,
+          "start_seconds": 38.0,
+          "end_seconds": 47.0,
+          "text": "Each machine has two options, chosen independently. Two times two times two times two times two: thirty-two."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.0,
+          "end_seconds": 53.0,
+          "text": "Here they are. All thirty-two ways the five machines can choose."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 53.0,
+          "end_seconds": 60.0,
+          "text": "These are exactly the thirty-two products brute force made. Now each one is a list of choices."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.0,
+          "end_seconds": 66.0,
+          "text": "Let's sort them. Not by order, but by how many b's each list contains."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 66.0,
+          "end_seconds": 71.0,
+          "text": "No b's at all: just one list. All a."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 71.0,
+          "end_seconds": 78.0,
+          "text": "Exactly one b: five lists. The b can come from any one of the five machines."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 78.0,
+          "end_seconds": 82.0,
+          "text": "Two b's: ten lists."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 82.0,
+          "end_seconds": 89.0,
+          "text": "Three b's: ten. Four b's: five. Five b's: one."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 89.0,
+          "end_seconds": 95.0,
+          "text": "Look at the piles. One, five, ten, ten, five, one."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 95.0,
+          "end_seconds": 102.5,
+          "text": "Every list in a pile multiplies to the same term. So the size of each pile is that term's coefficient."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 102.5,
+          "end_seconds": 108.5,
+          "text": "And all the piles together hold thirty-two lists. Two to the fifth."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 108.5,
+          "end_seconds": 117.0,
+          "text": "The triangle's row is the sizes of these piles. Expanding a binomial is secretly sorting choices."
+        },
+        {
+          "beat": 19,
+          "start_seconds": 117.0,
+          "end_seconds": 127.45,
+          "text": "So the real question is: how do we count a pile, without listing it?"
+        }
+      ]
+    },
+    {
+      "key": "06",
+      "title": "Combinations enter",
+      "film_start_seconds": 505.0,
+      "duration_seconds": 131.0,
+      "text_file": "scene_06.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.0,
+          "text": "Take the pile for a cubed b squared."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.0,
+          "end_seconds": 13.0,
+          "text": "Each list in it has exactly two b's. Once you know where those two b's are, the rest is forced: everything else is a."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 18.0,
+          "text": "So a list is just a choice of two machines out of five."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 24.0,
+          "text": "Machines one and two. One and three. One and four. One and five."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 29.0,
+          "text": "Two and three. Two and four. Two and five."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 29.0,
+          "end_seconds": 34.0,
+          "text": "Three and four. Three and five. And four and five."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 34.0,
+          "end_seconds": 41.0,
+          "text": "Ten ways to choose two of five. Ten lists. Ten copies of a cubed b squared."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 41.0,
+          "end_seconds": 46.0,
+          "text": "They collapse into a single term: ten a cubed b squared."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 46.0,
+          "end_seconds": 55.0,
+          "text": "Can we count them without listing? Pick a first b machine: five options. Then a second: four are left."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 55.0,
+          "end_seconds": 60.0,
+          "text": "Five times four is twenty. But that counts every pair twice."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 60.0,
+          "end_seconds": 68.0,
+          "text": "Choosing machine two, then four, gives the same list as four, then two. Only which machines say b matters."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 68.0,
+          "end_seconds": 72.0,
+          "text": "So divide by two. Twenty over two is ten."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 72.0,
+          "end_seconds": 80.5,
+          "text": "This count has a name: five choose two. The number of ways to choose two things from five, when order doesn't matter."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 80.5,
+          "end_seconds": 89.0,
+          "text": "For n brackets, choose k for b. Ordered picks count each group k factorial times, so divide by k factorial."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 89.0,
+          "end_seconds": 97.0,
+          "text": "The count is n choose k: n factorial, divided by k factorial and by the factorial of n minus k."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 97.0,
+          "end_seconds": 104.0,
+          "text": "Five factorial is one hundred twenty. Divide by two factorial times three factorial: two times six. Ten."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 104.0,
+          "end_seconds": 114.5,
+          "text": "Every coefficient is one of these counts. Five choose zero is one. Five choose one is five. Then ten, ten, five, and one."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 114.5,
+          "end_seconds": 120.5,
+          "text": "The coefficient isn't an arbitrary number. It's counting something."
+        },
+        {
+          "beat": 19,
+          "start_seconds": 120.5,
+          "end_seconds": 130.45,
+          "text": "Now we can write the whole theorem, and every symbol will already mean something."
+        }
+      ]
+    },
+    {
+      "key": "07",
+      "title": "The binomial theorem",
+      "film_start_seconds": 636.0,
+      "duration_seconds": 99.0,
+      "text_file": "scene_07.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.0,
+          "text": "Here it is: the binomial theorem."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.0,
+          "end_seconds": 15.0,
+          "text": "a plus b to the n equals the sum, for k from zero to n, of n choose k, a to the n minus k, b to the k."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 15.0,
+          "end_seconds": 18.0,
+          "text": "Read it from the inside out."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 22.0,
+          "text": "b to the k: k of the brackets chose b."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 22.0,
+          "end_seconds": 26.5,
+          "text": "a to the n minus k: the rest chose a."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 26.5,
+          "end_seconds": 32.0,
+          "text": "n choose k: the number of ways to decide which brackets those are."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 32.0,
+          "end_seconds": 39.5,
+          "text": "And the sum: collect every possible number of b's, from none at all to every bracket."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 39.5,
+          "end_seconds": 45.0,
+          "text": "For n equal to zero, one, two, and so on: choose, count, collect."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 45.0,
+          "end_seconds": 51.0,
+          "text": "Let's test it. Set n to five, and let k run from zero to five."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 51.0,
+          "end_seconds": 59.0,
+          "text": "Each value of k gives one term: five choose k, times a to the five minus k, times b to the k."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 59.0,
+          "end_seconds": 63.0,
+          "text": "Evaluate each count."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 63.0,
+          "end_seconds": 71.5,
+          "text": "One, five, ten, ten, five, one. The expansion we started with, rebuilt without multiplying anything."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 71.5,
+          "end_seconds": 77.5,
+          "text": "And we never needed the triangle. The counts come straight from choosing."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 77.5,
+          "end_seconds": 89.0,
+          "text": "For power ten, the middle term is ten choose five: two hundred fifty-two a to the fifth b to the fifth."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 89.0,
+          "end_seconds": 98.45,
+          "text": "But look closer at the exponents. They move in a very particular way."
+        }
+      ]
+    },
+    {
+      "key": "08",
+      "title": "Why the exponents move oppositely",
+      "film_start_seconds": 735.0,
+      "duration_seconds": 101.0,
+      "text_file": "scene_08.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "text": "Watch the powers march across the expansion. The powers of a count down: five, four, three, two, one, zero."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 14.0,
+          "text": "The powers of b count up: zero, one, two, three, four, five."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.0,
+          "end_seconds": 17.0,
+          "text": "Why do they move in opposite directions?"
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.0,
+          "end_seconds": 25.0,
+          "text": "Because there are always five choices in total. Five machines, five letters. Every product has five factors."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 25.0,
+          "end_seconds": 32.0,
+          "text": "Start with all a. Now flip one machine from a to b. One a disappears; one b appears."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 32.0,
+          "end_seconds": 39.0,
+          "text": "Flip another. And another. Each step trades one a for one b."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 39.0,
+          "end_seconds": 45.0,
+          "text": "The two exponents always add up to five. Two sides of one budget."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 45.0,
+          "end_seconds": 52.0,
+          "text": "That trade gives the triangle another property. Swap the roles of a and b, and the row reverses."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 52.0,
+          "end_seconds": 58.0,
+          "text": "Choosing which two machines say b is the same as choosing which three say a."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 58.0,
+          "end_seconds": 66.0,
+          "text": "So five choose two equals five choose three. Ten equals ten. That's the mirror symmetry of every row."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 66.0,
+          "end_seconds": 75.0,
+          "text": "In general, n choose k equals n choose n minus k. Picking what goes in is picking what stays out."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 75.0,
+          "end_seconds": 85.0,
+          "text": "And the sum of a row? Set a and b to one. Each term becomes its coefficient, and the left side becomes two to the n."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 85.0,
+          "end_seconds": 92.5,
+          "text": "One plus five plus ten plus ten plus five plus one: thirty-two. Every choice list, counted once."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 92.5,
+          "end_seconds": 100.45,
+          "text": "Symmetry and sums are nice. But why does adding two neighbours give the number below?"
+        }
+      ]
+    },
+    {
+      "key": "09",
+      "title": "Why Pascal's rule works",
+      "film_start_seconds": 836.0,
+      "duration_seconds": 111.0,
+      "text_file": "scene_09.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.5,
+          "text": "Pascal's rule says ten is four plus six. In counting language: five choose two equals four choose one plus four choose two."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 9.5,
+          "end_seconds": 13.0,
+          "text": "Let's see why, with our ten lists."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 20.0,
+          "text": "Each list picks two of the five machines for b. Now focus on just one machine: the last one."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 28.0,
+          "text": "Either the last machine says b, or it says a. There's no third option. So split the ten lists into two groups."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 38.0,
+          "text": "Group one: the last machine says b. Then just one more b is needed, from the first four machines. Four choose one: four ways."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 38.0,
+          "end_seconds": 48.0,
+          "text": "Group two: the last machine says a. Then both b's come from the first four. Four choose two: six ways."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 48.0,
+          "end_seconds": 57.0,
+          "text": "Four plus six. Ten. Every list lands in exactly one group. Nothing counted twice, nothing missed."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 57.0,
+          "end_seconds": 68.0,
+          "text": "The same argument works anywhere. To choose k from n, look at the newest item. Either it's chosen, and you need k minus one more from the rest,"
+        },
+        {
+          "beat": 9,
+          "start_seconds": 68.0,
+          "end_seconds": 72.5,
+          "text": "or it isn't, and you need all k from the rest."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 72.5,
+          "end_seconds": 80.0,
+          "text": "n choose k equals n minus one choose k minus one, plus n minus one choose k."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 80.0,
+          "end_seconds": 90.0,
+          "text": "That's the triangle's addition rule. Not a coincidence of arithmetic, but a way of sorting choices by one question: in or out?"
+        },
+        {
+          "beat": 12,
+          "start_seconds": 90.0,
+          "end_seconds": 102.0,
+          "text": "And the shifted copies from the algebra? Times a: the new bracket says a. Times b: it says b. The same split, in algebra's clothes."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 102.0,
+          "end_seconds": 110.45,
+          "text": "Two arguments, one structure. Next, a third way to see these numbers: as paths."
+        }
+      ]
+    },
+    {
+      "key": "10",
+      "title": "Paths through the triangle",
+      "film_start_seconds": 947.0,
+      "duration_seconds": 110.0,
+      "text_file": "scene_10.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Turn the triangle into a little maze. Start at the top."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "text": "At every row, step down to the left, or down to the right."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.0,
+          "end_seconds": 14.0,
+          "text": "Call a left step a, and a right step b."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 14.0,
+          "end_seconds": 24.0,
+          "text": "Five steps down, and you reach row five. Your path is a list of five letters, a's and b's, just like our choice machines."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 33.0,
+          "text": "Here's one path: a, b, a, a, b. It ends two places from the left, because exactly two steps went right."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 39.0,
+          "text": "Where you land depends only on how many b's you took. Not on their order."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 39.0,
+          "end_seconds": 43.0,
+          "text": "So how many paths reach this spot, the ten?"
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 58.0,
+          "text": "Any path with two right steps among its five. That's five choose two. Watch them arrive."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 58.0,
+          "end_seconds": 63.0,
+          "text": "All ten paths, layered on top of each other."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 63.0,
+          "end_seconds": 68.0,
+          "text": "Every number in the triangle counts the paths that reach it."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.0,
+          "end_seconds": 76.0,
+          "text": "And Pascal's rule appears a third time. Every path into this spot comes through one of the two spots above it."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 76.0,
+          "end_seconds": 84.0,
+          "text": "Four paths arrive from the upper left. Six from the upper right. Four plus six, ten."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 84.0,
+          "end_seconds": 91.0,
+          "text": "Paths, choices, coefficients. Three different stories, and the same numbers in every one."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 91.0,
+          "end_seconds": 103.0,
+          "text": "Pascal's triangle, combinations, binomial coefficients. Not three facts that happen to agree, but one structure seen from three sides."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 103.0,
+          "end_seconds": 109.45,
+          "text": "Now let's make the walk random."
+        }
+      ]
+    },
+    {
+      "key": "11",
+      "title": "Coin flips and the bell curve",
+      "film_start_seconds": 1057.0,
+      "duration_seconds": 116.0,
+      "text_file": "scene_11.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Flip a fair coin independently at every step. Heads, go left. Tails, go right."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 13.0,
+          "text": "Five flips make one path. Our ideal board treats each bounce as an independent fair flip."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 16.5,
+          "text": "Drop a ball."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.5,
+          "end_seconds": 19.5,
+          "text": "Another."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 19.5,
+          "end_seconds": 26.0,
+          "text": "And now, many more."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 26.0,
+          "end_seconds": 30.5,
+          "text": "They pile up in the middle, and rarely at the edges. Why?"
+        },
+        {
+          "beat": 7,
+          "start_seconds": 30.5,
+          "end_seconds": 37.0,
+          "text": "Use H and T as labels: H plus T, to the fifth, counts the five-flip sequences."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 37.0,
+          "end_seconds": 43.0,
+          "text": "Thirty-two possible sequences, and for a fair coin each one is equally likely."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 43.0,
+          "end_seconds": 49.0,
+          "text": "How many sequences have exactly two tails? Five choose two. Ten."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 49.0,
+          "end_seconds": 56.0,
+          "text": "So the chance of exactly two tails is ten out of thirty-two. Just under a third."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 56.0,
+          "end_seconds": 63.0,
+          "text": "The whole row tells the whole story: one, five, ten, ten, five, one, out of thirty-two."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 63.0,
+          "end_seconds": 72.0,
+          "text": "Lift that row out of the triangle, and its numbers become the heights of a histogram."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 72.0,
+          "end_seconds": 83.0,
+          "text": "Gold shows expected counts for sixty-four balls. Blue shows our sample. With more balls, the proportions tend to get closer."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 83.0,
+          "end_seconds": 93.0,
+          "text": "With more flips, the rows grow longer. Ten flips: the middle bar is two hundred fifty-two, out of one thousand and twenty-four."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 93.0,
+          "end_seconds": 99.0,
+          "text": "For twenty flips, a smooth bell curve already approximates the bars."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 99.0,
+          "end_seconds": 107.0,
+          "text": "That bell is a doorway to probability and statistics. And it was hiding inside a binomial all along."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 107.0,
+          "end_seconds": 115.45,
+          "text": "The same counting structure, now measuring chance."
+        }
+      ]
+    },
+    {
+      "key": "12",
+      "title": "The final payoff",
+      "film_start_seconds": 1173.0,
+      "duration_seconds": 100.0,
+      "text_file": "scene_12.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Back to where we started: a plus b, to the fifth power."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 9.5,
+          "text": "Five brackets. Each one chooses a or b."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 9.5,
+          "end_seconds": 14.5,
+          "text": "For each number of b's, count the ways to pick those brackets."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 14.5,
+          "end_seconds": 23.5,
+          "text": "No b's: one way. One b: five ways. Two b's: ten. Three: ten. Four: five. Five b's: one."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 23.5,
+          "end_seconds": 28.0,
+          "text": "Attach the powers: a counts down, b counts up."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 28.0,
+          "end_seconds": 34.0,
+          "text": "And the whole expansion appears, without multiplying out the brackets."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 34.0,
+          "end_seconds": 37.0,
+          "text": "Here's the picture behind it."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 37.0,
+          "end_seconds": 41.0,
+          "text": "Expanding is making choices."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 41.0,
+          "end_seconds": 45.0,
+          "text": "Counting the choices gives combinations."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 45.0,
+          "end_seconds": 49.0,
+          "text": "Combinations are the binomial coefficients."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 49.0,
+          "end_seconds": 54.0,
+          "text": "And they stack, row by row, into Pascal's triangle."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 54.0,
+          "end_seconds": 63.0,
+          "text": "So Pascal's triangle doesn't magically predict the binomial theorem. Both grow from the same counting structure."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 63.0,
+          "end_seconds": 71.5,
+          "text": "One last trick. Set a to ten, and b to one. Then a plus b to the fourth is eleven to the fourth."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 71.5,
+          "end_seconds": 79.5,
+          "text": "Row four is one, four, six, four, one. And eleven to the fourth is fourteen thousand, six hundred forty-one."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 79.5,
+          "end_seconds": 86.5,
+          "text": "At row five, coefficients reach ten. Carrying gives eleven to the fifth: one hundred sixty-one thousand, fifty-one."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 86.5,
+          "end_seconds": 99.45,
+          "text": "The binomial theorem works because algebraic expansion secretly counts combinations. Every coefficient is a number of ways to choose."
+        }
+      ]
+    },
+    {
+      "key": "13",
+      "title": "Stay curious",
+      "film_start_seconds": 1273.0,
+      "duration_seconds": 10.0,
+      "text_file": "scene_13.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.45,
+          "text": "Thank you for watching. If the numbers clicked, subscribe, and stay curious."
+        }
+      ]
+    }
+  ]
+}
