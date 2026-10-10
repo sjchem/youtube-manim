@@ -1,0 +1,1409 @@
+{
+  "planned_duration_seconds": 1420.0,
+  "scenes": [
+    {
+      "key": "01",
+      "title": "A strange contradiction",
+      "film_start_seconds": 0.0,
+      "duration_seconds": 62.0,
+      "text_file": "scene_01.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "This glowing cloud is a lithium atom: a tiny nucleus, wrapped in a haze of electrons."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 16.0,
+          "text": "Now add one proton and one electron at a time. Beryllium. Boron. Carbon, nitrogen, oxygen, fluorine."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 16.0,
+          "end_seconds": 20.5,
+          "text": "The atom shrinks. We added particles, and it got smaller."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.5,
+          "end_seconds": 29.0,
+          "text": "Back to lithium. This time, move down the column. Sodium. Potassium. Rubidium. Caesium."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 34.5,
+          "text": "Now the atom grows, and grows. Again, we added protons and electrons."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.5,
+          "end_seconds": 41.0,
+          "text": "So how can adding particles make an atom smaller in one direction, and larger in another?"
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.0,
+          "end_seconds": 51.0,
+          "text": "Hold on to that question. Its answer also explains why some atoms give electrons away so easily, while others pull electrons towards themselves."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 51.0,
+          "end_seconds": 61.45,
+          "text": "This is the story of periodic trends, and the invisible forces behind them."
+        }
+      ]
+    },
+    {
+      "key": "02",
+      "title": "From shape to prediction",
+      "film_start_seconds": 62.0,
+      "duration_seconds": 75.0,
+      "text_file": "scene_02.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.5,
+          "text": "Last time, we built this table from one question: where can the next electron go?"
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.5,
+          "end_seconds": 14.5,
+          "text": "Filling s, p, d and f subshells gave us four blocks, and the blocks gave the table its shape."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.5,
+          "end_seconds": 22.5,
+          "text": "Now we ask a new question. Not why the table looks like this, but what it lets us predict."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.5,
+          "end_seconds": 27.0,
+          "text": "Let the symbols fade. Keep only the outlines."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 27.0,
+          "end_seconds": 37.0,
+          "text": "Behind every tile is an atom. And atoms differ in size, in how tightly they hold electrons, and in how strongly they attract more."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 37.0,
+          "end_seconds": 44.0,
+          "text": "Colour each tile by one of those properties, and the table lights up in smooth patterns."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 44.0,
+          "end_seconds": 49.5,
+          "text": "Those patterns are called periodic trends. You could memorise them as arrows."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 49.5,
+          "end_seconds": 57.5,
+          "text": "But we will do something better. We will discover a few physical ideas, and use them again and again."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.5,
+          "end_seconds": 67.5,
+          "text": "How far are the outer electrons from the nucleus? How strongly does the nucleus pull on them? And how are the electrons arranged?"
+        },
+        {
+          "beat": 10,
+          "start_seconds": 67.5,
+          "end_seconds": 74.45,
+          "text": "Three questions. Almost every trend in this video comes from them."
+        }
+      ]
+    },
+    {
+      "key": "03",
+      "title": "The pull of the nucleus",
+      "film_start_seconds": 137.0,
+      "duration_seconds": 65.0,
+      "text_file": "scene_03.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.5,
+          "text": "Start with the simplest picture. The nucleus is positive. Electrons are negative."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.5,
+          "end_seconds": 11.0,
+          "text": "Opposite charges attract, so the nucleus pulls on every electron around it."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 16.0,
+          "text": "Two things set the strength of that pull. The first is charge."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.0,
+          "end_seconds": 23.5,
+          "text": "Add protons, and the nucleus pulls harder. Twice the charge, twice the pull, if nothing else changes."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 23.5,
+          "end_seconds": 30.0,
+          "text": "The second is distance. Move the electron farther away, and the pull fades quickly."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.0,
+          "end_seconds": 35.5,
+          "text": "Double the distance, and the attraction drops to a quarter."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.5,
+          "end_seconds": 41.0,
+          "text": "So the pull depends on charge and distance, like this."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 41.0,
+          "end_seconds": 47.5,
+          "text": "One important word before we go on. These clouds are not little planets on orbits."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 47.5,
+          "end_seconds": 55.0,
+          "text": "The dots sample where electrons may be found. They are not separate particles; denser regions indicate higher probability."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 55.0,
+          "end_seconds": 64.45,
+          "text": "The cloud has no hard edge. Our contour is a visual guide; actual atomic radii come from measurements of bonded atoms."
+        }
+      ]
+    },
+    {
+      "key": "04",
+      "title": "Shielding and the charge an electron feels",
+      "film_start_seconds": 202.0,
+      "duration_seconds": 85.0,
+      "text_file": "scene_04.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "text": "But an outer electron is never alone with the nucleus."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 12.0,
+          "text": "Look at sodium. Eleven protons, and ten inner electrons, packed closer to the nucleus than the outer one."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 19.5,
+          "text": "Those inner electrons repel the outer electron. They partly cancel the nucleus's pull. We call this shielding."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.5,
+          "end_seconds": 26.5,
+          "text": "So the outer electron does not feel all eleven protons. It feels a smaller, effective charge."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.5,
+          "end_seconds": 34.0,
+          "text": "We call it effective nuclear charge, Z effective: the positive charge an electron feels after shielding."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.0,
+          "end_seconds": 37.5,
+          "text": "Now watch the two effects compete."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.5,
+          "end_seconds": 46.0,
+          "text": "First, add protons while the new electrons join the same shell. Electrons in the same shell shield each other poorly."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 46.0,
+          "end_seconds": 52.5,
+          "text": "So each new proton wins. Z effective rises, and the cloud is pulled inward."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 52.5,
+          "end_seconds": 60.5,
+          "text": "Now add a new shell. The new outer electron starts farther out, outside a larger core of inner electrons."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.5,
+          "end_seconds": 68.5,
+          "text": "The extra protons are largely cancelled by the extra inner electrons, and distance takes over. The cloud expands."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.5,
+          "end_seconds": 78.5,
+          "text": "Charge pulls the cloud in. Distance and shielding let it spread out. Every trend in this video is a contest between them."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 78.5,
+          "end_seconds": 84.45,
+          "text": "Now we can solve our first mystery."
+        }
+      ]
+    },
+    {
+      "key": "05",
+      "title": "Across a period, atoms shrink",
+      "film_start_seconds": 287.0,
+      "duration_seconds": 91.0,
+      "text_file": "scene_05.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Experiment one: walk across period two, from lithium to fluorine."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 13.5,
+          "text": "Here is lithium, and here is its size: one hundred and fifty-two picometres. A picometre is a trillionth of a metre."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 20.0,
+          "text": "Beryllium has one more proton, and its new electron joins the same second shell."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 26.5,
+          "text": "The pull grows faster than the shielding. The cloud shrinks to one hundred and eleven."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.5,
+          "end_seconds": 36.5,
+          "text": "Boron. Carbon. Nitrogen. Oxygen. Fluorine. Each step adds a proton to the nucleus and an electron to the same shell."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.5,
+          "end_seconds": 41.5,
+          "text": "And each time, the cloud is drawn in a little closer."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.5,
+          "end_seconds": 47.5,
+          "text": "By fluorine, the radius is sixty-four picometres, less than half of lithium's."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.5,
+          "end_seconds": 53.0,
+          "text": "Plot the numbers, and the graph falls all the way across."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 53.0,
+          "end_seconds": 61.5,
+          "text": "One honest note: these sizes come from bonded atoms. Metals are measured in metallic crystals, non-metals in covalent bonds."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 61.5,
+          "end_seconds": 70.5,
+          "text": "The two methods give somewhat different numbers, but on either scale, the trend is the same. Across a period, atoms generally shrink."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 70.5,
+          "end_seconds": 78.5,
+          "text": "Repeat the walk in period three, from sodium to chlorine. One hundred and eighty-six picometres shrinks to ninety-nine."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 78.5,
+          "end_seconds": 85.5,
+          "text": "Same pattern, one shell further out. Across a period, the growing nuclear charge generally wins."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 85.5,
+          "end_seconds": 90.45,
+          "text": "But what happens when we go down?"
+        }
+      ]
+    },
+    {
+      "key": "06",
+      "title": "Down a group, atoms grow",
+      "film_start_seconds": 378.0,
+      "duration_seconds": 80.0,
+      "text_file": "scene_06.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Experiment two: start at lithium and walk down group one."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 14.0,
+          "text": "Sodium has eight more protons, but also a whole new shell. Its outer electron sits in three s, outside a neon-like core."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.0,
+          "end_seconds": 20.0,
+          "text": "Potassium adds another shell. Then rubidium. Then caesium."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 28.0,
+          "text": "Each new shell sits farther out, and every inner shell shields the outer electron from the extra protons."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 36.0,
+          "text": "So the atoms grow: one fifty-two, one eighty-six, two thirty-one, two forty-four, two sixty-two picometres."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.0,
+          "end_seconds": 42.0,
+          "text": "Caesium is about one and three quarter times the size of lithium."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 42.0,
+          "end_seconds": 49.5,
+          "text": "The halogens tell the same story, from fluorine at sixty-four to iodine at one hundred and thirty-three."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 49.5,
+          "end_seconds": 57.0,
+          "text": "Now an important warning. These spheres are a picture, not reality. An atom has no hard surface."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.0,
+          "end_seconds": 67.0,
+          "text": "Its cloud thins out gradually. A radius is a useful measure taken from atoms in bonds or crystals, not the location of a wall."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 67.0,
+          "end_seconds": 73.5,
+          "text": "Across a period, nuclear pull wins. Down a group, new shells and shielding win."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 73.5,
+          "end_seconds": 79.45,
+          "text": "But what if an atom loses an electron?"
+        }
+      ]
+    },
+    {
+      "key": "07",
+      "title": "Losing and gaining electrons",
+      "film_start_seconds": 458.0,
+      "duration_seconds": 74.0,
+      "text_file": "scene_07.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "text": "Take a sodium atom. Eleven protons, eleven electrons."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 11.0,
+          "text": "Its lone three s electron is loosely held. Give it enough energy, and it leaves."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 16.0,
+          "text": "Sodium becomes a sodium ion, with a positive charge."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.0,
+          "end_seconds": 23.0,
+          "text": "Does it just become an atom with one less dot? No. The ion is dramatically smaller."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 23.0,
+          "end_seconds": 28.5,
+          "text": "One hundred and eighty-six picometres for the atom. Ninety-five for the ion."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 28.5,
+          "end_seconds": 38.0,
+          "text": "Why? The whole outer shell is gone. What remains is the compact, neon-like core, pulled by eleven protons with only ten electrons to hold."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 38.0,
+          "end_seconds": 43.0,
+          "text": "Now go the other way. Fluorine accepts an extra electron."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 52.0,
+          "text": "The fluoride ion has nine protons, but ten electrons. Electron repulsion grows, and the same nuclear charge is shared among more electrons."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 52.0,
+          "end_seconds": 59.0,
+          "text": "So the cloud swells. Sixty-four picometres for the atom, one hundred and thirty-six for the ion."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 59.0,
+          "end_seconds": 68.0,
+          "text": "Atomic and ionic sizes are measured in different ways, so compare them as a pattern, not to the last picometre."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.0,
+          "end_seconds": 73.45,
+          "text": "Losing electrons shrinks. Gaining electrons swells."
+        }
+      ]
+    },
+    {
+      "key": "08",
+      "title": "Same electrons, different size",
+      "film_start_seconds": 532.0,
+      "duration_seconds": 51.0,
+      "text_file": "scene_08.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.5,
+          "text": "Here is a stranger comparison. Oxide, fluoride, sodium and magnesium ions."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.5,
+          "end_seconds": 11.5,
+          "text": "Count their electrons. Ten, ten, ten and ten. Exactly the same arrangement."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.5,
+          "end_seconds": 17.0,
+          "text": "Only the nucleus differs: eight, nine, eleven and twelve protons."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.0,
+          "end_seconds": 23.0,
+          "text": "Same electrons, more protons, stronger pull. Watch the clouds contract."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 23.0,
+          "end_seconds": 29.0,
+          "text": "One hundred and forty, one hundred and thirty-six, ninety-five, sixty-five picometres."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 29.0,
+          "end_seconds": 36.5,
+          "text": "The magnesium ion is less than half the size of the oxide ion, with the very same electrons."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 36.5,
+          "end_seconds": 43.0,
+          "text": "Even with the same number of electrons, the nucleus can completely change the size."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 50.45,
+          "text": "Size tells us how close the electrons stay. Next question: how hard is it to pull one away?"
+        }
+      ]
+    },
+    {
+      "key": "09",
+      "title": "How hard is it to steal an electron?",
+      "film_start_seconds": 583.0,
+      "duration_seconds": 74.0,
+      "text_file": "scene_09.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "text": "If an electron sits close to a strong nucleus, it should be harder to remove. Let us test that."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 17.5,
+          "text": "Chemists measure this with the first ionization enthalpy: the energy to remove the outermost electron from an isolated atom in the gas phase."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 17.5,
+          "end_seconds": 22.5,
+          "text": "X in the gas phase becomes X plus, and an electron."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.5,
+          "end_seconds": 29.0,
+          "text": "Put lithium on the left and neon on the right. Same shell, very different grip."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 33.0,
+          "text": "Now pour in energy. Slowly raise the meter."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 39.5,
+          "text": "At about five hundred and twenty kilojoules per mole, lithium's outer electron escapes."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 39.5,
+          "end_seconds": 47.0,
+          "text": "Neon's electron is still there. Keep going. One thousand. Fifteen hundred. Two thousand."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.0,
+          "end_seconds": 53.5,
+          "text": "Only at about two thousand and eighty does neon let go. Four times the energy."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 53.5,
+          "end_seconds": 62.0,
+          "text": "Lithium's electron is far out and feels a weak effective charge. Neon's is closer, and feels a much stronger one."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 62.0,
+          "end_seconds": 68.5,
+          "text": "Smaller atom, tighter grip, higher ionization enthalpy. One trend explains another."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.5,
+          "end_seconds": 73.45,
+          "text": "So what happens if we measure it for every element?"
+        }
+      ]
+    },
+    {
+      "key": "10",
+      "title": "The ionization mountain range",
+      "film_start_seconds": 657.0,
+      "duration_seconds": 68.0,
+      "text_file": "scene_10.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Here is the first ionization enthalpy for the first eighty-six elements, in order of atomic number."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 11.0,
+          "text": "It rises and falls in a repeating pattern."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 19.0,
+          "text": "The peaks are the noble gases: helium, neon, argon, krypton, xenon, radon. Closed shells hold on tightly."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 19.0,
+          "end_seconds": 28.5,
+          "text": "Right after every peak comes a cliff. Lithium, sodium, potassium, rubidium, caesium. One electron in a fresh shell, easy to remove."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.5,
+          "end_seconds": 35.0,
+          "text": "Turn the graph into a landscape, and the periodic pattern becomes a mountain range."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.0,
+          "end_seconds": 41.0,
+          "text": "Each climb is one period: ionization enthalpy generally rises across a row."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.0,
+          "end_seconds": 48.5,
+          "text": "And the peaks get lower as we go down. Larger atoms, more shielding, an easier escape."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 48.5,
+          "end_seconds": 57.0,
+          "text": "So ionization enthalpy generally increases across a period and decreases down a group: the mirror image of atomic size."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.0,
+          "end_seconds": 67.45,
+          "text": "But look closely at period two. The climb is not smooth. Two steps go the wrong way."
+        }
+      ]
+    },
+    {
+      "key": "11",
+      "title": "When the trend seems to break",
+      "film_start_seconds": 725.0,
+      "duration_seconds": 85.0,
+      "text_file": "scene_11.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Beryllium: nine hundred kilojoules per mole. Boron: eight hundred and one. The trend says boron should be higher."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 12.5,
+          "text": "The answer is in the orbitals. Beryllium's outer electrons fill two s."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.5,
+          "end_seconds": 17.5,
+          "text": "Boron's extra electron goes into two p, a higher-energy subshell."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.5,
+          "end_seconds": 28.5,
+          "text": "A two p electron is shielded a little more by the two s pair, and starts higher up in energy. So less energy is needed to remove it."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.5,
+          "end_seconds": 35.0,
+          "text": "The general trend is not broken. We simply removed a different kind of electron."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.0,
+          "end_seconds": 41.5,
+          "text": "The second surprise: nitrogen, fourteen hundred and two. Oxygen, thirteen hundred and fourteen."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.5,
+          "end_seconds": 47.0,
+          "text": "Nitrogen has three p electrons, one in each p orbital, all unpaired."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.0,
+          "end_seconds": 52.0,
+          "text": "Oxygen's fourth p electron must share an orbital with another electron."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 52.0,
+          "end_seconds": 60.0,
+          "text": "Two electrons in the same orbital repel each other strongly. That repulsion makes one of them easier to remove."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.0,
+          "end_seconds": 65.0,
+          "text": "So oxygen's first ionization enthalpy is a little lower than nitrogen's."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 65.0,
+          "end_seconds": 71.0,
+          "text": "Period three repeats both dips: magnesium to aluminium, and phosphorus to sulfur."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 71.0,
+          "end_seconds": 78.0,
+          "text": "The periodic trend isn't broken. We simply need a more detailed picture of the orbitals."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 78.0,
+          "end_seconds": 84.45,
+          "text": "Removing an electron is one experiment. Next, we reverse it."
+        }
+      ]
+    },
+    {
+      "key": "12",
+      "title": "Adding an electron instead",
+      "film_start_seconds": 810.0,
+      "duration_seconds": 62.0,
+      "text_file": "scene_12.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "text": "Instead of pulling an electron away, send one in."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 11.0,
+          "text": "Electron gain enthalpy is the energy change when a gas-phase atom accepts an electron."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 16.0,
+          "text": "X in the gas phase, plus an electron, becomes X minus."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.0,
+          "end_seconds": 24.0,
+          "text": "If energy is released, the value is negative. The more negative, the more strongly the atom welcomes the electron."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 32.5,
+          "text": "Chlorine releases a lot of energy. It is one electron short of a closed outer set, and the newcomer completes it."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 32.5,
+          "end_seconds": 42.5,
+          "text": "Neon's shells are closed. The newcomer would need a higher shell. A free neon atom does not hold a stable negative ion."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 42.5,
+          "end_seconds": 48.5,
+          "text": "Across a period, electron gain enthalpy generally becomes more negative, towards the halogens."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 48.5,
+          "end_seconds": 56.0,
+          "text": "Down a group, it generally becomes less negative, because the added electron lands farther from the nucleus."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 56.0,
+          "end_seconds": 61.45,
+          "text": "Generally. Because this trend has a famous exception, right at the top."
+        }
+      ]
+    },
+    {
+      "key": "13",
+      "title": "Fluorine versus chlorine",
+      "film_start_seconds": 872.0,
+      "duration_seconds": 66.0,
+      "text_file": "scene_13.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.5,
+          "text": "Fluorine or chlorine: which releases more energy when it gains an electron?"
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.5,
+          "end_seconds": 10.5,
+          "text": "Fluorine is smaller. Its nucleus is closer. Surely fluorine wins."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.5,
+          "end_seconds": 15.0,
+          "text": "Fluorine: minus three hundred and twenty-eight kilojoules per mole."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 15.0,
+          "end_seconds": 20.0,
+          "text": "Chlorine: minus three hundred and forty-nine. Chlorine releases more."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 20.0,
+          "end_seconds": 28.0,
+          "text": "Fluorine's five two p electrons occupy a compact region. The next electron must enter that same crowded region."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 28.0,
+          "end_seconds": 36.0,
+          "text": "A new electron must squeeze into that small space, and it is pushed back by strong electron-electron repulsion."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 36.0,
+          "end_seconds": 43.0,
+          "text": "Chlorine's three p region is larger. The newcomer has more room, so the repulsion is weaker."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 50.0,
+          "text": "Both atoms attract the electron strongly. In fluorine, more of that attraction is cancelled by crowding."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 50.0,
+          "end_seconds": 59.0,
+          "text": "Size helps, but crowding matters too. That is why chlorine has the most negative electron gain enthalpy of all the elements."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 59.0,
+          "end_seconds": 65.45,
+          "text": "But there is another way an atom can attract electrons, without completely gaining or losing one."
+        }
+      ]
+    },
+    {
+      "key": "14",
+      "title": "A tug of war inside a bond",
+      "film_start_seconds": 938.0,
+      "duration_seconds": 62.0,
+      "text_file": "scene_14.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Inside a molecule, atoms share electrons. Here is hydrogen chloride."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 10.0,
+          "text": "Draw the shared pair as an even cloud between the two atoms."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.0,
+          "end_seconds": 17.5,
+          "text": "That is a convenient first sketch, but not what happens. Chlorine pulls the shared electrons towards itself."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.5,
+          "end_seconds": 24.0,
+          "text": "The density shifts. Chlorine gains a small negative charge, hydrogen a small positive one."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.0,
+          "end_seconds": 31.0,
+          "text": "This tendency has a name: electronegativity. An atom's pull on the electrons it shares in a bond."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 31.0,
+          "end_seconds": 37.0,
+          "text": "Keep three ideas separate. Ionization enthalpy removes an electron from an isolated atom."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 41.5,
+          "text": "Electron gain enthalpy adds one to an isolated atom."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 41.5,
+          "end_seconds": 50.5,
+          "text": "Electronegativity describes a tug of war for shared electrons, inside a bond. It is a relative scale, not a single measured energy."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 50.5,
+          "end_seconds": 56.5,
+          "text": "On Pauling's scale, hydrogen is about two point two, chlorine about three point two."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 56.5,
+          "end_seconds": 61.45,
+          "text": "The bigger the difference, the more lopsided the sharing."
+        }
+      ]
+    },
+    {
+      "key": "15",
+      "title": "Electronegativity across the table",
+      "film_start_seconds": 1000.0,
+      "duration_seconds": 64.0,
+      "text_file": "scene_15.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "text": "Height now represents electron density. This landscape illustrates unequal sharing; it is not a calculated molecular orbital."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 11.5,
+          "text": "Two identical atoms share evenly: a symmetric ridge."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.5,
+          "end_seconds": 16.5,
+          "text": "Now make one partner more electronegative. The ridge leans."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 16.5,
+          "end_seconds": 22.5,
+          "text": "Increase the difference, and the shared density slides further towards the stronger pull."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 22.5,
+          "end_seconds": 29.0,
+          "text": "Large differences suggest more ionic character. There is no universal cutoff between ionic and covalent bonding."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 29.0,
+          "end_seconds": 34.0,
+          "text": "Where are the strongest pullers? Light up the table by electronegativity."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 34.0,
+          "end_seconds": 40.5,
+          "text": "It generally increases across a period and up a group, towards the upper right."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 40.5,
+          "end_seconds": 49.0,
+          "text": "Fluorine sits at the top, with a Pauling value of about four. Caesium, at the lower left, is among the lowest."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 49.0,
+          "end_seconds": 56.5,
+          "text": "Same reason as before: a small atom with a high effective nuclear charge pulls bonding electrons closer."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 56.5,
+          "end_seconds": 63.45,
+          "text": "Now we know which atoms hold electrons tightly, and which pull on shared ones. Can we predict chemistry?"
+        }
+      ]
+    },
+    {
+      "key": "16",
+      "title": "Sodium gives, chlorine takes",
+      "film_start_seconds": 1064.0,
+      "duration_seconds": 84.0,
+      "text_file": "scene_16.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.0,
+          "text": "Sodium and chlorine. One gives, one takes."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.0,
+          "end_seconds": 10.0,
+          "text": "Sodium has one outer electron, far from the nucleus, with a low ionization enthalpy."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.0,
+          "end_seconds": 17.0,
+          "text": "Chlorine is one electron short of a closed outer set, with a strongly negative electron gain enthalpy."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.0,
+          "end_seconds": 21.5,
+          "text": "In a simplified model, sodium's electron moves to chlorine."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 21.5,
+          "end_seconds": 27.5,
+          "text": "Sodium shrinks into a small positive ion. Chlorine swells into a larger negative ion."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 27.5,
+          "end_seconds": 31.5,
+          "text": "Now the two ions attract each other strongly."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 31.5,
+          "end_seconds": 40.5,
+          "text": "Careful, though. Removing sodium's electron costs more energy than chlorine releases by taking it. On its own, the transfer is uphill."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 40.5,
+          "end_seconds": 48.0,
+          "text": "What makes salt stable is what comes next: many ions attract one another and pack into a crystal."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 48.0,
+          "end_seconds": 55.0,
+          "text": "Each sodium ion is surrounded by six chloride ions, and each chloride by six sodium ions."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 55.0,
+          "end_seconds": 60.5,
+          "text": "Building the lattice releases energy; atomization costs must also enter the complete balance."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 60.5,
+          "end_seconds": 69.5,
+          "text": "Ionization and electron gain tell us which way electrons tend to move. The whole energy story decides whether a compound forms."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 69.5,
+          "end_seconds": 76.0,
+          "text": "Swap sodium for potassium, or chlorine for bromine, and a similar story plays out."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 76.0,
+          "end_seconds": 83.45,
+          "text": "Because the trends live in the table, the table can predict the chemistry."
+        }
+      ]
+    },
+    {
+      "key": "17",
+      "title": "A map of chemical behaviour",
+      "film_start_seconds": 1148.0,
+      "duration_seconds": 74.0,
+      "text_file": "scene_17.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Let the table become a map of tendencies, rather than positions."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 13.5,
+          "text": "On the left, the alkali and alkaline earth metals. Low ionization enthalpies. They tend to lose electrons and form positive ions."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 18.5,
+          "text": "Metallic character generally grows down a group and towards the left."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.5,
+          "end_seconds": 25.5,
+          "text": "In the upper right, the non-metals. Oxygen, and the halogens most of all, attract electrons strongly."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 25.5,
+          "end_seconds": 33.0,
+          "text": "On the far right, the noble gases. Closed shells, very high ionization enthalpies, and generally little chemistry."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 38.5,
+          "text": "Between them, metallic character fades into non-metallic character across each period."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 38.5,
+          "end_seconds": 45.0,
+          "text": "The same trend shows up in oxides. Sodium oxide dissolves to give a basic solution."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 45.0,
+          "end_seconds": 53.0,
+          "text": "Move across the period, and the oxides turn acidic. Sulfur and chlorine form oxides that make acids in water."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 53.0,
+          "end_seconds": 60.5,
+          "text": "Basic on the left, acidic on the right. We will save the full oxide story for another episode."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.5,
+          "end_seconds": 68.5,
+          "text": "One idea links all of it: how tightly each atom holds its electrons, and how strongly it attracts more."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.5,
+          "end_seconds": 73.45,
+          "text": "Now let us see every trend at once."
+        }
+      ]
+    },
+    {
+      "key": "18",
+      "title": "A map of invisible forces",
+      "film_start_seconds": 1222.0,
+      "duration_seconds": 145.0,
+      "text_file": "scene_18.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "text": "Here is the full table, back in its familiar form."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 14.0,
+          "text": "Press the first tab: atomic radius. Height and colour show size, for the main-group elements, all on one covalent scale."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.0,
+          "end_seconds": 23.0,
+          "text": "Tall, warm towers in the lower left. Small atoms in the upper right. Radius generally increases down and to the left."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 23.0,
+          "end_seconds": 28.0,
+          "text": "Switch to ionization enthalpy. Watch the landscape flip."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 37.0,
+          "text": "Now the towers rise in the upper right, peaking at helium. Ionization enthalpy generally increases up and to the right."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 37.0,
+          "end_seconds": 43.5,
+          "text": "Switch to electronegativity. The upper right rises again, with fluorine on top."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 43.5,
+          "end_seconds": 50.5,
+          "text": "Last tab: electron gain enthalpy, how much energy is released when an electron is added."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.5,
+          "end_seconds": 60.5,
+          "text": "The halogens tower over everything, with chlorine highest. Nitrogen, beryllium, magnesium and the noble gases need energy instead. These trends have real exceptions."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 60.5,
+          "end_seconds": 67.5,
+          "text": "Four maps. Four broad patterns, clearest for the main-group elements. Not laws, but tendencies with reasons."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 67.5,
+          "end_seconds": 77.5,
+          "text": "Size, down and left. Ionization enthalpy and electronegativity, up and right. Electron gain, more negative toward the upper right, apart from its exceptions."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 77.5,
+          "end_seconds": 81.0,
+          "text": "Now, back to our opening mystery."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 81.0,
+          "end_seconds": 91.0,
+          "text": "Across period two, each step adds a proton and an electron to the same shell. Shielding is weak, the pull grows, the cloud shrinks."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 91.0,
+          "end_seconds": 100.0,
+          "text": "Down group one, each step adds a new shell. Inner electrons shield the extra protons, distance grows, and the cloud expands."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 100.0,
+          "end_seconds": 108.0,
+          "text": "Adding particles shrinks the atom when they tighten the pull, and grows it when they open a new shell."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 108.0,
+          "end_seconds": 115.0,
+          "text": "And the same competition explains ionization, electron gain, electronegativity and reactivity."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 115.0,
+          "end_seconds": 121.0,
+          "text": "What looked like a collection of unrelated arrows now has a physical explanation."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 121.0,
+          "end_seconds": 129.0,
+          "text": "How far are the electrons? How strongly does the nucleus attract them? And how are the electrons arranged?"
+        },
+        {
+          "beat": 18,
+          "start_seconds": 129.0,
+          "end_seconds": 144.45,
+          "text": "Three questions, and the periodic table becomes a map of invisible forces."
+        }
+      ]
+    },
+    {
+      "key": "19",
+      "title": "From trends to bonds",
+      "film_start_seconds": 1367.0,
+      "duration_seconds": 43.0,
+      "text_file": "scene_19.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.5,
+          "text": "Let the table fade. Keep just two atoms: sodium and chlorine."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.5,
+          "end_seconds": 13.5,
+          "text": "The periodic table doesn't just tell us what the elements are. It helps us predict how they behave."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 23.0,
+          "text": "From the size of atoms to the energy needed to remove an electron, from electronegativity to reactivity, the patterns are connected."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 23.0,
+          "end_seconds": 30.5,
+          "text": "And when two atoms come close enough to interact, these same ideas help decide how they bond."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 30.5,
+          "end_seconds": 36.5,
+          "text": "Which brings us to the next question: why do atoms bond at all?"
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.5,
+          "end_seconds": 42.45,
+          "text": "Next time: chemical bonding, explained visually."
+        }
+      ]
+    },
+    {
+      "key": "20",
+      "title": "Stay curious",
+      "film_start_seconds": 1410.0,
+      "duration_seconds": 10.0,
+      "text_file": "scene_20.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.45,
+          "text": "Thank you for watching. Subscribe for more visual chemistry, and stay curious."
+        }
+      ]
+    }
+  ]
+}
