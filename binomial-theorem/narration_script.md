@@ -4,9 +4,9 @@ Binomial Theorem Visualized. Continuous prose for recording one clip per scene.
 Generated from `narration.py`; edit that source and run `python -m utils.narration_export`.
 Paste the matching plain-text scene file into ElevenLabs. Timing targets are in `narration_cues.md`.
 
-## Scene 01 — Binomial Theorem: the mystery — 00:00–01:04
+## Scene 01 — The mystery — 00:00–01:04
 
-The binomial theorem. Why does Pascal's triangle know algebra? Expand a plus b to the fifth: six terms, six coefficients. Those numbers are the coefficients. Where do they come from? One way is to multiply it out. Five copies of a plus b, multiplied together. The products pile up: two, four, eight, sixteen, thirty-two, before anything simplifies. Then like terms collapse together, and six coefficients survive. One, five, ten, ten, five, one. In Pascal's triangle, call the top row zero. Row five reads one, five, ten, ten, five, one. The same six numbers. Exactly. Why would a triangle built by simple addition know the answer to an algebra problem? That's our mystery. And the answer is a story about choices.
+Why does Pascal's triangle know algebra? Expand a plus b to the fifth: six terms, six coefficients. Those numbers are the coefficients. Where do they come from? One way is to multiply it out. Five copies of a plus b, multiplied together. The products pile up: two, four, eight, sixteen, thirty-two, before anything simplifies. Then like terms collapse together, and six coefficients survive. One, five, ten, ten, five, one. In Pascal's triangle, call the top row zero. Row five reads one, five, ten, ten, five, one. The same six numbers. Exactly. Why would a triangle built by simple addition know the answer to an algebra problem? That's our mystery. The answer is a story about choices. The binomial theorem, explained visually.
 
 ## Scene 02 — Start small: squares and rectangles — 01:04–02:40
 

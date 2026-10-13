@@ -3,11 +3,11 @@
 Editorial targets for matching the recorded voice to the animation. These are not instructions to insert silence between sentences.
 Continuous TTS output does not guarantee these timings. Compare the actual audio before the final render.
 
-## Scene 01 — Binomial Theorem: the mystery
+## Scene 01 — The mystery
 
 | Beat | Scene time | Film time | Spoken text |
 |---|---|---|---|
-| 1 | 00:00 | 00:00 | The binomial theorem. Why does Pascal's triangle know algebra? |
+| 1 | 00:00 | 00:00 | Why does Pascal's triangle know algebra? |
 | 2 | 00:05 | 00:05 | Expand a plus b to the fifth: six terms, six coefficients. |
 | 3 | 00:10 | 00:10 | Those numbers are the coefficients. Where do they come from? |
 | 4 | 00:16 | 00:16 | One way is to multiply it out. Five copies of a plus b, multiplied together. |
@@ -16,7 +16,8 @@ Continuous TTS output does not guarantee these timings. Compare the actual audio
 | 7 | 00:38 | 00:38 | In Pascal's triangle, call the top row zero. Row five reads one, five, ten, ten, five, one. |
 | 8 | 00:46 | 00:46 | The same six numbers. Exactly. |
 | 9 | 00:49 | 00:49 | Why would a triangle built by simple addition know the answer to an algebra problem? |
-| 10 | 00:55 | 00:55 | That's our mystery. And the answer is a story about choices. |
+| 10 | 00:55 | 00:55 | That's our mystery. The answer is a story about choices. |
+| 11 | 01:00 | 01:00 | The binomial theorem, explained visually. |
 
 ## Scene 02 — Start small: squares and rectangles
 

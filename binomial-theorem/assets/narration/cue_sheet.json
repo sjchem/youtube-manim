@@ -3,7 +3,7 @@
   "scenes": [
     {
       "key": "01",
-      "title": "Binomial Theorem: the mystery",
+      "title": "The mystery",
       "film_start_seconds": 0.0,
       "duration_seconds": 64.0,
       "text_file": "scene_01.txt",
@@ -12,7 +12,7 @@
           "beat": 1,
           "start_seconds": 0.0,
           "end_seconds": 5.0,
-          "text": "The binomial theorem. Why does Pascal's triangle know algebra?"
+          "text": "Why does Pascal's triangle know algebra?"
         },
         {
           "beat": 2,
@@ -65,8 +65,14 @@
         {
           "beat": 10,
           "start_seconds": 55.0,
+          "end_seconds": 60.5,
+          "text": "That's our mystery. The answer is a story about choices."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 60.5,
           "end_seconds": 63.45,
-          "text": "That's our mystery. And the answer is a story about choices."
+          "text": "The binomial theorem, explained visually."
         }
       ]
     },

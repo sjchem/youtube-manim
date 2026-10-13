@@ -28,19 +28,12 @@ Along the way: (a+b)² as an area, (a+b)³ as a 3D cube, two proofs of Pascal's
 rule, paths through the triangle, coin flips, and the bell curve.
 
 Chapters
-0:00 The mystery: can we predict every coefficient?
-1:04 Start small: (a+b)² as squares and rectangles
-2:40 The cube of a + b (3D)
-4:22 The triangle builds itself
-6:17 Five choice machines and 32 choice lists
-8:25 Combinations: five choose two
-10:36 The binomial theorem
-12:15 Why the exponents move in opposite directions
-13:56 Why Pascal's rule works
-15:47 Paths through the triangle
+0:00 The mystery: squares, cubes and coefficients
+4:22 Pascal's triangle and choice machines
+8:25 Combinations and the binomial theorem
+13:56 Pascal's rule and paths through the triangle
 17:37 Coin flips, a Galton board and the bell curve
-19:33 The final payoff (and 11⁴ = 14641)
-21:13 Stay curious
+19:33 The final payoff: 11⁴ = 14641
 
 Notes on accuracy: the choice machines are a picture of the distributive law,
 not a physical claim. The Galton board is idealised as independent fair

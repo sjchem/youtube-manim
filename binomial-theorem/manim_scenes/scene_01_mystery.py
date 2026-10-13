@@ -1,10 +1,11 @@
-"""Chapter 1 — the title card and the mystery.
+"""Chapter 1 — the mystery, followed by the title card.
 
-A short Binomial Theorem title card opens the film, then (a+b)^5 is expanded
-one bracket at a time, the products
-doubling 2, 4, 8, 16, 32 before anything simplifies. The 32 products then
+The film opens with the question of where the coefficients come from.
+Then (a+b)^5 is expanded one bracket at a time, the products doubling
+2, 4, 8, 16, 32 before anything simplifies. The 32 products then
 collapse onto six coefficients — and a triangle built by addition turns out to
-hold the very same six numbers.
+hold the very same six numbers. A closing title card introduces the visual
+explanation before the film starts small.
 """
 
 from manim_scenes.common import *
@@ -50,32 +51,29 @@ def _counter(value: int) -> VGroup:
     return VGroup(count, unit).arrange(RIGHT, buff=0.25, aligned_edge=DOWN).move_to(DOWN * 3.55)
 
 
-def play_scene(scene: ThreeDScene) -> None:
-    t, head = start(scene, "01")
-
-    # --- Title card: one title, one short subtitle, and the opening object ---
+def _title_card(subtitle_text: str = "Explained visually") -> tuple[Mobject, ...]:
+    """Close the mystery with bright, minimal type."""
     title = txt("Binomial Theorem", cfg.FONT["hero"], cfg.GOLD)
     fit_width(title, 13.2)
     title.move_to(UP * 1.65)
-    subtitle = txt("Pascal's Triangle & Combinations", cfg.FONT["label"], cfg.CYAN)
+    subtitle = txt(subtitle_text, cfg.FONT["label"], cfg.CYAN)
     fit_width(subtitle, 13.2)
     subtitle.move_to(DOWN * 2.05)
     rule = Line(LEFT * 4.0, RIGHT * 4.0, color=cfg.GOLD, stroke_width=4).move_to(UP * 0.9)
     title_glow = halo(4.5, cfg.CYAN, peak_opacity=0.06).move_to(UP * 0.3)
     hero = colored_tex(lhs_parts(N, sep=""), cfg.FONT["hero"])
     hero.move_to(DOWN * 0.45)
-    hud(scene, title, subtitle, rule, title_glow, hero)
-    scene.play(FadeIn(title_glow), FadeIn(title, shift=DOWN * 0.2),
-               FadeIn(subtitle, shift=UP * 0.15), Create(rule), Write(hero), run_time=1.0)
+    return title, subtitle, rule, title_glow, hero
 
-    # Keep the title readable, then carry its expression into the mystery.
-    cue(scene, t, 3.4)
-    head = heading("Can we predict every coefficient?")
+
+def play_scene(scene: ThreeDScene) -> None:
+    t, head = start(scene, "01", "Can we predict every coefficient?")
+
+    # --- Open directly with the mystery ------------------------------------
+    hero = colored_tex(lhs_parts(N, sep=""), cfg.FONT["hero"]).move_to(UP * 0.2)
     glow = halo(2.6, cfg.CYAN, peak_opacity=0.08).move_to(UP * 0.2)
-    hud(scene, head)
-    scene.play(FadeOut(VGroup(title, subtitle, rule, title_glow)),
-               FadeIn(head, shift=DOWN * 0.18), FadeIn(glow),
-               hero.animate.move_to(UP * 0.2), run_time=1.0)
+    hud(scene, hero)
+    scene.play(FadeIn(glow), Write(hero), run_time=1.0)
 
     # --- Six terms, six unknown coefficients -------------------------------
     beat(scene, t, 1)
@@ -173,4 +171,12 @@ def play_scene(scene: ThreeDScene) -> None:
     for word in ("aabab", "babba", "abaab"):
         scene.play(*[m.animate.choose(letter) for m, letter in zip(machines, word)], run_time=0.7)
     scene.play(*[m.animate.reset() for m in machines], run_time=0.6)
+
+    # --- Close the mystery with the film's title ----------------------------
+    beat(scene, t, 10)
+    title, subtitle, rule, title_glow, hero = _title_card()
+    hud(scene, title, subtitle, rule, title_glow, hero)
+    scene.play(FadeOut(head), FadeOut(machines), run_time=0.4)
+    scene.play(FadeIn(title_glow), FadeIn(title, shift=DOWN * 0.2),
+               FadeIn(subtitle, shift=UP * 0.15), Create(rule), Write(hero), run_time=0.6)
     end_scene(scene, t, cfg.SCENE_DURATIONS["01"])

@@ -11,7 +11,7 @@ cue sheets separately; cue times are editorial targets, not TTS pauses.
 from __future__ import annotations
 
 TITLES: dict[str, str] = {
-    "01": "Binomial Theorem: the mystery",
+    "01": "The mystery",
     "02": "Start small: squares and rectangles",
     "03": "The cube of a + b",
     "04": "The triangle builds itself",
@@ -28,7 +28,7 @@ TITLES: dict[str, str] = {
 
 SCRIPT: dict[str, list[tuple[float, str]]] = {
     "01": [
-        (0.0, "The binomial theorem. Why does Pascal's triangle know algebra?"),
+        (0.0, "Why does Pascal's triangle know algebra?"),
         (5.0, "Expand a plus b to the fifth: six terms, six coefficients."),
         (10.5, "Those numbers are the coefficients. Where do they come from?"),
         (16.5, "One way is to multiply it out. Five copies of a plus b, multiplied together."),
@@ -37,7 +37,8 @@ SCRIPT: dict[str, list[tuple[float, str]]] = {
         (38.0, "In Pascal's triangle, call the top row zero. Row five reads one, five, ten, ten, five, one."),
         (46.0, "The same six numbers. Exactly."),
         (49.0, "Why would a triangle built by simple addition know the answer to an algebra problem?"),
-        (55.0, "That's our mystery. And the answer is a story about choices."),
+        (55.0, "That's our mystery. The answer is a story about choices."),
+        (60.5, "The binomial theorem, explained visually."),
     ],
     "02": [
         (0.0, "Let's not start with the fifth power. Start small, and watch what happens."),
