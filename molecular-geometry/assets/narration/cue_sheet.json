@@ -1,0 +1,2624 @@
+{
+  "voice_words_per_second": 2.857142857142857,
+  "planned_duration_seconds": 1680.0,
+  "scenes": [
+    {
+      "key": "01",
+      "title": "The shape mystery",
+      "film_start_seconds": 0.0,
+      "duration_seconds": 50.0,
+      "text_file": "scene_01.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 2.25,
+          "audio_stem": "scene_01/beat_001",
+          "text": "Look at these two molecules. Carbon dioxide has three atoms. Water has three atoms too.",
+          "tagged_text": "[warm, conversational delivery] Look at these two molecules. Carbon dioxide has three atoms. Water has three atoms too."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.5,
+          "end_seconds": 14.5,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 0.35,
+          "audio_stem": "scene_01/beat_002",
+          "text": "We can draw both as straight lines on paper. But a Lewis drawing need not show the real shape.",
+          "tagged_text": "[warm, conversational delivery] We can draw both as straight lines on paper. But a Lewis drawing need not show the real shape."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.5,
+          "end_seconds": 21.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 2.3,
+          "audio_stem": "scene_01/beat_003",
+          "text": "But lift them off the page, into three dimensions, and something changes.",
+          "tagged_text": "[warm, conversational delivery] [curious] But lift them off the page, into three dimensions, and something changes."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 21.0,
+          "end_seconds": 27.5,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 3.0,
+          "audio_stem": "scene_01/beat_004",
+          "text": "Carbon dioxide stays perfectly straight. One hundred and eighty degrees.",
+          "tagged_text": "[warm, conversational delivery] Carbon dioxide stays perfectly straight. One hundred and eighty degrees."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 27.5,
+          "end_seconds": 34.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_01/beat_005",
+          "text": "Water bends, to an angle of about one hundred and four point five degrees.",
+          "tagged_text": "[warm, conversational delivery] Water bends, to an angle of about one hundred and four point five degrees."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.0,
+          "end_seconds": 40.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_01/beat_006",
+          "text": "Why? Why don't water's atoms simply line up? These shapes are not random.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [curious] Why? Why don't water's atoms simply line up? These shapes are not random."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 40.5,
+          "end_seconds": 49.45,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 3.7,
+          "audio_stem": "scene_01/beat_007",
+          "text": "The answer is hidden in electrons we cannot see. This is molecular geometry, explained visually.",
+          "tagged_text": "[warm, conversational delivery] [warmly] The answer is hidden in electrons we cannot see. This is molecular geometry, explained visually."
+        }
+      ]
+    },
+    {
+      "key": "02",
+      "title": "Lewis structures are flat",
+      "film_start_seconds": 50.0,
+      "duration_seconds": 85.0,
+      "text_file": "scene_02.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 10.0,
+          "estimated_speech_seconds": 7.7,
+          "estimated_visual_pause_seconds": 2.3,
+          "audio_stem": "scene_02/beat_001",
+          "text": "Last time, we discovered why atoms bond at all. Sharing electrons lowers the energy, and overlapping orbitals make sigma and pi bonds.",
+          "tagged_text": "[warm, conversational delivery] Last time, we discovered why atoms bond at all. Sharing electrons lowers the energy, and overlapping orbitals make sigma and pi bonds."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 10.0,
+          "end_seconds": 18.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_02/beat_002",
+          "text": "We drew those bonds with Lewis structures: letters for atoms, lines for shared pairs, dots for lone pairs.",
+          "tagged_text": "[warm, conversational delivery] We drew those bonds with Lewis structures: letters for atoms, lines for shared pairs, dots for lone pairs."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 18.0,
+          "end_seconds": 25.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_02/beat_003",
+          "text": "Here is methane. One carbon, four hydrogens, four single bonds, drawn as a neat flat cross.",
+          "tagged_text": "[warm, conversational delivery] Here is methane. One carbon, four hydrogens, four single bonds, drawn as a neat flat cross."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 25.5,
+          "end_seconds": 34.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_02/beat_004",
+          "text": "A Lewis structure is excellent bookkeeping. It tells us which atoms are connected, and where the electron pairs are counted.",
+          "tagged_text": "[warm, conversational delivery] A Lewis structure is excellent bookkeeping. It tells us which atoms are connected, and where the electron pairs are counted."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 34.0,
+          "end_seconds": 41.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_02/beat_005",
+          "text": "But it is drawn on flat paper. So is methane really flat, with its bonds ninety degrees apart?",
+          "tagged_text": "[warm, conversational delivery] [curious] But it is drawn on flat paper. So is methane really flat, with its bonds ninety degrees apart?"
+        },
+        {
+          "beat": 6,
+          "start_seconds": 41.5,
+          "end_seconds": 49.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_02/beat_006",
+          "text": "Turn the flat version on its side, and it collapses into a line. Every bond is squeezed into one plane.",
+          "tagged_text": "[warm, conversational delivery] Turn the flat version on its side, and it collapses into a line. Every bond is squeezed into one plane."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 49.5,
+          "end_seconds": 58.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_02/beat_007",
+          "text": "The real molecule does something smarter. The four bonds lift out of the plane and spread through all three dimensions.",
+          "tagged_text": "[warm, conversational delivery] [warmly] The real molecule does something smarter. The four bonds lift out of the plane and spread through all three dimensions."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 58.0,
+          "end_seconds": 67.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 2.0,
+          "audio_stem": "scene_02/beat_008",
+          "text": "They point to the corners of a tetrahedron, about one hundred and nine point five degrees apart. Wider than ninety.",
+          "tagged_text": "[warm, conversational delivery] They point to the corners of a tetrahedron, about one hundred and nine point five degrees apart. Wider than ninety."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 67.0,
+          "end_seconds": 73.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_02/beat_009",
+          "text": "So the Lewis structure tells us the connections. It doesn't tell us the shape.",
+          "tagged_text": "[warm, conversational delivery] So the Lewis structure tells us the connections. It doesn't tell us the shape."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 73.0,
+          "end_seconds": 84.45,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 5.85,
+          "audio_stem": "scene_02/beat_010",
+          "text": "To predict shape, we need to think about the space that electrons occupy around an atom.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [thoughtful] To predict shape, we need to think about the space that electrons occupy around an atom."
+        }
+      ]
+    },
+    {
+      "key": "03",
+      "title": "Electron regions push apart",
+      "film_start_seconds": 135.0,
+      "duration_seconds": 80.0,
+      "text_file": "scene_03.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_03/beat_001",
+          "text": "Picture a central atom, surrounded by regions of electron density. A bond is one region. A lone pair is another.",
+          "tagged_text": "[warm, conversational delivery] Picture a central atom, surrounded by regions of electron density. A bond is one region. A lone pair is another."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.5,
+          "end_seconds": 17.5,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.95,
+          "audio_stem": "scene_03/beat_002",
+          "text": "Each region is rich in electrons, so in this simple picture, the regions repel one another. Push two of them together, and watch.",
+          "tagged_text": "[warm, conversational delivery] Each region is rich in electrons, so in this simple picture, the regions repel one another. Push two of them together, and watch."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 17.5,
+          "end_seconds": 25.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_03/beat_003",
+          "text": "They spread apart until they sit on opposite sides, straight through the atom. One hundred and eighty degrees.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] They spread apart until they sit on opposite sides, straight through the atom. One hundred and eighty degrees."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 25.0,
+          "end_seconds": 32.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_03/beat_004",
+          "text": "Add a third region. The three push each other around until they share the circle equally.",
+          "tagged_text": "[warm, conversational delivery] Add a third region. The three push each other around until they share the circle equally."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 32.0,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_03/beat_005",
+          "text": "One hundred and twenty degrees apart, all in one flat plane.",
+          "tagged_text": "[warm, conversational delivery] One hundred and twenty degrees apart, all in one flat plane."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 37.0,
+          "end_seconds": 43.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_03/beat_006",
+          "text": "Now a fourth. Lay the triangle flat, and drop the new region on top.",
+          "tagged_text": "[warm, conversational delivery] Now a fourth. Lay the triangle flat, and drop the new region on top."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 43.0,
+          "end_seconds": 51.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 2.2,
+          "audio_stem": "scene_03/beat_007",
+          "text": "The three below fold downward, like an umbrella closing, until all four are equally spaced in three dimensions.",
+          "tagged_text": "[warm, conversational delivery] The three below fold downward, like an umbrella closing, until all four are equally spaced in three dimensions."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 51.5,
+          "end_seconds": 57.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_03/beat_008",
+          "text": "A tetrahedron. In this simplified model, the repulsion found the arrangement on its own.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] A tetrahedron. In this simplified model, the repulsion found the arrangement on its own."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.5,
+          "end_seconds": 66.0,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_03/beat_009",
+          "text": "Here a simple computer model does the pushing: points on a sphere that repel, settling where the total repulsion is lowest.",
+          "tagged_text": "[warm, conversational delivery] Here a simple computer model does the pushing: points on a sphere that repel, settling where the total repulsion is lowest."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 66.0,
+          "end_seconds": 72.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_03/beat_010",
+          "text": "This idea has a name: valence shell electron pair repulsion. VSEPR, for short.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] This idea has a name: valence shell electron pair repulsion. VSEPR, for short."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 72.5,
+          "end_seconds": 79.45,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_03/beat_011",
+          "text": "Two regions, linear. Three, trigonal planar. Four, tetrahedral. Count the regions, and the arrangement follows.",
+          "tagged_text": "[warm, conversational delivery] Two regions, linear. Three, trigonal planar. Four, tetrahedral. Count the regions, and the arrangement follows."
+        }
+      ]
+    },
+    {
+      "key": "04",
+      "title": "Counting regions",
+      "film_start_seconds": 215.0,
+      "duration_seconds": 55.0,
+      "text_file": "scene_04.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_04/beat_001",
+          "text": "So the real skill is counting regions around the central atom. One counting rule makes it easy.",
+          "tagged_text": "[warm, conversational delivery] So the real skill is counting regions around the central atom. One counting rule makes it easy."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 10.5,
+          "estimated_speech_seconds": 2.45,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_04/beat_002",
+          "text": "A single bond counts as one region.",
+          "tagged_text": "[warm, conversational delivery] A single bond counts as one region."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 10.5,
+          "end_seconds": 18.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_04/beat_003",
+          "text": "A double bond also counts as one. Its two shared pairs point the same way, between the same two atoms.",
+          "tagged_text": "[warm, conversational delivery] A double bond also counts as one. Its two shared pairs point the same way, between the same two atoms."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.5,
+          "end_seconds": 22.0,
+          "estimated_speech_seconds": 2.1,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_04/beat_004",
+          "text": "A triple bond? Still one region.",
+          "tagged_text": "[warm, conversational delivery] [curious] A triple bond? Still one region."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 22.0,
+          "end_seconds": 28.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_04/beat_005",
+          "text": "And every lone pair on the central atom counts as one more region.",
+          "tagged_text": "[warm, conversational delivery] And every lone pair on the central atom counts as one more region."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 28.0,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 8.4,
+          "estimated_visual_pause_seconds": 0.6,
+          "audio_stem": "scene_04/beat_006",
+          "text": "Chemists write this as a short code. A is the central atom. Each X is a bonded atom. Each E is a lone pair.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Chemists write this as a short code. A is the central atom. Each X is a bonded atom. Each E is a lone pair."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 43.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 0.75,
+          "audio_stem": "scene_04/beat_007",
+          "text": "Ammonia has three bonded hydrogens and one lone pair on nitrogen. A X three E.",
+          "tagged_text": "[warm, conversational delivery] Ammonia has three bonded hydrogens and one lone pair on nitrogen. A X three E."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 50.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.7,
+          "audio_stem": "scene_04/beat_008",
+          "text": "Add them up, three plus one, and you get four regions. That total is called the steric number.",
+          "tagged_text": "[warm, conversational delivery] Add them up, three plus one, and you get four regions. That total is called the steric number."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 50.0,
+          "end_seconds": 54.45,
+          "estimated_speech_seconds": 2.45,
+          "estimated_visual_pause_seconds": 2.0,
+          "audio_stem": "scene_04/beat_009",
+          "text": "And the steric number picks the arrangement.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [thoughtful] And the steric number picks the arrangement."
+        }
+      ]
+    },
+    {
+      "key": "05",
+      "title": "Linear and trigonal planar",
+      "film_start_seconds": 270.0,
+      "duration_seconds": 75.0,
+      "text_file": "scene_05.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_05/beat_001",
+          "text": "Let's put the rule to work, starting with carbon dioxide.",
+          "tagged_text": "[warm, conversational delivery] Let's put the rule to work, starting with carbon dioxide."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 12.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_05/beat_002",
+          "text": "Carbon makes two double bonds, one to each oxygen, and keeps no lone pairs. Two regions.",
+          "tagged_text": "[warm, conversational delivery] Carbon makes two double bonds, one to each oxygen, and keeps no lone pairs. Two regions."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 20.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_05/beat_003",
+          "text": "Two regions push to opposite sides, so the oxygens line up across the carbon. A X two. Linear.",
+          "tagged_text": "[warm, conversational delivery] Two regions push to opposite sides, so the oxygens line up across the carbon. A X two. Linear."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 25.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_05/beat_004",
+          "text": "Spin it any way you like. It stays a straight rod.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Spin it any way you like. It stays a straight rod."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 25.5,
+          "end_seconds": 36.0,
+          "estimated_speech_seconds": 8.75,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_05/beat_005",
+          "text": "Notice that each double bond holds four electrons, yet still acts as a single region. What matters is direction, not how many pairs share it.",
+          "tagged_text": "[warm, conversational delivery] Notice that each double bond holds four electrons, yet still acts as a single region. What matters is direction, not how many pairs share it."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.0,
+          "end_seconds": 43.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_05/beat_006",
+          "text": "Next, boron trifluoride. Boron makes three bonds to fluorine and keeps no lone pairs. Three regions.",
+          "tagged_text": "[warm, conversational delivery] Next, boron trifluoride. Boron makes three bonds to fluorine and keeps no lone pairs. Three regions."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 43.5,
+          "end_seconds": 51.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.55,
+          "audio_stem": "scene_05/beat_007",
+          "text": "Three regions spread around a circle. Every fluorine sits one hundred and twenty degrees from the next.",
+          "tagged_text": "[warm, conversational delivery] Three regions spread around a circle. Every fluorine sits one hundred and twenty degrees from the next."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 51.0,
+          "end_seconds": 58.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 0.5,
+          "audio_stem": "scene_05/beat_008",
+          "text": "Tip it on its edge, and the whole molecule vanishes into a line. All four atoms lie in one plane.",
+          "tagged_text": "[warm, conversational delivery] [curious] Tip it on its edge, and the whole molecule vanishes into a line. All four atoms lie in one plane."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 58.5,
+          "end_seconds": 65.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 2.65,
+          "audio_stem": "scene_05/beat_009",
+          "text": "A X three. Trigonal planar. Flat, like a three pointed star.",
+          "tagged_text": "[warm, conversational delivery] A X three. Trigonal planar. Flat, like a three pointed star."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 65.0,
+          "end_seconds": 74.45,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 3.85,
+          "audio_stem": "scene_05/beat_010",
+          "text": "Two regions make a line. Three make a flat triangle. But four regions cannot stay flat.",
+          "tagged_text": "[warm, conversational delivery] Two regions make a line. Three make a flat triangle. [short pause] [curious] But four regions cannot stay flat."
+        }
+      ]
+    },
+    {
+      "key": "06",
+      "title": "The tetrahedron",
+      "film_start_seconds": 345.0,
+      "duration_seconds": 90.0,
+      "text_file": "scene_06.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_06/beat_001",
+          "text": "Now methane. Carbon has four bonds and no lone pairs. Four regions. A X four.",
+          "tagged_text": "[warm, conversational delivery] Now methane. Carbon has four bonds and no lone pairs. Four regions. A X four."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 12.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_06/beat_002",
+          "text": "The flat guess puts them in a square, ninety degrees apart.",
+          "tagged_text": "[warm, conversational delivery] The flat guess puts them in a square, ninety degrees apart."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.5,
+          "end_seconds": 21.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_06/beat_003",
+          "text": "But in a square, every region has two neighbours crowding it at ninety degrees. There is room to do better.",
+          "tagged_text": "[warm, conversational delivery] But in a square, every region has two neighbours crowding it at ninety degrees. There is room to do better."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 21.0,
+          "end_seconds": 29.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_06/beat_004",
+          "text": "Let the regions use the third dimension. Two tilt up, two tilt down, and every gap opens wider.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Let the regions use the third dimension. Two tilt up, two tilt down, and every gap opens wider."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 35.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_06/beat_005",
+          "text": "Now every region is the same distance from every other. That is the tetrahedron.",
+          "tagged_text": "[warm, conversational delivery] Now every region is the same distance from every other. That is the tetrahedron."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.5,
+          "end_seconds": 43.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_06/beat_006",
+          "text": "Put hydrogens at the four tips, and you have methane. Every angle between two bonds is the same.",
+          "tagged_text": "[warm, conversational delivery] Put hydrogens at the four tips, and you have methane. Every angle between two bonds is the same."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 43.5,
+          "end_seconds": 50.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_06/beat_007",
+          "text": "Where does that number come from? Place the carbon at the centre of a cube.",
+          "tagged_text": "[warm, conversational delivery] [curious] Where does that number come from? Place the carbon at the centre of a cube."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.0,
+          "end_seconds": 57.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_06/beat_008",
+          "text": "The four hydrogens sit on alternate corners of the cube, as far apart as they can get.",
+          "tagged_text": "[warm, conversational delivery] The four hydrogens sit on alternate corners of the cube, as far apart as they can get."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.0,
+          "end_seconds": 63.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_06/beat_009",
+          "text": "Two bond directions are then one, one, one, and one, minus one, minus one.",
+          "tagged_text": "[warm, conversational delivery] Two bond directions are then one, one, one, and one, minus one, minus one."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 63.5,
+          "end_seconds": 69.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.3,
+          "audio_stem": "scene_06/beat_010",
+          "text": "Their dot product is minus one, and each has length root three.",
+          "tagged_text": "[warm, conversational delivery] Their dot product is minus one, and each has length root three."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 69.0,
+          "end_seconds": 74.5,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.3,
+          "audio_stem": "scene_06/beat_011",
+          "text": "So the cosine of the angle between them is minus one third.",
+          "tagged_text": "[warm, conversational delivery] So the cosine of the angle between them is minus one third."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 74.5,
+          "end_seconds": 81.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_06/beat_012",
+          "text": "Take the inverse cosine, and out comes one hundred and nine point four seven degrees.",
+          "tagged_text": "[warm, conversational delivery] Take the inverse cosine, and out comes one hundred and nine point four seven degrees."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 81.5,
+          "end_seconds": 89.45,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 3.75,
+          "audio_stem": "scene_06/beat_013",
+          "text": "Not a number to memorise. Just the geometry of four equal directions.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] Not a number to memorise. Just the geometry of four equal directions."
+        }
+      ]
+    },
+    {
+      "key": "07",
+      "title": "Ammonia: one lone pair",
+      "film_start_seconds": 435.0,
+      "duration_seconds": 105.0,
+      "text_file": "scene_07.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_07/beat_001",
+          "text": "Now for the most important idea in this story. Start again with methane's four regions.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] Now for the most important idea in this story. Start again with methane's four regions."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 14.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_07/beat_002",
+          "text": "Swap the carbon for nitrogen. Nitrogen has five valence electrons. Three go into bonds with hydrogen.",
+          "tagged_text": "[warm, conversational delivery] Swap the carbon for nitrogen. Nitrogen has five valence electrons. Three go into bonds with hydrogen."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.5,
+          "end_seconds": 20.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.3,
+          "audio_stem": "scene_07/beat_003",
+          "text": "The other two stay home, as a lone pair on the nitrogen.",
+          "tagged_text": "[warm, conversational delivery] The other two stay home, as a lone pair on the nitrogen."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 28.0,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_07/beat_004",
+          "text": "A lone pair is still a region of electron density. It still takes up space, and it still pushes.",
+          "tagged_text": "[warm, conversational delivery] A lone pair is still a region of electron density. It still takes up space, and it still pushes."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 38.5,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 2.45,
+          "audio_stem": "scene_07/beat_005",
+          "text": "So ammonia still has four regions: three bonds and one lone pair. A X three E. The four have an approximately tetrahedral arrangement.",
+          "tagged_text": "[warm, conversational delivery] So ammonia still has four regions: three bonds and one lone pair. A X three E. The four have an approximately tetrahedral arrangement."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 38.5,
+          "end_seconds": 45.5,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 0.35,
+          "audio_stem": "scene_07/beat_006",
+          "text": "But here is the catch. When we describe a molecule's shape, we only look at where the atoms are.",
+          "tagged_text": "[warm, conversational delivery] [curious] But here is the catch. When we describe a molecule's shape, we only look at where the atoms are."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 45.5,
+          "end_seconds": 50.0,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_07/beat_007",
+          "text": "Hide the lone pair, and look at the atoms alone.",
+          "tagged_text": "[warm, conversational delivery] Hide the lone pair, and look at the atoms alone."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.0,
+          "end_seconds": 57.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_07/beat_008",
+          "text": "Nitrogen at the top, three hydrogens below. A pyramid with a triangular base. Trigonal pyramidal.",
+          "tagged_text": "[warm, conversational delivery] Nitrogen at the top, three hydrogens below. A pyramid with a triangular base. Trigonal pyramidal."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.0,
+          "end_seconds": 65.5,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 1.85,
+          "audio_stem": "scene_07/beat_009",
+          "text": "So there are two descriptions. The electron geometry includes every region, lone pairs too. For ammonia, that is tetrahedral.",
+          "tagged_text": "[warm, conversational delivery] So there are two descriptions. The electron geometry includes every region, lone pairs too. For ammonia, that is tetrahedral."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 65.5,
+          "end_seconds": 71.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_07/beat_010",
+          "text": "The molecular geometry includes only the atoms. For ammonia, that is trigonal pyramidal.",
+          "tagged_text": "[warm, conversational delivery] The molecular geometry includes only the atoms. For ammonia, that is trigonal pyramidal."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 71.5,
+          "end_seconds": 77.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_07/beat_011",
+          "text": "The lone pair is invisible in the final shape. But it decided the shape.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [thoughtful] The lone pair is invisible in the final shape. But it decided the shape."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 77.5,
+          "end_seconds": 85.5,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 0.65,
+          "audio_stem": "scene_07/beat_012",
+          "text": "And there is one more effect. Measure the angle between two hydrogens. It is not one hundred and nine point five.",
+          "tagged_text": "[warm, conversational delivery] And there is one more effect. Measure the angle between two hydrogens. It is not one hundred and nine point five."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 85.5,
+          "end_seconds": 92.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_07/beat_013",
+          "text": "It is about one hundred and seven degrees. The bonds are squeezed slightly closer together.",
+          "tagged_text": "[warm, conversational delivery] It is about one hundred and seven degrees. The bonds are squeezed slightly closer together."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 92.5,
+          "end_seconds": 104.45,
+          "estimated_speech_seconds": 8.75,
+          "estimated_visual_pause_seconds": 3.2,
+          "audio_stem": "scene_07/beat_014",
+          "text": "A lone pair is held by only one nucleus, so in the VSEPR picture it spreads out close to the nitrogen, and crowds the bonds.",
+          "tagged_text": "[warm, conversational delivery] A lone pair is held by only one nucleus, so in the VSEPR picture it spreads out close to the nitrogen, and crowds the bonds."
+        }
+      ]
+    },
+    {
+      "key": "08",
+      "title": "Water: two lone pairs",
+      "film_start_seconds": 540.0,
+      "duration_seconds": 125.0,
+      "text_file": "scene_08.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_08/beat_001",
+          "text": "Now replace one more hydrogen with a lone pair. The central atom becomes oxygen, with six valence electrons.",
+          "tagged_text": "[warm, conversational delivery] Now replace one more hydrogen with a lone pair. The central atom becomes oxygen, with six valence electrons."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 13.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 0.95,
+          "audio_stem": "scene_08/beat_002",
+          "text": "Two of them bond with hydrogens. The other four form two lone pairs.",
+          "tagged_text": "[warm, conversational delivery] Two of them bond with hydrogens. The other four form two lone pairs."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 20.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_08/beat_003",
+          "text": "Count the regions: two bonds, two lone pairs. Four again. A X two E two.",
+          "tagged_text": "[warm, conversational delivery] Count the regions: two bonds, two lone pairs. Four again. A X two E two."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.5,
+          "end_seconds": 27.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_08/beat_004",
+          "text": "So the electron geometry is still tetrahedral. The four-region arrangement is approximately tetrahedral.",
+          "tagged_text": "[warm, conversational delivery] So the electron geometry is still tetrahedral. The four-region arrangement is approximately tetrahedral."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 27.0,
+          "end_seconds": 30.5,
+          "estimated_speech_seconds": 1.75,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_08/beat_005",
+          "text": "Now hide the lone pairs.",
+          "tagged_text": "[warm, conversational delivery] Now hide the lone pairs."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 30.5,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_08/beat_006",
+          "text": "What's left is an oxygen and two hydrogens, joined at an angle. Water is bent.",
+          "tagged_text": "[warm, conversational delivery] What's left is an oxygen and two hydrogens, joined at an angle. Water is bent."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 43.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_08/beat_007",
+          "text": "And the angle? About one hundred and four point five degrees. Smaller again.",
+          "tagged_text": "[warm, conversational delivery] And the angle? About one hundred and four point five degrees. Smaller again."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.5,
+          "end_seconds": 50.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_08/beat_008",
+          "text": "Two lone pairs crowd the bonds more than one did, so the angle closes a little further.",
+          "tagged_text": "[warm, conversational delivery] Two lone pairs crowd the bonds more than one did, so the angle closes a little further."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 50.5,
+          "end_seconds": 57.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 0.9,
+          "audio_stem": "scene_08/beat_009",
+          "text": "Put the three side by side. Methane, no lone pairs, one hundred and nine point five.",
+          "tagged_text": "[warm, conversational delivery] Put the three side by side. Methane, no lone pairs, one hundred and nine point five."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 57.0,
+          "end_seconds": 61.5,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_08/beat_010",
+          "text": "Ammonia, one lone pair, about one hundred and seven.",
+          "tagged_text": "[warm, conversational delivery] Ammonia, one lone pair, about one hundred and seven."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 61.5,
+          "end_seconds": 66.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_08/beat_011",
+          "text": "Water, two lone pairs, about one hundred and four point five.",
+          "tagged_text": "[warm, conversational delivery] Water, two lone pairs, about one hundred and four point five."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 66.5,
+          "end_seconds": 72.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_08/beat_012",
+          "text": "Same four regions, same tetrahedral electron geometry, three different molecular shapes.",
+          "tagged_text": "[warm, conversational delivery] Same four regions, same tetrahedral electron geometry, three different molecular shapes."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 72.0,
+          "end_seconds": 80.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_08/beat_013",
+          "text": "A word of honesty, though. VSEPR is a qualitative model. For methane, ammonia and water, it explains the decreasing angles.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] A word of honesty, though. VSEPR is a qualitative model. For methane, ammonia and water, it explains the decreasing angles."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 80.0,
+          "end_seconds": 87.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_08/beat_014",
+          "text": "The exact numbers are measured, and they depend on the atoms involved and on the full electronic structure.",
+          "tagged_text": "[warm, conversational delivery] The exact numbers are measured, and they depend on the atoms involved and on the full electronic structure."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 87.5,
+          "end_seconds": 92.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_08/beat_015",
+          "text": "There is no simple formula that turns lone pairs into degrees.",
+          "tagged_text": "[warm, conversational delivery] There is no simple formula that turns lone pairs into degrees."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 92.5,
+          "end_seconds": 100.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_08/beat_016",
+          "text": "Now look back at our opening mystery. Water's oxygen has four regions, two of them invisible lone pairs.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Now look back at our opening mystery. Water's oxygen has four regions, two of them invisible lone pairs."
+        },
+        {
+          "beat": 17,
+          "start_seconds": 100.0,
+          "end_seconds": 106.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_08/beat_017",
+          "text": "Carbon dioxide's carbon has just two regions, two double bonds, and no lone pairs.",
+          "tagged_text": "[warm, conversational delivery] Carbon dioxide's carbon has just two regions, two double bonds, and no lone pairs."
+        },
+        {
+          "beat": 18,
+          "start_seconds": 106.5,
+          "end_seconds": 115.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_08/beat_018",
+          "text": "Water has four regions, but only two bonded atoms. Carbon has two regions. Their different electron arrangements solve our mystery.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] Water has four regions, but only two bonded atoms. Carbon has two regions. Their different electron arrangements solve our mystery."
+        },
+        {
+          "beat": 19,
+          "start_seconds": 115.0,
+          "end_seconds": 124.45,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 6.3,
+          "audio_stem": "scene_08/beat_019",
+          "text": "And the same counting works for bigger molecules too.",
+          "tagged_text": "[warm, conversational delivery] And the same counting works for bigger molecules too."
+        }
+      ]
+    },
+    {
+      "key": "09",
+      "title": "Five electron regions",
+      "film_start_seconds": 665.0,
+      "duration_seconds": 75.0,
+      "text_file": "scene_09.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_09/beat_001",
+          "text": "What happens with five regions? Five points can't all be equally spaced on a sphere.",
+          "tagged_text": "[warm, conversational delivery] [curious] What happens with five regions? Five points can't all be equally spaced on a sphere."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 14.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 2.25,
+          "audio_stem": "scene_09/beat_002",
+          "text": "Start from the tetrahedron and add a fifth region at the bottom. Watch them settle.",
+          "tagged_text": "[warm, conversational delivery] Start from the tetrahedron and add a fifth region at the bottom. Watch them settle."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.5,
+          "end_seconds": 21.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_09/beat_003",
+          "text": "Three regions spread around the middle, in a flat triangle. These are the equatorial positions.",
+          "tagged_text": "[warm, conversational delivery] Three regions spread around the middle, in a flat triangle. These are the equatorial positions."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 21.5,
+          "end_seconds": 26.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_09/beat_004",
+          "text": "The other two sit straight above and below. The axial positions.",
+          "tagged_text": "[warm, conversational delivery] The other two sit straight above and below. The axial positions."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.5,
+          "end_seconds": 31.0,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_09/beat_005",
+          "text": "Two pyramids joined at their base: a trigonal bipyramid.",
+          "tagged_text": "[warm, conversational delivery] Two pyramids joined at their base: a trigonal bipyramid."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 31.0,
+          "end_seconds": 35.0,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_09/beat_006",
+          "text": "Unlike the tetrahedron, its angles are not all equal.",
+          "tagged_text": "[warm, conversational delivery] Unlike the tetrahedron, its angles are not all equal."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 35.0,
+          "end_seconds": 39.0,
+          "estimated_speech_seconds": 2.8,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_09/beat_007",
+          "text": "Equatorial to equatorial, one hundred and twenty degrees.",
+          "tagged_text": "[warm, conversational delivery] Equatorial to equatorial, one hundred and twenty degrees."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 39.0,
+          "end_seconds": 42.5,
+          "estimated_speech_seconds": 1.75,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_09/beat_008",
+          "text": "Axial to equatorial, ninety degrees.",
+          "tagged_text": "[warm, conversational delivery] Axial to equatorial, ninety degrees."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 42.5,
+          "end_seconds": 47.0,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_09/beat_009",
+          "text": "And axial to axial, straight through, one hundred and eighty.",
+          "tagged_text": "[warm, conversational delivery] And axial to axial, straight through, one hundred and eighty."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 47.0,
+          "end_seconds": 51.5,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_09/beat_010",
+          "text": "That difference between the positions will matter in a moment.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] That difference between the positions will matter in a moment."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 51.5,
+          "end_seconds": 60.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 2.0,
+          "audio_stem": "scene_09/beat_011",
+          "text": "Phosphorus pentachloride, in the gas phase, has exactly this shape. Five chlorines, five bonds, no lone pairs. A X five.",
+          "tagged_text": "[warm, conversational delivery] Phosphorus pentachloride, in the gas phase, has exactly this shape. Five chlorines, five bonds, no lone pairs. A X five."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 60.5,
+          "end_seconds": 68.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 0.5,
+          "audio_stem": "scene_09/beat_012",
+          "text": "Its axial bonds are even a little longer than its equatorial ones. The two kinds of position are not equivalent.",
+          "tagged_text": "[warm, conversational delivery] Its axial bonds are even a little longer than its equatorial ones. The two kinds of position are not equivalent."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 68.0,
+          "end_seconds": 74.45,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 3.3,
+          "audio_stem": "scene_09/beat_013",
+          "text": "So when lone pairs appear, where do they go?",
+          "tagged_text": "[warm, conversational delivery] [short pause] [curious] So when lone pairs appear, where do they go?"
+        }
+      ]
+    },
+    {
+      "key": "10",
+      "title": "One family, four shapes",
+      "film_start_seconds": 740.0,
+      "duration_seconds": 100.0,
+      "text_file": "scene_10.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_10/beat_001",
+          "text": "Replace one region with a lone pair. There are two kinds of place it could go.",
+          "tagged_text": "[warm, conversational delivery] Replace one region with a lone pair. There are two kinds of place it could go."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 13.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_10/beat_002",
+          "text": "Put it in an axial spot, and it has three neighbours only ninety degrees away.",
+          "tagged_text": "[warm, conversational delivery] Put it in an axial spot, and it has three neighbours only ninety degrees away."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 22.0,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.45,
+          "audio_stem": "scene_10/beat_003",
+          "text": "Put it on the equator, and only two neighbours are that close. The others are a roomy one hundred and twenty degrees away.",
+          "tagged_text": "[warm, conversational delivery] Put it on the equator, and only two neighbours are that close. The others are a roomy one hundred and twenty degrees away."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.0,
+          "end_seconds": 28.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_10/beat_004",
+          "text": "Ninety degree contacts are the most crowded, so the lone pair takes the equator.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] Ninety degree contacts are the most crowded, so the lone pair takes the equator."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 33.5,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.3,
+          "audio_stem": "scene_10/beat_005",
+          "text": "That's sulfur tetrafluoride. Four bonds, one lone pair. A X four E.",
+          "tagged_text": "[warm, conversational delivery] That's sulfur tetrafluoride. Four bonds, one lone pair. A X four E."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.5,
+          "end_seconds": 41.0,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_10/beat_006",
+          "text": "Hide the lone pair, and the atoms make a seesaw. The lone pair even nudges the bonds slightly away.",
+          "tagged_text": "[warm, conversational delivery] Hide the lone pair, and the atoms make a seesaw. The lone pair even nudges the bonds slightly away."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.0,
+          "end_seconds": 50.0,
+          "estimated_speech_seconds": 8.4,
+          "estimated_visual_pause_seconds": 0.6,
+          "audio_stem": "scene_10/beat_007",
+          "text": "Add a second lone pair. It also goes to the equator, keeping the two lone pairs a comfortable one hundred and twenty degrees apart.",
+          "tagged_text": "[warm, conversational delivery] Add a second lone pair. It also goes to the equator, keeping the two lone pairs a comfortable one hundred and twenty degrees apart."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 50.0,
+          "end_seconds": 57.0,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 0.35,
+          "audio_stem": "scene_10/beat_008",
+          "text": "Chlorine trifluoride. Three bonds, two lone pairs. A X three E two. Hide the lone pairs: a T shape.",
+          "tagged_text": "[warm, conversational delivery] Chlorine trifluoride. Three bonds, two lone pairs. A X three E two. Hide the lone pairs: a T shape."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 57.0,
+          "end_seconds": 61.0,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_10/beat_009",
+          "text": "And a third lone pair fills the equator completely.",
+          "tagged_text": "[warm, conversational delivery] And a third lone pair fills the equator completely."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 61.0,
+          "end_seconds": 66.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 0.8,
+          "audio_stem": "scene_10/beat_010",
+          "text": "Xenon difluoride. Two bonds, three lone pairs. A X two E three.",
+          "tagged_text": "[warm, conversational delivery] Xenon difluoride. Two bonds, three lone pairs. A X two E three."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 66.0,
+          "end_seconds": 73.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.55,
+          "audio_stem": "scene_10/beat_011",
+          "text": "The three lone pairs ring the middle, and the two fluorines sit straight above and below. Linear.",
+          "tagged_text": "[warm, conversational delivery] The three lone pairs ring the middle, and the two fluorines sit straight above and below. Linear."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 73.5,
+          "end_seconds": 80.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_10/beat_012",
+          "text": "One hundred and eighty degrees, just like carbon dioxide, but for a completely different reason.",
+          "tagged_text": "[warm, conversational delivery] [warmly] One hundred and eighty degrees, just like carbon dioxide, but for a completely different reason."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 80.0,
+          "end_seconds": 86.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.8,
+          "audio_stem": "scene_10/beat_013",
+          "text": "Look at the whole family. The same five region arrangement every time.",
+          "tagged_text": "[warm, conversational delivery] Look at the whole family. The same five region arrangement every time."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 86.0,
+          "end_seconds": 94.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 2.05,
+          "audio_stem": "scene_10/beat_014",
+          "text": "Trigonal bipyramidal, seesaw, T shaped, linear. Four shapes, one rule: lone pairs claim the roomy equator first.",
+          "tagged_text": "[warm, conversational delivery] Trigonal bipyramidal, seesaw, T shaped, linear. Four shapes, one rule: lone pairs claim the roomy equator first."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 94.0,
+          "end_seconds": 99.45,
+          "estimated_speech_seconds": 2.45,
+          "estimated_visual_pause_seconds": 3.0,
+          "audio_stem": "scene_10/beat_015",
+          "text": "Not four things to memorise. One pattern.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] Not four things to memorise. One pattern."
+        }
+      ]
+    },
+    {
+      "key": "11",
+      "title": "Six electron regions",
+      "film_start_seconds": 840.0,
+      "duration_seconds": 60.0,
+      "text_file": "scene_11.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.5,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 2.3,
+          "audio_stem": "scene_11/beat_001",
+          "text": "Six regions. Add one more to the bipyramid and let it settle.",
+          "tagged_text": "[warm, conversational delivery] Six regions. Add one more to the bipyramid and let it settle."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.5,
+          "end_seconds": 14.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_11/beat_002",
+          "text": "This time everything evens out again. Four regions in a square around the middle, one above, one below.",
+          "tagged_text": "[warm, conversational delivery] [warmly] This time everything evens out again. Four regions in a square around the middle, one above, one below."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.0,
+          "end_seconds": 22.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.7,
+          "audio_stem": "scene_11/beat_003",
+          "text": "Every region sits at ninety degrees to four neighbours, and one hundred and eighty degrees from the last.",
+          "tagged_text": "[warm, conversational delivery] Every region sits at ninety degrees to four neighbours, and one hundred and eighty degrees from the last."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.0,
+          "end_seconds": 27.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_11/beat_004",
+          "text": "Join the tips, and you get eight triangular faces. An octahedron.",
+          "tagged_text": "[warm, conversational delivery] Join the tips, and you get eight triangular faces. An octahedron."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 27.5,
+          "end_seconds": 34.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 2.45,
+          "audio_stem": "scene_11/beat_005",
+          "text": "Sulfur hexafluoride. Six fluorines, six bonds, no lone pairs. A X six. Octahedral.",
+          "tagged_text": "[warm, conversational delivery] Sulfur hexafluoride. Six fluorines, six bonds, no lone pairs. A X six. Octahedral."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.5,
+          "end_seconds": 42.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 2.4,
+          "audio_stem": "scene_11/beat_006",
+          "text": "Unlike the bipyramid, every position here is equivalent. It looks the same along all three axes.",
+          "tagged_text": "[warm, conversational delivery] Unlike the bipyramid, every position here is equivalent. It looks the same along all three axes."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 42.5,
+          "end_seconds": 52.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 2.5,
+          "audio_stem": "scene_11/beat_007",
+          "text": "Six regions around sulfur break the octet rule we met last time. Counting regions doesn't mind: six regions, six directions.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] Six regions around sulfur break the octet rule we met last time. Counting regions doesn't mind: six regions, six directions."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 52.0,
+          "end_seconds": 59.45,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 3.95,
+          "audio_stem": "scene_11/beat_008",
+          "text": "So what happens when lone pairs move into an octahedron?",
+          "tagged_text": "[warm, conversational delivery] [short pause] [curious] So what happens when lone pairs move into an octahedron?"
+        }
+      ]
+    },
+    {
+      "key": "12",
+      "title": "Flat from six",
+      "film_start_seconds": 900.0,
+      "duration_seconds": 90.0,
+      "text_file": "scene_12.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_12/beat_001",
+          "text": "Start with sulfur hexafluoride's six regions, and swap one for a lone pair.",
+          "tagged_text": "[warm, conversational delivery] Start with sulfur hexafluoride's six regions, and swap one for a lone pair."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.5,
+          "end_seconds": 13.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.7,
+          "audio_stem": "scene_12/beat_002",
+          "text": "In an octahedron every position is the same, so it doesn't matter which. Put it at the bottom.",
+          "tagged_text": "[warm, conversational delivery] In an octahedron every position is the same, so it doesn't matter which. Put it at the bottom."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 18.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_12/beat_003",
+          "text": "Bromine pentafluoride. Five bonds, one lone pair. A X five E.",
+          "tagged_text": "[warm, conversational delivery] Bromine pentafluoride. Five bonds, one lone pair. A X five E."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.5,
+          "end_seconds": 26.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.55,
+          "audio_stem": "scene_12/beat_004",
+          "text": "Hide the lone pair. A square base of four fluorines, with one more on top. Square pyramidal.",
+          "tagged_text": "[warm, conversational delivery] Hide the lone pair. A square base of four fluorines, with one more on top. Square pyramidal."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.0,
+          "end_seconds": 33.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_12/beat_005",
+          "text": "Again the lone pair pushes, and the four base fluorines tilt slightly up, away from it.",
+          "tagged_text": "[warm, conversational delivery] Again the lone pair pushes, and the four base fluorines tilt slightly up, away from it."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_12/beat_006",
+          "text": "Now a second lone pair. Where should it go?",
+          "tagged_text": "[warm, conversational delivery] [curious] Now a second lone pair. Where should it go?"
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 43.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_12/beat_007",
+          "text": "Next to the first, the two lone pairs would be only ninety degrees apart.",
+          "tagged_text": "[warm, conversational delivery] Next to the first, the two lone pairs would be only ninety degrees apart."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 43.0,
+          "end_seconds": 50.5,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_12/beat_008",
+          "text": "On the opposite side, they are one hundred and eighty degrees apart, as far apart as possible. That wins.",
+          "tagged_text": "[warm, conversational delivery] On the opposite side, they are one hundred and eighty degrees apart, as far apart as possible. That wins."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 50.5,
+          "end_seconds": 55.5,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 0.8,
+          "audio_stem": "scene_12/beat_009",
+          "text": "Xenon tetrafluoride. Four bonds, two lone pairs. A X four E two.",
+          "tagged_text": "[warm, conversational delivery] Xenon tetrafluoride. Four bonds, two lone pairs. A X four E two."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 55.5,
+          "end_seconds": 58.0,
+          "estimated_speech_seconds": 1.05,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_12/beat_010",
+          "text": "Now hide them.",
+          "tagged_text": "[warm, conversational delivery] Now hide them."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 58.0,
+          "end_seconds": 65.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_12/beat_011",
+          "text": "Four fluorines in a perfect square, with the xenon at the centre. Completely flat. Square planar.",
+          "tagged_text": "[warm, conversational delivery] Four fluorines in a perfect square, with the xenon at the centre. Completely flat. Square planar."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 65.0,
+          "end_seconds": 71.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_12/beat_012",
+          "text": "How can a molecule with six electron regions look like a flat sheet?",
+          "tagged_text": "[warm, conversational delivery] [short pause] [curious] How can a molecule with six electron regions look like a flat sheet?"
+        },
+        {
+          "beat": 13,
+          "start_seconds": 71.0,
+          "end_seconds": 79.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_12/beat_013",
+          "text": "Because two of its regions are lone pairs, one above the plane and one below, pressing equally from both sides.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Because two of its regions are lone pairs, one above the plane and one below, pressing equally from both sides."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 79.0,
+          "end_seconds": 89.45,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 3.45,
+          "audio_stem": "scene_12/beat_014",
+          "text": "Octahedral, square pyramidal, square planar. With that, we have the main families of VSEPR shapes, from two regions to six.",
+          "tagged_text": "[warm, conversational delivery] Octahedral, square pyramidal, square planar. With that, we have the main families of VSEPR shapes, from two regions to six."
+        }
+      ]
+    },
+    {
+      "key": "13",
+      "title": "Mixing orbitals",
+      "film_start_seconds": 990.0,
+      "duration_seconds": 90.0,
+      "text_file": "scene_13.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.8,
+          "audio_stem": "scene_13/beat_001",
+          "text": "VSEPR tells us where the electron regions point. Now a different question.",
+          "tagged_text": "[warm, conversational delivery] VSEPR tells us where the electron regions point. Now a different question."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.0,
+          "end_seconds": 12.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_13/beat_002",
+          "text": "If bonds come from overlapping orbitals, which orbitals on carbon point in those directions?",
+          "tagged_text": "[warm, conversational delivery] If bonds come from overlapping orbitals, which orbitals on carbon point in those directions?"
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.5,
+          "end_seconds": 21.5,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.95,
+          "audio_stem": "scene_13/beat_003",
+          "text": "Carbon's valence orbitals are one two s orbital, a sphere, and three two p orbitals, each a pair of lobes along one axis.",
+          "tagged_text": "[warm, conversational delivery] Carbon's valence orbitals are one two s orbital, a sphere, and three two p orbitals, each a pair of lobes along one axis."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 21.5,
+          "end_seconds": 26.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_13/beat_004",
+          "text": "The three p orbitals sit at right angles, ninety degrees apart.",
+          "tagged_text": "[warm, conversational delivery] The three p orbitals sit at right angles, ninety degrees apart."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.5,
+          "end_seconds": 34.5,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_13/beat_005",
+          "text": "But methane's bonds are one hundred and nine point five degrees apart. The atomic orbitals don't line up with them.",
+          "tagged_text": "[warm, conversational delivery] But methane's bonds are one hundred and nine point five degrees apart. The atomic orbitals don't line up with them."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.5,
+          "end_seconds": 41.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_13/beat_006",
+          "text": "Here's the trick. In quantum mechanics, orbitals are wave functions, and wave functions can be added.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Here's the trick. In quantum mechanics, orbitals are wave functions, and wave functions can be added."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.5,
+          "end_seconds": 47.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 0.25,
+          "audio_stem": "scene_13/beat_007",
+          "text": "Mix some s with some p, and you get a new function: a hybrid orbital.",
+          "tagged_text": "[warm, conversational delivery] Mix some s with some p, and you get a new function: a hybrid orbital."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.0,
+          "end_seconds": 55.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_13/beat_008",
+          "text": "Turn this dial. All s, and it's a sphere. Add some p, and one side grows while the other shrinks.",
+          "tagged_text": "[warm, conversational delivery] [curious] Turn this dial. All s, and it's a sphere. Add some p, and one side grows while the other shrinks."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 55.0,
+          "end_seconds": 62.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_13/beat_009",
+          "text": "All p, and it's the familiar pair of lobes. In between, the orbital points in one direction.",
+          "tagged_text": "[warm, conversational delivery] All p, and it's the familiar pair of lobes. In between, the orbital points in one direction."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 62.0,
+          "end_seconds": 71.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 2.0,
+          "audio_stem": "scene_13/beat_010",
+          "text": "This is a mathematical model, not orbitals physically melting together. We're choosing a convenient way to describe the same electrons.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] This is a mathematical model, not orbitals physically melting together. We're choosing a convenient way to describe the same electrons."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 71.0,
+          "end_seconds": 77.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 0.4,
+          "audio_stem": "scene_13/beat_011",
+          "text": "Mix one s with one p, half and half, and you get two S P hybrids.",
+          "tagged_text": "[warm, conversational delivery] Mix one s with one p, half and half, and you get two S P hybrids."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 77.0,
+          "end_seconds": 84.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.7,
+          "audio_stem": "scene_13/beat_012",
+          "text": "They point in opposite directions, one hundred and eighty degrees apart, like the two regions of carbon dioxide.",
+          "tagged_text": "[warm, conversational delivery] They point in opposite directions, one hundred and eighty degrees apart, like the two regions of carbon dioxide."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 84.0,
+          "end_seconds": 89.45,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 0.2,
+          "audio_stem": "scene_13/beat_013",
+          "text": "And the two p orbitals we didn't use stay behind, ready to form pi bonds.",
+          "tagged_text": "[warm, conversational delivery] And the two p orbitals we didn't use stay behind, ready to form pi bonds."
+        }
+      ]
+    },
+    {
+      "key": "14",
+      "title": "sp, sp² and sp³",
+      "film_start_seconds": 1080.0,
+      "duration_seconds": 100.0,
+      "text_file": "scene_14.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_14/beat_001",
+          "text": "Now mix one s with two p orbitals. Out come three S P two hybrids.",
+          "tagged_text": "[warm, conversational delivery] Now mix one s with two p orbitals. Out come three S P two hybrids."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 14.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_14/beat_002",
+          "text": "They lie in one plane, one hundred and twenty degrees apart. The same directions VSEPR gave three regions.",
+          "tagged_text": "[warm, conversational delivery] They lie in one plane, one hundred and twenty degrees apart. The same directions VSEPR gave three regions."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 14.5,
+          "end_seconds": 21.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 0.9,
+          "audio_stem": "scene_14/beat_003",
+          "text": "One p orbital is left out of the mix. It stands straight up through the plane.",
+          "tagged_text": "[warm, conversational delivery] One p orbital is left out of the mix. It stands straight up through the plane."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 21.0,
+          "end_seconds": 29.0,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_14/beat_004",
+          "text": "Boron in boron trifluoride is often described this way: three S P two hybrids, each overlapping with a fluorine.",
+          "tagged_text": "[warm, conversational delivery] Boron in boron trifluoride is often described this way: three S P two hybrids, each overlapping with a fluorine."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 29.0,
+          "end_seconds": 35.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_14/beat_005",
+          "text": "Now mix the s with all three p orbitals. Four S P three hybrids.",
+          "tagged_text": "[warm, conversational delivery] Now mix the s with all three p orbitals. Four S P three hybrids."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.0,
+          "end_seconds": 41.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.8,
+          "audio_stem": "scene_14/beat_006",
+          "text": "They point to the corners of a tetrahedron. Nothing is left over.",
+          "tagged_text": "[warm, conversational delivery] They point to the corners of a tetrahedron. Nothing is left over."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.0,
+          "end_seconds": 46.0,
+          "estimated_speech_seconds": 2.8,
+          "estimated_visual_pause_seconds": 2.2,
+          "audio_stem": "scene_14/beat_007",
+          "text": "Methane's four bonds line up with them perfectly.",
+          "tagged_text": "[warm, conversational delivery] Methane's four bonds line up with them perfectly."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 46.0,
+          "end_seconds": 52.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.1,
+          "audio_stem": "scene_14/beat_008",
+          "text": "But here is the beautiful part. Those angles were not put in by hand.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] But here is the beautiful part. Those angles were not put in by hand."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 52.0,
+          "end_seconds": 60.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_14/beat_009",
+          "text": "In this ideal model, the equivalent hybrids are chosen to be orthogonal. That means their wave functions have zero overlap.",
+          "tagged_text": "[warm, conversational delivery] In this ideal model, the equivalent hybrids are chosen to be orthogonal. That means their wave functions have zero overlap."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.0,
+          "end_seconds": 68.5,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.45,
+          "audio_stem": "scene_14/beat_010",
+          "text": "With the same s character in each equivalent hybrid, orthogonality fixes their directions. The cosine of their angle is minus one over n.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] With the same s character in each equivalent hybrid, orthogonality fixes their directions. The cosine of their angle is minus one over n."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 68.5,
+          "end_seconds": 72.5,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 0.85,
+          "audio_stem": "scene_14/beat_011",
+          "text": "S P: minus one. One hundred and eighty degrees.",
+          "tagged_text": "[warm, conversational delivery] S P: minus one. One hundred and eighty degrees."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 72.5,
+          "end_seconds": 76.5,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 0.5,
+          "audio_stem": "scene_14/beat_012",
+          "text": "S P two: minus a half. One hundred and twenty.",
+          "tagged_text": "[warm, conversational delivery] S P two: minus a half. One hundred and twenty."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 76.5,
+          "end_seconds": 85.0,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.45,
+          "audio_stem": "scene_14/beat_013",
+          "text": "S P three: minus a third. One hundred and nine point five. The very same minus one third we found with the cube.",
+          "tagged_text": "[warm, conversational delivery] S P three: minus a third. One hundred and nine point five. The very same minus one third we found with the cube."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 85.0,
+          "end_seconds": 91.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_14/beat_014",
+          "text": "Two completely different routes, repulsion and orbital mixing, land on the same directions.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Two completely different routes, repulsion and orbital mixing, land on the same directions."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 91.5,
+          "end_seconds": 99.45,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 4.45,
+          "audio_stem": "scene_14/beat_015",
+          "text": "That is why the two pictures fit together so well.",
+          "tagged_text": "[warm, conversational delivery] That is why the two pictures fit together so well."
+        }
+      ]
+    },
+    {
+      "key": "15",
+      "title": "Methane and ethene",
+      "film_start_seconds": 1180.0,
+      "duration_seconds": 80.0,
+      "text_file": "scene_15.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 5.0,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 1.85,
+          "audio_stem": "scene_15/beat_001",
+          "text": "Let's watch the two pictures meet, starting with methane.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Let's watch the two pictures meet, starting with methane."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 5.0,
+          "end_seconds": 11.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 2.15,
+          "audio_stem": "scene_15/beat_002",
+          "text": "VSEPR says four bonding regions around carbon, arranged as a tetrahedron.",
+          "tagged_text": "[warm, conversational delivery] VSEPR says four bonding regions around carbon, arranged as a tetrahedron."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 11.0,
+          "end_seconds": 17.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_15/beat_003",
+          "text": "The valence bond picture gives carbon four S P three hybrids, pointing the same way.",
+          "tagged_text": "[warm, conversational delivery] The valence bond picture gives carbon four S P three hybrids, pointing the same way."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 17.5,
+          "end_seconds": 24.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_15/beat_004",
+          "text": "Each hydrogen brings a one s orbital, and each one overlaps head on with a hybrid lobe.",
+          "tagged_text": "[warm, conversational delivery] Each hydrogen brings a one s orbital, and each one overlaps head on with a hybrid lobe."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 24.5,
+          "end_seconds": 31.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_15/beat_005",
+          "text": "Four head on overlaps, four sigma bonds, all equivalent. Exactly what methane shows.",
+          "tagged_text": "[warm, conversational delivery] Four head on overlaps, four sigma bonds, all equivalent. Exactly what methane shows."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 31.0,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_15/beat_006",
+          "text": "Now ethene: two carbons joined by a double bond, each with two hydrogens.",
+          "tagged_text": "[warm, conversational delivery] [curious] Now ethene: two carbons joined by a double bond, each with two hydrogens."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 47.0,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_15/beat_007",
+          "text": "Each carbon has three regions: two bonds to hydrogen and one double bond. So, trigonal planar, close to one hundred and twenty degrees.",
+          "tagged_text": "[warm, conversational delivery] Each carbon has three regions: two bonds to hydrogen and one double bond. So, trigonal planar, close to one hundred and twenty degrees."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.0,
+          "end_seconds": 55.0,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 0.65,
+          "audio_stem": "scene_15/beat_008",
+          "text": "In orbital language, each carbon is S P two: three hybrids in a plane, and one p orbital left standing upright.",
+          "tagged_text": "[warm, conversational delivery] In orbital language, each carbon is S P two: three hybrids in a plane, and one p orbital left standing upright."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 55.0,
+          "end_seconds": 61.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 0.9,
+          "audio_stem": "scene_15/beat_009",
+          "text": "The hybrids form the sigma framework, carbon to hydrogen and carbon to carbon, all head on.",
+          "tagged_text": "[warm, conversational delivery] The hybrids form the sigma framework, carbon to hydrogen and carbon to carbon, all head on."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 61.5,
+          "end_seconds": 70.0,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_15/beat_010",
+          "text": "The two upright p orbitals are parallel, side by side. They overlap above and below the plane. That's the pi bond.",
+          "tagged_text": "[warm, conversational delivery] The two upright p orbitals are parallel, side by side. They overlap above and below the plane. That's the pi bond."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 70.0,
+          "end_seconds": 79.45,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_15/beat_011",
+          "text": "So a double bond is one sigma plus one pi. And pi overlap needs the p orbitals parallel, which helps keep ethene flat.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] So a double bond is one sigma plus one pi. And pi overlap needs the p orbitals parallel, which helps keep ethene flat."
+        }
+      ]
+    },
+    {
+      "key": "16",
+      "title": "Two models, one molecule",
+      "film_start_seconds": 1260.0,
+      "duration_seconds": 60.0,
+      "text_file": "scene_16.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_16/beat_001",
+          "text": "For ammonia and water, introductory courses usually say S P three as well, with lone pairs sitting in hybrid orbitals.",
+          "tagged_text": "[warm, conversational delivery] For ammonia and water, introductory courses usually say S P three as well, with lone pairs sitting in hybrid orbitals."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 12.5,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_16/beat_002",
+          "text": "It's a useful picture. But it isn't the whole story.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] It's a useful picture. But it isn't the whole story."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.5,
+          "end_seconds": 22.0,
+          "estimated_speech_seconds": 9.1,
+          "estimated_visual_pause_seconds": 0.4,
+          "audio_stem": "scene_16/beat_003",
+          "text": "Perfect S P three hybrids would give one hundred and nine point five degrees. The real angles are smaller. The labels don't produce the measured angles.",
+          "tagged_text": "[warm, conversational delivery] Perfect S P three hybrids would give one hundred and nine point five degrees. The real angles are smaller. The labels don't produce the measured angles."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 22.0,
+          "end_seconds": 28.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_16/beat_004",
+          "text": "For water especially, the actual orbitals are more nuanced than four identical hybrids.",
+          "tagged_text": "[warm, conversational delivery] For water especially, the actual orbitals are more nuanced than four identical hybrids."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 36.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_16/beat_005",
+          "text": "So keep the two models in their own lanes. VSEPR predicts the approximate geometry, by counting bonds and lone pairs.",
+          "tagged_text": "[warm, conversational delivery] [warmly] So keep the two models in their own lanes. VSEPR predicts the approximate geometry, by counting bonds and lone pairs."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.0,
+          "end_seconds": 43.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_16/beat_006",
+          "text": "Hybridization describes it, with directional orbitals for sigma bonds, and leftover p orbitals for pi bonds.",
+          "tagged_text": "[warm, conversational delivery] Hybridization describes it, with directional orbitals for sigma bonds, and leftover p orbitals for pi bonds."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 43.5,
+          "end_seconds": 52.0,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 1.15,
+          "audio_stem": "scene_16/beat_007",
+          "text": "You may also meet labels like S P three D for five regions, and S P three D two for six.",
+          "tagged_text": "[warm, conversational delivery] You may also meet labels like S P three D for five regions, and S P three D two for six."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 52.0,
+          "end_seconds": 59.45,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_16/beat_008",
+          "text": "Treat them as historical textbook labels. Modern calculations show d orbitals play only a minor part here.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [thoughtful] Treat them as historical textbook labels. Modern calculations show d orbitals play only a minor part here."
+        }
+      ]
+    },
+    {
+      "key": "17",
+      "title": "Bond dipoles",
+      "film_start_seconds": 1320.0,
+      "duration_seconds": 80.0,
+      "text_file": "scene_17.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 6.5,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.2,
+          "audio_stem": "scene_17/beat_001",
+          "text": "Shape has one more surprise. Together with bond polarity, it determines whether a molecule has an overall dipole.",
+          "tagged_text": "[warm, conversational delivery] [curious] Shape has one more surprise. Together with bond polarity, it determines whether a molecule has an overall dipole."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 6.5,
+          "end_seconds": 13.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_17/beat_002",
+          "text": "Start with hydrogen chloride. Chlorine pulls the shared electrons harder than hydrogen does.",
+          "tagged_text": "[warm, conversational delivery] Start with hydrogen chloride. Chlorine pulls the shared electrons harder than hydrogen does."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.0,
+          "end_seconds": 20.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_17/beat_003",
+          "text": "So the electron cloud leans toward chlorine. Chlorine ends up slightly negative, hydrogen slightly positive.",
+          "tagged_text": "[warm, conversational delivery] So the electron cloud leans toward chlorine. Chlorine ends up slightly negative, hydrogen slightly positive."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 27.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.7,
+          "audio_stem": "scene_17/beat_004",
+          "text": "We can draw that imbalance as an arrow, a bond dipole, pointing toward the atom that pulls harder.",
+          "tagged_text": "[warm, conversational delivery] We can draw that imbalance as an arrow, a bond dipole, pointing toward the atom that pulls harder."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 27.0,
+          "end_seconds": 34.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_17/beat_005",
+          "text": "Because it's an arrow, it has a size and a direction. It's a vector. And vectors add.",
+          "tagged_text": "[warm, conversational delivery] Because it's an arrow, it has a size and a direction. It's a vector. And vectors add."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 34.0,
+          "end_seconds": 41.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.55,
+          "audio_stem": "scene_17/beat_006",
+          "text": "Now carbon dioxide. Oxygen pulls harder than carbon, so both bonds are polar. Two arrows, pointing outward.",
+          "tagged_text": "[warm, conversational delivery] Now carbon dioxide. Oxygen pulls harder than carbon, so both bonds are polar. Two arrows, pointing outward."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.5,
+          "end_seconds": 47.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_17/beat_007",
+          "text": "Add them, tip to tail. They are equal and exactly opposite. They cancel.",
+          "tagged_text": "[warm, conversational delivery] Add them, tip to tail. They are equal and exactly opposite. They cancel."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 47.5,
+          "end_seconds": 53.5,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.8,
+          "audio_stem": "scene_17/beat_008",
+          "text": "Carbon dioxide has polar bonds, but no overall dipole. A nonpolar molecule.",
+          "tagged_text": "[warm, conversational delivery] Carbon dioxide has polar bonds, but no overall dipole. A nonpolar molecule."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 53.5,
+          "end_seconds": 60.0,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_17/beat_009",
+          "text": "Now water. Oxygen pulls on both bonds again. Two arrows, both pointing toward oxygen.",
+          "tagged_text": "[warm, conversational delivery] Now water. Oxygen pulls on both bonds again. Two arrows, both pointing toward oxygen."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.0,
+          "end_seconds": 66.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.25,
+          "audio_stem": "scene_17/beat_010",
+          "text": "But water is bent. Add these two arrows, tip to tail, and they don't cancel.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [curious] But water is bent. Add these two arrows, tip to tail, and they don't cancel."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 66.5,
+          "end_seconds": 72.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.3,
+          "audio_stem": "scene_17/beat_011",
+          "text": "The sum points toward the oxygen side. Water is a polar molecule.",
+          "tagged_text": "[warm, conversational delivery] The sum points toward the oxygen side. Water is a polar molecule."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 72.0,
+          "end_seconds": 79.45,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 2.9,
+          "audio_stem": "scene_17/beat_012",
+          "text": "Both have polar bonds, but their different shapes make the arrows add differently.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Both have polar bonds, but their different shapes make the arrows add differently."
+        }
+      ]
+    },
+    {
+      "key": "18",
+      "title": "Symmetry decides polarity",
+      "film_start_seconds": 1400.0,
+      "duration_seconds": 85.0,
+      "text_file": "scene_18.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 8.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 2.05,
+          "audio_stem": "scene_18/beat_001",
+          "text": "The same test works in three dimensions. Boron trifluoride: three polar bonds, pointing out to the fluorines.",
+          "tagged_text": "[warm, conversational delivery] The same test works in three dimensions. Boron trifluoride: three polar bonds, pointing out to the fluorines."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 8.0,
+          "end_seconds": 16.0,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_18/beat_002",
+          "text": "Chain them tip to tail. The path closes into a triangle, and returns to where it started. Total: zero.",
+          "tagged_text": "[warm, conversational delivery] Chain them tip to tail. The path closes into a triangle, and returns to where it started. Total: zero."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 16.0,
+          "end_seconds": 23.5,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 2.25,
+          "audio_stem": "scene_18/beat_003",
+          "text": "Methane: four small bond dipoles, pointing in toward carbon, toward the centre of a tetrahedron.",
+          "tagged_text": "[warm, conversational delivery] Methane: four small bond dipoles, pointing in toward carbon, toward the centre of a tetrahedron."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 23.5,
+          "end_seconds": 30.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_18/beat_004",
+          "text": "Chain them in three dimensions, and again the path closes. Methane is nonpolar.",
+          "tagged_text": "[warm, conversational delivery] Chain them in three dimensions, and again the path closes. Methane is nonpolar."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 30.0,
+          "end_seconds": 36.0,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 2.5,
+          "audio_stem": "scene_18/beat_005",
+          "text": "Ammonia: three bonds pulling toward nitrogen, arranged as a pyramid.",
+          "tagged_text": "[warm, conversational delivery] Ammonia: three bonds pulling toward nitrogen, arranged as a pyramid."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 36.0,
+          "end_seconds": 44.0,
+          "estimated_speech_seconds": 7.7,
+          "estimated_visual_pause_seconds": 0.3,
+          "audio_stem": "scene_18/beat_006",
+          "text": "This time the chain doesn't close. All three bond arrows share an upward lean. The full electron distribution sets the actual dipole.",
+          "tagged_text": "[warm, conversational delivery] [curious] This time the chain doesn't close. All three bond arrows share an upward lean. The full electron distribution sets the actual dipole."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 44.0,
+          "end_seconds": 51.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_18/beat_007",
+          "text": "Ammonia is polar, and its overall dipole points toward the nitrogen, on the lone pair side.",
+          "tagged_text": "[warm, conversational delivery] Ammonia is polar, and its overall dipole points toward the nitrogen, on the lone pair side."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 51.0,
+          "end_seconds": 59.0,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 2.05,
+          "audio_stem": "scene_18/beat_008",
+          "text": "Line them up. Carbon dioxide, boron trifluoride and methane are symmetric, and their bond dipoles cancel. Nonpolar.",
+          "tagged_text": "[warm, conversational delivery] Line them up. Carbon dioxide, boron trifluoride and methane are symmetric, and their bond dipoles cancel. Nonpolar."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 59.0,
+          "end_seconds": 64.5,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_18/beat_009",
+          "text": "Ammonia and water are lopsided, and their dipoles add up. Polar.",
+          "tagged_text": "[warm, conversational delivery] Ammonia and water are lopsided, and their dipoles add up. Polar."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 64.5,
+          "end_seconds": 72.5,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 0.65,
+          "audio_stem": "scene_18/beat_010",
+          "text": "To be fair, shape is not the only factor. The atoms matter, and so does how strongly each bond is polarised.",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] To be fair, shape is not the only factor. The atoms matter, and so does how strongly each bond is polarised."
+        },
+        {
+          "beat": 11,
+          "start_seconds": 72.5,
+          "end_seconds": 84.45,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 4.95,
+          "audio_stem": "scene_18/beat_011",
+          "text": "For these molecules, symmetry tells us whether the equivalent bond dipoles cancel. Counting regions gives us the arrangement to test.",
+          "tagged_text": "[warm, conversational delivery] [warmly] For these molecules, symmetry tells us whether the equivalent bond dipoles cancel. Counting regions gives us the arrangement to test."
+        }
+      ]
+    },
+    {
+      "key": "19",
+      "title": "Predict the shape",
+      "film_start_seconds": 1485.0,
+      "duration_seconds": 105.0,
+      "text_file": "scene_19.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.5,
+          "estimated_speech_seconds": 7.35,
+          "estimated_visual_pause_seconds": 2.15,
+          "audio_stem": "scene_19/beat_001",
+          "text": "Your turn. Here's the recipe: draw the Lewis structure, count the regions, find the electron geometry, then hide the lone pairs.",
+          "tagged_text": "[warm, conversational delivery] [warmly] Your turn. Here's the recipe: draw the Lewis structure, count the regions, find the electron geometry, then hide the lone pairs."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 9.5,
+          "end_seconds": 16.5,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_19/beat_002",
+          "text": "Question one. Sulfur dioxide. Sulfur bonds to two oxygens and keeps one lone pair. What shape?",
+          "tagged_text": "[warm, conversational delivery] Question one. Sulfur dioxide. Sulfur bonds to two oxygens and keeps one lone pair. What shape?"
+        },
+        {
+          "beat": 3,
+          "start_seconds": 16.5,
+          "end_seconds": 20.0,
+          "estimated_speech_seconds": 1.05,
+          "estimated_visual_pause_seconds": 2.45,
+          "audio_stem": "scene_19/beat_003",
+          "text": "Take a moment.",
+          "tagged_text": "[warm, conversational delivery] [short pause] Take a moment."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.0,
+          "end_seconds": 28.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_19/beat_004",
+          "text": "However you draw its double bonds, sulfur has three regions: two bonds and a lone pair. A trigonal planar arrangement.",
+          "tagged_text": "[warm, conversational delivery] However you draw its double bonds, sulfur has three regions: two bonds and a lone pair. A trigonal planar arrangement."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 28.0,
+          "end_seconds": 35.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.4,
+          "audio_stem": "scene_19/beat_005",
+          "text": "Hide the lone pair. Sulfur dioxide is bent, at just under one hundred and twenty degrees.",
+          "tagged_text": "[warm, conversational delivery] Hide the lone pair. Sulfur dioxide is bent, at just under one hundred and twenty degrees."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 35.0,
+          "end_seconds": 41.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 1.8,
+          "audio_stem": "scene_19/beat_006",
+          "text": "Question two. Phosphorus trifluoride. Three fluorines, and one lone pair on phosphorus.",
+          "tagged_text": "[warm, conversational delivery] Question two. Phosphorus trifluoride. Three fluorines, and one lone pair on phosphorus."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 41.0,
+          "end_seconds": 45.5,
+          "estimated_speech_seconds": 1.05,
+          "estimated_visual_pause_seconds": 3.45,
+          "audio_stem": "scene_19/beat_007",
+          "text": "Pause and predict.",
+          "tagged_text": "[warm, conversational delivery] Pause and predict."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 45.5,
+          "end_seconds": 54.0,
+          "estimated_speech_seconds": 7.0,
+          "estimated_visual_pause_seconds": 1.5,
+          "audio_stem": "scene_19/beat_008",
+          "text": "Three bonds plus one lone pair: four regions, tetrahedral. Hide the lone pair, and it's a trigonal pyramid, like ammonia.",
+          "tagged_text": "[warm, conversational delivery] Three bonds plus one lone pair: four regions, tetrahedral. Hide the lone pair, and it's a trigonal pyramid, like ammonia."
+        },
+        {
+          "beat": 9,
+          "start_seconds": 54.0,
+          "end_seconds": 60.5,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.95,
+          "audio_stem": "scene_19/beat_009",
+          "text": "Question three. Bromine trifluoride. Three fluorines again, but bromine keeps two lone pairs.",
+          "tagged_text": "[warm, conversational delivery] Question three. Bromine trifluoride. Three fluorines again, but bromine keeps two lone pairs."
+        },
+        {
+          "beat": 10,
+          "start_seconds": 60.5,
+          "end_seconds": 65.0,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 1.0,
+          "audio_stem": "scene_19/beat_010",
+          "text": "Five regions this time. Where do the lone pairs go?",
+          "tagged_text": "[warm, conversational delivery] Five regions this time. Where do the lone pairs go?"
+        },
+        {
+          "beat": 11,
+          "start_seconds": 65.0,
+          "end_seconds": 69.0,
+          "estimated_speech_seconds": 1.75,
+          "estimated_visual_pause_seconds": 2.25,
+          "audio_stem": "scene_19/beat_011",
+          "text": "Think back to the equator.",
+          "tagged_text": "[warm, conversational delivery] Think back to the equator."
+        },
+        {
+          "beat": 12,
+          "start_seconds": 69.0,
+          "end_seconds": 76.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.55,
+          "audio_stem": "scene_19/beat_012",
+          "text": "Both lone pairs take equatorial positions. The three fluorines form a T shape, just like chlorine trifluoride.",
+          "tagged_text": "[warm, conversational delivery] Both lone pairs take equatorial positions. The three fluorines form a T shape, just like chlorine trifluoride."
+        },
+        {
+          "beat": 13,
+          "start_seconds": 76.5,
+          "end_seconds": 82.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_19/beat_013",
+          "text": "Now look at these three together. Boron, phosphorus and bromine trifluoride.",
+          "tagged_text": "[warm, conversational delivery] Now look at these three together. Boron, phosphorus and bromine trifluoride."
+        },
+        {
+          "beat": 14,
+          "start_seconds": 82.0,
+          "end_seconds": 87.0,
+          "estimated_speech_seconds": 4.2,
+          "estimated_visual_pause_seconds": 0.8,
+          "audio_stem": "scene_19/beat_014",
+          "text": "Each has three fluorines around a central atom. The same formula pattern.",
+          "tagged_text": "[warm, conversational delivery] Each has three fluorines around a central atom. The same formula pattern."
+        },
+        {
+          "beat": 15,
+          "start_seconds": 87.0,
+          "end_seconds": 96.0,
+          "estimated_speech_seconds": 8.05,
+          "estimated_visual_pause_seconds": 0.95,
+          "audio_stem": "scene_19/beat_015",
+          "text": "Yet one is flat, one is a pyramid, and one is a T. The difference is the lone pairs: zero, one, and two.",
+          "tagged_text": "[warm, conversational delivery] Yet one is flat, one is a pyramid, and one is a T. The difference is the lone pairs: zero, one, and two."
+        },
+        {
+          "beat": 16,
+          "start_seconds": 96.0,
+          "end_seconds": 104.45,
+          "estimated_speech_seconds": 3.5,
+          "estimated_visual_pause_seconds": 4.95,
+          "audio_stem": "scene_19/beat_016",
+          "text": "You didn't memorise those. You predicted them, by counting electrons.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] You didn't memorise those. You predicted them, by counting electrons."
+        }
+      ]
+    },
+    {
+      "key": "20",
+      "title": "Molecules live in 3D",
+      "film_start_seconds": 1590.0,
+      "duration_seconds": 55.0,
+      "text_file": "scene_20.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 7.0,
+          "estimated_speech_seconds": 5.25,
+          "estimated_visual_pause_seconds": 1.75,
+          "audio_stem": "scene_20/beat_001",
+          "text": "We started with a simple question. Why is carbon dioxide straight, while water is bent?",
+          "tagged_text": "[warm, conversational delivery] [thoughtful] We started with a simple question. Why is carbon dioxide straight, while water is bent?"
+        },
+        {
+          "beat": 2,
+          "start_seconds": 7.0,
+          "end_seconds": 13.5,
+          "estimated_speech_seconds": 4.9,
+          "estimated_visual_pause_seconds": 1.6,
+          "audio_stem": "scene_20/beat_002",
+          "text": "The answer wasn't the number of atoms. It was how the electrons were arranged.",
+          "tagged_text": "[warm, conversational delivery] The answer wasn't the number of atoms. It was how the electrons were arranged."
+        },
+        {
+          "beat": 3,
+          "start_seconds": 13.5,
+          "end_seconds": 20.5,
+          "estimated_speech_seconds": 5.95,
+          "estimated_visual_pause_seconds": 1.05,
+          "audio_stem": "scene_20/beat_003",
+          "text": "VSEPR gave us a way to predict the shape, just by counting regions around the central atom.",
+          "tagged_text": "[warm, conversational delivery] VSEPR gave us a way to predict the shape, just by counting regions around the central atom."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 20.5,
+          "end_seconds": 26.0,
+          "estimated_speech_seconds": 3.85,
+          "estimated_visual_pause_seconds": 1.65,
+          "audio_stem": "scene_20/beat_004",
+          "text": "Hybridization gave us a picture of orbitals pointing along those bonds.",
+          "tagged_text": "[warm, conversational delivery] Hybridization gave us a picture of orbitals pointing along those bonds."
+        },
+        {
+          "beat": 5,
+          "start_seconds": 26.0,
+          "end_seconds": 33.0,
+          "estimated_speech_seconds": 6.3,
+          "estimated_visual_pause_seconds": 0.7,
+          "audio_stem": "scene_20/beat_005",
+          "text": "And once we knew the shape, we could see why some molecules are polar and others are not.",
+          "tagged_text": "[warm, conversational delivery] And once we knew the shape, we could see why some molecules are polar and others are not."
+        },
+        {
+          "beat": 6,
+          "start_seconds": 33.0,
+          "end_seconds": 37.0,
+          "estimated_speech_seconds": 2.8,
+          "estimated_visual_pause_seconds": 1.2,
+          "audio_stem": "scene_20/beat_006",
+          "text": "A Lewis structure may look flat on paper.",
+          "tagged_text": "[warm, conversational delivery] A Lewis structure may look flat on paper."
+        },
+        {
+          "beat": 7,
+          "start_seconds": 37.0,
+          "end_seconds": 41.0,
+          "estimated_speech_seconds": 2.1,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_20/beat_007",
+          "text": "But molecules live in three dimensions.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] But molecules live in three dimensions."
+        },
+        {
+          "beat": 8,
+          "start_seconds": 41.0,
+          "end_seconds": 54.45,
+          "estimated_speech_seconds": 6.65,
+          "estimated_visual_pause_seconds": 6.8,
+          "audio_stem": "scene_20/beat_008",
+          "text": "And that third dimension changes everything: how molecules fit together, how they attract each other, and how they react.",
+          "tagged_text": "[warm, conversational delivery] [warmly] And that third dimension changes everything: how molecules fit together, how they attract each other, and how they react."
+        }
+      ]
+    },
+    {
+      "key": "21",
+      "title": "Why is oxygen magnetic?",
+      "film_start_seconds": 1645.0,
+      "duration_seconds": 25.0,
+      "text_file": "scene_21.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 4.5,
+          "estimated_speech_seconds": 3.15,
+          "estimated_visual_pause_seconds": 1.35,
+          "audio_stem": "scene_21/beat_001",
+          "text": "But there's a question these simple pictures can't answer.",
+          "tagged_text": "[warm, conversational delivery] [curious] But there's a question these simple pictures can't answer."
+        },
+        {
+          "beat": 2,
+          "start_seconds": 4.5,
+          "end_seconds": 12.0,
+          "estimated_speech_seconds": 5.6,
+          "estimated_visual_pause_seconds": 1.9,
+          "audio_stem": "scene_21/beat_002",
+          "text": "Oxygen's Lewis structure shows every electron neatly paired. So why is oxygen pulled toward a magnet?",
+          "tagged_text": "[warm, conversational delivery] Oxygen's Lewis structure shows every electron neatly paired. So why is oxygen pulled toward a magnet?"
+        },
+        {
+          "beat": 3,
+          "start_seconds": 12.0,
+          "end_seconds": 18.0,
+          "estimated_speech_seconds": 4.55,
+          "estimated_visual_pause_seconds": 1.45,
+          "audio_stem": "scene_21/beat_003",
+          "text": "Explaining that takes a deeper theory, where electrons spread over the whole molecule.",
+          "tagged_text": "[warm, conversational delivery] Explaining that takes a deeper theory, where electrons spread over the whole molecule."
+        },
+        {
+          "beat": 4,
+          "start_seconds": 18.0,
+          "end_seconds": 24.45,
+          "estimated_speech_seconds": 2.45,
+          "estimated_visual_pause_seconds": 4.0,
+          "audio_stem": "scene_21/beat_004",
+          "text": "Next time: molecular orbital theory, explained visually.",
+          "tagged_text": "[warm, conversational delivery] [short pause] [warmly] Next time: molecular orbital theory, explained visually."
+        }
+      ]
+    },
+    {
+      "key": "22",
+      "title": "Stay curious",
+      "film_start_seconds": 1670.0,
+      "duration_seconds": 10.0,
+      "text_file": "scene_22.txt",
+      "cues": [
+        {
+          "beat": 1,
+          "start_seconds": 0.0,
+          "end_seconds": 9.45,
+          "estimated_speech_seconds": 1.75,
+          "estimated_visual_pause_seconds": 7.7,
+          "audio_stem": "scene_22/beat_001",
+          "text": "Thanks for watching. Stay curious.",
+          "tagged_text": "[warm, conversational delivery] Thanks for watching. Stay curious."
+        }
+      ]
+    }
+  ]
+}
