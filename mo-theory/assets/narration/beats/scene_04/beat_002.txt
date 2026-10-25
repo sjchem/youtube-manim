@@ -1,0 +1,1 @@
+Call the orbital on atom A, phi A, and the one on atom B, phi B.

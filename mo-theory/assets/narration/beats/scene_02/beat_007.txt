@@ -1,0 +1,1 @@
+Instead of assigning electrons to one bond, describe each electron's quantum state across the entire molecule. The whole arrangement becomes our starting point.

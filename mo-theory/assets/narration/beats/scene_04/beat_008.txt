@@ -1,0 +1,1 @@
+Square the difference, and the density is pushed outward, with an empty plane in the middle. The node has zero probability density.

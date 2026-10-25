@@ -1,0 +1,1 @@
+Here are both orbitals as maps. Blue where psi is positive, rose where it's negative. The colours show phase, not charge. Both coloured regions can contain electron density.

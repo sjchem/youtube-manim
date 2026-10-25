@@ -1,0 +1,1 @@
+Count the electrons in bonding orbitals, subtract the ones in antibonding orbitals, and divide by two. Only occupied orbitals enter this count.

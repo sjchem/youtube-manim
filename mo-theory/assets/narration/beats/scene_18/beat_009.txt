@@ -1,0 +1,1 @@
+One electron remains in pi star, unpaired. So O two plus is still paramagnetic, with one unpaired electron instead of two. Bond order and spin count are separate outputs.

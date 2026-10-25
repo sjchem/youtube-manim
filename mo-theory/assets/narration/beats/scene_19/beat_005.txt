@@ -1,0 +1,1 @@
+Each electron we add goes into an antibonding orbital, so each one weakens the bond.

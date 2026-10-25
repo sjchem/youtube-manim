@@ -1,0 +1,1 @@
+The proportional sign means we've left out a scaling factor, which keeps each orbital properly normalised. The total probability must stay one.

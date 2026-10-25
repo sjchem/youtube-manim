@@ -1,0 +1,19 @@
+# Molecular Orbital Theory, Explained Visually (Chemical Bonding, Part 3)
+# Python 3.10+; built and checked on Manim CE 0.22.0 (the repo's `youtube` pyenv env).
+#
+# System packages Manim needs, which pip cannot install:
+#   ffmpeg, a LaTeX distribution with dvisvgm (TeX Live or MiKTeX),
+#   pango/cairo development headers, and the Lato font.
+# On Debian/Ubuntu/WSL:
+#   sudo apt install ffmpeg libcairo2-dev libpango1.0-dev texlive texlive-latex-extra dvisvgm fonts-lato
+#
+# The shared Oceanic Next theme in ../themes needs manim-themes.
+# No Manim plugins are required: orbitals, diagrams, the magnet pour and the
+# 3D stage are all drawn from the models in utils/.
+
+manim>=0.19,<0.23
+manim-themes>=0.1.3
+numpy>=1.26
+scipy>=1.11        # connected lobes (ndimage), fast convex hulls (Qhull)
+scikit-image>=0.22 # marching cubes for the |psi| = level orbital surfaces
+pillow>=10         # utils/contact_sheet.py (storyboard review sheets)

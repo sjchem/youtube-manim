@@ -1,0 +1,1 @@
+In an atom, electrons occupy atomic orbitals. In a molecule, they occupy molecular orbitals, which can extend across the whole molecule. An orbital is a state, not a trajectory.
