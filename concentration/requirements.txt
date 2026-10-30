@@ -1,0 +1,18 @@
+# Concentration, Explained Visually
+# Python 3.10+; built and checked on Manim CE 0.22.0 (the repo's `youtube` pyenv env).
+#
+# System packages Manim needs, which pip cannot install:
+#   ffmpeg (with ffprobe), a LaTeX distribution with dvisvgm (TeX Live or MiKTeX),
+#   pango/cairo development headers, and the Lato font.
+# On Debian/Ubuntu/WSL:
+#   sudo apt install ffmpeg libcairo2-dev libpango1.0-dev texlive texlive-latex-extra dvisvgm fonts-lato
+#
+# The shared Oceanic Next theme in ../themes needs manim-themes.
+# No Manim plugins are required: glassware, particle swarms, molecules and the
+# million-dot field are all drawn from the models in utils/.
+
+manim>=0.19,<0.23
+manim-themes>=0.1.3
+numpy>=1.26
+scipy>=1.11        # fast convex hulls (Qhull) in utils/math_utils.py
+pillow>=10         # utils/contact_sheet.py (storyboard review sheets)

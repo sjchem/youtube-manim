@@ -1,0 +1,1 @@
+Why molality here, and not molarity? These effects are about the ratio of solute particles to solvent particles.

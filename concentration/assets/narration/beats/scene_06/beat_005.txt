@@ -1,0 +1,1 @@
+Molality is the amount of solute divided by the mass of solvent, in kilograms. Its unit is moles per kilogram, written with a small m.

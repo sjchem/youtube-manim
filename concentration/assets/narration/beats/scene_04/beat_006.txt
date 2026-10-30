@@ -1,0 +1,1 @@
+Molarity is the amount of solute divided by the volume of solution. Officially, chemists call it amount concentration. Its unit is moles per litre, written as a capital M.

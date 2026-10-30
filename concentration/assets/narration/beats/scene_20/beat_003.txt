@@ -1,0 +1,1 @@
+Molarity: moles of solute per litre of solution. Molality: moles per kilogram of solvent.

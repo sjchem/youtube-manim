@@ -1,0 +1,1 @@
+[warm, conversational delivery] Percent expresses tiny amounts, but those zeros become awkward. Parts per million and billion are easier to read.

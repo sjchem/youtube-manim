@@ -1,0 +1,1 @@
+For this nonreacting mixture, mole fraction stays the same as temperature or volume changes, provided neither component is lost.

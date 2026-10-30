@@ -1,0 +1,1 @@
+Both measures count the same glucose. Molarity compares it with the volume of the whole mixture. Molality compares it with the mass of the water that dissolved it.

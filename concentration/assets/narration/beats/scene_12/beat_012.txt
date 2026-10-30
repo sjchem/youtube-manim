@@ -1,0 +1,1 @@
+Mole fraction has no units. Moles over moles cancel. It's a pure number between zero and one.

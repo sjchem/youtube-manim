@@ -1,0 +1,1 @@
+Compare it with molarity. Molarity counts moles per litre. Mass concentration weighs grams per litre. Divide by the molar mass, and one becomes the other.

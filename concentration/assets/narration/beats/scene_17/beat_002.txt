@@ -1,0 +1,1 @@
+Molarity lives in litres of solution. Molality lives in kilograms of solvent. To connect them, we need a bridge from volume to mass.
