@@ -1,0 +1,1 @@
+An object's position is then a vector from the origin: r equals x i hat plus y j hat.

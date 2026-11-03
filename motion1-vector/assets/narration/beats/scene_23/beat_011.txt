@@ -1,0 +1,1 @@
+Everything except x and y is a constant. So the form is y equals A x minus B x squared.

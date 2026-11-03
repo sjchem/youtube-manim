@@ -1,0 +1,1 @@
+Every position vector changes. But the displacement, the arrow from the first point to the second, stays exactly the same.

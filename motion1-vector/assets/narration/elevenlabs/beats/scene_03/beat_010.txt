@@ -1,0 +1,1 @@
+[warm, conversational delivery] You can't. Mass or temperature needs a value and a unit. To describe a velocity, we also need one more piece of information.

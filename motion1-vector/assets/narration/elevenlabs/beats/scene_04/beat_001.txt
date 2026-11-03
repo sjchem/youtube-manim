@@ -1,0 +1,1 @@
+[warm, conversational delivery] A vector carries two pieces of information at once: a magnitude, and a direction.

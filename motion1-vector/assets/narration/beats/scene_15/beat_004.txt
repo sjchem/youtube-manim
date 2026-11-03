@@ -1,0 +1,1 @@
+As the interval approaches zero, the displacement per second approaches the tangent velocity: d r d t, the derivative of position with respect to time.

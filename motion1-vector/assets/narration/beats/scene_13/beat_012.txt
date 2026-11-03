@@ -1,0 +1,1 @@
+Resolving vectors turns hard directional problems into simple algebra, one direction at a time.

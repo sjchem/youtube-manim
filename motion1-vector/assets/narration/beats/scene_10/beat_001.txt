@@ -1,0 +1,1 @@
+A unit vector has a length of exactly one. It describes a direction, and nothing else.

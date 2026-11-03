@@ -1,0 +1,1 @@
+We can also find the unit vector along any arrow that isn't zero. Divide the vector by its own length.

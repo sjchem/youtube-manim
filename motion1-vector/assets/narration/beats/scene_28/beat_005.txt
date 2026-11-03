@@ -1,0 +1,1 @@
+But one question is waiting. What happens when an object keeps changing direction, without ever changing its speed?

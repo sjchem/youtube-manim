@@ -1,0 +1,1 @@
+And when the vectors are perpendicular, phi is ninety degrees, cosine of ninety is zero, and the middle term vanishes.

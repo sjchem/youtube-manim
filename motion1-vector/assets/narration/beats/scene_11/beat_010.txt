@@ -1,0 +1,1 @@
+Same pull, two components. The upward component reduces the snow's normal contact force. The sled's weight stays the same.

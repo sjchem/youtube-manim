@@ -1,0 +1,1 @@
+[warm, conversational delivery] Describing one vector in two directions lets us handle each direction on its own, with simple algebra.

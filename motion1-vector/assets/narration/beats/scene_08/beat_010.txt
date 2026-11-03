@@ -1,0 +1,1 @@
+A car drives east at fifteen metres per second, then turns the corner and drives north, still at fifteen metres per second.

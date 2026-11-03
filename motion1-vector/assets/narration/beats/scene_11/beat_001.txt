@@ -1,0 +1,1 @@
+Suppose a vector points diagonally. We usually think of it as one quantity: one length, one direction.

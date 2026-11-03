@@ -1,0 +1,1 @@
+The same physical answer as the triangle law, but now it's bookkeeping instead of geometry.

@@ -1,0 +1,1 @@
+Then the horizontal position grows steadily: x equals v zero cosine theta times t.

@@ -1,0 +1,1 @@
+So the ball rises higher. Launch angle doesn't just control where the ball lands. It controls how high it goes.

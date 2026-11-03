@@ -1,0 +1,1 @@
+[warm, conversational delivery] Like any vector, it has components: v x is d x d t, v y is d y d t.

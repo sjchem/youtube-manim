@@ -1,0 +1,1 @@
+Throw a ball upward and forward. It rises, moves ahead, and comes back down. Let's first imagine a flight without air resistance.

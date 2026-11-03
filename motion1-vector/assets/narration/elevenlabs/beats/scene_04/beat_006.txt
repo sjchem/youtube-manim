@@ -1,0 +1,1 @@
+[warm, conversational delivery] There's one more rule that makes something a true vector: vectors combine by vector addition, arrow after arrow, not number plus number.

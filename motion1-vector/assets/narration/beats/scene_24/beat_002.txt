@@ -1,0 +1,1 @@
+How long does it stay in the air? It lands when its height returns to zero.

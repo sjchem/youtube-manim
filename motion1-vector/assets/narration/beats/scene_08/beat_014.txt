@@ -1,0 +1,1 @@
+The velocity changed, even though the speed did not. Simply changing direction is a change in velocity.

@@ -1,0 +1,1 @@
+[warm, conversational delivery] These are scalars: quantities described by a numerical value and an appropriate unit, without a direction in space.

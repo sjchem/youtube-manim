@@ -1,0 +1,1 @@
+Put the two components tip to tail, and they rebuild the original arrow exactly.

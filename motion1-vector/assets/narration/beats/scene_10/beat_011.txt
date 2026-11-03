@@ -1,0 +1,1 @@
+Together they let us write any vector as a magnitude times a direction. And that brings us to the most useful idea in this whole episode.

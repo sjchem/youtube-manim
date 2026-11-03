@@ -1,0 +1,1 @@
+Multiply them back together, and the original vector reappears.

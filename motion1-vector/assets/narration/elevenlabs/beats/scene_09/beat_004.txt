@@ -1,0 +1,1 @@
+[warm, conversational delivery] If k is negative, the arrow flips around, and its length is multiplied by the size of k.

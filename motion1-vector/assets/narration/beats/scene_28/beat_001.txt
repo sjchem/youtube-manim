@@ -1,0 +1,1 @@
+We started with a simple question: can we predict the path of a flying ball?

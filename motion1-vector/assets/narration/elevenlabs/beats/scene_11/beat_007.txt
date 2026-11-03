@@ -1,0 +1,1 @@
+[warm, conversational delivery] This is called resolving a vector. And notice what it isn't: the vector hasn't split into two separate objects.

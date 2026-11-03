@@ -1,0 +1,1 @@
+Velocity connects position and time. And because it's a vector, its direction matters just as much as its size.

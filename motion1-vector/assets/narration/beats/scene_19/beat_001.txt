@@ -1,0 +1,1 @@
+We launch the ball at speed v zero, at an angle theta above the horizontal.

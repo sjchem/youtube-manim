@@ -1,0 +1,1 @@
+Over an interval, delta v gives the average acceleration's direction. At an instant, use the limiting change in velocity.

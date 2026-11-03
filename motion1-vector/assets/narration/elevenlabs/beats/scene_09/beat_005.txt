@@ -1,0 +1,1 @@
+[warm, conversational delivery] And if k is exactly zero, we get the zero vector: no length, and no single direction.

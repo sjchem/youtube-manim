@@ -1,0 +1,1 @@
+If k is greater than one, the vector stretches. Same direction, longer arrow.

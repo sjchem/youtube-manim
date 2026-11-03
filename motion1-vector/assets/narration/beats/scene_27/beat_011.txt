@@ -1,0 +1,1 @@
+It quadruples. Range grows with v zero squared, as long as launch and landing heights match and air resistance is negligible.

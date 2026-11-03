@@ -1,0 +1,1 @@
+Adding vectors tells us their combined effect. Next: what does it mean to subtract them?

@@ -1,0 +1,1 @@
+[warm, conversational delivery] A x along i hat, plus A y along j hat. We'll unpack this soon. For now, notice: one vector can describe movement in two directions at once.

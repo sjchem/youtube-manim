@@ -1,0 +1,1 @@
+So sine and cosine measure how strongly the vector points along each axis.

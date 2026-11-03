@@ -1,0 +1,1 @@
+Height depends only on the vertical part of the launch. Tilt the same throw steeper, and the vertical component grows.

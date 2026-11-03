@@ -1,0 +1,1 @@
+Check the extremes. Phi equals zero: cosine is one, and R is A plus B. Phi equals one hundred and eighty degrees: cosine is minus one, and R is the absolute difference.

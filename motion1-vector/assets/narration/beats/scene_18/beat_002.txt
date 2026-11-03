@@ -1,0 +1,1 @@
+In our model, we ignore air resistance. Only gravity acts after launch in this ideal model.

@@ -1,0 +1,1 @@
+Average speed is the total distance divided by the elapsed time.

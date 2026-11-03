@@ -1,0 +1,1 @@
+Average acceleration is delta v over delta t. Instantaneous acceleration is d v d t.

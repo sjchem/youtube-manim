@@ -1,0 +1,1 @@
+Shift the origin while keeping the axes fixed: positions change, but displacement doesn't.

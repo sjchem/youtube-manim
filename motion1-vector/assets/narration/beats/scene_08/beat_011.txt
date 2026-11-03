@@ -1,0 +1,1 @@
+Same speed before and after. Has the velocity changed?

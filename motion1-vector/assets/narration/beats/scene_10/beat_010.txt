@@ -1,0 +1,1 @@
+Scalar multiplication changes a vector's size. Unit vectors pin down its direction.

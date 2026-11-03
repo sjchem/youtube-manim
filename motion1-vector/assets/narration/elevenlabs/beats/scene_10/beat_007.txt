@@ -1,0 +1,1 @@
+[warm, conversational delivery] Now magnitude and direction are stored separately. Five tells us how much. A hat tells us which way.

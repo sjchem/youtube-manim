@@ -1,0 +1,1 @@
+So: vertical velocity zero. Horizontal velocity not zero. Speed not zero. Acceleration not zero.

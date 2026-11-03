@@ -1,0 +1,1 @@
+Multiplying by a scalar changes how big a vector is, and, with a negative number, which way it points. But what if we only care about the direction?

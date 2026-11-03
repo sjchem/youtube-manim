@@ -1,0 +1,1 @@
+Now the real payoff. How do we add vectors that point in completely different directions?

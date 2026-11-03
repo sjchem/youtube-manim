@@ -1,0 +1,1 @@
+[warm, conversational delivery] Take a vector of length A, at an angle theta above the positive x-axis.

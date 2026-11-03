@@ -1,0 +1,1 @@
+As the object moves, the position vector follows it.

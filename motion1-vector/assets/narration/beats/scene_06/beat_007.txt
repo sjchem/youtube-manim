@@ -1,0 +1,1 @@
+Place the tail of B at the head of A. The resultant runs from the very start to the very end.

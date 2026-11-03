@@ -1,0 +1,1 @@
+So an object moving at constant speed can still have an acceleration. The only way to have zero acceleration is to keep both speed and direction unchanged.

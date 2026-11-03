@@ -1,0 +1,1 @@
+We write the same equations twice: once for x, once for y.

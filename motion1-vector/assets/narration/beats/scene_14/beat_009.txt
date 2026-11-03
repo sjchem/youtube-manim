@@ -1,0 +1,1 @@
+Think of two people giving directions from different street corners. They'd describe your location differently, but agree on your start-to-finish displacement, using the same axes.

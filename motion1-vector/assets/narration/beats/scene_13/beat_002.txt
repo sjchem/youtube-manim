@@ -1,0 +1,1 @@
+Components turn the geometric construction into algebra. We work one axis at a time.

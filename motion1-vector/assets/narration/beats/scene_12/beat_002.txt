@@ -1,0 +1,1 @@
+Drop the components, and we get a right triangle. The vector is the hypotenuse.

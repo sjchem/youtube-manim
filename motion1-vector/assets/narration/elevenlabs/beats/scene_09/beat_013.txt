@@ -1,0 +1,1 @@
+[warm, conversational delivery] [pause] [warmly] Multiplying by a scalar changes how big a vector is, and, with a negative number, which way it points. [short pause] [curious] But what if we only care about the direction?

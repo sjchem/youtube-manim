@@ -1,0 +1,1 @@
+Look at the gravity arrow as the ball flies. Rising, at the top, falling: it never changes.

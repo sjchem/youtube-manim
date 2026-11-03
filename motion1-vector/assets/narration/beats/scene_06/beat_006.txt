@@ -1,0 +1,1 @@
+Between those extremes, two vectors can partly reinforce, and partly cancel. So we can't simply add their lengths.

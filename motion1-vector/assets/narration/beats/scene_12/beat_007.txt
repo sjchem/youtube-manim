@@ -1,0 +1,1 @@
+Swing it past ninety degrees, and the cosine turns negative: the horizontal part points left. Measured from the positive x-axis, the signs take care of themselves.

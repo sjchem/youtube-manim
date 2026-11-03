@@ -1,0 +1,1 @@
+Yet physics has a remarkably simple way in. Instead of treating the flight as one tangled event, we split it into two simpler motions.

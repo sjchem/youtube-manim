@@ -1,0 +1,1 @@
+The ball itself does both at once. Its velocity arrow is just the sum of the two components at every instant.

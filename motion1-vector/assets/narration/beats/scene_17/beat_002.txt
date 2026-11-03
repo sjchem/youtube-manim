@@ -1,0 +1,1 @@
+For constant acceleration, yes. Start in one dimension. Velocity changes by the same amount every second.

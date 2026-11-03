@@ -1,0 +1,1 @@
+In between, the law of cosines gives the length: R equals the square root of A squared, plus B squared, plus two A B cosine phi.

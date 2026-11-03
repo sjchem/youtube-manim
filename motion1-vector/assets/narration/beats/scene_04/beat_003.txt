@@ -1,0 +1,1 @@
+Displacement, velocity, acceleration, force and momentum are vectors. A nonzero vector points in a definite direction.

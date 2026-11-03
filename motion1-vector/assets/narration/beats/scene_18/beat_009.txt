@@ -1,0 +1,1 @@
+So two different motions happen at once: steady horizontal velocity, and steadily changing vertical velocity. Both share the same clock.

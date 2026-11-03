@@ -1,0 +1,1 @@
+Follow a car on a winding road. Over a long interval, the average velocity points along this chord, straight from start to finish.

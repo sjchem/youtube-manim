@@ -1,0 +1,1 @@
+Average velocity is displacement divided by the time it took: delta r over delta t.
