@@ -1,0 +1,1 @@
+[warm, conversational delivery] Average acceleration is delta v divided by delta t, so it points the same way as delta v.

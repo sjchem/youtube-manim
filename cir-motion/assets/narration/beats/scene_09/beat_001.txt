@@ -1,0 +1,1 @@
+Now divide by delta t to get the average acceleration: v times delta theta over delta t.

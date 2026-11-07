@@ -1,0 +1,1 @@
+No. Its velocity keeps changing direction, so it has centripetal acceleration.

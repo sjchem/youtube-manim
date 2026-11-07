@@ -1,0 +1,1 @@
+Two velocity arrows and delta v make an isosceles triangle: two sides of length v, with the angle delta theta between them.

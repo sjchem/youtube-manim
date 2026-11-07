@@ -1,0 +1,1 @@
+Angular speed, period, frequency and linear speed aren't four separate facts. They're four ways of describing one motion.

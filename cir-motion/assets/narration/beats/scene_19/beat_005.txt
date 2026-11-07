@@ -1,0 +1,1 @@
+For a circular orbit, gravity supplies exactly the centripetal force. G M m over r squared equals m v squared over r.

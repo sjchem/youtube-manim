@@ -1,0 +1,1 @@
+Imagine a small ball on a smooth horizontal table, tied to a string and moving in a circle. The string stays taut, and friction is negligible.

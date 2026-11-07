@@ -1,0 +1,1 @@
+Speed is a scalar. Velocity is a vector. And speed is simply the magnitude of the velocity: v equals the length of the vector v.

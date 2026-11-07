@@ -1,0 +1,1 @@
+To find the change, slide v two back so the two arrows share a tail. Delta v runs from the tip of v one to the tip of v two.

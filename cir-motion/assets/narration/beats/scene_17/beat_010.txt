@@ -1,0 +1,1 @@
+On a vertical circle, gravity would still act after release, so the ball would follow a projectile's curve instead.

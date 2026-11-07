@@ -1,0 +1,1 @@
+That outer point is our reference particle. Its angular speed is v over r, four over two: two radians per second. It sweeps out two radians every second.

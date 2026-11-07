@@ -1,0 +1,1 @@
+A full circle has a circumference of two pi r, so a full turn is two pi radians. Three hundred and sixty degrees is two pi radians.

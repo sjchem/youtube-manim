@@ -1,0 +1,1 @@
+[warm, conversational delivery] Put the centre of the circle at the origin. The object's position is r cos theta i hat, plus r sin theta j hat.

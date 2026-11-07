@@ -1,0 +1,1 @@
+Take a curve of radius fifty metres, with a friction coefficient of zero point six.

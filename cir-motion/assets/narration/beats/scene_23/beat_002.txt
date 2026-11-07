@@ -1,0 +1,1 @@
+Straight line, constant velocity: no tangential acceleration, no radial acceleration. Nothing changes.

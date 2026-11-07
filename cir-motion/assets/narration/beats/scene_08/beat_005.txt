@@ -1,0 +1,1 @@
+As the object goes round its circle once, the velocity arrow goes round this velocity circle once, in step.

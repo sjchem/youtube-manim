@@ -1,0 +1,1 @@
+And velocity is a vector. It has a magnitude, the speed, and a direction.

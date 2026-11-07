@@ -1,0 +1,1 @@
+[warm, conversational delivery] For uniform circular motion, omega is constant, so the angle grows linearly: theta of t equals theta zero plus omega t.

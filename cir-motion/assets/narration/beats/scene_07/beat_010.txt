@@ -1,0 +1,1 @@
+So velocity is along the tangent, and acceleration points to the centre. They're perpendicular: v dot a is zero.

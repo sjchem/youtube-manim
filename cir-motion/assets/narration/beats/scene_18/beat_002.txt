@@ -1,0 +1,1 @@
+Its direction is changing, so it needs a centripetal acceleration, and therefore an inward force. On a flat road, that force comes from static friction between the tyres and the road.

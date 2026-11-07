@@ -1,0 +1,1 @@
+[warm, conversational delivery] Split it down the middle. Each half is a right triangle, so delta v is two v sine of half delta theta.

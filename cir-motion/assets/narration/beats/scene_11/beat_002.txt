@@ -1,0 +1,1 @@
+Because acceleration doesn't tell us which way an object is moving. Velocity does. Acceleration tells us how that velocity is changing.

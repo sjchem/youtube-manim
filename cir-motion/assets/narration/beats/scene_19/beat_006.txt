@@ -1,0 +1,1 @@
+The satellite's mass cancels. G M over r equals v squared, so the orbital speed is the square root of G M over r.

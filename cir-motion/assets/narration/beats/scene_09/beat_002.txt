@@ -1,0 +1,1 @@
+We still need delta theta over delta t. Look back at the path. An arc of angle delta theta has length r times delta theta.

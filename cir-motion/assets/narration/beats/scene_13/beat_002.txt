@@ -1,0 +1,1 @@
+Linear velocity is the rate of change of position. Angular velocity, omega, is the rate of change of angle: omega equals d theta d t.

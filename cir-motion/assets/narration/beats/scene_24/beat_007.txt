@@ -1,0 +1,1 @@
+It becomes four times larger, because it grows with v squared.

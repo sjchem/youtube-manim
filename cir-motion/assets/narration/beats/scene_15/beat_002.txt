@@ -1,0 +1,1 @@
+Angular acceleration, alpha, is the rate of change of angular velocity: alpha equals d omega d t, in radians per second squared.

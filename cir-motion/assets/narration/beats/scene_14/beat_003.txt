@@ -1,0 +1,1 @@
+And how many revolutions happen each second? That's the frequency, f, measured in hertz. One hertz is one cycle per second.

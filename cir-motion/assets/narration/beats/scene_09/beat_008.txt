@@ -1,0 +1,1 @@
+The velocity arrow sweeps round a circle of radius v, at the same angular rate, v over r. So its tip moves at v times v over r. And the speed of the velocity's tip is the acceleration.

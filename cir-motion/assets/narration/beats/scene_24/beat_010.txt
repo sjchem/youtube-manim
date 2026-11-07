@@ -1,0 +1,1 @@
+Five. Can the angular acceleration be zero while the linear acceleration is not?

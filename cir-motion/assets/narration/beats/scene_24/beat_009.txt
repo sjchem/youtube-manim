@@ -1,0 +1,1 @@
+Yes. Gravity keeps turning its velocity, so it accelerates toward Earth's centre.

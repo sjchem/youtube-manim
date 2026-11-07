@@ -1,0 +1,1 @@
+And two pi times that frequency gives back two radians per second, just as before.

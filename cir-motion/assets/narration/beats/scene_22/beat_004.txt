@@ -1,0 +1,1 @@
+Speeding up, the tangential part points along the velocity. Slowing down, it points against it.

@@ -1,0 +1,1 @@
+Now that we know why circular motion needs acceleration, we need a language for describing motion around a circle.

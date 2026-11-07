@@ -1,0 +1,1 @@
+[warm, conversational delivery] It's measured in radians per second. Counterclockwise counts as positive, clockwise as negative.

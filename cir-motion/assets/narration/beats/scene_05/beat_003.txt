@@ -1,0 +1,1 @@
+Omega is the angular velocity, how fast the angle grows. We'll look at it closely later.

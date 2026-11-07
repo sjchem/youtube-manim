@@ -1,0 +1,1 @@
+There's one more angular quantity. What if the angular velocity itself starts to change?

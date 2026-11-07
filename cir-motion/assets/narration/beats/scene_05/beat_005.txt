@@ -1,0 +1,1 @@
+Its shadow on one wall rises and falls as a cosine wave. On the other wall, as a sine wave.

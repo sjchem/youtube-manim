@@ -1,0 +1,1 @@
+On a fixed circle, the tangential acceleration is r times alpha, the angular acceleration.

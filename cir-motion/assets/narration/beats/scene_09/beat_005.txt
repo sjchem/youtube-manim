@@ -1,0 +1,1 @@
+Substitute: the acceleration is v times v over r.

@@ -1,0 +1,1 @@
+On a straight line, we measure distance. On a circle, a more natural measure is the angle the radius has swept out from a fixed direction.

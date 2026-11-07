@@ -1,0 +1,1 @@
+[warm, conversational delivery] Run once around a circular track of radius r. Your feet carry you the whole circumference: a distance of two pi r.

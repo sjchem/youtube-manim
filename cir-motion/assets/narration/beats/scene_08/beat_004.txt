@@ -1,0 +1,1 @@
+Here's a lovely way to see it. Collect every velocity arrow at one shared tail. Their tips trace out a circle of their own, with radius v.

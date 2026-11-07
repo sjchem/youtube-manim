@@ -1,0 +1,1 @@
+One more subtlety. The magnitude of the acceleration is constant, but its direction isn't. It always points to the centre from wherever the object is. So the acceleration vector itself keeps turning.

@@ -1,0 +1,1 @@
+Take the limit of a vanishing interval, and the approximation becomes exact. The centripetal acceleration is v squared over r, pointing toward the centre.

@@ -1,0 +1,1 @@
+Now connect it to ordinary speed. Start with s equals r theta, and differentiate with respect to time.

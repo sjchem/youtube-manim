@@ -1,0 +1,1 @@
+Yes. In uniform circular motion, alpha is zero, but v squared over r is not. They measure different changes.

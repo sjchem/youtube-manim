@@ -1,0 +1,1 @@
+The two measure different things. Angular acceleration tracks how the turning rate changes. Centripetal acceleration is the inward acceleration that keeps changing the velocity's direction.

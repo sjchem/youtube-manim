@@ -1,0 +1,1 @@
+The mass cancels. So v squared over r is at most mu s g, and the fastest possible speed is the square root of mu s g r.

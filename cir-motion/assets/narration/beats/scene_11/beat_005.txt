@@ -1,0 +1,1 @@
+Coast, nudge, coast, nudge. The corners of the polygon stay on the same circle.

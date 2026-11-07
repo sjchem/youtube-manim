@@ -1,0 +1,1 @@
+Here theta is the angle from the x axis. For uniform motion, it grows steadily: theta equals omega t, plus theta zero.

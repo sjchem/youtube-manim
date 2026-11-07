@@ -1,0 +1,1 @@
+In uniform circular motion, omega is constant, so alpha is zero.

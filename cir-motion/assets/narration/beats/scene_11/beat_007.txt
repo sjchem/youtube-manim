@@ -1,0 +1,1 @@
+In vector form, the acceleration is minus omega squared times the position vector r. Or minus v squared over r, times r hat.

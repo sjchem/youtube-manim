@@ -1,0 +1,1 @@
+And because velocity is a vector, changing direction is enough. Changing direction means changing velocity, which means acceleration.

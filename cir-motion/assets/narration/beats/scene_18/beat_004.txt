@@ -1,0 +1,1 @@
+To follow the curve without sliding, the force needed can't exceed the friction available: m v squared over r must be at most mu s m g.

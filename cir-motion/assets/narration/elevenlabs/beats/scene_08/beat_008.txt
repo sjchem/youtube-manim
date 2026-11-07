@@ -1,0 +1,1 @@
+[warm, conversational delivery] For small angles in radians, two sine of half the angle is almost exactly the angle itself.

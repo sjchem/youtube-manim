@@ -1,0 +1,1 @@
+So r delta theta equals v delta t, and delta theta over delta t is v over r.

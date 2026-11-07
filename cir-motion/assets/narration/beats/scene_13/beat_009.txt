@@ -1,0 +1,1 @@
+But in one turn, the outer marker travels a longer path. So it moves faster: its linear speed is greater.

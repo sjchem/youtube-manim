@@ -1,0 +1,1 @@
+Zero displacement means zero average velocity over the lap: delta r over delta t is zero.

@@ -1,0 +1,1 @@
+Radians tie an angle directly to a distance along the circle. That's what makes s equals r theta so simple.

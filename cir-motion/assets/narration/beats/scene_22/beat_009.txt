@@ -1,0 +1,1 @@
+Now give it an angular acceleration of zero point five radians per second squared. The tangential part is two times zero point five: one metre per second squared.

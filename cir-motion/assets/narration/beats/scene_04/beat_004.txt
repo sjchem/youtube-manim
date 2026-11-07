@@ -1,0 +1,1 @@
+The velocity points along the tangent: the line that just touches the circle at that point.

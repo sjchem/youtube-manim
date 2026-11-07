@@ -1,0 +1,1 @@
+Both complete each turn together. They share the same angular velocity.

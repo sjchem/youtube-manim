@@ -1,0 +1,1 @@
+One revolution sweeps two pi radians in a time T. So the angular speed is two pi over T, which is two pi f.

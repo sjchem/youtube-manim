@@ -1,0 +1,1 @@
+If the velocity arrows all have the same length, how can their difference produce an acceleration? And which way does it point?

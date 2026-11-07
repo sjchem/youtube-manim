@@ -1,0 +1,1 @@
+[warm, conversational delivery] Take the time derivative, and the velocity is minus r omega sine theta i hat, plus r omega cosine theta j hat.

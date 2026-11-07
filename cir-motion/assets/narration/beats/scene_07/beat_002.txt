@@ -1,0 +1,1 @@
+Take the object at one instant, with velocity v one. A moment later it's here, with velocity v two.

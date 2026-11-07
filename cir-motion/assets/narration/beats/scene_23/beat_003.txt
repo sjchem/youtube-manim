@@ -1,0 +1,1 @@
+Straight line, changing speed: tangential acceleration only.

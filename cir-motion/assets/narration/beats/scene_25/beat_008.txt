@@ -1,0 +1,1 @@
+Once we understand how velocity changes, we can understand why objects follow the paths they do. That's the power of thinking in vectors.
