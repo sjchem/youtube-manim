@@ -1,0 +1,1 @@
+The flicker keeps changing direction, but the neighbour follows it, so the attraction never averages away. This is the London dispersion force.

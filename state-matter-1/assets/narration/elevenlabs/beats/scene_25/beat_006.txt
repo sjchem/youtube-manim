@@ -1,0 +1,1 @@
+[warm, conversational delivery] Combine the volume relations, and V is proportional to n T over P. Replace the proportionality with a constant, R, and rearrange.

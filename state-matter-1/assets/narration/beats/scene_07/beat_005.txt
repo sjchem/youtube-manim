@@ -1,0 +1,1 @@
+A common model is the Lennard-Jones curve. Its repulsive term rises as one over r to the twelfth. Its attractive term falls as one over r to the sixth.

@@ -1,0 +1,1 @@
+Focus on one wall, and on one part of the velocity: the part perpendicular to that wall, v x.

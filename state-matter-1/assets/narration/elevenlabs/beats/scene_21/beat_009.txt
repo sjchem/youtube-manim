@@ -1,0 +1,1 @@
+[warm, conversational delivery] Both effects grow with speed, so the pressure grows with speed squared, which is proportional to temperature.

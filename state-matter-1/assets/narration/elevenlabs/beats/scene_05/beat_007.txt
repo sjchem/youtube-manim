@@ -1,0 +1,1 @@
+[warm, conversational delivery] For fixed orientations, this interaction energy falls off as one over r cubed, and its sign depends on the angles. Notice that this is an energy, not a force.

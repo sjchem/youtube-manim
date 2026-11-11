@@ -1,0 +1,1 @@
+Fifty, and the relative fluctuations shrink. Five thousand, and the force is nearly smooth. Each trace is divided by its own mean so we can compare fluctuations, not absolute forces.

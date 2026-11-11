@@ -1,0 +1,1 @@
+One caution. No real gas reaches zero volume. Real gases leave the ideal-gas regime, and many condense on cooling. The meeting point is an extrapolation of ideal gas behaviour, not a measurement.

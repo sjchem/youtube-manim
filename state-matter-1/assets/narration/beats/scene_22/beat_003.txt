@@ -1,0 +1,1 @@
+With a free piston, the gas expands, and the pressure stays the same. With rigid walls, the volume stays the same, and the pressure rises.

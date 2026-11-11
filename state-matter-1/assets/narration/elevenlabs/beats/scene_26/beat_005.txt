@@ -1,0 +1,1 @@
+[warm, conversational delivery] For a fixed amount of gas moving between two states, n R stays constant, so P one V one over T one equals P two V two over T two.

@@ -1,0 +1,1 @@
+Gas laws need absolute temperature. In SI we use kelvin: the scale on which classical ideal-gas translational energy extrapolates to zero at zero kelvin.

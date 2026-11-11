@@ -1,0 +1,1 @@
+Gather every velocity arrow at one point. Their tips form a fuzzy ball. No direction is special.

@@ -1,0 +1,1 @@
+The average kinetic energy is one half m times the average of v squared. So one third N m times that average is two thirds N times the average kinetic energy.

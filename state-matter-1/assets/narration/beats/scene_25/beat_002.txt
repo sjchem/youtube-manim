@@ -1,0 +1,1 @@
+Boyle: constant temperature and amount. V is proportional to one over P.

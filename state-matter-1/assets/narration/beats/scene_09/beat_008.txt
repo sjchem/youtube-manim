@@ -1,0 +1,1 @@
+In a dilute gas, molecules are far apart and spend almost all their time flying freely. So as a first approximation, we ignore their attractions entirely and treat them as tiny points. That's the ideal gas model.

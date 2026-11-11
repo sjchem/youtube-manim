@@ -1,0 +1,1 @@
+Each partial pressure is what that gas alone would exert in the whole container: P i equals n i R T over V.

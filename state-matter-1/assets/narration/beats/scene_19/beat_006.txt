@@ -1,0 +1,1 @@
+That temperature is absolute zero. Measuring from there gives the Kelvin scale: T in kelvin equals the Celsius temperature plus two hundred and seventy-three point one five.

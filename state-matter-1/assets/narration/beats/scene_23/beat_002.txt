@@ -1,0 +1,1 @@
+Keep the temperature constant, with a weighted piston setting the external pressure. Compare states after the piston has balanced. Then add more molecules.

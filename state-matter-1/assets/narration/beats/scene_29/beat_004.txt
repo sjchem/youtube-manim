@@ -1,0 +1,1 @@
+So the measured pressure is the dry gas plus water vapour. P dry gas equals P total minus the pressure of water vapour.

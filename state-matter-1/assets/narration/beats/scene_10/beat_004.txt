@@ -1,0 +1,1 @@
+The molecule strikes the wall and bounces back elastically. Its speed is unchanged. Its motion along the wall is unchanged. Only v x flips sign.

@@ -1,0 +1,1 @@
+Average force equals the push, divided by the time between pushes: two m v x, over two L over v x.

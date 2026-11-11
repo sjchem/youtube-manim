@@ -1,0 +1,1 @@
+Pressure is force per unit area. Divide by the wall's area, L squared, and L cubed is the volume, V.

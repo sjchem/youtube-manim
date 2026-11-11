@@ -1,0 +1,1 @@
+[warm, conversational delivery] Plot pressure against volume, and you trace a curve: a hyperbola. P is proportional to one over V.

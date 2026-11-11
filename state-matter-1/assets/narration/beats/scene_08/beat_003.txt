@@ -1,0 +1,1 @@
+Temperature is related to average energy per particle, rather than the total energy of the sample. For a classical ideal gas, average translational kinetic energy is proportional to absolute temperature.

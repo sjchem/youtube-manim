@@ -1,0 +1,1 @@
+After hitting the wall, our molecule must cross the box and come back before it can strike again: a distance of two L, at speed v x.

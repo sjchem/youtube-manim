@@ -1,0 +1,1 @@
+Notice the difference. Temperature tracks the average energy of each molecule. Pressure also depends on how many molecules there are, and how much room they have.

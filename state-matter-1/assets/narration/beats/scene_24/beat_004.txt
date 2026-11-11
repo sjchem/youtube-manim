@@ -1,0 +1,1 @@
+Light particles hit more often but transfer less momentum per hit. At the same temperature, their time-averaged pressure contribution per particle is the same. Equal pressures and volumes therefore mean equal particle numbers.

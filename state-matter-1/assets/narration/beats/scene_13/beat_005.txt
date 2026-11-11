@@ -1,0 +1,1 @@
+So the average of v x squared is exactly one third of the average of v squared.

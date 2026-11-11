@@ -1,0 +1,1 @@
+Up close, everything looks random. Follow one molecule: repeated collisions change its direction. Tracking every molecule in a real gas is impractical.

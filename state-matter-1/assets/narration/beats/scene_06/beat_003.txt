@@ -1,0 +1,1 @@
+This dipole induced dipole attraction also falls off as one over r to the sixth.

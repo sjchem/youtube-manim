@@ -1,0 +1,1 @@
+[warm, conversational delivery] Each velocity has three parts: v x, v y and v z. By Pythagoras in three dimensions, v squared equals v x squared plus v y squared plus v z squared.

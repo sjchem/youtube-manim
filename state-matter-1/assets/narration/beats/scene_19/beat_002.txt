@@ -1,0 +1,1 @@
+Measure a gas's volume at several temperatures in Celsius, and plot the points. They fall on a straight line.

@@ -1,0 +1,1 @@
+Finally, count molecules in moles. N is n times Avogadro's number, and Avogadro's number times k B is the gas constant, R.

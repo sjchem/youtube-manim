@@ -1,0 +1,1 @@
+This is the pressure equation of the kinetic theory of gases.

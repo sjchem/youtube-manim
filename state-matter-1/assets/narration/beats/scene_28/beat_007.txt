@@ -1,0 +1,1 @@
+So each gas's share of the pressure is its share of the molecules, its mole fraction, x i. P i equals x i times P total.
