@@ -1,0 +1,1 @@
+A string wrapped around the rim pulls with a steady two newtons. At a radius of zero point five metres, that's a net torque of one newton metre.

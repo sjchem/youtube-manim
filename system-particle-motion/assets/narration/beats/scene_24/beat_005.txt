@@ -1,0 +1,1 @@
+For a particle moving on a circle around the origin, the velocity is perpendicular to the radius. So L equals m r v. And since v equals r omega, L equals m r squared omega.

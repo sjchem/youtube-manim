@@ -1,0 +1,1 @@
+This pair is called a couple. If the lines of action are a distance d apart, the torque of the couple is F times d, about any point you choose.

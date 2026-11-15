@@ -1,0 +1,1 @@
+In the last episode, we followed a single particle around a circle. But a door is not a particle. Neither is a wheel, or a spinning top. They have size and shape. They are made of countless particles, all moving together.

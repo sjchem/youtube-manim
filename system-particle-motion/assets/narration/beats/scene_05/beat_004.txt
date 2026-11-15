@@ -1,0 +1,1 @@
+The centre of mass is the mass-weighted average of all the position vectors. R c m equals one over M, times the sum of m i r i.

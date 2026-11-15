@@ -1,0 +1,1 @@
+A real solid contains an enormous number of atoms. So instead of counting them, we treat the mass as smoothly spread out.

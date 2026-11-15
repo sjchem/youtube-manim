@@ -1,0 +1,1 @@
+Forces decide how the centre of mass moves. Torques decide how the rotation changes. And moment of inertia connects the body's shape to its spin.

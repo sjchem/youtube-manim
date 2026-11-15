@@ -1,0 +1,1 @@
+For rotation about a fixed axis, omega can also be a vector. It points along the axis.

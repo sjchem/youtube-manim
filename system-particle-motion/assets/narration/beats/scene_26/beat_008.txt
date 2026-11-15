@@ -1,0 +1,1 @@
+Momentarily. A moment later, a new point touches the ground. Follow one point on the rim, and it traces a cycloid: stopping dead at every touch, racing at the top.

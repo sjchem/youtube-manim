@@ -1,0 +1,1 @@
+But the centre of mass doesn't even flinch. It keeps gliding at zero point six metres per second, because the collision forces are internal.

@@ -1,0 +1,1 @@
+[warm, conversational delivery] If the net external torque is zero, then d L by d t is zero, and angular momentum stays constant. This is conservation of angular momentum.

@@ -1,0 +1,1 @@
+That holds until a fragment hits the ground. Then the ground pushes on it, a new external force, and the centre of mass leaves the parabola.

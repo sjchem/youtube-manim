@@ -1,0 +1,1 @@
+So to describe an extended body, knowing where it is isn't enough. We also need to know how it is turned, and how that is changing. Let's start with the first part. Where is it?

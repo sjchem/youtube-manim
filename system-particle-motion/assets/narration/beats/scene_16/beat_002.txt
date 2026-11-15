@@ -1,0 +1,1 @@
+Imagine gathering all of a body's mass into a thin ring around the axis, at a distance k. Choose k so the moment of inertia stays the same. That distance is the radius of gyration.

@@ -1,0 +1,1 @@
+Add them up. Omega is the same for all of them, so it comes out of the sum, and what's left inside is the sum of m r squared: the moment of inertia.

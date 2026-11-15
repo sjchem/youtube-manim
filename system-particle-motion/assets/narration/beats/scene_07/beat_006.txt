@@ -1,0 +1,1 @@
+Internal forces can rearrange a system. Only external forces can change the motion of its centre of mass.

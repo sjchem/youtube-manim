@@ -1,0 +1,1 @@
+Line up the round bodies by how far their mass sits from the axis, and the pattern is clear. The more mass near the rim, the larger the moment of inertia.

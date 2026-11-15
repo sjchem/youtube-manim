@@ -1,0 +1,1 @@
+That bracket decides how the energy is shared. For a solid cylinder, I over M R squared is one half, so one third of its kinetic energy is rotation. For a ring, it's one, so half of its energy is rotation.

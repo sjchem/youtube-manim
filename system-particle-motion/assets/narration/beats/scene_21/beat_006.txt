@@ -1,0 +1,1 @@
+On the right, the sum of m r squared is the moment of inertia. On the left, the torques of our central internal forces cancel, leaving the net external torque about the fixed axis.

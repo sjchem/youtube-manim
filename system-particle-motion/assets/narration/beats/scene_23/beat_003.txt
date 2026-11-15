@@ -1,0 +1,1 @@
+For rotation about a fixed axis, v i equals r i omega. So each particle has one half m i r i squared omega squared.

@@ -1,0 +1,1 @@
+Watch the angle. When the vectors are perpendicular, the parallelogram is largest, and so is the cross product: A times B.

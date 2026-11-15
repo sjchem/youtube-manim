@@ -1,0 +1,1 @@
+Let's test it. Push on just one particle, with a steady force. The springs stretch, the cluster wobbles and turns. But the centre of mass accelerates smoothly, in a straight line, as if all the mass sat at that one point.

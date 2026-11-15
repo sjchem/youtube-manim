@@ -1,0 +1,1 @@
+Take two vectors, A and B, with an angle theta between them. Their cross product, A cross B, is a new vector.

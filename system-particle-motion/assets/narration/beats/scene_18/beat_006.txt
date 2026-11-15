@@ -1,0 +1,1 @@
+The angle reached is theta zero, plus omega zero t, plus one half alpha t squared. The initial spin and the acceleration each contribute to the angle turned.

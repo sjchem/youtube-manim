@@ -1,0 +1,1 @@
+Give each particle a mass, m i, and a position vector, r i, measured from an origin.

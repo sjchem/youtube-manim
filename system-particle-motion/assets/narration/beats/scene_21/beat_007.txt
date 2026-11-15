@@ -1,0 +1,1 @@
+Tau net equals I alpha. Newton's second law for a rigid body about a fixed axis, with constant moment of inertia.

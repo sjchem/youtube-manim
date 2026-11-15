@@ -1,0 +1,1 @@
+[warm, conversational delivery] Calculating a moment of inertia from scratch can take serious integration. Fortunately, two theorems often save the work.

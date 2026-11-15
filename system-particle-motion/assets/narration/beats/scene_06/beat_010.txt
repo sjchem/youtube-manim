@@ -1,0 +1,1 @@
+One caution. This law tells us how the centre of mass moves. It doesn't say the point of application is irrelevant. Push somewhere else, and the body turns differently. That's the job of torque, which is coming soon.

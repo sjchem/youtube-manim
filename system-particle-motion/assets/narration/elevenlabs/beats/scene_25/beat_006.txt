@@ -1,0 +1,1 @@
+[warm, conversational delivery] The ice is nearly frictionless, so the external torque about the vertical axis is negligible. L stays at eight. So omega becomes eight over two: four radians per second. The spin doubles.

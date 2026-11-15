@@ -1,0 +1,1899 @@
+Important distinction: This will be a comprehensive conceptual treatment of the NCERT chapter in 40 minutes, with essential derivations and worked examples. A fully exhaustive treatment of every theorem and numerical problem would require a longer lesson.
+
+Complete episode structure
+Time	Topic	Main scientific question
+00:00–02:00	From Particles to Rigid Bodies	Why can't every object be treated as a point particle?
+02:00–07:00	Centre of Mass	Can the motion of many particles be represented by one special point?
+07:00–10:30	Motion of the Centre of Mass	Why do external forces control the overall motion of a system?
+10:30–13:30	Vector Product	How can vectors describe the tendency of a force to cause rotation?
+13:30–17:30	Torque and Equilibrium	Why do some forces cause rotation while others do not?
+17:30–23:00	Moment of Inertia	Why are some objects harder to rotate than others?
+23:00–27:00	Rotational Kinematics	How can we predict angular motion?
+27:00–31:30	Rotational Dynamics	How do torque, inertia, and energy determine rotation?
+31:30–35:30	Angular Momentum	Why can spinning objects speed up without external torque?
+35:30–38:30	Rolling Motion	How can an object translate and rotate simultaneously?
+38:30–40:00	Scientific Synthesis	How are linear and rotational motion connected?
+
+
+Chapter 1 — From Particles to Extended Bodies
+00:00–02:00
+
+TOPIC: Understanding the limitations of the point-particle model and introducing extended rigid bodies.
+
+MAIN QUESTION: Why can we describe a flying ball using the motion of a single point, but need more information to explain a spinning wheel?
+Core science
+In earlier mechanics lessons, we often represented an object as a point particle.
+
+A particle has mass but negligible size in the mathematical model.
+
+This approximation works when the object's size, orientation, and internal structure are unimportant to the problem.
+
+For example, if we want to calculate the trajectory of a ball traveling through the air, we can often describe the translational motion using the position of its centre of mass.
+
+But consider a wheel rotating around its axle.
+
+Different parts of the wheel move along different circular paths.
+
+A point near the axle travels a small distance during one revolution, while a point near the rim travels much farther.
+
+The point-particle model cannot describe this internal motion.
+
+We therefore need to consider an extended body.
+
+An extended body consists of many particles occupying different positions in space.
+
+For many mechanical problems, we approximate it as a rigid body.
+
+A rigid body is an idealized object for which the distance between any two constituent particles remains constant.
+
+Mathematically:
+\[
+|\vec r_i-\vec r_j|=\text{constant}
+\]
+
+for every pair of particles \(i\) and \(j\).
+
+Real materials deform, but this approximation is often excellent when those deformations are negligible.
+Three kinds of rigid-body motion
+Pure translation: Every particle in the body has the same instantaneous velocity. The body changes position without changing its orientation.
+
+Pure rotation about a fixed axis: Different particles follow circles around a common axis. Their linear speeds depend on their distances from that axis.
+
+Combined translation and rotation: The body changes position while also changing orientation. A wheel rolling along a road is a familiar example.
+Core scientific insight
+To describe an extended body completely, knowing where it is located may not be enough.
+
+We may also need to know how it is oriented and how its orientation changes with time.
+
+This introduces rotational mechanics.
+Narration idea
+Until now, we've often treated moving objects as particles.
+
+We described their position, velocity, and acceleration, and used Newton's laws to predict how they move.
+
+But real objects have size.
+
+A wheel, a spinning top, or a rotating rod consists of many particles occupying different positions.
+
+When the wheel rotates, those particles don't all follow the same path.
+
+So how can we describe the motion of the entire object without tracking every particle individually?
+
+Physics gives us two powerful ideas.
+
+First, we can describe the overall movement using the centre of mass.
+
+Second, we can describe how the object rotates around an axis.
+
+Together, these ideas allow us to understand the motion of extended bodies.
+
+Chapter takeaway: Translational motion describes how an object changes position, while rotational motion describes how its orientation changes.
+
+Chapter 2 — Centre of Mass: One Point Representing Many Particles
+02:00–07:00
+Topic 2.1 — What Is the Centre of Mass?
+MAIN QUESTION: Can thousands or millions of particles be represented by one mathematically defined point?
+Core science
+Every extended object consists of a distribution of mass.
+
+When we want to describe its overall motion, it is often unnecessary to follow each individual particle.
+
+Instead, we introduce the centre of mass (COM).
+
+The centre of mass is the mass-weighted average position of the particles forming a system.
+
+For two particles with masses \(m_1\) and \(m_2\), located at positions \(x_1\) and \(x_2\):
+\[
+\boxed{x_{\mathrm{cm}}=\frac{m_1x_1+m_2x_2}{m_1+m_2}}
+\]
+
+This equation tells us that the centre of mass depends on both the positions and masses of the particles.
+
+A larger mass contributes more strongly to the centre-of-mass position.
+Worked example — Two unequal masses
+Suppose two particles are located along a straight line.
+
+The first has:
+\[
+m_1=2\text{ kg},\quad x_1=0
+\]
+
+The second has:
+\[
+m_2=6\text{ kg},\quad x_2=4\text{ m}
+\]
+
+Then:
+\[
+x_{\mathrm{cm}}
+=\frac{2(0)+6(4)}{2+6}
+\]
+
+\[
+x_{\mathrm{cm}}=\frac{24}{8}
+\]
+
+\[
+\boxed{x_{\mathrm{cm}}=3\text{ m}}
+\]
+
+The centre of mass is closer to the heavier particle.
+
+This is not a coincidence. It follows directly from the mass-weighted average.
+Important conceptual question
+Is the centre of mass always located at the geometrical centre?
+
+No.
+
+For a uniform, symmetric body, the centre of mass often coincides with the geometrical centre.
+
+Examples include a uniform sphere, a uniform circular disc, and a uniform straight rod.
+
+But if mass is distributed unevenly, the centre of mass shifts toward the region containing more mass.
+
+It can even lie in empty space, as happens for a uniform circular ring.
+Narration idea
+Imagine placing two objects of different masses along a straight line.
+
+If their masses are equal, the centre of mass lies exactly halfway between them.
+
+But what if one object becomes much heavier?
+
+The centre of mass moves toward that object.
+
+This tells us something important.
+
+The centre of mass isn't determined by geometry alone.
+
+It's determined by how mass is distributed.
+
+And this single point will become extremely useful when we study the motion of entire systems.
+
+
+Topic 2.2 — Centre of Mass of Many Particles
+MAIN QUESTION: How can we extend the centre-of-mass concept to a system containing many particles?
+Core mathematics
+For \(n\) particles with masses \(m_i\) and position vectors \(\vec r_i\), the total mass is:
+\[
+M=\sum_{i=1}^{n}m_i
+\]
+
+The centre-of-mass position is:
+\[
+\boxed{\vec R_{\mathrm{cm}}=\frac{1}{M}\sum_{i=1}^{n}m_i\vec r_i}
+\]
+
+This vector equation works in one, two, or three dimensions.
+
+In Cartesian coordinates:
+\[
+x_{\mathrm{cm}}=\frac{\sum m_ix_i}{M}
+\]
+
+\[
+y_{\mathrm{cm}}=\frac{\sum m_iy_i}{M}
+\]
+
+\[
+z_{\mathrm{cm}}=\frac{\sum m_iz_i}{M}
+\]
+
+All three coordinates represent the position of the same centre of mass.
+Extending to continuous bodies
+A solid object contains an enormous number of atoms.
+
+Instead of treating each atom separately, we can mathematically describe the mass as a continuous distribution.
+
+The summation becomes an integral:
+\[
+\boxed{\vec R_{\mathrm{cm}}=\frac{1}{M}\int\vec r\,dm}
+\]
+
+This is the continuous form of the centre-of-mass equation.
+
+For a body with mass density \(\rho(\vec r)\), we can write:
+\[
+\vec R_{\mathrm{cm}}=
+\frac{\int_V \vec r\,\rho(\vec r)\,dV}
+{\int_V \rho(\vec r)\,dV}
+\]
+
+You don't need a lengthy multivariable-calculus derivation in a Class 11 episode. The purpose is to show how the discrete-particle definition naturally extends to real extended objects.
+Narration idea
+The same idea works even when a system contains thousands or millions of particles.
+
+Each particle contributes according to its mass and position.
+
+When we combine those contributions, we obtain one centre-of-mass position.
+
+And for a continuous body, the mathematical summation becomes an integral.
+
+This gives us a general method for finding the centre of mass of almost any mass distribution.
+
+But the real power of the concept appears when we ask how the centre of mass moves.
+
+
+Chapter 3 — Motion of the Centre of Mass and Linear Momentum
+07:00–10:30
+Topic 3.1 — What Controls the Motion of the Centre of Mass?
+MAIN QUESTION: If particles inside a system push and pull on one another, why doesn't that necessarily change the motion of the system as a whole?
+Core science
+Consider a system containing many particles.
+
+Each particle may experience forces from other particles inside the system and from objects outside the system.
+
+We distinguish these as internal and external forces.
+
+Internal forces act between particles belonging to the system.
+
+External forces are exerted on the system by its surroundings.
+
+Now consider Newton's second law for every particle:
+\[
+m_i\vec a_i=\vec F_{i,\mathrm{net}}
+\]
+
+Summing over all particles:
+\[
+\sum_i m_i\vec a_i
+=\sum_i\vec F_{i,\mathrm{external}}
++\sum_i\vec F_{i,\mathrm{internal}}
+\]
+
+For ordinary mechanical systems where internal forces occur in equal and opposite pairs, the internal-force sum cancels.
+
+Therefore:
+\[
+\sum_i m_i\vec a_i
+=\vec F_{\mathrm{external,net}}
+\]
+
+But from the definition of centre of mass:
+\[
+M\vec a_{\mathrm{cm}}=\sum_i m_i\vec a_i
+\]
+
+Combining the two expressions:
+\[
+\boxed{\vec F_{\mathrm{external,net}}=M\vec a_{\mathrm{cm}}}
+\]
+
+This is one of the most important equations in the chapter.
+Physical interpretation
+The centre of mass of a system moves as though the total mass were concentrated at that point and the net external force acted to accelerate that point.
+
+This does not mean all physical effects can be reproduced by placing every force at the centre of mass.
+
+Forces acting at different locations can produce different torques and therefore different rotational motions.
+
+The centre-of-mass equation describes the translational motion of the system.
+Narration idea
+Imagine a collection of particles interacting with one another.
+
+Each particle may push or pull on the others.
+
+The internal motion can become extremely complicated.
+
+But when we calculate the acceleration of the centre of mass, something remarkable happens.
+
+The internal forces cancel in pairs.
+
+What remains is the net external force.
+
+So although the individual particles may behave differently, the motion of their common centre of mass follows a simple form of Newton's second law.
+
+This allows us to describe the overall motion of a complicated system using a single equation.
+
+
+Topic 3.2 — Linear Momentum of a System
+MAIN QUESTION: Why can the total momentum of a system remain constant even while its particles move in different directions?
+Core mathematics
+The total linear momentum of a system is:
+\[
+\vec P=\sum_i m_i\vec v_i
+\]
+
+Differentiate the centre-of-mass equation with respect to time:
+\[
+M\vec v_{\mathrm{cm}}=\sum_i m_i\vec v_i
+\]
+
+Assuming the masses of the constituent particles remain constant:
+\[
+\boxed{\vec P=M\vec v_{\mathrm{cm}}}
+\]
+
+The total linear momentum is therefore directly related to the velocity of the centre of mass.
+
+Newton's second law for the system becomes:
+\[
+\boxed{\frac{d\vec P}{dt}=\vec F_{\mathrm{external,net}}}
+\]
+
+If the net external force is zero:
+\[
+\frac{d\vec P}{dt}=0
+\]
+
+Therefore:
+\[
+\boxed{\vec P=\text{constant}}
+\]
+
+This is the principle of conservation of linear momentum.
+Worked example — Two interacting particles
+Suppose two particles form an isolated system.
+
+Their masses and velocities are:
+\[
+m_1=2\text{ kg},\quad v_1=3\text{ m/s}
+\]
+
+\[
+m_2=3\text{ kg},\quad v_2=-1\text{ m/s}
+\]
+
+Taking positive velocity to the right:
+\[
+P=2(3)+3(-1)
+\]
+
+\[
+P=3\text{ kg\,m/s}
+\]
+
+The total mass is:
+\[
+M=5\text{ kg}
+\]
+
+Therefore:
+\[
+v_{\mathrm{cm}}=\frac PM
+\]
+
+\[
+\boxed{v_{\mathrm{cm}}=0.6\text{ m/s}}
+\]
+
+The particles move differently, but the centre of mass moves to the right at 0.6 m/s.
+
+If the system experiences no net external force, this velocity remains constant even while internal interactions change the individual velocities.
+Narration idea
+The particles inside a system don't all need to move together.
+
+Some may move to the right. Others may move to the left.
+
+Yet the system still has a total momentum.
+
+And that momentum is exactly equal to the total mass multiplied by the velocity of the centre of mass.
+
+This gives us a much simpler way to understand collisions, explosions, and interacting particles.
+
+Their internal movements may be complicated, but without a net external force, the total momentum remains conserved.
+
+And the centre of mass continues moving with constant velocity.
+
+Chapter takeaway: The centre of mass connects many-particle systems to ordinary translational mechanics. Internal interactions may rearrange motion within a system, but external forces determine the motion of its centre of mass.
+
+Chapter 4 — Vector Product: The Mathematics of Rotation
+10:30–13:30
+
+In Episode 01, we introduced vector addition, subtraction, scalar multiplication, and vector resolution.
+
+Now we need one additional vector operation: the cross product, also known as the vector product.
+
+This is essential for defining torque and angular momentum.
+Topic 4.1 — Why Do We Need the Cross Product?
+MAIN QUESTION: How can we mathematically describe a rotational effect that depends on the directions of two vectors?
+Core science
+Consider two vectors \(\vec A\) and \(\vec B\) separated by an angle \(\theta\).
+
+Their cross product is written:
+\[
+\vec C=\vec A\times\vec B
+\]
+
+Its magnitude is:
+\[
+\boxed{|\vec C|=AB\sin\theta}
+\]
+
+The resulting vector points perpendicular to the plane containing \(\vec A\) and \(\vec B\).
+
+Its direction is determined by the right-hand rule.
+
+Curl the fingers of your right hand from the first vector toward the second through the smaller angle. Your thumb indicates the direction of the cross product.
+Important mathematical properties
+Perpendicular vectors
+
+When:
+\[
+\theta=90^\circ
+\]
+
+We have:
+\[
+|\vec A\times\vec B|=AB
+\]
+
+The cross-product magnitude is maximum for fixed vector magnitudes.
+
+Parallel vectors
+
+When:
+\[
+\theta=0^\circ
+\]
+
+The cross product is zero.
+
+Reversing the order
+
+Unlike ordinary scalar multiplication:
+\[
+\boxed{\vec A\times\vec B=-\vec B\times\vec A}
+\]
+
+The cross product is anti-commutative.
+
+This is important because reversing the vector order reverses the direction of the resulting vector.
+Why this matters physically
+Suppose a force acts on a rigid body.
+
+Its ability to cause rotation depends not only on the magnitude of the force but also on where it acts and in which direction.
+
+A force directed along the line joining its point of application to the pivot produces no torque about that pivot.
+
+A perpendicular force can produce a larger torque.
+
+The cross product captures precisely this directional dependence.
+Narration idea
+So far, we've used vectors to describe displacement, velocity, and acceleration.
+
+But rotation introduces something new.
+
+A force can make an object rotate, and the effect depends on both where the force is applied and which direction it points.
+
+To describe that mathematically, we use the cross product.
+
+It combines two vectors into a new vector perpendicular to their plane.
+
+Its magnitude depends on the sine of the angle between them.
+
+And that turns out to be exactly what we need to understand torque.
+
+
+Topic 4.2 — Angular Velocity as a Vector
+MAIN QUESTION: How can the direction of rotation be represented mathematically?
+Core science
+In Episode 02, we described circular motion using angular velocity.
+
+For rotation about a fixed axis, angular velocity also has a vector representation.
+
+Its direction lies along the axis of rotation, determined by the right-hand rule.
+
+We can relate the angular-velocity vector to the linear velocity of a point in the rotating body:
+\[
+\boxed{\vec v=\vec\omega\times\vec r}
+\]
+
+Here, \(\vec r\) is the position vector measured from a point on the fixed axis.
+
+For a point at perpendicular distance \(r_\perp\) from the axis:
+\[
+v=\omega r_\perp
+\]
+
+This is the vector form of the relationship introduced in Episode 02.
+Physical interpretation
+For a rigid body rotating about a fixed axis, all its particles have the same angular velocity.
+
+But their linear velocities depend on their distances from the axis.
+
+A particle farther from the axis moves faster along its circular path.
+
+The cross product provides both the correct magnitude and the tangential direction of velocity.
+Narration idea
+Every point on a rotating rigid body shares the same angular velocity.
+
+But that doesn't mean every point has the same linear velocity.
+
+A point near the axis travels around a smaller circle than a point near the outer edge.
+
+The relationship between angular velocity and linear velocity can be written using a cross product.
+
+This gives us a compact mathematical way to describe how different parts of a rotating body move together.
+
+Chapter takeaway: The cross product is the mathematical language connecting position, force, velocity, and rotation.
+
+Chapter 5 — Torque: Why Forces Cause Rotation
+13:30–17:30
+Topic 5.1 — What Is Torque?
+MAIN QUESTION: Why does pushing a door near its handle make it easier to rotate than pushing it near its hinges?
+Core science
+In translational motion, Newton's second law connects net force and linear acceleration:
+\[
+\vec F_{\mathrm{net}}=m\vec a
+\]
+
+For rotational motion, we need to consider the turning effect of a force.
+
+That turning effect is called torque, or moment of force.
+
+Torque depends on the force and its position relative to the chosen axis or reference point.
+
+Its vector definition is:
+\[
+\boxed{\vec\tau=\vec r\times\vec F}
+\]
+
+Where:
+
+\(\vec r\) is the position vector from the chosen origin to the point where the force acts, and \(\vec F\) is the applied force.
+
+The magnitude is:
+\[
+\boxed{\tau=rF\sin\theta}
+\]
+
+Where \(\theta\) is the angle between the position vector and the force.
+
+Alternatively:
+\[
+\boxed{\tau=Fd_\perp}
+\]
+
+Here, \(d_\perp\) is the perpendicular distance between the axis and the force's line of action.
+
+This distance is called the moment arm, or lever arm.
+Core interpretation
+A larger force can produce more torque.
+
+But even if the force remains constant, changing its position or direction changes the torque.
+
+This explains the advantage of applying force far from a door's hinges.
+
+It also explains why pushing directly toward a hinge does not rotate the door about that hinge.
+Worked example — Opening a door
+Suppose we push perpendicular to a door with:
+\[
+F=20\text{ N}
+\]
+
+First, apply the force at a distance of 0.8 m from the hinges:
+\[
+\tau=20(0.8)
+\]
+
+\[
+\boxed{\tau=16\text{ N\,m}}
+\]
+
+Now apply the same force only 0.2 m from the hinges:
+\[
+\tau=20(0.2)
+\]
+
+\[
+\boxed{\tau=4\text{ N\,m}}
+\]
+
+The first situation produces four times as much torque.
+
+The force is identical in both situations; only the lever arm changes.
+Narration idea
+Imagine trying to open a heavy door.
+
+You could push near the hinges or near the handle.
+
+The force might be exactly the same in both cases.
+
+Yet pushing near the handle is much more effective.
+
+Why?
+
+Because the turning effect of a force depends on its distance from the axis of rotation.
+
+We call this turning effect torque.
+
+And torque isn't determined by force alone.
+
+It also depends on the geometry of how that force is applied.
+
+
+Topic 5.2 — Why Can Two Forces Produce Rotation Without Translation?
+MAIN QUESTION: Can the net force on an object be zero while the object still experiences a turning effect?
+Core science
+Yes.
+
+Consider two forces of equal magnitude acting in opposite directions along different parallel lines.
+
+Their vector sum is zero:
+\[
+\vec F_1+\vec F_2=0
+\]
+
+But because their lines of action are separated, the forces can produce torques in the same rotational direction.
+
+This arrangement is called a couple.
+
+If the perpendicular separation between the forces is \(d\), the magnitude of the torque of the couple is:
+\[
+\boxed{\tau_{\mathrm{couple}}=Fd}
+\]
+
+The net force is zero, but the net torque is nonzero.
+
+This demonstrates that the conditions governing translational acceleration and rotational acceleration are different.
+Narration idea
+Suppose two equal forces act on an object in opposite directions.
+
+You might expect their effects to cancel completely.
+
+But that isn't always true.
+
+If the forces act along different lines, their total force can be zero while their turning effects reinforce one another.
+
+The object may have no translational acceleration of its centre of mass and still begin rotating.
+
+This reveals why a complete description of rigid-body motion needs both force and torque.
+
+
+Topic 5.3 — Equilibrium of a Rigid Body
+MAIN QUESTION: What conditions must be satisfied for a rigid body to remain in mechanical equilibrium?
+Core science
+For a rigid body to have both zero translational acceleration and zero angular acceleration, two conditions must be satisfied.
+
+Translational equilibrium:
+\[
+\boxed{\sum\vec F_{\mathrm{external}}=0}
+\]
+
+Rotational equilibrium:
+\[
+\boxed{\sum\vec\tau_{\mathrm{external}}=0}
+\]
+
+Both conditions are required for complete mechanical equilibrium.
+
+They do not necessarily mean the body is at rest. A body may already be moving with constant velocity or rotating with constant angular velocity about a fixed axis while the relevant net force and torque vanish.
+
+If the body is initially stationary, satisfying both conditions maintains static equilibrium.
+Worked example — A balanced seesaw
+Suppose a child exerts a downward force of 100 N at a distance of 2 m to the left of the pivot.
+
+The counterclockwise torque magnitude is:
+\[
+\tau_1=100(2)=200\text{ N\,m}
+\]
+
+Another child exerts a downward force of 200 N at a distance of 1 m to the right.
+
+The clockwise torque magnitude is:
+\[
+\tau_2=200(1)=200\text{ N\,m}
+\]
+
+Taking counterclockwise torque as positive:
+\[
+\sum\tau=200-200=0
+\]
+
+The torques balance.
+
+For complete equilibrium, the net force must also be zero.
+
+If the seesaw's own weight is negligible, the pivot must provide an upward reaction force of 300 N.
+
+Thus:
+\[
+\sum F_y=300-100-200=0
+\]
+
+Both conditions are satisfied.
+Narration idea
+A rigid body can be balanced in two different senses.
+
+First, it must have no net force trying to accelerate its centre of mass.
+
+Second, it must have no net torque trying to change its rotational motion.
+
+A seesaw illustrates this perfectly.
+
+Two different forces can balance each other's turning effects if their distances from the pivot are chosen appropriately.
+
+But balancing the torques alone isn't the whole story.
+
+We must also balance the forces.
+
+Together, these conditions describe mechanical equilibrium.
+
+Chapter takeaway: A force determines translational acceleration, while torque determines the tendency to change rotational motion. Both force balance and torque balance are needed for rigid-body equilibrium.
+
+Chapter 6 — Moment of Inertia: The Rotational Equivalent of Mass
+17:30–23:00
+
+This is one of the most important sections of Episode 03.
+
+Students often learn the formula for moment of inertia without understanding its physical meaning. The main objective here should be to explain why the distribution of mass matters in rotation.
+Topic 6.1 — Why Isn't Mass Alone Enough?
+MAIN QUESTION: Why can two objects with identical masses behave differently when the same torque is applied?
+Core science
+In linear motion, mass measures an object's resistance to changes in velocity.
+
+According to Newton's second law:
+\[
+F=ma
+\]
+
+For the same applied net force, an object with greater mass experiences less acceleration.
+
+But rotational motion introduces an additional factor.
+
+Two bodies can have the same total mass while distributing that mass differently around their axes of rotation.
+
+Consider a uniform solid disc and a thin circular ring.
+
+They may have identical masses and outer radii, but their mass distributions are different.
+
+In the ring, essentially all the mass lies at the outer radius.
+
+In the solid disc, some mass lies closer to the axis.
+
+As a result, they have different resistance to changes in angular velocity.
+
+This resistance is characterized by the moment of inertia.
+Mathematical definition
+For discrete particles rotating about a chosen axis:
+\[
+\boxed{I=\sum_i m_i r_{i\perp}^2}
+\]
+
+Where \(r_{i\perp}\) is the perpendicular distance of particle \(i\) from the axis.
+
+For a continuous mass distribution:
+\[
+\boxed{I=\int r_\perp^2\,dm}
+\]
+
+The SI unit of moment of inertia is:
+\[
+\text{kg\,m}^2
+\]
+
+Physical interpretation
+The distance from the axis appears squared.
+
+This means mass located farther from the axis contributes disproportionately more to moment of inertia.
+
+Moving a mass twice as far from an axis increases its contribution to moment of inertia by a factor of four.
+Worked example — Redistributing mass
+Consider two particles, each with mass 1 kg, attached to a lightweight rod and rotating about its midpoint.
+
+Initially, each particle is 1 m from the axis.
+\[
+I=1(1^2)+1(1^2)
+\]
+
+\[
+\boxed{I=2\text{ kg\,m}^2}
+\]
+
+Now move both particles to 2 m from the axis.
+\[
+I'=1(2^2)+1(2^2)
+\]
+
+\[
+\boxed{I'=8\text{ kg\,m}^2}
+\]
+
+The total mass hasn't changed.
+
+But the moment of inertia has increased fourfold.
+Narration idea
+Imagine two rotating objects with exactly the same mass.
+
+Why might one be easier to spin up than the other?
+
+The answer lies in how their mass is distributed.
+
+For rotation, it isn't enough to know how much mass an object contains.
+
+We also need to know how far that mass lies from the axis.
+
+Mass farther from the axis contributes more strongly to rotational inertia.
+
+And because distance appears squared in the equation, moving mass outward can make an enormous difference.
+
+This is why moment of inertia plays such an important role in rotational dynamics.
+
+
+Topic 6.2 — Moment of Inertia of Common Objects
+MAIN QUESTION: How do the shape and mass distribution of a rigid body determine its moment of inertia?
+Core science and mathematics
+Moment of inertia depends on the shape of the body, its mass distribution, and the selected rotation axis.
+
+Some important standard results are:
+Object	Axis	Moment of inertia
+Thin circular ring	Through centre, perpendicular to plane	\(MR^2\)
+Uniform solid disc	Through centre, perpendicular to plane	\(\frac12MR^2\)
+Uniform solid cylinder	Along central symmetry axis	\(\frac12MR^2\)
+Uniform thin rod	Through midpoint, perpendicular to rod	\(\frac1{12}ML^2\)
+Uniform thin rod	Through one end, perpendicular to rod	\(\frac13ML^2\)
+Uniform solid sphere	Through centre	\(\frac25MR^2\)
+Uniform thin spherical shell	Through centre	\(\frac23MR^2\)
+
+Here, \(M\) is total mass, \(R\) is radius, and \(L\) is rod length.
+Why does a ring have a larger moment of inertia than a disc?
+For a ring:
+\[
+I_{\mathrm{ring}}=MR^2
+\]
+
+For a solid disc:
+\[
+I_{\mathrm{disc}}=\frac12MR^2
+\]
+
+Therefore:
+\[
+I_{\mathrm{ring}}=2I_{\mathrm{disc}}
+\]
+
+when the mass and outer radius are the same.
+
+The ring has twice the moment of inertia because its mass lies farther from the axis on average.
+Narration idea
+Consider a thin ring and a solid disc.
+
+Give them the same mass and the same outer radius.
+
+At first, you might expect them to behave identically when rotated.
+
+But the ring has a larger moment of inertia.
+
+Why?
+
+Because all its mass is concentrated at the outer radius.
+
+In the disc, much of the mass lies closer to the centre.
+
+This is a simple but important lesson.
+
+The way mass is arranged can matter just as much as the amount of mass itself.
+
+
+Topic 6.3 — Radius of Gyration
+MAIN QUESTION: Can we describe a complicated mass distribution using one effective distance from the rotation axis?
+Core science
+The radius of gyration, denoted by \(k\), is defined through:
+\[
+\boxed{I=Mk^2}
+\]
+
+Therefore:
+\[
+\boxed{k=\sqrt{\frac IM}}
+\]
+
+The radius of gyration is the distance from the chosen axis at which a point mass equal to the body's total mass would have the same moment of inertia.
+
+It does not mean the body's actual mass is concentrated at that location.
+
+It is a mathematical representation of the mass distribution.
+Examples
+For a thin ring:
+\[
+I=MR^2
+\]
+
+Therefore:
+\[
+k=R
+\]
+
+For a solid disc:
+\[
+I=\frac12MR^2
+\]
+
+Therefore:
+\[
+k=\frac{R}{\sqrt2}
+\]
+
+This confirms that the ring has a larger effective mass-distribution radius than the disc.
+Narration idea
+Moment of inertia describes how mass is distributed around an axis.
+
+But sometimes, we want to summarize that distribution using a single characteristic length.
+
+That's the radius of gyration.
+
+It tells us how far from the axis we would have to place the body's entire mass, mathematically, to reproduce the same moment of inertia.
+
+It's another useful way to understand why different shapes resist rotational acceleration differently.
+
+
+Topic 6.4 — Parallel and Perpendicular Axis Theorems
+MAIN QUESTION: Can we calculate moment of inertia about a new axis without repeating the entire calculation?
+Core science
+Moment of inertia changes when we change the axis of rotation.
+
+Fortunately, two important theorems allow us to relate moments of inertia about different axes.
+Parallel Axis Theorem
+For an axis parallel to one passing through the centre of mass:
+\[
+\boxed{I=I_{\mathrm{cm}}+Md^2}
+\]
+
+Here \(d\) is the perpendicular separation between the two parallel axes.
+
+The theorem applies to a rigid body of total mass \(M\).
+
+Example — Uniform rod
+
+The moment of inertia of a uniform rod about an axis through its midpoint, perpendicular to its length, is:
+\[
+I_{\mathrm{cm}}=\frac1{12}ML^2
+\]
+
+Now move the axis to one end of the rod.
+
+The axis separation is:
+\[
+d=\frac L2
+\]
+
+Using the parallel axis theorem:
+\[
+I_{\mathrm{end}}
+=\frac1{12}ML^2+M\left(\frac L2\right)^2
+\]
+
+\[
+I_{\mathrm{end}}
+=\left(\frac1{12}+\frac14\right)ML^2
+\]
+
+\[
+\boxed{I_{\mathrm{end}}=\frac13ML^2}
+\]
+
+Perpendicular Axis Theorem
+For a planar lamina lying in the xy-plane:
+\[
+\boxed{I_z=I_x+I_y}
+\]
+
+The x- and y-axes lie in the lamina's plane, while the z-axis passes through their common intersection point perpendicular to the plane.
+
+This theorem applies to planar mass distributions, not arbitrary three-dimensional solids.
+
+Example — Uniform disc
+
+For a uniform thin disc:
+\[
+I_z=\frac12MR^2
+\]
+
+By symmetry, its moments of inertia about two perpendicular diameters are equal:
+\[
+I_x=I_y
+\]
+
+Therefore:
+\[
+I_x=I_y=\frac14MR^2
+\]
+
+Narration idea
+Calculating moment of inertia from the beginning can sometimes require complicated integration.
+
+But if we already know the moment of inertia about one axis, geometry may help us find it about another.
+
+The parallel axis theorem describes how rotational inertia changes when we shift the axis away from the centre of mass.
+
+The perpendicular axis theorem provides another relationship for thin planar objects.
+
+These theorems make moment-of-inertia calculations much more efficient.
+
+And they reinforce an essential principle: rotational inertia depends on which axis we choose.
+
+Chapter takeaway: Moment of inertia is determined by how mass is distributed relative to a particular axis. It is the key quantity that connects torque to angular acceleration.
+
+Chapter 7 — Rotational Kinematics: Predicting Angular Motion
+23:00–27:00
+
+In Episode 02, we introduced angular displacement, angular velocity, and angular acceleration.
+
+Here, we extend those concepts to the motion of an extended rigid body rotating about a fixed axis.
+Topic 7.1 — How Do the Equations of Linear Motion Apply to Rotation?
+MAIN QUESTION: Can we predict how far an object rotates using equations similar to those describing straight-line motion?
+Core science
+In translational motion, we describe motion through position, velocity, and acceleration.
+
+In rotational motion about a fixed axis, we use their angular counterparts.
+Linear motion	Rotational motion
+Displacement \(x-x_0\)	Angular displacement \(\theta-\theta_0\)
+Velocity \(v\)	Angular velocity \(\omega\)
+Acceleration \(a\)	Angular acceleration \(\alpha\)
+Time \(t\)	Time \(t\)
+
+Angular velocity describes the rate of change of angular position:
+\[
+\omega=\frac{d\theta}{dt}
+\]
+
+Angular acceleration describes the rate of change of angular velocity:
+\[
+\alpha=\frac{d\omega}{dt}
+\]
+
+Equations for constant angular acceleration
+When angular acceleration is constant:
+\[
+\boxed{\omega=\omega_0+\alpha t}
+\]
+
+\[
+\boxed{\theta=\theta_0+\omega_0t+\frac12\alpha t^2}
+\]
+
+And:
+\[
+\boxed{\omega^2=\omega_0^2+2\alpha(\theta-\theta_0)}
+\]
+
+These are direct rotational analogues of the familiar constant-acceleration equations.
+Worked example — Accelerating wheel
+Suppose a wheel starts from rest:
+\[
+\omega_0=0
+\]
+
+And experiences constant angular acceleration:
+\[
+\alpha=2\text{ rad/s}^2
+\]
+
+For:
+\[
+t=4\text{ s}
+\]
+
+Its final angular velocity is:
+\[
+\omega=0+2(4)
+\]
+
+\[
+\boxed{\omega=8\text{ rad/s}}
+\]
+
+Its angular displacement is:
+\[
+\Delta\theta=0+\frac12(2)(4^2)
+\]
+
+\[
+\boxed{\Delta\theta=16\text{ rad}}
+\]
+
+The wheel completes:
+\[
+N=\frac{16}{2\pi}\approx2.55
+\]
+
+revolutions during those four seconds.
+Narration idea
+We already know how to predict straight-line motion when acceleration is constant.
+
+We can calculate velocity after a given time, displacement during an interval, or the relationship between velocity and position.
+
+Rotational motion has a remarkably similar mathematical structure.
+
+Instead of linear displacement, we use angular displacement.
+
+Instead of linear velocity, we use angular velocity.
+
+And instead of linear acceleration, we use angular acceleration.
+
+This means many of the mathematical tools we've already learned can be applied directly to rotation.
+
+
+Topic 7.2 — Angular Motion and the Movement of Individual Particles
+MAIN QUESTION: If every particle in a rigid body has the same angular velocity, why do different particles have different linear accelerations?
+Core mathematics
+For a point at perpendicular distance \(r_\perp\) from the fixed rotation axis:
+\[
+v=r_\perp|\omega|
+\]
+
+Its tangential acceleration component is:
+\[
+\boxed{a_t=r_\perp\alpha}
+\]
+
+using the signed tangential direction associated with the angular-coordinate convention.
+
+Its inward radial acceleration magnitude is:
+\[
+\boxed{a_r=r_\perp\omega^2}
+\]
+
+These expressions describe two different effects.
+
+Tangential acceleration changes the magnitude of linear velocity.
+
+Radial acceleration changes its direction.
+
+For a particle moving around a circle of constant radius, the magnitude of its total acceleration is:
+\[
+\boxed{a=\sqrt{(r_\perp\alpha)^2+(r_\perp\omega^2)^2}}
+\]
+
+Scientific interpretation
+Every particle of a rigid body rotating about a fixed axis shares the same angular velocity and angular acceleration.
+
+However, the particles do not necessarily share the same linear velocity or linear acceleration.
+
+Their linear motion depends on their perpendicular distances from the axis.
+Narration idea
+When a rigid body rotates, every particle shares the same angular motion.
+
+But the linear motion of each particle depends on how far it lies from the axis.
+
+A particle farther from the axis travels along a larger circle.
+
+For the same angular velocity, it moves faster.
+
+And when the body changes its angular velocity, particles at different radii experience different linear accelerations.
+
+So even though the rigid body rotates as one object, its constituent particles can have very different linear motions.
+
+Chapter takeaway: The mathematical structure of rotational kinematics closely parallels linear kinematics, but angular quantities describe the collective rotation of a rigid body.
+
+Chapter 8 — Rotational Dynamics: How Torque Produces Angular Acceleration
+27:00–31:30
+
+This is where the concepts of torque and moment of inertia finally connect.
+Topic 8.1 — Newton's Second Law for Rotation
+MAIN QUESTION: If force produces linear acceleration, what determines angular acceleration?
+Core science
+In translational motion:
+\[
+F_{\mathrm{net}}=ma
+\]
+
+For a rigid body rotating about a fixed axis, with constant moment of inertia:
+\[
+\boxed{\tau_{\mathrm{net}}=I\alpha}
+\]
+
+Here, \(\tau_{\mathrm{net}}\) is the net torque component about the axis, \(I\) is the moment of inertia about that axis, and \(\alpha\) is the angular acceleration.
+
+This equation reveals two important relationships.
+
+For a fixed moment of inertia, increasing the net torque increases the angular acceleration.
+
+For a fixed net torque, increasing the moment of inertia reduces the angular acceleration.
+
+Rearranging:
+\[
+\boxed{\alpha=\frac{\tau_{\mathrm{net}}}{I}}
+\]
+
+Why this is important
+Mass determines resistance to changes in translational motion.
+
+Moment of inertia determines resistance to changes in rotation about a chosen axis.
+
+Torque plays the role that force plays in translational dynamics.
+Worked example — Rotating solid disc
+Consider a uniform solid disc with:
+\[
+M=4\text{ kg}
+\]
+
+\[
+R=0.5\text{ m}
+\]
+
+Its moment of inertia about the central symmetry axis is:
+\[
+I=\frac12MR^2
+\]
+
+\[
+I=\frac12(4)(0.5)^2
+\]
+
+\[
+\boxed{I=0.5\text{ kg\,m}^2}
+\]
+
+Suppose the net torque about this fixed axis is:
+\[
+\tau=1\text{ N\,m}
+\]
+
+Then:
+\[
+\alpha=\frac{\tau}{I}
+\]
+
+\[
+\alpha=\frac1{0.5}
+\]
+
+\[
+\boxed{\alpha=2\text{ rad/s}^2}
+\]
+
+Notice that this is the same angular acceleration used in our previous worked example.
+
+This allows us to connect rotational kinematics and dynamics.
+Narration idea
+We now have all the ingredients needed to describe rotational dynamics.
+
+Torque tells us how strongly forces tend to change rotation.
+
+Moment of inertia tells us how strongly the body resists changes in its angular velocity.
+
+And angular acceleration tells us how quickly that rotation changes.
+
+These three quantities are connected through a remarkably simple equation.
+
+Just as force divided by mass determines linear acceleration, net torque divided by moment of inertia determines angular acceleration about a fixed axis.
+
+This is one of the fundamental relationships of rotational mechanics.
+
+
+Topic 8.2 — Work and Energy in Rotational Motion
+MAIN QUESTION: If a force transfers energy by moving an object, how does torque transfer energy during rotation?
+Core science
+In translational motion, work transfers energy when a force acts through a displacement.
+
+For a fixed-axis rotation, torque performs work through angular displacement.
+
+For constant torque acting about the axis:
+\[
+\boxed{W=\tau\Delta\theta}
+\]
+
+For variable torque:
+\[
+\boxed{W=\int\tau\,d\theta}
+\]
+
+The rotational kinetic energy of a rigid body about a fixed axis is:
+\[
+\boxed{K_{\mathrm{rot}}=\frac12I\omega^2}
+\]
+
+This is the rotational counterpart of translational kinetic energy:
+\[
+K_{\mathrm{trans}}=\frac12Mv^2
+\]
+
+Deriving rotational kinetic energy
+Consider a rigid body made of many particles.
+
+Each particle has kinetic energy:
+\[
+K_i=\frac12m_iv_i^2
+\]
+
+For rotation about a fixed axis:
+\[
+v_i=r_{i\perp}\omega
+\]
+
+Therefore:
+\[
+K_i=\frac12m_ir_{i\perp}^2\omega^2
+\]
+
+Summing over all particles:
+\[
+K_{\mathrm{rot}}=\frac12\left(\sum_i m_ir_{i\perp}^2\right)\omega^2
+\]
+
+Since:
+\[
+I=\sum_i m_ir_{i\perp}^2
+\]
+
+We obtain:
+\[
+\boxed{K_{\mathrm{rot}}=\frac12I\omega^2}
+\]
+
+This is an especially valuable derivation because it shows that the formula arises directly from the kinetic energy of individual particles.
+Worked example — Energy of our rotating disc
+Recall:
+\[
+I=0.5\text{ kg\,m}^2
+\]
+
+The disc starts from rest and accelerates at \(2\text{ rad/s}^2\) for four seconds.
+
+Its final angular velocity is:
+\[
+\omega=8\text{ rad/s}
+\]
+
+Therefore:
+\[
+K_{\mathrm{rot}}=\frac12(0.5)(8)^2
+\]
+
+\[
+\boxed{K_{\mathrm{rot}}=16\text{ J}}
+\]
+
+From our previous calculation, its angular displacement was 16 radians.
+
+A constant net torque of 1 N m performs work:
+\[
+W=1(16)
+\]
+
+\[
+\boxed{W=16\text{ J}}
+\]
+
+The work done equals the increase in rotational kinetic energy, assuming the disc initially starts from rest and the calculated net torque accounts for all torque contributions.
+Rotational power
+Power describes the rate at which work is performed.
+
+For rotation about a fixed axis:
+\[
+\boxed{P=\tau\omega}
+\]
+
+This relationship becomes important in motors, turbines, flywheels, and other rotating machines.
+Narration idea
+Rotation doesn't just involve angular displacement and angular acceleration.
+
+A spinning body also contains kinetic energy.
+
+Every particle in the object is moving, and every particle contributes to the total kinetic energy.
+
+When we add those contributions, a familiar mathematical structure appears.
+
+Rotational kinetic energy depends on moment of inertia and the square of angular velocity.
+
+Torque can transfer energy to the body, just as force can transfer energy during translation.
+
+So the same principles of work and energy continue to apply when objects rotate.
+
+Chapter takeaway: The rate at which a rigid body changes its rotation is determined by net torque and moment of inertia. Its rotational energy depends on how mass is distributed and how rapidly it rotates.
+
+Chapter 9 — Angular Momentum and Its Conservation
+31:30–35:30
+
+This chapter introduces one of the most powerful conservation laws in mechanics.
+Topic 9.1 — What Is Angular Momentum?
+MAIN QUESTION: If linear momentum describes translational motion, what quantity describes the rotational motion of particles and rigid bodies?
+Core science
+In translational motion, linear momentum is:
+\[
+\vec p=m\vec v
+\]
+
+For a particle, angular momentum about a chosen origin is defined as:
+\[
+\boxed{\vec L=\vec r\times\vec p}
+\]
+
+The magnitude is:
+\[
+L=rp\sin\theta
+\]
+
+Where \(\theta\) is the angle between the position vector and linear momentum.
+
+For a particle moving in a circle centered on the chosen origin, the velocity is tangential and perpendicular to the radius.
+
+Therefore:
+\[
+L=mrv
+\]
+
+Using:
+\[
+v=r\omega
+\]
+
+For the appropriate angular-velocity direction:
+\[
+L=mr^2\omega
+\]
+
+Extending to rigid bodies
+For a rigid body rotating about a fixed principal axis, the angular momentum vector is:
+\[
+\boxed{\vec L=I\vec\omega}
+\]
+
+More generally, for a fixed axis, the component of angular momentum along that axis satisfies \(L_{\parallel}=I_{\parallel}\omega\); the full angular momentum vector need not be parallel to angular velocity for an arbitrary rigid body.
+
+This is an important scientific distinction worth preserving without introducing the full inertia tensor.
+Relationship between torque and angular momentum
+The rate of change of angular momentum is determined by net external torque:
+\[
+\boxed{\vec\tau_{\mathrm{external}}=\frac{d\vec L}{dt}}
+\]
+
+For a system of particles, this applies when internal torques cancel, as they do for ordinary central internal forces.
+
+For a rigid body rotating about a fixed axis with constant \(I\):
+\[
+\tau=I\frac{d\omega}{dt}
+\]
+
+Hence:
+\[
+\tau=I\alpha
+\]
+
+This connects Newton's rotational law directly to angular momentum.
+Narration idea
+Linear momentum tells us something important about translational motion.
+
+But when objects rotate, we need a corresponding quantity.
+
+That quantity is angular momentum.
+
+For a particle, it depends on both its linear momentum and its position relative to the chosen origin.
+
+For rotation about a suitable fixed axis, the expression becomes much simpler.
+
+Angular momentum is the product of moment of inertia and angular velocity.
+
+And just as net external force changes linear momentum, net external torque changes angular momentum.
+
+
+Topic 9.2 — Conservation of Angular Momentum
+MAIN QUESTION: How can a rotating object spin faster without receiving an external torque?
+Core science
+If net external torque about the chosen reference point is zero:
+\[
+\vec\tau_{\mathrm{external}}=0
+\]
+
+Then:
+\[
+\frac{d\vec L}{dt}=0
+\]
+
+Therefore:
+\[
+\boxed{\vec L=\text{constant}}
+\]
+
+This is conservation of angular momentum.
+
+For rotation about a fixed principal axis:
+\[
+I\omega=\text{constant}
+\]
+
+If the moment of inertia decreases, angular speed must increase to maintain the same angular momentum.
+
+If moment of inertia increases, angular speed decreases.
+Worked example — A spinning skater
+Imagine a skater rotating with arms extended.
+
+Initially:
+\[
+I_1=4\text{ kg\,m}^2
+\]
+
+\[
+\omega_1=2\text{ rad/s}
+\]
+
+The initial angular momentum is:
+\[
+L_1=I_1\omega_1
+\]
+
+\[
+L_1=8\text{ kg\,m}^2/\text{s}
+\]
+
+Now the skater pulls their arms inward, reducing the moment of inertia:
+\[
+I_2=2\text{ kg\,m}^2
+\]
+
+Assuming negligible external torque about the vertical rotation axis:
+\[
+I_1\omega_1=I_2\omega_2
+\]
+
+Therefore:
+\[
+4(2)=2\omega_2
+\]
+
+\[
+\boxed{\omega_2=4\text{ rad/s}}
+\]
+
+The skater's angular speed doubles.
+A deeper scientific question
+If angular momentum is conserved, does rotational kinetic energy also remain constant?
+
+Not necessarily.
+
+Initial rotational kinetic energy:
+\[
+K_1=\frac12(4)(2^2)=8\text{ J}
+\]
+
+Final rotational kinetic energy:
+\[
+K_2=\frac12(2)(4^2)=16\text{ J}
+\]
+
+The rotational kinetic energy has increased.
+
+Where did that additional energy come from?
+
+It came from work performed by the skater while pulling their arms inward.
+
+Angular momentum remains conserved because external torque is negligible, but rotational kinetic energy can change because internal forces perform work.
+
+This is a powerful teaching opportunity: conservation of angular momentum does not imply conservation of rotational kinetic energy.
+Narration idea
+Have you ever noticed how a figure skater spins faster when pulling their arms closer to their body?
+
+At first, it seems surprising.
+
+No external motor suddenly makes the skater rotate faster.
+
+So why does the angular speed increase?
+
+When the skater pulls their arms inward, their moment of inertia decreases.
+
+If the external torque is negligible, angular momentum must remain constant.
+
+The decrease in moment of inertia is therefore accompanied by an increase in angular velocity.
+
+But the skater also performs work while moving their arms.
+
+That's why their rotational kinetic energy can increase even while angular momentum remains conserved.
+
+This is one of the most beautiful connections between mechanics and conservation laws.
+
+Chapter takeaway: Angular momentum describes rotational motion and changes according to external torque. When external torque vanishes, angular momentum is conserved even if moment of inertia and angular speed change.
+
+Chapter 10 — Rolling Motion: Translation and Rotation Together
+35:30–38:30
+
+This is the final major scientific topic and brings together nearly every important idea introduced in the episode.
+Topic 10.1 — What Is Rolling Motion?
+MAIN QUESTION: How can a wheel move forward while simultaneously rotating around its centre?
+Core science
+Consider a wheel moving across a horizontal surface.
+
+Its centre of mass moves forward.
+
+At the same time, the wheel rotates around its central axis.
+
+Therefore, rolling motion combines translation and rotation.
+
+The motion can be understood as:
+\[
+\boxed{\text{Rolling}=\text{Translation}+\text{Rotation}}
+\]
+
+This is a conceptual decomposition, not an ordinary arithmetic addition of scalar quantities.
+
+For a wheel rolling without slipping on a stationary horizontal surface:
+\[
+\boxed{v_{\mathrm{cm}}=R|\omega|}
+\]
+
+Here, \(R\) is the wheel radius.
+
+This equation is the rolling-without-slipping condition.
+What does rolling without slipping mean?
+It means that the point of the wheel in contact with the stationary surface has zero instantaneous velocity relative to the surface.
+
+This does not mean the contact point remains stationary throughout the motion.
+
+As the wheel rolls, different material points successively touch the ground.
+An important physical result
+For a wheel rolling without slipping:
+- The centre moves forward with speed \(v_{\mathrm{cm}}\).
+- The uppermost point moves forward with speed \(2v_{\mathrm{cm}}\).
+- The lowest point has instantaneous speed zero relative to the ground.
+These results follow from combining the translational velocity of the centre of mass with the rotational velocity of each point relative to the centre.
+Narration idea
+When a wheel rolls along a road, two kinds of motion occur simultaneously.
+
+The centre of mass moves forward.
+
+But every point on the wheel also rotates around the centre.
+
+So the velocity of a point on the wheel depends on both contributions.
+
+This produces an interesting result.
+
+In ideal rolling without slipping, the point touching the ground is momentarily at rest relative to the ground.
+
+Meanwhile, the uppermost point moves at twice the speed of the centre.
+
+The entire motion can be understood by combining translation and rotation.
+
+
+Topic 10.2 — Kinetic Energy of Rolling Motion
+MAIN QUESTION: Why does a rolling object have more than one contribution to its kinetic energy?
+Core science
+A rolling rigid body has translational kinetic energy because its centre of mass moves.
+
+It also has rotational kinetic energy because the body rotates about its centre of mass.
+
+The total kinetic energy is:
+\[
+\boxed{K=\frac12Mv_{\mathrm{cm}}^2+\frac12I_{\mathrm{cm}}\omega^2}
+\]
+
+The first term is translational kinetic energy.
+
+The second term is rotational kinetic energy about the centre of mass.
+
+For rolling without slipping:
+\[
+\omega=\frac{v_{\mathrm{cm}}}{R}
+\]
+
+Substituting:
+\[
+\boxed{K=\frac12Mv_{\mathrm{cm}}^2
+\left(1+\frac{I_{\mathrm{cm}}}{MR^2}\right)}
+\]
+
+The moment of inertia now determines how much of the kinetic energy is associated with rotation.
+Narration idea
+A rolling object doesn't have only translational kinetic energy.
+
+It also contains rotational kinetic energy.
+
+Its centre of mass is moving, while the object is rotating around that centre.
+
+Both motions contribute to the total energy.
+
+And the contribution from rotation depends on the moment of inertia.
+
+This gives us another reason why two objects with the same mass and radius can behave differently.
+
+Their mass distributions determine how energy is divided between translation and rotation.
+
+
+Topic 10.3 — Why Do Different Objects Roll Differently Down a Slope?
+MAIN QUESTION: If two objects have identical mass and radius, will they reach the bottom of an incline at the same time?
+Core science
+Consider a uniform solid cylinder and a thin ring with equal mass and radius.
+
+Both are released from rest on an inclined plane.
+
+Assume each rolls without slipping and energy losses are negligible.
+
+The cylinder and ring have different moments of inertia.
+
+For a solid cylinder:
+\[
+I_{\mathrm{cm}}=\frac12MR^2
+\]
+
+For a thin ring:
+\[
+I_{\mathrm{cm}}=MR^2
+\]
+
+The acceleration of a rigid body rolling without slipping down an incline of angle \(\beta\) is:
+\[
+\boxed{a_{\mathrm{cm}}=
+\frac{g\sin\beta}
+{1+\frac{I_{\mathrm{cm}}}{MR^2}}}
+\]
+
+For the solid cylinder:
+\[
+a_{\mathrm{cylinder}}
+=\frac{g\sin\beta}{1+\frac12}
+\]
+
+\[
+\boxed{a_{\mathrm{cylinder}}=\frac23g\sin\beta}
+\]
+
+For the thin ring:
+\[
+a_{\mathrm{ring}}=\frac{g\sin\beta}{1+1}
+\]
+
+\[
+\boxed{a_{\mathrm{ring}}=\frac12g\sin\beta}
+\]
+
+Therefore:
+\[
+a_{\mathrm{cylinder}}>a_{\mathrm{ring}}
+\]
+
+The solid cylinder accelerates faster and reaches the bottom first when released together from the same position, provided both maintain rolling without slipping.
+Why does this happen?
+The ring has a larger moment of inertia relative to its mass and radius.
+
+For the same centre-of-mass speed, a greater fraction of its kinetic energy is associated with rotation.
+
+The solid cylinder has less rotational inertia and develops a greater centre-of-mass acceleration under the same ideal conditions.
+Narration idea
+Imagine releasing two objects from the top of an inclined plane.
+
+One is a solid cylinder. The other is a thin ring.
+
+They have the same mass and outer radius.
+
+Will they reach the bottom together?
+
+Not necessarily.
+
+The solid cylinder reaches the bottom first in our ideal rolling experiment.
+
+The reason is not simply that one object is heavier.
+
+In fact, we've chosen them to have equal masses.
+
+The difference comes from how their mass is distributed around the rotation axis.
+
+The ring has a larger moment of inertia, so the way gravitational potential energy is converted into translation and rotation is different.
+
+This experiment brings together centre of mass, moment of inertia, rotational dynamics, and energy conservation.
+
+Chapter takeaway: Rolling motion combines translation and rotation, and its dynamics depend on both total mass and mass distribution.
+
+Chapter 11 — Scientific Synthesis and Conceptual Questions
+38:30–40:00
+Topic 11.1 — How Are Linear and Rotational Motion Connected?
+MAIN QUESTION: Are the laws governing rotation fundamentally different from those governing translation?
+Core science
+Much of rotational mechanics has a structure similar to linear mechanics.
+
+The mathematical quantities change, but the underlying logic remains closely connected.
+Translational motion	Rotational motion about a fixed axis
+Position \(x\)	Angular position \(\theta\)
+Velocity \(v\)	Angular velocity \(\omega\)
+Acceleration \(a\)	Angular acceleration \(\alpha\)
+Net force \(F\)	Net torque \(\tau\)
+Mass \(M\)	Moment of inertia \(I\)
+\(F=Ma\)	\(\tau=I\alpha\)
+Linear momentum \(p=Mv\)	Angular momentum \(L=I\omega\)
+\(K=\frac12Mv^2\)	\(K=\frac12I\omega^2\)
+Work \(W=F\Delta x\), for constant aligned force	Work \(W=\tau\Delta\theta\), for constant torque
+Linear momentum conserved if net external force is zero	Angular momentum conserved if net external torque is zero
+
+These rotational expressions apply under their appropriate fixed-axis and constant-inertia assumptions.
+
+The deeper connection is that both translational and rotational motion follow Newton's laws and conservation principles.
+
+But rotational motion requires additional geometric information because different parts of an extended body can move differently.
+Closing narration idea
+We began with a simple question.
+
+Why can the same force make one object move forward, another rotate, and a third do both?
+
+To answer it, we had to move beyond the idea of a single particle.
+
+We discovered how centre of mass describes the overall motion of a system.
+
+We learned that forces can produce torque, and that the effect of torque depends on how mass is distributed.
+
+We introduced moment of inertia, rotational energy, and angular momentum.
+
+And finally, we saw how translation and rotation come together in rolling motion.
+
+What makes rotational mechanics so powerful is that the underlying laws are familiar.
+
+Newton's laws still apply. Energy is still conserved in isolated systems. Momentum still plays a central role.
+
+But once objects have size and shape, geometry becomes essential.
+
+The position of a force matters. The location of mass matters. And the axis around which an object rotates matters.
+
+Understanding these relationships allows us to explain the motion of wheels, machines, rotating bodies, and much more.
+
+Physics isn't simply about how objects move.
+
+It's about understanding why they move the way they do.
+
+
+Final Scientific Coverage — NCERT Alignment
+The following table summarizes how Episode 03 addresses the sections in the linked NCERT Class 11 chapter.
+NCERT section	Topic	Coverage
+7.1	Introduction to extended rigid bodies	Full
+7.2	Centre of mass	Full conceptual treatment
+7.3	Motion of centre of mass	Full
+7.4	Linear momentum of a system	Full fundamentals
+7.5	Vector product	Essential definitions and properties
+7.6	Angular velocity and linear velocity	Covered with Episode 02 connection
+7.7	Torque and angular momentum	Full fundamentals
+7.8	Equilibrium of a rigid body	Full fundamentals
+7.9	Moment of inertia	Full conceptual treatment
+7.10	Parallel and perpendicular axis theorems	Essential results and examples
+7.11	Rotational kinematics	Full constant-angular-acceleration treatment
+7.12	Rotational dynamics	Full fundamentals
+7.13	Angular momentum about a fixed axis	Full fundamentals and conservation
+7.14	Rolling motion	Full conceptual treatment and key equations
+
+The episode includes the chapter's major concepts and relationships, but not every NCERT derivation or end-of-chapter exercise. 
+Free NCERT Books & Solutions+2
+
+
+My final recommendation for a 40-minute episode
+The strongest way to organize this video is around four connected scientific discoveries rather than treating it as a collection of equations.
+
+Discovery 1 — Many particles, one centre of mass
+
+The overall translation of a complex system follows a simple law determined by the net external force.
+
+
+
+Discovery 2 — Force alone doesn't determine rotation
+
+Its point of application and direction determine torque. The body's mass distribution determines rotational inertia.
+
+
+
+Discovery 3 — Rotation obeys conservation laws
+
+Torque changes angular momentum, and rotational work changes kinetic energy. Without external torque, angular momentum can be conserved even when angular speed changes.
+
+
+
+Discovery 4 — Rolling unites everything
+
+Centre-of-mass motion, torque, moment of inertia, rotational energy, and angular momentum all help explain a rolling object.
+
+
+
+Three mathematical derivations I would prioritize
+For the greatest educational impact within 40 minutes, explain these especially carefully:
+1. Centre-of-mass motion: Derive \(\vec F_{\mathrm{external}}=M\vec a_{\mathrm{cm}}\) from Newton's laws applied to many particles.
+2. Rotational dynamics: Explain how the definition of moment of inertia leads to \(\tau_{\mathrm{net}}=I\alpha\) for a rigid body about a fixed axis.
+3. Rotational kinetic energy: Derive \(K_{\mathrm{rot}}=\frac12I\omega^2\) by summing the kinetic energies of individual particles.
+The cross product, axis theorems, equilibrium, and rolling equations should still receive accurate explanations and examples, but their more extended derivations can be shortened to protect the runtime.
+
+The core message of Episode 03 should be:
+Forces determine how an object's centre of mass moves. Torques determine how its rotation changes. And moment of inertia connects the body's geometry to its rotational dynamics.
+
+This provides a strong foundation in systems of particles and rotational motion, while remaining consistent with the intuition-first, mathematically grounded teaching style of your first two Visualized Physics episodes.

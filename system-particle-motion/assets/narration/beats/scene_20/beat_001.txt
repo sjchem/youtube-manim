@@ -1,0 +1,1 @@
+In fixed-axis rotation, every particle shares the same omega and alpha. But do they share the same linear motion?

@@ -1,0 +1,1 @@
+[warm, conversational delivery] Use perpendicular x and y axes in the lamina, and a z axis through their common intersection. Then I z equals I x plus I y.

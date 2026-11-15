@@ -1,0 +1,1 @@
+[warm, conversational delivery] In fixed-axis rotation, points away from the axis move on circles. Points on the axis stay still. Farther out means faster.

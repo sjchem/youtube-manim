@@ -1,0 +1,1 @@
+[warm, conversational delivery] For a torque that changes, W is the integral of tau d theta. And the rate of doing work, the power, is P equals tau omega. That's the language of motors, turbines and flywheels.

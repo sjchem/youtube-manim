@@ -1,0 +1,1 @@
+For a nonzero cross product, its direction is perpendicular to both vectors, standing out of their plane.

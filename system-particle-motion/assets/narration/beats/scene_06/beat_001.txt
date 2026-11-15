@@ -1,0 +1,1 @@
+Here are five particles, joined by springs. Each one pushes and pulls on its neighbours.

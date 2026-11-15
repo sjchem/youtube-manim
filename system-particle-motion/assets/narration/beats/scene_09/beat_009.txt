@@ -1,0 +1,1 @@
+And order matters. B cross A points the opposite way. B cross A equals minus A cross B.

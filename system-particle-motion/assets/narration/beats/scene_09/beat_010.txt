@@ -1,0 +1,1 @@
+A perpendicular direction, and the sine of the angle. These two features are exactly what we need to describe rotation.

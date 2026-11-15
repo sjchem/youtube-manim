@@ -1,0 +1,1 @@
+Rolling without slipping means the wheel doesn't skid. The contact point has zero velocity relative to the ground. Using speeds, that links the motions: v c m equals R times the magnitude of omega.

@@ -1,0 +1,1 @@
+Real materials do deform a little. But when that deformation is tiny, the rigid model works remarkably well.

@@ -1,0 +1,1 @@
+[warm, conversational delivery] [short pause] When angular acceleration is constant, angular velocity changes by alpha t. Add that change to the initial spin: omega equals omega zero plus alpha t.

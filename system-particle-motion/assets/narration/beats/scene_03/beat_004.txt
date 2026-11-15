@@ -1,0 +1,1 @@
+In uniform gravity, the balance point is the centre of mass. For two particles on a line, it's a weighted average of their positions.

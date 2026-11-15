@@ -1,0 +1,1 @@
+[warm, conversational delivery] For a general body on a fixed axis, only the component of L along that axis equals I omega. The full vector can tilt. The bearings then supply a sideways torque to keep the axis fixed.

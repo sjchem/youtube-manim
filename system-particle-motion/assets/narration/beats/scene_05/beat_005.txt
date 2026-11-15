@@ -1,0 +1,1 @@
+Each particle pulls the average toward itself, in proportion to its mass.

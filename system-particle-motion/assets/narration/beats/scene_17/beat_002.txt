@@ -1,0 +1,1 @@
+First, the parallel axis theorem. If you know the moment of inertia about an axis through the centre of mass, you can find it about any parallel axis.

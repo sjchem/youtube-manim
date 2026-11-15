@@ -1,0 +1,1 @@
+[warm, conversational delivery] [pause] [curious] That's exactly the angular acceleration of our spinning wheel. So after four seconds, this disc is also turning at eight radians per second, having swept through sixteen radians. Dynamics gives us alpha. Kinematics does the rest.

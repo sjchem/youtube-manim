@@ -1,0 +1,1 @@
+[warm, conversational delivery] Focus on one particle of a rotating body, at distance r from the axis. Only the tangential part of the force on it can change its speed around the circle.

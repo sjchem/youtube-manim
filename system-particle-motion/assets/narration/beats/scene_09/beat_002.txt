@@ -1,0 +1,1 @@
+To capture that, we need a new way to multiply two vectors: the cross product.

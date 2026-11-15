@@ -1,0 +1,1 @@
+Same structure, new symbols. Everything you know about uniformly accelerated motion now works for rotation.

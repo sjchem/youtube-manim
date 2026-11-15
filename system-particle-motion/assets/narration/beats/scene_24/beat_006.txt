@@ -1,0 +1,1 @@
+Now a rigid body. Add up m r squared omega for all its particles, and we get I omega. For a body turning about a fixed symmetry axis, L equals I omega, pointing along the axis.

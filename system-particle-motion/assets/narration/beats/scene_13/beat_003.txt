@@ -1,0 +1,1 @@
+Second, rotational equilibrium. For our rigid bodies about a fixed axis, zero net torque about that axis means zero angular acceleration.

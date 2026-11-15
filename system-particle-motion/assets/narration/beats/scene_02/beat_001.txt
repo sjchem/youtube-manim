@@ -1,0 +1,1 @@
+When we throw a ball, we usually treat it as a point. A point has mass, but no size. To trace the ball's path through the air, that is often all we need.

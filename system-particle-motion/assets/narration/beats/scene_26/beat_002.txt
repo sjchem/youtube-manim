@@ -1,0 +1,1 @@
+Its centre moves forward. At the same time, the wheel turns about its centre. Rolling is translation plus rotation.

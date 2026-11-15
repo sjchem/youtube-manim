@@ -1,0 +1,1 @@
+So we treat the wheel as an extended body: many particles, at many different positions.

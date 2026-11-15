@@ -1,0 +1,1 @@
+A uniform solid disc: one half M R squared. A solid cylinder about its long axis: also one half M R squared. Its length doesn't change the answer.

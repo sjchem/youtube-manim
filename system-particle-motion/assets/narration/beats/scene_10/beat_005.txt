@@ -1,0 +1,1 @@
+The cross product gives the right direction automatically: tangent to that point's circle.

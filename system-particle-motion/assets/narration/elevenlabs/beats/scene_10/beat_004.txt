@@ -1,0 +1,1 @@
+[warm, conversational delivery] [pause] [curious] Now pick a point on the rotating body, at position r, measured from a point on the axis. Its velocity is omega cross r.

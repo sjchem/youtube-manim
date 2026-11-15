@@ -1,0 +1,1 @@
+Position x becomes the angle theta. Velocity v becomes angular velocity omega, the rate of change of theta. Acceleration a becomes angular acceleration alpha, the rate of change of omega.

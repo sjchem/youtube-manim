@@ -1,0 +1,1 @@
+To answer that, we need four new ideas: the centre of mass, torque, moment of inertia, and angular momentum.

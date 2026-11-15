@@ -1,0 +1,1 @@
+For straight-line motion, we track position, velocity and acceleration. For rotation about a fixed axis, each one has a partner.

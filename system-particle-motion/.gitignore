@@ -1,0 +1,9 @@
+# Render output is regenerated, never committed — but keep the folders.
+media/*
+!media/.gitkeep
+output/*
+!output/.gitkeep
+
+__pycache__/
+*.pyc
+.venv/

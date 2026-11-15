@@ -1,0 +1,1 @@
+Force changes linear momentum. Torque changes angular momentum.

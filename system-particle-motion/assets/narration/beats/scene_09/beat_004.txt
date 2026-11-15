@@ -1,0 +1,1 @@
+Its magnitude is A B sine theta. That's the area of the parallelogram the two vectors span.

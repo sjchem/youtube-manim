@@ -1,0 +1,1 @@
+[warm, conversational delivery] For a uniform disc, I z is one half M R squared. By symmetry, I x equals I y. So each is one quarter M R squared: the moment of inertia about a diameter.

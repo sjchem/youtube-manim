@@ -1,0 +1,1 @@
+[warm, conversational delivery] Take the time derivative of the centre of mass equation, and that same sum appears: it equals M times v c m. The total momentum is just the total mass, moving with the centre of mass.

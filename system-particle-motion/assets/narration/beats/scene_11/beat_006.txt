@@ -1,0 +1,1 @@
+There's another way to see it. Extend the force into a line, its line of action. The perpendicular distance from the axis to that line is the lever arm. Torque equals F times the lever arm.

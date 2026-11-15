@@ -1,0 +1,1 @@
+[warm, conversational delivery] [short pause] [warmly] Bigger torque, faster spin-up. Bigger moment of inertia, slower spin-up. Alpha equals tau over I.

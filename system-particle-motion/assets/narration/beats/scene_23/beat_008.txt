@@ -1,0 +1,1 @@
+A force does work through a distance. A torque does work through an angle. For a constant torque, W equals tau times delta theta.

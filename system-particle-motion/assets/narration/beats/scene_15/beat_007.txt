@@ -1,0 +1,1 @@
+Compare the ring and the disc. With equal mass and radius, the ring's moment of inertia is twice the disc's. Its mass lies farther from the axis, on average.

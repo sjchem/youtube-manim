@@ -1,0 +1,1 @@
+A rigid body can move in three ways. In pure translation, every particle has the same velocity. The body shifts, but never turns.

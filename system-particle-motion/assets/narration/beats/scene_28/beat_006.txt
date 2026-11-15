@@ -1,0 +1,1 @@
+Static friction supplies the turning torque. With enough grip, it prevents slipping and does no work at the stationary contact point. The acceleration is g sine beta, divided by one plus I c m over M R squared.

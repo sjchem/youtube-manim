@@ -1,0 +1,1 @@
+The mass hasn't changed at all. But the moment of inertia is four times larger. Apply the same torque, and the spread-out version picks up speed four times more slowly.

@@ -1,0 +1,1 @@
+So if the net external force is zero, the total momentum stays constant. That's conservation of linear momentum.

@@ -1,0 +1,1 @@
+Moment of inertia depends on three things: the shape of the body, how its mass is distributed, and which axis it turns about.

@@ -1,0 +1,1 @@
+[warm, conversational delivery] So far, adding and scaling vectors has been enough. But rotation needs a new tool. A force can turn things, and the turning depends on where the force acts, and in which direction.
