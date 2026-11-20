@@ -1,0 +1,1 @@
+And in a rigid sealed container, pressure is not fixed by the atmosphere. Heating can raise the saturation pressure as liquid evaporates. With the right fill, both phases persist to the critical point, where their surface vanishes. Sealing alone does not forbid bubbles or boiling.

@@ -1,0 +1,1 @@
+So an equation built only from attraction and size predicts condensation and a critical point. In practice, chemists often run this backwards, and choose a and b to match a gas's measured critical point.

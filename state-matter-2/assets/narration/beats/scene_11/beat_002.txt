@@ -1,0 +1,1 @@
+Here are two boxes with the same number of molecules, at the same temperature. On the left, ideal point particles. On the right, molecules with real size, that bounce off one another.

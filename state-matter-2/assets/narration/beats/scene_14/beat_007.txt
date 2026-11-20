@@ -1,0 +1,1 @@
+Notice what this means. b is not simply the volume of the molecules. For hard spheres, it is about four times larger, because what matters is where the centres can go.

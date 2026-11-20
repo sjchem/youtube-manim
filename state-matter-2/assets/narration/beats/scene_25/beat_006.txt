@@ -1,0 +1,1 @@
+Surface tension can also be read as force per unit length along one interface. Our soap film has two surfaces, so its sliding edge feels twice that pull: F equals two gamma L. Its unit is newtons per metre, the same as joules per square metre.

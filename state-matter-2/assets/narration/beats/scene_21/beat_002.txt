@@ -1,0 +1,1 @@
+In Part one, the ideal gas made one smooth surface. A real fluid's surface has a valley. Inside it, gas and liquid coexist.

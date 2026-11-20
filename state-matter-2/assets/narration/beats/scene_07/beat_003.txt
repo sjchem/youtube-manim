@@ -1,0 +1,1 @@
+For an ideal gas, the average translational kinetic energy is three halves k B T. So doubling the absolute temperature doubles the average kinetic energy. But the typical speeds rise only by the square root of two: about one point four one times.

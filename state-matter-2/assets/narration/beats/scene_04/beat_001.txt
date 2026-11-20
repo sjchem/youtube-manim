@@ -1,0 +1,1 @@
+Let's find out with a simulation. Here are a few hundred identical particles in two dimensions. Every one starts with exactly the same speed, each heading in a different direction.

@@ -1,0 +1,1 @@
+Along part of that wiggle, squeezing the fluid would lower its pressure. No stable fluid behaves that way. The equation is telling us that the single fluid splits into two phases.

@@ -1,0 +1,1 @@
+So the correction grows with the square of the molar density, n over V. Van der Waals wrote it as a n squared over V squared.

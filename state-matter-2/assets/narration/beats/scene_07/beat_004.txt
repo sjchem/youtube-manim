@@ -1,0 +1,1 @@
+Speed grows as the square root of temperature.

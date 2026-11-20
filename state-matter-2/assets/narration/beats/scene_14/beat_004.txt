@@ -1,0 +1,1 @@
+Around each molecule there is a forbidden sphere, with radius d, not d over two. Its volume is eight times the volume of the molecule itself.

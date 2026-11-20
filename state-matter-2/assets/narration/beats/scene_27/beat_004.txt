@@ -1,0 +1,1 @@
+The speed changes steadily with height. That rate of change, d u by d z, is the velocity gradient.

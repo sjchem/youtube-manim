@@ -1,0 +1,1 @@
+The result is the van der Waals equation. P plus a n squared over V squared, times V minus n b, equals n R T.

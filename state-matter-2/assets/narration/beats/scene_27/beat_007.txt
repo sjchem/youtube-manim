@@ -1,0 +1,1 @@
+Eta is the viscosity. It is measured in pascal seconds. Liquids that obey this simple law are called Newtonian.

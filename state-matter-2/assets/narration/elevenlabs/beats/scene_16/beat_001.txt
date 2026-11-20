@@ -1,0 +1,1 @@
+[warm, conversational delivery] How can we measure how far a real gas strays from ideal? Divide P V by n R T. This ratio is the compressibility factor, Z.

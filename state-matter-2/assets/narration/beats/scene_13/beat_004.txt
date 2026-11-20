@@ -1,0 +1,1 @@
+Now double the density. Twice as many molecules, and each has about twice as many neighbours. The number of interacting pairs grows about four times.

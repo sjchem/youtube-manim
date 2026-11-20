@@ -1,0 +1,1 @@
+One warning. Z equals one does not always mean the molecules ignore each other. On this curve, attraction and size are both strong. They nearly cancel here. An exact cancellation can also give Z equals one at a particular state; it does not make the whole gas ideal.

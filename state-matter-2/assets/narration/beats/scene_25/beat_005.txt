@@ -1,0 +1,1 @@
+The work needed for each extra square metre of surface is the surface tension, gamma. A small change in area, d A, costs gamma times d A.

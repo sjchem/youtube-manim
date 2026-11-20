@@ -1,0 +1,1 @@
+Now follow one molecule toward the wall. Its neighbours are now mostly behind it. Their combined pull points back into the gas.

@@ -1,0 +1,1 @@
+One caution. This is a two-dimensional model. A real gas moves in three dimensions, and its equilibrium curve has a different shape. Let's see why.

@@ -1,0 +1,1 @@
+For a mole of molecules, that excluded-volume parameter is the constant b. Van der Waals approximates the volume available for motion as V minus n b.
