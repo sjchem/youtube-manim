@@ -1,0 +1,1 @@
+A molecule's speed is the distance of its tip from the centre. So to count the molecules with one particular speed, count the tips inside a thin spherical shell.

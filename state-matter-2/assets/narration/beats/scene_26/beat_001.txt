@@ -1,0 +1,1 @@
+So a liquid minimises its surface. For a given volume, which shape has the least area? A sphere.

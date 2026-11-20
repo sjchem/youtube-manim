@@ -1,0 +1,1 @@
+Reshape a cube of liquid into a sphere of the same volume, and its surface shrinks by about a fifth. Free of other forces, a drop pulls itself round.

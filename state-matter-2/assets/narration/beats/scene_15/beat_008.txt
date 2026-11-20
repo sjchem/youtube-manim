@@ -1,0 +1,1 @@
+The ideal gas equation is a useful approximation. Van der Waals extends it with two physical ideas: molecules attract, and molecules take up space.

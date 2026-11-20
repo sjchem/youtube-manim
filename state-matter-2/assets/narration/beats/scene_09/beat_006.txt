@@ -1,0 +1,1 @@
+So the ideal gas works best at low pressure and high temperature, where molecules are far apart and fast. High pressure and low temperature expose the two things it ignores: size, and attraction.

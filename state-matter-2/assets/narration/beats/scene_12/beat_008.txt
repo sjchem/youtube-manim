@@ -1,0 +1,1 @@
+Quick check. A gas, at fixed amount, volume and temperature, shows a pressure below the ideal prediction. Which effect is winning?

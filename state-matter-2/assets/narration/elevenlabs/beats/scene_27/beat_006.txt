@@ -1,0 +1,1 @@
+[warm, conversational delivery] So it takes a steady force to keep the top plate moving. For many liquids, the force per unit area is proportional to the velocity gradient. F over A equals eta times d u by d z.

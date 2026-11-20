@@ -1,0 +1,1 @@
+[warm, conversational delivery] The histogram on the right counts how many particles have each speed. Right now, it is a single spike.

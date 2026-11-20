@@ -1,0 +1,1 @@
+Make the shell bigger. Its area grows as four pi u squared, so it gathers more and more tips.

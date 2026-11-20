@@ -1,0 +1,1 @@
+Next, the assumptions hiding inside the ideal gas model, and the two that fail first: molecular size, and attraction.

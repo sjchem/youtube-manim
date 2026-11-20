@@ -1,0 +1,404 @@
+"""Narration source: continuous spoken prose, cut into visual beats.
+
+Each beat is ``(spoken text, visual hold in seconds)``. A beat's window is the
+time its words take at ``PACE`` words per second (a little slower than the
+narrator's natural ~2.86 words per second, so the voice never races the
+picture), plus the hold: extra seconds for a 3D move, a derivation step or a
+prediction countdown. Beat start times and scene lengths are *derived* from
+these windows, so ``config.SCENE_DURATIONS`` always matches the script.
+
+Scenes hold on a beat with ``common.beat(scene, t, i)``. Export joins the prose
+for a voice recording and writes cue sheets separately
+(``python -m utils.narration_export``).
+
+Every number spoken here is checked against the model by
+``python -m utils.spoken_numbers`` — change a value in
+``utils/physics_models.py`` and the check names the line that no longer agrees.
+
+Spelling for the cloned voice: numbers are written out in words, symbols as
+they are read aloud ("P V equals n R T", "a n squared over V squared").
+"""
+
+from __future__ import annotations
+
+import re
+
+PACE = 2.6            # words per second used to size each beat's window
+TRANSITION = 0.55     # closing fade of every scene, seconds
+_WORD = re.compile(r"[A-Za-z0-9']+")
+
+
+def words(line: str) -> int:
+    return len(_WORD.findall(line))
+
+
+TITLES: dict[str, str] = {}
+SCRIPT: dict[str, list[tuple[float, str]]] = {}
+HOLDS: dict[str, list[float]] = {}
+DURATIONS: dict[str, float] = {}
+
+
+def _scene(key: str, title: str, beats: list[tuple[str, float]]) -> None:
+    TITLES[key] = title
+    t = 0.0
+    out: list[tuple[float, str]] = []
+    for text, hold in beats:
+        out.append((round(t, 1), text))
+        t = round(t, 1) + words(text) / PACE + hold
+    SCRIPT[key] = out
+    HOLDS[key] = [hold for _, hold in beats]
+    DURATIONS[key] = round(t + TRANSITION, 1)
+
+
+# ---------------------------------------------------------------------------
+# Chapter 1 — The failure of the ideal gas
+# ---------------------------------------------------------------------------
+
+_scene("01", "Beyond ideal gases", [
+    ("In our last lesson, we discovered something remarkable. Countless molecules, moving at random inside a container, obey one simple equation.", 1.8),
+    ("P V equals n R T. Pressure, volume, temperature and amount, all tied together in a single line.", 2.0),
+    ("But there is a problem.", 1.4),
+    ("Take carbon dioxide at room temperature, and squeeze it. The pressure climbs, just as the equation predicts.", 2.4),
+    ("Keep squeezing, and something happens that the equation never mentioned. Droplets appear. A liquid gathers on the floor of the container.", 3.0),
+    ("In the ideal gas model, molecules have no size and feel no attraction. Particles like that could never cling together into a liquid.", 2.2),
+    ("So the equation is not the whole truth. It is an approximation, and a very good one, under the right conditions.", 1.8),
+    ("To see where it breaks, we have to look at what happens between molecules, not only when they strike the walls.", 2.4),
+    ("This is Beyond Ideal Gases: how molecules become liquids.", 5.0),
+])
+
+_scene("02", "The road ahead", [
+    ("Here is the journey ahead.", 1.0),
+    ("First, a surprise about motion itself. Molecules at one temperature do not all share one speed.", 1.8),
+    ("Next, the assumptions hiding inside the ideal gas model, and the two that fail first: molecular size, and attraction.", 1.8),
+    ("Then we repair the equation, and measure how far a real gas strays from ideal behaviour.", 1.6),
+    ("That brings us to the boundary between gas and liquid, and to a point where the boundary itself disappears.", 2.0),
+    ("Finally, liquids: why they evaporate, why their surfaces pull tight, and why some flow more slowly than others.", 1.8),
+    ("Every step uses the same molecules. Only the conditions change.", 2.6),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 2 — Maxwell-Boltzmann: why molecules have different speeds
+# ---------------------------------------------------------------------------
+
+_scene("03", "Collisions trade energy", [
+    ("Here is a picture of a gas that is wrong in a quiet way. It imagines every molecule at one temperature moving at the same speed.", 1.6),
+    ("Watch two identical molecules, approaching at exactly the same speed.", 1.8),
+    ("They collide. The collision is elastic: the total kinetic energy is conserved, and so is the total momentum.", 1.8),
+    ("But look at the individual speeds. One molecule leaves faster. The other leaves slower. Energy has passed from one to the other.", 2.6),
+    ("In air, each molecule suffers billions of collisions every second. So its speed keeps changing, again and again.", 2.2),
+    ("No molecule keeps one speed for long. The real question is: what does the whole crowd look like?", 2.4),
+])
+
+_scene("04", "From one speed to many", [
+    ("Let's find out with a simulation. Here are a few hundred identical particles in two dimensions. Every one starts with exactly the same speed, each heading in a different direction.", 2.0),
+    ("The histogram on the right counts how many particles have each speed. Right now, it is a single spike.", 1.8),
+    ("Now let them collide.", 3.4),
+    ("The spike melts. Some particles are knocked faster, others slower, and the spread widens.", 3.2),
+    ("Then something remarkable happens. The shape stops changing. Individual particles keep speeding up and slowing down, but the overall distribution holds steady.", 3.0),
+    ("Follow one particle. Its speed jumps with every collision. Yet the crowd's statistics barely move.", 2.8),
+    ("This is the central idea. Individual motion is unpredictable, but the distribution of speeds is predictable.", 2.0),
+    ("One caution. This is a two-dimensional model. A real gas moves in three dimensions, and its equilibrium curve has a different shape. Let's see why.", 1.8),
+])
+
+_scene("05", "Why so few are slow", [
+    ("Take every molecule's velocity arrow, and move its tail to one common point.", 2.8),
+    ("The tips form a cloud in velocity space. Every direction is equally likely, so the cloud is round. It is densest at the centre, and thins out toward high velocities.", 2.4),
+    ("A molecule's speed is the distance of its tip from the centre. So to count the molecules with one particular speed, count the tips inside a thin spherical shell.", 2.2),
+    ("Near the centre, the shell is tiny. It holds very few tips, even though the cloud is densest there. That is why very slow molecules are rare.", 2.8),
+    ("Make the shell bigger. Its area grows as four pi u squared, so it gathers more and more tips.", 2.8),
+    ("Far out, the cloud fades faster than the shell can grow, and the count falls again.", 2.6),
+    ("A growing shell times a fading cloud: that product is the Maxwell-Boltzmann distribution of molecular speeds.", 2.4),
+    ("Written out, it has a u squared factor from the shell, and an exponential factor that makes high kinetic energies rare. You don't need to memorise it. What matters is the shape.", 3.0),
+])
+
+_scene("06", "Three typical speeds", [
+    ("A whole distribution is hard to quote, so we summarise it with typical speeds. Here is nitrogen, at three hundred kelvin.", 1.8),
+    ("The peak is the most probable speed: more molecules move near this speed than near any other. It equals the square root of two R T over M. For nitrogen, about four hundred and twenty metres per second.", 2.6),
+    ("The average speed adds up every speed and divides by the number of molecules. It is the square root of eight R T over pi M: about four hundred and eighty metres per second.", 2.4),
+    ("The root mean square speed squares each speed, averages the squares, then takes the square root. It equals the square root of three R T over M: about five hundred and twenty metres per second.", 2.4),
+    ("Why this order? The long tail of fast molecules pulls the average to the right of the peak. Squaring gives those fast molecules even more weight, so the root mean square speed lies further still.", 2.8),
+    ("Most probable, average, root mean square: in the ratio one, to one point one two eight, to one point two two five.", 2.6),
+    ("One detail. In these formulas, M is the molar mass in kilograms per mole. Use grams, and every speed comes out wrong, by a factor of about thirty-two.", 2.4),
+])
+
+_scene("07", "Hotter and lighter", [
+    ("Now heat the nitrogen, from three hundred to six hundred kelvin.", 1.6),
+    ("The whole curve shifts to higher speeds, and spreads out. Its peak drops, because the area under the curve is the total fraction of molecules, and that is always one.", 2.6),
+    ("For an ideal gas, the average translational kinetic energy is three halves k B T. So doubling the absolute temperature doubles the average kinetic energy. But the typical speeds rise only by the square root of two: about one point four one times.", 2.6),
+    ("Speed grows as the square root of temperature.", 1.8),
+    ("Mass matters too. Here are nitrogen and chlorine at the same temperature. On average, their molecules carry the same translational kinetic energy.", 1.8),
+    ("Chlorine molecules are about two and a half times heavier, so they move more slowly. Their curve is narrower, and peaks further to the left.", 2.4),
+    ("Typical speeds go as one over the square root of molar mass. Light molecules are fast. Heavy molecules are slow.", 2.2),
+    ("So the speed distribution depends on both temperature and mass. Now let's look at the rest of the model behind the ideal gas.", 2.2),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 3 — Kinetic molecular theory
+# ---------------------------------------------------------------------------
+
+_scene("08", "The rules of the ideal gas", [
+    ("Every result in our last lesson rested on a short list of assumptions: the kinetic molecular theory of gases.", 1.8),
+    ("One. A gas contains an enormous number of molecules, so its properties are statistical averages.", 2.0),
+    ("Two. The molecules themselves take up a negligible fraction of the container. Almost all of it is empty space.", 2.0),
+    ("Three. Between collisions, the molecules exert no forces on one another. Each one flies in a straight line.", 2.0),
+    ("Four. They move constantly and randomly, so a gas fills whatever container holds it.", 1.8),
+    ("Five. Their collisions are perfectly elastic. Energy can pass from molecule to molecule, but the total kinetic energy is conserved.", 2.0),
+    ("Six. The average translational kinetic energy depends only on the absolute temperature.", 2.2),
+    ("Together, these rules lead to P V equals n R T. Wherever they hold well enough, the ideal gas equation works.", 2.2),
+])
+
+_scene("09", "Two cracks in the model", [
+    ("Two of these assumptions deserve a closer look.", 1.2),
+    ("The first says molecules have negligible volume. In ordinary air, that's true: the molecules themselves fill less than a thousandth of the space.", 2.2),
+    ("But squeeze the gas hard, and the molecules crowd together. Their own size can no longer be ignored.", 2.8),
+    ("The second says molecules don't attract one another. In a dilute gas they are usually far apart, so the attraction hardly matters.", 2.2),
+    ("But bring them closer, or cool them so they move more slowly, and attraction starts to shape their motion. Paths bend. Pairs linger together.", 2.8),
+    ("So the ideal gas works best at low pressure and high temperature, where molecules are far apart and fast. High pressure and low temperature expose the two things it ignores: size, and attraction.", 2.6),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 4 — Real gas deviations
+# ---------------------------------------------------------------------------
+
+_scene("10", "Attraction softens the blow", [
+    ("Start with attraction. Imagine a gas dense enough that neighbouring molecules feel each other's pull.", 1.6),
+    ("Deep inside the gas, a molecule is tugged from every side. On average, those pulls cancel.", 2.4),
+    ("Now follow one molecule toward the wall. Its neighbours are now mostly behind it. Their combined pull points back into the gas.", 2.6),
+    ("So it strikes the wall a little more softly. Every molecule arriving at the wall feels the same backward tug, and together they push less.", 2.4),
+    ("When attraction dominates, a real gas exerts less pressure than an ideal gas with the same amount, volume and temperature. P real is less than P ideal.", 2.2),
+    ("This is called a negative deviation.", 1.6),
+    ("The picture of a single tug is a simplification. A full treatment averages over every pair of molecules. But the conclusion survives: attraction lowers the pressure.", 2.6),
+])
+
+_scene("11", "Size crowds the space", [
+    ("Now the second effect: size.", 1.2),
+    ("Here are two boxes with the same number of molecules, at the same temperature. On the left, ideal point particles. On the right, molecules with real size, that bounce off one another.", 2.2),
+    ("When the gas is dilute, the two behave much alike. The molecules are small compared with the space between them.", 2.6),
+    ("Now squeeze both boxes.", 3.0),
+    ("In the right-hand box, each molecule's own bulk blocks space the others could use. The free room left for moving shrinks faster than the box.", 2.4),
+    ("With less free room, the molecules return to the walls more often. Count the hits: the box of real-sized molecules is struck more often, so its pressure is higher.", 2.8),
+    ("When size and repulsion dominate, P real is greater than P ideal. This is a positive deviation.", 2.6),
+])
+
+_scene("12", "A tug of war", [
+    ("So every real gas holds a tug of war. Attraction pulls the pressure down. Size pushes it up.", 1.8),
+    ("Which side wins depends on how hard we squeeze.", 1.2),
+    ("At low pressure, the molecules are far apart. Neither effect matters much, and the gas is nearly ideal.", 2.2),
+    ("At moderate pressure, the molecules are close enough to attract one another, but still have room to move. Attraction usually wins: a negative deviation.", 2.6),
+    ("At very high pressure, the molecules are jammed together. Their size and their short-range repulsion take over: a positive deviation.", 2.6),
+    ("Temperature matters too. Fast, hot molecules shrug off attraction more easily, so heating weakens the negative deviation.", 2.2),
+    ("And the gas itself matters. Helium and hydrogen attract so weakly that at room temperature, size wins almost from the start. They show positive deviation across the pressures shown here.", 2.6),
+    ("Quick check. A gas, at fixed amount, volume and temperature, shows a pressure below the ideal prediction. Which effect is winning?", 3.4),
+    ("Attraction.", 1.8),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 5 — The van der Waals equation
+# ---------------------------------------------------------------------------
+
+_scene("13", "Correcting the pressure", [
+    ("Can we repair the ideal gas equation? In eighteen seventy-three, Johannes van der Waals did it with two corrections, one for each thing the model ignores.", 2.0),
+    ("First, attraction. Compare the gas with the same model after switching attraction off, while keeping its size, amount, volume and temperature unchanged. That reference pressure equals the measured pressure plus an attraction correction. For now, we isolate one effect; the size correction comes next.", 2.2),
+    ("How big is the correction? Attraction acts between pairs of molecules. Count the nearby pairs in this box.", 2.6),
+    ("Now double the density. Twice as many molecules, and each has about twice as many neighbours. The number of interacting pairs grows about four times.", 3.0),
+    ("So the correction grows with the square of the molar density, n over V. Van der Waals wrote it as a n squared over V squared.", 2.2),
+    ("The constant a measures how strongly the molecules attract. For helium, it is tiny. For carbon dioxide, it is about a hundred times larger. For ammonia, larger still.", 2.6),
+    ("This correction is an average over the whole gas, a mean-field estimate, not an exact count of every tug. But it captures how attraction scales.", 2.6),
+])
+
+_scene("14", "The space molecules take", [
+    ("The second correction is for size. Ideal molecules are points, free to roam the entire volume. Real molecules are not.", 1.8),
+    ("Picture two molecules as hard spheres, each with diameter d.", 1.8),
+    ("They can touch, but they can't overlap. So the centre of the second molecule can never come closer than d to the centre of the first.", 2.2),
+    ("Around each molecule there is a forbidden sphere, with radius d, not d over two. Its volume is eight times the volume of the molecule itself.", 3.0),
+    ("That forbidden sphere belongs to a pair of molecules, so share it between the two: four times the molecule's own volume, for each molecule.", 2.6),
+    ("For a mole of molecules, that excluded-volume parameter is the constant b. Van der Waals approximates the volume available for motion as V minus n b.", 2.2),
+    ("Notice what this means. b is not simply the volume of the molecules. For hard spheres, it is about four times larger, because what matters is where the centres can go.", 2.6),
+])
+
+_scene("15", "The van der Waals equation", [
+    ("Now put both corrections into the ideal gas equation.", 1.2),
+    ("Replace the pressure with P plus a n squared over V squared. Replace the volume with V minus n b.", 2.6),
+    ("The result is the van der Waals equation. P plus a n squared over V squared, times V minus n b, equals n R T.", 2.6),
+    ("Let's test it. One mole of carbon dioxide in a one-litre flask, at three hundred kelvin. The ideal gas equation predicts about twenty-four point nine bar.", 2.2),
+    ("Correct for size first. With less free room, the pressure rises to about twenty-six point one bar.", 2.2),
+    ("Now correct for attraction. That takes away about three point six bar. The van der Waals equation predicts about twenty-two point four bar: about ten percent below the ideal value.", 2.8),
+    ("Now give the same mole a hundred litres. Both corrections almost vanish, and the van der Waals equation becomes the ideal gas equation.", 2.6),
+    ("The ideal gas equation is a useful approximation. Van der Waals extends it with two physical ideas: molecules attract, and molecules take up space.", 2.8),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 6 — Compressibility factor
+# ---------------------------------------------------------------------------
+
+_scene("16", "One number for non-ideality", [
+    ("How can we measure how far a real gas strays from ideal? Divide P V by n R T. This ratio is the compressibility factor, Z.", 1.8),
+    ("For an ideal gas, Z is exactly one, under every condition.", 1.8),
+    ("Our carbon dioxide flask has Z of about zero point nine zero. Ten percent short of ideal.", 2.0),
+    ("Here is Z against pressure at three hundred kelvin, as the van der Waals model draws it for four gases.", 2.4),
+    ("Methane dips below one: attraction wins at moderate pressure. Nitrogen dips only a little. Hydrogen and helium rise above one almost at once.", 3.0),
+    ("And at the high pressures shown, every model curve climbs above one. Crowding and short-range repulsion dominate here.", 2.4),
+    ("Z also has a simple meaning. At the same pressure, temperature and amount of gas, Z is the real volume divided by the ideal volume.", 2.2),
+    ("If Z is zero point eight, the gas fills only eighty percent of the volume the ideal gas equation predicts. Attraction has pulled it tighter. If Z is one point two, it needs a hundred and twenty percent: size has pushed it apart.", 2.8),
+])
+
+_scene("17", "The Boyle temperature", [
+    ("Temperature reshapes these curves. Here is Z for a van der Waals gas, as a surface over pressure and temperature.", 2.6),
+    ("Near the critical temperature, Z dips deep below one. Slow molecules give attraction time to act.", 2.2),
+    ("Warm the gas, and the dip gets shallower.", 1.8),
+    ("At one special temperature, the curve leaves Z equals one perfectly flat. Attraction and size cancel at low pressure, and the gas behaves almost ideally over a low-pressure range. This is the Boyle temperature. The curve starts flat; it need not stay flat as pressure rises.", 2.6),
+    ("Above it, size wins from the start, and Z rises.", 1.8),
+    ("Every gas has its own. Measured, it is about three hundred and twenty-seven kelvin for nitrogen, but only about twenty-three for helium. So at room temperature, helium sits far above its Boyle temperature, and its Z rises from the start.", 2.6),
+    ("One warning. Z equals one does not always mean the molecules ignore each other. On this curve, attraction and size are both strong. They nearly cancel here. An exact cancellation can also give Z equals one at a particular state; it does not make the whole gas ideal.", 2.8),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 7 — Liquefaction and the critical point
+# ---------------------------------------------------------------------------
+
+_scene("18", "Andrews squeezes carbon dioxide", [
+    ("In the eighteen sixties, Thomas Andrews squeezed carbon dioxide at constant temperature, and measured its pressure as its volume shrank.", 1.8),
+    ("Follow one isotherm, at twenty-one point five degrees Celsius.", 1.4),
+    ("At first, the gas behaves much like any gas. Squeeze it, and the pressure rises.", 2.8),
+    ("Then, at a certain volume, the first drops of liquid appear.", 2.6),
+    ("Keep squeezing. The pressure stops rising. More and more gas condenses, while the pressure stays constant. Liquid and vapour now coexist, in equilibrium.", 3.4),
+    ("Why doesn't the pressure rise? Squeezing no longer crowds the vapour. It simply turns more of it into liquid.", 2.6),
+    ("Finally, the last bubble of gas disappears. Now we are compressing a liquid, and liquids barely compress. The pressure shoots up.", 2.8),
+    ("One substance, one temperature, three different behaviours. Gas and liquid are not different substances. They are two states of the same molecules.", 2.6),
+])
+
+_scene("19", "The critical point", [
+    ("Andrews repeated the experiment at higher temperatures.", 1.6),
+    ("Each time, the flat stretch, where gas and liquid coexist, became shorter.", 2.4),
+    ("At about thirty-one degrees Celsius, it shrank to a single point. This is the critical point.", 2.6),
+    ("For carbon dioxide, the critical temperature is about three hundred and four point one kelvin, and the critical pressure about seventy-three point eight bar.", 2.2),
+    ("Above the critical temperature, no squeezing produces a separate liquid. The fluid simply grows denser and denser, with no flat stretch, and no surface between two phases.", 2.6),
+    ("Watch a sealed tube of carbon dioxide being warmed. The liquid expands, and grows less dense. The vapour above it grows denser.", 2.4),
+    ("At the critical point, the two densities become equal. The surface between them fades, and vanishes.", 3.4),
+    ("Below the critical temperature, liquid and vapour can coexist at the right pressure. Outside that coexistence region there may be just one phase. Above the critical temperature, there is no liquid-vapour boundary.", 2.2),
+])
+
+_scene("20", "The equation predicts a liquid", [
+    ("Here is something remarkable. Draw the van der Waals equation's own isotherms.", 1.8),
+    ("At high temperature, they look like gas isotherms: squeeze, and the pressure rises smoothly.", 2.2),
+    ("But below a certain temperature, each isotherm develops a wiggle.", 2.2),
+    ("Along part of that wiggle, squeezing the fluid would lower its pressure. No stable fluid behaves that way. The equation is telling us that the single fluid splits into two phases.", 2.8),
+    ("Replace the wiggle with a flat line, drawn so that the two areas it cuts off are equal. This is Maxwell's construction, and the flat line is the coexistence pressure, just as Andrews measured.", 2.8),
+    ("The wiggles shrink as the temperature rises, and vanish at one point: the van der Waals critical point. Its temperature is eight a over twenty-seven R b.", 2.6),
+    ("So an equation built only from attraction and size predicts condensation and a critical point. In practice, chemists often run this backwards, and choose a and b to match a gas's measured critical point.", 2.8),
+])
+
+_scene("21", "Around the critical point", [
+    ("Let's see every state at once. Here are pressure, volume and temperature together, for a van der Waals fluid, with the coexistence region drawn flat, as Andrews measured it.", 2.6),
+    ("In Part one, the ideal gas made one smooth surface. A real fluid's surface has a valley. Inside it, gas and liquid coexist.", 2.8),
+    ("The two edges of that valley meet at one endpoint: the critical point.", 2.6),
+    ("Now take a gas, and turn it into a liquid the familiar way. Squeeze it at low temperature, straight through the valley. Droplets form, and a surface appears.", 2.6),
+    ("But there is another route. Heat the gas above the critical temperature. Squeeze it. Then cool it back down.", 3.2),
+    ("We end up with the same liquid. Yet at no moment did droplets form, and at no moment was there a surface separating two phases. The properties changed smoothly, all the way.", 2.8),
+    ("Gas and liquid are connected. Above both the critical temperature and critical pressure, the substance is a supercritical fluid: one phase, whose properties change continuously from gas-like to liquid-like.", 2.8),
+    ("So keep three ideas apart. Condensation crosses the boundary between vapour and liquid. The critical point is where that boundary ends. And a supercritical fluid lives beyond it, with no boundary to cross.", 3.0),
+])
+
+_scene("22", "Why cooling matters", [
+    ("Now we can see why liquefaction needs the right combination of cooling and compression.", 1.6),
+    ("Compression pushes molecules close together. Cooling slows them down, so that their attraction can hold them there.", 2.2),
+    ("Every gas has a critical temperature. Above it, squeezing alone never makes a separate liquid.", 1.8),
+    ("Carbon dioxide's critical temperature is about thirty-one degrees Celsius, just above room temperature. That is why squeezing carbon dioxide at room temperature can liquefy it, as at the start of this lesson.", 2.4),
+    ("Nitrogen's is about one hundred and twenty-six kelvin, nearly minus one hundred and fifty degrees Celsius. No amount of squeezing at room temperature will liquefy nitrogen. It must be cooled first.", 2.6),
+    ("Ammonia's critical temperature is higher still: about four hundred and five point five kelvin. Its molecules attract strongly, partly through hydrogen bonds.", 2.2),
+    ("For otherwise comparable molecules, stronger attraction tends to raise the critical temperature. Molecular size matters too. In the van der Waals model, the relevant balance is a divided by b, not a alone. A deeper attraction relative to the excluded volume resists more thermal motion.", 2.8),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 8 — Vapour pressure and boiling
+# ---------------------------------------------------------------------------
+
+_scene("23", "A liquid never rests", [
+    ("Liquid molecules attract one another. So how can any of them escape into the gas?", 1.6),
+    ("Remember the speed distribution. Even in a liquid, energies are spread out. At any moment, some surface molecules can break free, when their energy, direction of motion and local surroundings allow it. The highlighted tail is a simplified picture of that possibility. This is evaporation.", 2.4),
+    ("Seal the container. Above the liquid, vapour builds up.", 2.8),
+    ("Some vapour molecules strike the surface and are captured again: condensation. The more vapour there is, the faster it condenses.", 2.4),
+    ("Eventually, the two rates become equal. Molecules still leave, and still return, but the amount of vapour stops changing. This is a dynamic equilibrium.", 3.0),
+    ("The pressure of this vapour is the equilibrium vapour pressure, also called the saturated vapour pressure. It depends on the liquid and its temperature, not on the size of the container, provided liquid and vapour are still present at equilibrium.", 2.4),
+    ("Warm the liquid. More molecules have enough energy to escape, the balance shifts, and the vapour pressure rises.", 3.2),
+    ("For otherwise similar liquids, stronger cohesion tends to hold molecules more tightly and lower the vapour pressure at the same temperature.", 2.2),
+])
+
+_scene("24", "Why liquids boil", [
+    ("Here are the vapour pressures of three liquids, rising with temperature: diethyl ether, ethanol and water.", 1.8),
+    ("Evaporation happens at the surface, at any temperature. Boiling is different. Bubbles of vapour form inside the liquid, grow, and rise.", 2.4),
+    ("A bubble survives only if the vapour inside it can push back against the pressure outside. For ordinary boiling, its vapour pressure approximately equals the external pressure. Small bubbles also face surface tension, and liquid deeper down faces extra pressure from the liquid above.", 2.6),
+    ("At one atmosphere, ether boils at about thirty-five degrees Celsius, ethanol at about seventy-eight, and water at one hundred.", 2.4),
+    ("Lower the outside pressure, and the boiling point falls. On the summit of Everest, at about a third of an atmosphere, water boils at only about seventy degrees. Food cooks slowly.", 2.6),
+    ("Raise the pressure, and the boiling point climbs. In a pressure cooker at about two bar absolute, water boils at about one hundred and twenty degrees, and food cooks much faster.", 2.6),
+    ("A liquid with a high vapour pressure at room temperature, like ether, evaporates readily. We call it volatile.", 2.2),
+    ("And in a rigid sealed container, pressure is not fixed by the atmosphere. Heating can raise the saturation pressure as liquid evaporates. With the right fill, both phases persist to the critical point, where their surface vanishes. Sealing alone does not forbid bubbles or boiling.", 2.8),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 9 — Surface tension
+# ---------------------------------------------------------------------------
+
+_scene("25", "The cost of a surface", [
+    ("Why does a water drop pull itself into a bead? Look at the molecules.", 1.6),
+    ("A molecule deep inside the liquid is surrounded by neighbours on every side, attracting it in every direction.", 2.4),
+    ("A molecule at the surface has neighbours below and beside it, but almost none above. It has fewer attractions, so it sits at higher energy than a molecule inside.", 2.6),
+    ("To make more surface, we must bring molecules up from the interior, and that costs energy. Stretching a liquid surface takes work.", 2.6),
+    ("The work needed for each extra square metre of surface is the surface tension, gamma. A small change in area, d A, costs gamma times d A.", 2.4),
+    ("Surface tension can also be read as force per unit length along one interface. Our soap film has two surfaces, so its sliding edge feels twice that pull: F equals two gamma L. Its unit is newtons per metre, the same as joules per square metre.", 2.6),
+    ("Water's surface tension at twenty degrees is about seventy-three millinewtons per metre, higher than most common liquids, thanks to its hydrogen bonds.", 2.4),
+    ("You may have heard that surface molecules are pulled inward. That's a useful first picture. But a liquid is not wrapped in an elastic skin. The deeper reason is energy: a surface costs energy, and a liquid keeps it as small as it can.", 2.6),
+])
+
+_scene("26", "Drops, tubes and heat", [
+    ("So a liquid minimises its surface. For a given volume, which shape has the least area? A sphere.", 1.8),
+    ("Reshape a cube of liquid into a sphere of the same volume, and its surface shrinks by about a fifth. Free of other forces, a drop pulls itself round.", 2.8),
+    ("On a table, gravity and contact with the surface flatten it. Floating in orbit, a water drop is almost a perfect sphere.", 2.6),
+    ("Surfaces also meet solids. Water wets clean glass: it is attracted to the glass, and climbs a narrow tube. The surface curves up at the edges.", 2.6),
+    ("Mercury does the opposite. Its atoms attract one another far more than they attract glass. Its surface curves down, and it sinks in the tube.", 2.6),
+    ("Heat an ordinary liquid, and its surface tension usually falls. Thermal motion reduces the free-energy cost of the interface; it does not switch off the molecular attractions.", 2.0),
+    ("Follow water all the way up. Its surface tension keeps dropping, and reaches zero at its critical temperature, about three hundred and seventy-four degrees Celsius. Of course: at the critical point, the surface between liquid and vapour disappears.", 3.0),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 10 — Viscosity
+# ---------------------------------------------------------------------------
+
+_scene("27", "Layers that drag", [
+    ("Surface tension is about a liquid's surface. Viscosity is about its flow.", 1.6),
+    ("Trap a liquid between two plates. Hold the bottom plate still, and slide the top one.", 2.4),
+    ("The liquid touching each plate moves with it. In between, the liquid moves in smooth layers, each a little faster than the one below. This is laminar flow.", 2.6),
+    ("The speed changes steadily with height. That rate of change, d u by d z, is the velocity gradient.", 2.4),
+    ("Neighbouring layers exchange momentum. Molecules wander between them, carrying momentum, while intermolecular forces also transfer it. Together, these processes resist relative sliding. This is not dry friction between solid sheets.", 2.6),
+    ("So it takes a steady force to keep the top plate moving. For many liquids, the force per unit area is proportional to the velocity gradient. F over A equals eta times d u by d z.", 2.6),
+    ("Eta is the viscosity. It is measured in pascal seconds. Liquids that obey this simple law are called Newtonian.", 2.6),
+])
+
+_scene("28", "Water, honey and glass", [
+    ("Drop a steel ball into water, and into honey.", 2.8),
+    ("In water, it plunges. In honey, it crawls. At room temperature, honey can be thousands of times more viscous than water.", 2.6),
+    ("Molecular structure and interactions decide viscosity. Honey is a concentrated solution of small sugar molecules, not a tangle of polymer chains. Hydrogen bonds, crowding and molecular rearrangement all matter. In other liquids, large tangled polymer molecules can also hinder flow. Attraction alone can't predict it.", 2.6),
+    ("Warm a liquid, and its viscosity usually falls. Molecules have more energy to break free from their neighbours and rearrange. Water at one hundred degrees is less than a third as viscous as at twenty.", 2.6),
+    ("That's why warm honey pours so much more easily.", 1.8),
+    ("One famous myth deserves correcting. Old window panes are sometimes said to be thicker at the bottom because glass is a slow-flowing liquid. It isn't. Ordinary glass is an amorphous solid: its atoms are disordered like a liquid's, but locked in place.", 2.8),
+    ("At room temperature, it doesn't measurably flow, even over centuries. The uneven panes came from the way old glass was made.", 2.4),
+])
+
+# ---------------------------------------------------------------------------
+# Chapter 11 — Conclusion
+# ---------------------------------------------------------------------------
+
+_scene("29", "The same molecules", [
+    ("We began with an ideal gas: a crowd of tiny points, described by one elegant equation.", 1.8),
+    ("But real molecules are richer than that.", 1.2),
+    ("They move at many different speeds. They attract one another. And they take up space.", 2.2),
+    ("When molecules are far apart and fast, those details fade, and the ideal gas equation works beautifully. When they are squeezed together or slowed down, those same details take control.", 2.4),
+    ("They explain why real gases deviate from the ideal equation. Why cooling and compression can make a liquid. And why, at the critical point, gas and liquid become one.", 2.6),
+    ("They explain why liquids evaporate, why drops pull themselves round, and why some liquids flow while others crawl.", 2.4),
+    ("The molecules never turned into something else. What changed was how fast they move, how closely they are packed, and how strongly they interact.", 2.6),
+    ("That is the chemistry of gases and liquids.", 4.2),
+])
+
+_scene("30", "Stay curious", [
+    ("Thanks for watching. Stay curious.", 4.4),
+])

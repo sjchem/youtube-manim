@@ -1,0 +1,1 @@
+They collide. The collision is elastic: the total kinetic energy is conserved, and so is the total momentum.

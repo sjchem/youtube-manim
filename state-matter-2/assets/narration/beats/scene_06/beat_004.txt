@@ -1,0 +1,1 @@
+The root mean square speed squares each speed, averages the squares, then takes the square root. It equals the square root of three R T over M: about five hundred and twenty metres per second.

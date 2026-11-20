@@ -1,0 +1,1 @@
+[warm, conversational delivery] So the speed distribution depends on both temperature and mass. Now let's look at the rest of the model behind the ideal gas.
